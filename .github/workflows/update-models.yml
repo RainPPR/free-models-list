@@ -1,0 +1,37 @@
+name: Update Models
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # 每周一 UTC 时间 00:00 执行
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update-models:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      
+      - name: Install dependencies
+        run: uv sync --locked
+      
+      - name: Run main.py
+        run: uv run python main.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add kilo.json kilo-free.json
+          git diff --staged --quiet || git commit -m "Update models data [skip ci]"
+          git push

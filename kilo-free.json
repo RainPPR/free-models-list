@@ -1,0 +1,82 @@
+[
+    {
+        "id": "kilo-auto/free",
+        "name": "Kilo Auto Free",
+        "created": 0,
+        "description": "Free with limited capability. No credits required.",
+        "context_length": 204800
+    },
+    {
+        "id": "xiaomi/mimo-v2-pro:free",
+        "canonical_slug": "xiaomi/mimo-v2-pro:free",
+        "hugging_face_id": "",
+        "name": "Xiaomi: MiMo-V2-Pro (free)",
+        "created": 1756238927,
+        "description": "MiMo V2 Pro is a frontier-scale open-source large language model with over 1 trillion parameters, developed in China and optimized specifically for agentic workflows. It excels in frameworks such as OpenClaw, with native 1M-token context support that enables reliable handling of complex, long-horizon, multi-step tasks. In agentic reasoning, tool use, and multi-step execution benchmarks, its performance sits between Claude 4.6 Sonnet and Claude 4.6 Opus.",
+        "context_length": 1048576
+    },
+    {
+        "id": "nvidia/nemotron-3-super-120b-a12b:free",
+        "name": "NVIDIA: Nemotron 3 Super (free)",
+        "created": 1773245239,
+        "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer Mixture-of-Experts architecture with multi-token prediction (MTP), it delivers over 50% higher token generation compared to leading open models.\n \nThe model features a 1M token context window for long-term agent coherence, cross-document reasoning, and multi-step task planning. Latent MoE enables calling 4 experts for the inference cost of only one, improving intelligence and generalization. Multi-environment RL training across 10+ environments delivers leading accuracy on benchmarks including AIME 2025, TerminalBench, and SWE-Bench Verified.\n \nFully open with weights, datasets, and recipes under the NVIDIA Open License, Nemotron 3 Super allows easy customization and secure deployment anywhere — from workstation to cloud.",
+        "context_length": 262144
+    },
+    {
+        "id": "arcee-ai/trinity-large-preview:free",
+        "name": "Arcee AI: Trinity Large Preview (free)",
+        "created": 1769552670,
+        "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. \n\nIt excels in creative writing, storytelling, role-play, chat scenarios, and real-time voice assistance, better than your average reasoning model usually can. But we’re also introducing some of our newer agentic performance. It was trained to navigate well in agent harnesses like OpenCode, Cline, and Kilo Code, and to handle complex toolchains and long, constraint-filled prompts. \n\nThe architecture natively supports very long context windows up to 512k tokens, with the Preview API currently served at 128k context using 8-bit quantization for practical deployment. Trinity-Large-Preview reflects Arcee’s efficiency-first design philosophy, offering a production-oriented frontier model with open weights and permissive licensing suitable for real-world applications and experimentation.",
+        "context_length": 131000
+    },
+    {
+        "id": "openrouter/free",
+        "name": "Free Models Router",
+        "created": 1769917427,
+        "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that support features needed for your request such as image understanding, tool calling, structured outputs and more. ",
+        "context_length": 200000
+    },
+    {
+        "id": "stepfun/step-3.5-flash:free",
+        "name": "StepFun: Step 3.5 Flash (free)",
+        "created": 1769728337,
+        "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
+        "context_length": 256000
+    },
+    {
+        "id": "corethink:free",
+        "canonical_slug": "corethink:free",
+        "hugging_face_id": "",
+        "name": "CoreThink (free)",
+        "created": 1756238927,
+        "description": "CoreThink - AI that reasons through problems instead of guessing. Available free of charge in Kilo for a limited time.",
+        "context_length": 78000
+    },
+    {
+        "id": "minimax/minimax-m2.5:free",
+        "canonical_slug": "minimax/minimax-m2.5:free",
+        "hugging_face_id": "",
+        "name": "MiniMax: MiniMax M2.5 (free)",
+        "created": 1756238927,
+        "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
+        "context_length": 204800
+    },
+    {
+        "id": "xiaomi/mimo-v2-omni:free",
+        "canonical_slug": "xiaomi/mimo-v2-omni:free",
+        "hugging_face_id": "",
+        "name": "Xiaomi: MiMo-V2-Omni (free)",
+        "created": 1756238927,
+        "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability — visual grounding, multi-step planning, tool use, and code execution — making it well-suited for complex real-world tasks that span modalities. 256K context window.",
+        "context_length": 262144
+    },
+    {
+        "id": "x-ai/grok-code-fast-1:optimized:free",
+        "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
+        "hugging_face_id": "",
+        "name": "xAI: Grok Code Fast 1 Optimized (experimental, free)",
+        "created": 1756238927,
+        "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
+        "context_length": 256000
+    }
+]
