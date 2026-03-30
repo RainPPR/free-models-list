@@ -3,8 +3,8 @@
         "id": "kilo-auto/free",
         "name": "Kilo Auto Free",
         "created": 0,
-        "description": "Free with limited capability. No credits required.",
-        "context_length": 204800
+        "description": "Free with limited capability. No credits required. Uses MiMo-V2-Pro.",
+        "context_length": 1048576
     },
     {
         "id": "xiaomi/mimo-v2-pro:free",

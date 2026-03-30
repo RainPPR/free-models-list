@@ -4,10 +4,12 @@
             "id": "kilo-auto/frontier",
             "name": "Kilo Auto Frontier",
             "created": 0,
-            "description": "Highest performance and capability for any task.",
+            "description": "Highest performance and capability for any task. Uses Claude Opus 4.6 for KiloClaw, plan, general, architect, orchestrator, ask, debug; Claude Sonnet 4.6 for build, explore, code.",
             "pricing": {
                 "prompt": "0.000005",
                 "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
                 "request": "0",
                 "image": "0",
                 "web_search": "0",
@@ -20,10 +22,11 @@
             "id": "kilo-auto/balanced",
             "name": "Kilo Auto Balanced",
             "created": 0,
-            "description": "Great balance of price and capability.",
+            "description": "Great balance of price and capability. Uses Kimi K2.5 for KiloClaw, plan, general, architect, orchestrator, ask, debug; MiniMax M2.7 for build, explore, code.",
             "pricing": {
                 "prompt": "0.0000006",
                 "completion": "0.000003",
+                "input_cache_read": "0.000000225",
                 "request": "0",
                 "image": "0",
                 "web_search": "0",
@@ -36,16 +39,18 @@
             "id": "kilo-auto/free",
             "name": "Kilo Auto Free",
             "created": 0,
-            "description": "Free with limited capability. No credits required.",
+            "description": "Free with limited capability. No credits required. Uses MiMo-V2-Pro.",
             "pricing": {
                 "prompt": "0",
                 "completion": "0",
+                "input_cache_read": "0",
+                "input_cache_write": "0",
                 "request": "0",
                 "image": "0",
                 "web_search": "0",
                 "internal_reasoning": "0"
             },
-            "context_length": 204800,
+            "context_length": 1048576,
             "isFree": true
         },
         {
@@ -86,11 +91,7 @@
             "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. \n\nIt excels in creative writing, storytelling, role-play, chat scenarios, and real-time voice assistance, better than your average reasoning model usually can. But we’re also introducing some of our newer agentic performance. It was trained to navigate well in agent harnesses like OpenCode, Cline, and Kilo Code, and to handle complex toolchains and long, constraint-filled prompts. \n\nThe architecture natively supports very long context windows up to 512k tokens, with the Preview API currently served at 128k context using 8-bit quantization for practical deployment. Trinity-Large-Preview reflects Arcee’s efficiency-first design philosophy, offering a production-oriented frontier model with open weights and permissive licensing suitable for real-world applications and experimentation.",
             "pricing": {
                 "prompt": "0",
-                "completion": "0",
-                "image": "0",
-                "request": "0",
-                "web_search": "0",
-                "internal_reasoning": "0"
+                "completion": "0"
             },
             "context_length": 131000,
             "isFree": true
@@ -157,7 +158,7 @@
         },
         {
             "id": "minimax/minimax-m2.7",
-            "name": "MiniMax: MiniMax M2.7 (new)",
+            "name": "MiniMax: MiniMax M2.7",
             "created": 1773836697,
             "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
             "pricing": {
@@ -174,9 +175,9 @@
             "created": 1769487076,
             "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed visual and text tokens, it delivers strong performance in general reasoning, visual coding, and agentic tool-calling.",
             "pricing": {
-                "prompt": "0.00000045",
+                "prompt": "0.00000042",
                 "completion": "0.0000022",
-                "input_cache_read": "0.000000225"
+                "input_cache_read": "0.00000021"
             },
             "context_length": 262144,
             "isFree": false
@@ -205,6 +206,31 @@
                 "web_search": "0.005"
             },
             "context_length": 256000,
+            "isFree": false
+        },
+        {
+            "id": "kwaipilot/kat-coder-pro-v2",
+            "name": "Kwaipilot: KAT-Coder-Pro V2",
+            "created": 1774649310,
+            "description": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier versions, with a focus on large-scale production environments, multi-system coordination, and seamless integration across modern software stacks, while also supporting web aesthetics generation to produce production-grade landing pages and presentation decks.",
+            "pricing": {
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
+                "input_cache_read": "0.00000006"
+            },
+            "context_length": 256000,
+            "isFree": false
+        },
+        {
+            "id": "reka/reka-edge",
+            "name": "Reka Edge",
+            "created": 1774026965,
+            "description": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in image understanding, video analysis, object detection, and agentic tool-use.",
+            "pricing": {
+                "prompt": "0.0000001",
+                "completion": "0.0000001"
+            },
+            "context_length": 16384,
             "isFree": false
         },
         {
@@ -280,9 +306,9 @@
             "created": 1773583573,
             "description": "GLM-5 Turbo is a new model from Z.ai designed for fast inference and strong performance in agent-driven environments such as OpenClaw scenarios. It is deeply optimized for real-world agent workflows involving long execution chains, with improved complex instruction decomposition, tool use, scheduled and persistent execution, and overall stability across extended tasks.",
             "pricing": {
-                "prompt": "0.00000096",
-                "completion": "0.0000032",
-                "input_cache_read": "0.000000192"
+                "prompt": "0.0000012",
+                "completion": "0.000004",
+                "input_cache_read": "0.00000024"
             },
             "context_length": 202752,
             "isFree": false
@@ -323,7 +349,7 @@
             "pricing": {
                 "prompt": "0.0000001",
                 "completion": "0.0000005",
-                "input_cache_read": "0.00000004"
+                "input_cache_read": "0.0000001"
             },
             "context_length": 262144,
             "isFree": false
@@ -565,9 +591,9 @@
             "created": 1770908502,
             "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
             "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.00000117",
-                "input_cache_read": "0.0000001"
+                "prompt": "0.00000019",
+                "completion": "0.00000115",
+                "input_cache_read": "0.000000095"
             },
             "context_length": 196608,
             "isFree": false
@@ -631,7 +657,7 @@
                 "completion": "0.0000003",
                 "input_cache_read": "0.00000002"
             },
-            "context_length": 256000,
+            "context_length": 262144,
             "isFree": false
         },
         {
@@ -935,8 +961,8 @@
             "created": 1765204393,
             "description": "DeepSeek V3.1 Nex-N1 is the flagship release of the Nex-N1 series — a post-trained model designed to highlight agent autonomy, tool use, and real-world productivity. \n\nNex-N1 demonstrates competitive performance across all evaluation scenarios, showing particularly strong results in practical coding and HTML generation tasks.",
             "pricing": {
-                "prompt": "0.00000027",
-                "completion": "0.000001"
+                "prompt": "0.000000135",
+                "completion": "0.0000005"
             },
             "context_length": 131072,
             "isFree": false
@@ -1148,22 +1174,6 @@
                 "web_search": "0.005"
             },
             "context_length": 2000000,
-            "isFree": false
-        },
-        {
-            "id": "google/gemini-3-pro-preview",
-            "name": "Google: Gemini 3 Pro Preview",
-            "created": 1763474668,
-            "description": "Gemini 3 Pro is Google’s flagship frontier model for high-precision multimodal reasoning, combining strong performance across text, image, video, audio, and code with a 1M-token context window. Reasoning Details must be preserved when using multi-turn tool calling, see our docs here: https://openrouter.ai/docs/use-cases/reasoning-tokens#preserving-reasoning-blocks. It delivers state-of-the-art benchmark results in general reasoning, STEM problem solving, factual QA, and multimodal understanding, including leading scores on LMArena, GPQA Diamond, MathArena Apex, MMMU-Pro, and Video-MMMU. Interactions emphasize depth and interpretability: the model is designed to infer intent with minimal prompting and produce direct, insight-focused responses.\n\nBuilt for advanced development and agentic workflows, Gemini 3 Pro provides robust tool-calling, long-horizon planning stability, and strong zero-shot generation for complex UI, visualization, and coding tasks. It excels at agentic coding (SWE-Bench Verified, Terminal-Bench 2.0), multimodal analysis, and structured long-form tasks such as research synthesis, planning, and interactive learning experiences. Suitable applications include autonomous agents, coding assistants, multimodal analytics, scientific reasoning, and high-context information processing.",
-            "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.000012",
-                "image": "0.000002",
-                "input_cache_read": "0.0000002",
-                "input_cache_write": "0.000000375",
-                "internal_reasoning": "0.000012"
-            },
-            "context_length": 1048576,
             "isFree": false
         },
         {
@@ -2214,10 +2224,10 @@
             "created": 1752263252,
             "description": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for agentic capabilities, including advanced tool use, reasoning, and code synthesis. Kimi K2 excels across a broad range of benchmarks, particularly in coding (LiveCodeBench, SWE-bench), reasoning (ZebraLogic, GPQA), and tool-use (Tau2, AceBench) tasks. It supports long-context inference up to 128K tokens and is designed with a novel training stack that includes the MuonClip optimizer for stable large-scale MoE training.",
             "pricing": {
-                "prompt": "0.00000055",
-                "completion": "0.0000022"
+                "prompt": "0.00000057",
+                "completion": "0.0000023"
             },
-            "context_length": 131000,
+            "context_length": 131072,
             "isFree": false
         },
         {
@@ -3621,10 +3631,10 @@
             "isFree": false
         },
         {
-            "id": "inflection/inflection-3-pi",
-            "name": "Inflection: Inflection 3 Pi",
+            "id": "inflection/inflection-3-productivity",
+            "name": "Inflection: Inflection 3 Productivity",
             "created": 1728604800,
-            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay.\n\nPi has been trained to mirror your tone and style, if you use more emojis, so will Pi! Try experimenting with various prompts and conversation styles.",
+            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news.\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection's announcement](https://inflection.ai/blog/enterprise) for more details.",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001"
@@ -3633,10 +3643,10 @@
             "isFree": false
         },
         {
-            "id": "inflection/inflection-3-productivity",
-            "name": "Inflection: Inflection 3 Productivity",
+            "id": "inflection/inflection-3-pi",
+            "name": "Inflection: Inflection 3 Pi",
             "created": 1728604800,
-            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news.\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection's announcement](https://inflection.ai/blog/enterprise) for more details.",
+            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay.\n\nPi has been trained to mirror your tone and style, if you use more emojis, so will Pi! Try experimenting with various prompts and conversation styles.",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001"
@@ -3705,15 +3715,15 @@
             "isFree": false
         },
         {
-            "id": "mistralai/pixtral-12b",
-            "name": "Mistral: Pixtral 12B",
-            "created": 1725926400,
-            "description": "The first multi-modal, text+image-to-text model from Mistral AI. Its weights were launched via torrent: https://x.com/mistralai/status/1833758285167722836.",
+            "id": "cohere/command-r-plus-08-2024",
+            "name": "Cohere: Command R+ (08-2024)",
+            "created": 1724976000,
+            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint the same.\n\nRead the launch post [here](https://docs.cohere.com/changelog/command-gets-refreshed).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
             "pricing": {
-                "prompt": "0.00000010000000000000001",
-                "completion": "0.00000010000000000000001"
+                "prompt": "0.0000025",
+                "completion": "0.00001"
             },
-            "context_length": 32768,
+            "context_length": 128000,
             "isFree": false
         },
         {
@@ -3729,18 +3739,6 @@
             "isFree": false
         },
         {
-            "id": "cohere/command-r-plus-08-2024",
-            "name": "Cohere: Command R+ (08-2024)",
-            "created": 1724976000,
-            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint the same.\n\nRead the launch post [here](https://docs.cohere.com/changelog/command-gets-refreshed).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001"
-            },
-            "context_length": 128000,
-            "isFree": false
-        },
-        {
             "id": "sao10k/l3.1-euryale-70b",
             "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
             "created": 1724803200,
@@ -3750,18 +3748,6 @@
                 "completion": "0.00000085"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "qwen/qwen-2.5-vl-7b-instruct",
-            "name": "Qwen: Qwen2.5-VL 7B Instruct",
-            "created": 1724803200,
-            "description": "Qwen2.5 VL 7B is a multimodal LLM from the Qwen Team with the following key enhancements:\n\n- SoTA understanding of images of various resolution & ratio: Qwen2.5-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.\n\n- Understanding videos of 20min+: Qwen2.5-VL can understand videos over 20 minutes for high-quality video-based question answering, dialog, content creation, etc.\n\n- Agent that can operate your mobiles, robots, etc.: with the abilities of complex reasoning and decision making, Qwen2.5-VL can be integrated with devices like mobile phones, robots, etc., for automatic operation based on visual environment and text instructions.\n\n- Multilingual Support: to serve global users, besides English and Chinese, Qwen2.5-VL now supports the understanding of texts in different languages inside images, including most European languages, Japanese, Korean, Arabic, Vietnamese, etc.\n\nFor more details, see this [blog post](https://qwenlm.github.io/blog/qwen2-vl/) and [GitHub repo](https://github.com/QwenLM/Qwen2-VL).\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).",
-            "pricing": {
-                "prompt": "0.00000020000000000000002",
-                "completion": "0.00000020000000000000002"
-            },
-            "context_length": 32768,
             "isFree": false
         },
         {
@@ -3814,18 +3800,6 @@
             "isFree": false
         },
         {
-            "id": "meta-llama/llama-3.1-405b",
-            "name": "Meta: Llama 3.1 405B (base)",
-            "created": 1722556800,
-            "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This is the base 405B pre-trained version.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
-            "pricing": {
-                "prompt": "0.000004",
-                "completion": "0.000004"
-            },
-            "context_length": 32768,
-            "isFree": false
-        },
-        {
             "id": "meta-llama/llama-3.1-8b-instruct",
             "name": "Meta: Llama 3.1 8B Instruct",
             "created": 1721692800,
@@ -3862,8 +3836,8 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4o-mini-2024-07-18",
-            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+            "id": "openai/gpt-4o-mini",
+            "name": "OpenAI: GPT-4o-mini",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.\n\nAs their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than [GPT-3.5 Turbo](/models/openai/gpt-3.5-turbo). It maintains SOTA intelligence, while being significantly more cost-effective.\n\nGPT-4o mini achieves an 82% score on MMLU and presently ranks higher than GPT-4 on chat preferences [common leaderboards](https://arena.lmsys.org/).\n\nCheck out the [launch announcement](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) to learn more.\n\n#multimodal",
             "pricing": {
@@ -3875,8 +3849,8 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4o-mini",
-            "name": "OpenAI: GPT-4o-mini",
+            "id": "openai/gpt-4o-mini-2024-07-18",
+            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.\n\nAs their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than [GPT-3.5 Turbo](/models/openai/gpt-3.5-turbo). It maintains SOTA intelligence, while being significantly more cost-effective.\n\nGPT-4o mini achieves an 82% score on MMLU and presently ranks higher than GPT-4 on chat preferences [common leaderboards](https://arena.lmsys.org/).\n\nCheck out the [launch announcement](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) to learn more.\n\n#multimodal",
             "pricing": {
@@ -3936,18 +3910,6 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4o-2024-05-13",
-            "name": "OpenAI: GPT-4o (2024-05-13)",
-            "created": 1715558400,
-            "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.\n\nFor benchmarking against other models, it was briefly called [\"im-also-a-good-gpt2-chatbot\"](https://twitter.com/LiamFedus/status/1790064963966370209)\n\n#multimodal",
-            "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.000015"
-            },
-            "context_length": 128000,
-            "isFree": false
-        },
-        {
             "id": "openai/gpt-4o",
             "name": "OpenAI: GPT-4o",
             "created": 1715558400,
@@ -3973,15 +3935,15 @@
             "isFree": false
         },
         {
-            "id": "meta-llama/llama-3-70b-instruct",
-            "name": "Meta: Llama 3 70B Instruct",
-            "created": 1713398400,
-            "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+            "id": "openai/gpt-4o-2024-05-13",
+            "name": "OpenAI: GPT-4o (2024-05-13)",
+            "created": 1715558400,
+            "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.\n\nFor benchmarking against other models, it was briefly called [\"im-also-a-good-gpt2-chatbot\"](https://twitter.com/LiamFedus/status/1790064963966370209)\n\n#multimodal",
             "pricing": {
-                "prompt": "0.00000051",
-                "completion": "0.00000074"
+                "prompt": "0.000005",
+                "completion": "0.000015"
             },
-            "context_length": 8192,
+            "context_length": 128000,
             "isFree": false
         },
         {
@@ -3992,6 +3954,18 @@
             "pricing": {
                 "prompt": "0.00000003",
                 "completion": "0.00000004"
+            },
+            "context_length": 8192,
+            "isFree": false
+        },
+        {
+            "id": "meta-llama/llama-3-70b-instruct",
+            "name": "Meta: Llama 3 70B Instruct",
+            "created": 1713398400,
+            "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).",
+            "pricing": {
+                "prompt": "0.00000051",
+                "completion": "0.00000074"
             },
             "context_length": 8192,
             "isFree": false
@@ -4061,18 +4035,6 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-3.5-turbo-0613",
-            "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
-            "created": 1706140800,
-            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-            "pricing": {
-                "prompt": "0.000001",
-                "completion": "0.000002"
-            },
-            "context_length": 4095,
-            "isFree": false
-        },
-        {
             "id": "openai/gpt-4-turbo-preview",
             "name": "OpenAI: GPT-4 Turbo Preview",
             "created": 1706140800,
@@ -4082,6 +4044,18 @@
                 "completion": "0.00003"
             },
             "context_length": 128000,
+            "isFree": false
+        },
+        {
+            "id": "openai/gpt-3.5-turbo-0613",
+            "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+            "created": 1706140800,
+            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+            "pricing": {
+                "prompt": "0.000001",
+                "completion": "0.000002"
+            },
+            "context_length": 4095,
             "isFree": false
         },
         {
@@ -4205,10 +4179,10 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4-0314",
-            "name": "OpenAI: GPT-4 (older v0314)",
+            "id": "openai/gpt-4",
+            "name": "OpenAI: GPT-4",
             "created": 1685232000,
-            "description": "GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.",
+            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities. Training data: up to Sep 2021.",
             "pricing": {
                 "prompt": "0.00003",
                 "completion": "0.00006"
@@ -4217,10 +4191,10 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4",
-            "name": "OpenAI: GPT-4",
+            "id": "openai/gpt-4-0314",
+            "name": "OpenAI: GPT-4 (older v0314)",
             "created": 1685232000,
-            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities. Training data: up to Sep 2021.",
+            "description": "GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.",
             "pricing": {
                 "prompt": "0.00003",
                 "completion": "0.00006"
@@ -4319,16 +4293,17 @@
             "id": "kilo-auto/small",
             "name": "Kilo Auto Small",
             "created": 0,
-            "description": "Automatically routes your request to a small model.",
+            "description": "Automatically routes your request to a small model. Uses GPT-5 Nano (default) or gpt-oss-20b (free fallback).",
             "pricing": {
                 "prompt": "0.00000005",
                 "completion": "0.0000004",
+                "input_cache_read": "0.000000005",
                 "request": "0",
                 "image": "0",
                 "web_search": "0",
                 "internal_reasoning": "0"
             },
-            "context_length": 400000,
+            "context_length": 131072,
             "isFree": false
         }
     ]
