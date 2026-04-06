@@ -39,7 +39,7 @@
             "id": "kilo-auto/free",
             "name": "Kilo Auto Free",
             "created": 0,
-            "description": "Free with limited capability. No credits required. Uses MiMo-V2-Pro.",
+            "description": "Free with limited capability. No credits required. Uses MiniMax M2.5.",
             "pricing": {
                 "prompt": "0",
                 "completion": "0",
@@ -50,17 +50,17 @@
                 "web_search": "0",
                 "internal_reasoning": "0"
             },
-            "context_length": 1048576,
+            "context_length": 204800,
             "isFree": true
         },
         {
-            "id": "xiaomi/mimo-v2-pro:free",
-            "canonical_slug": "xiaomi/mimo-v2-pro:free",
+            "id": "bytedance-seed/dola-seed-2.0-pro:free",
+            "canonical_slug": "bytedance-seed/dola-seed-2.0-pro:free",
             "hugging_face_id": "",
-            "name": "Xiaomi: MiMo-V2-Pro (free)",
+            "name": "ByteDance Seed: Dola Seed 2.0 Pro (free)",
             "created": 1756238927,
-            "description": "MiMo V2 Pro is a frontier-scale open-source large language model with over 1 trillion parameters, developed in China and optimized specifically for agentic workflows. It excels in frameworks such as OpenClaw, with native 1M-token context support that enables reliable handling of complex, long-horizon, multi-step tasks. In agentic reasoning, tool use, and multi-step execution benchmarks, its performance sits between Claude 4.6 Sonnet and Claude 4.6 Opus.",
-            "context_length": 1048576,
+            "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis. **Note:** For the free endpoint, all prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information.",
+            "context_length": 256000,
             "pricing": {
                 "prompt": "0.0000000",
                 "completion": "0.0000000",
@@ -73,27 +73,22 @@
             "isFree": true
         },
         {
-            "id": "nvidia/nemotron-3-super-120b-a12b:free",
-            "name": "NVIDIA: Nemotron 3 Super (free)",
-            "created": 1773245239,
-            "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer Mixture-of-Experts architecture with multi-token prediction (MTP), it delivers over 50% higher token generation compared to leading open models.\n \nThe model features a 1M token context window for long-term agent coherence, cross-document reasoning, and multi-step task planning. Latent MoE enables calling 4 experts for the inference cost of only one, improving intelligence and generalization. Multi-environment RL training across 10+ environments delivers leading accuracy on benchmarks including AIME 2025, TerminalBench, and SWE-Bench Verified.\n \nFully open with weights, datasets, and recipes under the NVIDIA Open License, Nemotron 3 Super allows easy customization and secure deployment anywhere — from workstation to cloud.",
+            "id": "x-ai/grok-code-fast-1:optimized:free",
+            "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
+            "hugging_face_id": "",
+            "name": "xAI: Grok Code Fast 1 Optimized (free)",
+            "created": 1756238927,
+            "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
+            "context_length": 256000,
             "pricing": {
-                "prompt": "0",
-                "completion": "0"
+                "prompt": "0.0000000",
+                "completion": "0.0000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.00000000"
             },
-            "context_length": 262144,
-            "isFree": true
-        },
-        {
-            "id": "arcee-ai/trinity-large-preview:free",
-            "name": "Arcee AI: Trinity Large Preview (free)",
-            "created": 1769552670,
-            "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. \n\nIt excels in creative writing, storytelling, role-play, chat scenarios, and real-time voice assistance, better than your average reasoning model usually can. But we’re also introducing some of our newer agentic performance. It was trained to navigate well in agent harnesses like OpenCode, Cline, and Kilo Code, and to handle complex toolchains and long, constraint-filled prompts. \n\nThe architecture natively supports very long context windows up to 512k tokens, with the Preview API currently served at 128k context using 8-bit quantization for practical deployment. Trinity-Large-Preview reflects Arcee’s efficiency-first design philosophy, offering a production-oriented frontier model with open weights and permissive licensing suitable for real-world applications and experimentation.",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0"
-            },
-            "context_length": 131000,
             "isFree": true
         },
         {
@@ -175,9 +170,9 @@
             "created": 1769487076,
             "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed visual and text tokens, it delivers strong performance in general reasoning, visual coding, and agentic tool-calling.",
             "pricing": {
-                "prompt": "0.00000042",
-                "completion": "0.0000022",
-                "input_cache_read": "0.00000021"
+                "prompt": "0.0000003827",
+                "completion": "0.00000172",
+                "input_cache_read": "0.0000001935"
             },
             "context_length": 262144,
             "isFree": false
@@ -195,17 +190,116 @@
             "isFree": false
         },
         {
-            "id": "x-ai/grok-code-fast-1",
-            "name": "xAI: Grok Code Fast 1",
-            "created": 1756238927,
-            "description": "Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding. With reasoning traces visible in the response, developers can steer Grok Code for high-quality work flows.",
+            "id": "google/gemma-4-26b-a4b-it",
+            "name": "Google: Gemma 4 26B A4B ",
+            "created": 1775227989,
+            "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at a fraction of the compute cost. Supports multimodal input including text, images, and video (up to 60s at 1fps). Features a 256K token context window, native function calling, configurable thinking/reasoning mode, and structured output support. Released under Apache 2.0.",
             "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000015",
-                "input_cache_read": "0.00000002",
+                "prompt": "0.00000013",
+                "completion": "0.0000004"
+            },
+            "context_length": 262144,
+            "isFree": false
+        },
+        {
+            "id": "google/gemma-4-31b-it",
+            "name": "Google: Gemma 4 31B",
+            "created": 1775148486,
+            "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function calling, and multilingual support across 140+ languages. Strong on coding, reasoning, and document understanding tasks. Apache 2.0 license.",
+            "pricing": {
+                "prompt": "0.00000014",
+                "completion": "0.0000004"
+            },
+            "context_length": 262144,
+            "isFree": false
+        },
+        {
+            "id": "qwen/qwen3.6-plus:free",
+            "name": "Qwen: Qwen3.6 Plus (free)",
+            "created": 1775133557,
+            "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers major gains in agentic coding, front-end development, and overall reasoning, with a significantly improved “vibe coding” experience. The model excels at complex tasks such as 3D scenes, games, and repository-level problem solving, achieving a 78.8 score on SWE-bench Verified. It represents a substantial leap in both pure-text and multimodal capabilities, performing at the level of leading state-of-the-art models.",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0"
+            },
+            "context_length": 1000000,
+            "isFree": true
+        },
+        {
+            "id": "z-ai/glm-5v-turbo",
+            "name": "Z.ai: GLM 5V Turbo",
+            "created": 1775061458,
+            "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding, and task execution, and works seamlessly with agents to complete the full loop of “perceive → plan → execute“.",
+            "pricing": {
+                "prompt": "0.0000012",
+                "completion": "0.000004",
+                "input_cache_read": "0.00000024"
+            },
+            "context_length": 202752,
+            "isFree": false
+        },
+        {
+            "id": "arcee-ai/trinity-large-thinking",
+            "name": "Arcee AI: Trinity Large Thinking",
+            "created": 1775058318,
+            "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. It is free in open claw for the first five days. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7",
+            "pricing": {
+                "prompt": "0.00000022",
+                "completion": "0.00000085"
+            },
+            "context_length": 262144,
+            "isFree": false
+        },
+        {
+            "id": "x-ai/grok-4.20-multi-agent",
+            "name": "xAI: Grok 4.20 Multi-Agent",
+            "created": 1774979158,
+            "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
+            "pricing": {
+                "prompt": "0.000002",
+                "completion": "0.000006",
+                "input_cache_read": "0.0000002",
                 "web_search": "0.005"
             },
-            "context_length": 256000,
+            "context_length": 2000000,
+            "isFree": false
+        },
+        {
+            "id": "x-ai/grok-4.20",
+            "name": "xAI: Grok 4.20",
+            "created": 1774979019,
+            "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
+            "pricing": {
+                "prompt": "0.000002",
+                "completion": "0.000006",
+                "input_cache_read": "0.0000002",
+                "web_search": "0.005"
+            },
+            "context_length": 2000000,
+            "isFree": false
+        },
+        {
+            "id": "google/lyria-3-pro-preview",
+            "name": "Google: Lyria 3 Pro Preview",
+            "created": 1774907286,
+            "description": "Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz stereo audio from text prompts or from images. These models deliver structural coherence, including vocals, timed lyrics, and full instrumental arrangements. Lyria 3 Pro can generate full-length songs with verses, choruses, bridges.",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0"
+            },
+            "context_length": 1048576,
+            "isFree": false
+        },
+        {
+            "id": "google/lyria-3-clip-preview",
+            "name": "Google: Lyria 3 Clip Preview",
+            "created": 1774907255,
+            "description": "30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz stereo audio from text prompts or from images. These models deliver structural coherence, including vocals, timed lyrics, and full instrumental arrangements. Lyria 3 Clip can generate short clips, loops, previews.",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0"
+            },
+            "context_length": 1048576,
             "isFree": false
         },
         {
@@ -222,7 +316,7 @@
             "isFree": false
         },
         {
-            "id": "reka/reka-edge",
+            "id": "rekaai/reka-edge",
             "name": "Reka Edge",
             "created": 1774026965,
             "description": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in image understanding, video analysis, object detection, and agentic tool-use.",
@@ -237,7 +331,7 @@
             "id": "xiaomi/mimo-v2-omni",
             "name": "Xiaomi: MiMo-V2-Omni",
             "created": 1773863703,
-            "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step planning, tool use, and code execution - making it well-suited for complex real-world tasks that span modalities. 256K context window.",
+            "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step planning, tool use, and code execution - making it well-suited for complex real-world tasks that span modalities, 256K context window.",
             "pricing": {
                 "prompt": "0.0000004",
                 "completion": "0.000002",
@@ -314,32 +408,16 @@
             "isFree": false
         },
         {
-            "id": "x-ai/grok-4.20-multi-agent-beta",
-            "name": "xAI: Grok 4.20 Multi-Agent Beta",
-            "created": 1773325367,
-            "description": "Grok 4.20 Multi-Agent Beta is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information across complex tasks.\n\nReasoning effort behavior:\n- low / medium: 4 agents\n- high / xhigh: 16 agents",
+            "id": "nvidia/nemotron-3-super-120b-a12b:free",
+            "name": "NVIDIA: Nemotron 3 Super (free)",
+            "created": 1773245239,
+            "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer Mixture-of-Experts architecture with multi-token prediction (MTP), it delivers over 50% higher token generation compared to leading open models.\n \nThe model features a 1M token context window for long-term agent coherence, cross-document reasoning, and multi-step task planning. Latent MoE enables calling 4 experts for the inference cost of only one, improving intelligence and generalization. Multi-environment RL training across 10+ environments delivers leading accuracy on benchmarks including AIME 2025, TerminalBench, and SWE-Bench Verified.\n \nFully open with weights, datasets, and recipes under the NVIDIA Open License, Nemotron 3 Super allows easy customization and secure deployment anywhere — from workstation to cloud.",
             "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000002",
-                "web_search": "0.005"
+                "prompt": "0",
+                "completion": "0"
             },
-            "context_length": 2000000,
-            "isFree": false
-        },
-        {
-            "id": "x-ai/grok-4.20-beta",
-            "name": "xAI: Grok 4.20 Beta",
-            "created": 1773325354,
-            "description": "Grok 4.20 Beta is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.\n\nReasoning can be enabled/disabled using the `reasoning` `enabled` parameter in the API. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#controlling-reasoning-tokens)",
-            "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000002",
-                "web_search": "0.005"
-            },
-            "context_length": 2000000,
-            "isFree": false
+            "context_length": 262144,
+            "isFree": true
         },
         {
             "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -591,9 +669,9 @@
             "created": 1770908502,
             "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
             "pricing": {
-                "prompt": "0.00000019",
-                "completion": "0.00000115",
-                "input_cache_read": "0.000000095"
+                "prompt": "0.000000118",
+                "completion": "0.00000099",
+                "input_cache_read": "0.000000059"
             },
             "context_length": 196608,
             "isFree": false
@@ -654,11 +732,22 @@
             "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
             "pricing": {
                 "prompt": "0.0000001",
-                "completion": "0.0000003",
-                "input_cache_read": "0.00000002"
+                "completion": "0.0000003"
             },
             "context_length": 262144,
             "isFree": false
+        },
+        {
+            "id": "arcee-ai/trinity-large-preview:free",
+            "name": "Arcee AI: Trinity Large Preview (free)",
+            "created": 1769552670,
+            "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. \n\nIt excels in creative writing, storytelling, role-play, chat scenarios, and real-time voice assistance, better than your average reasoning model usually can. But we’re also introducing some of our newer agentic performance. It was trained to navigate well in agent harnesses like OpenCode, Cline, and Kilo Code, and to handle complex toolchains and long, constraint-filled prompts. \n\nThe architecture natively supports very long context windows up to 512k tokens, with the Preview API currently served at 128k context using 8-bit quantization for practical deployment. Trinity-Large-Preview reflects Arcee’s efficiency-first design philosophy, offering a production-oriented frontier model with open weights and permissive licensing suitable for real-world applications and experimentation.",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0"
+            },
+            "context_length": 131000,
+            "isFree": true
         },
         {
             "id": "upstage/solar-pro-3",
@@ -838,18 +927,6 @@
                 "input_cache_read": "0.00000001"
             },
             "context_length": 32768,
-            "isFree": false
-        },
-        {
-            "id": "allenai/olmo-3.1-32b-think",
-            "name": "AllenAI: Olmo 3.1 32B Think",
-            "created": 1765907719,
-            "description": "Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.",
-            "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.0000005"
-            },
-            "context_length": 65536,
             "isFree": false
         },
         {
@@ -1243,19 +1320,6 @@
             "isFree": false
         },
         {
-            "id": "kwaipilot/kat-coder-pro",
-            "name": "Kwaipilot: KAT-Coder-Pro V1",
-            "created": 1762745912,
-            "description": "KAT-Coder-Pro V1 is KwaiKAT's most advanced agentic coding model in the KAT-Coder series. Designed specifically for agentic coding tasks, it excels in real-world software engineering scenarios, achieving 73.4% solve rate on the SWE-Bench Verified benchmark. \n\nThe model has been optimized for tool-use capability, multi-turn interaction, instruction following, generalization, and comprehensive capabilities through a multi-stage training process, including mid-training, supervised fine-tuning (SFT), reinforcement fine-tuning (RFT), and scalable agentic RL.",
-            "pricing": {
-                "prompt": "0.000000207",
-                "completion": "0.000000828",
-                "input_cache_read": "0.0000000414"
-            },
-            "context_length": 256000,
-            "isFree": false
-        },
-        {
             "id": "moonshotai/kimi-k2-thinking",
             "name": "MoonshotAI: Kimi K2 Thinking",
             "created": 1762440622,
@@ -1355,30 +1419,6 @@
                 "completion": "0.000000416"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "liquid/lfm2-8b-a1b",
-            "name": "LiquidAI: LFM2-8B-A1B",
-            "created": 1760970984,
-            "description": "LFM2-8B-A1B is an efficient on-device Mixture-of-Experts (MoE) model from Liquid AI’s LFM2 family, built for fast, high-quality inference on edge hardware. It uses 8.3B total parameters with only ~1.5B active per token, delivering strong performance while keeping compute and memory usage low—making it ideal for phones, tablets, and laptops.",
-            "pricing": {
-                "prompt": "0.00000001",
-                "completion": "0.00000002"
-            },
-            "context_length": 32768,
-            "isFree": false
-        },
-        {
-            "id": "liquid/lfm-2.2-6b",
-            "name": "LiquidAI: LFM2-2.6B",
-            "created": 1760970889,
-            "description": "LFM2 is a new generation of hybrid models developed by Liquid AI, specifically designed for edge AI and on-device deployment. It sets a new standard in terms of quality, speed, and memory efficiency.",
-            "pricing": {
-                "prompt": "0.00000001",
-                "completion": "0.00000002"
-            },
-            "context_length": 32768,
             "isFree": false
         },
         {
@@ -1858,6 +1898,20 @@
                 "input_cache_read": "0.00000008"
             },
             "context_length": 131072,
+            "isFree": false
+        },
+        {
+            "id": "x-ai/grok-code-fast-1",
+            "name": "xAI: Grok Code Fast 1",
+            "created": 1756238927,
+            "description": "Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding. With reasoning traces visible in the response, developers can steer Grok Code for high-quality work flows.",
+            "pricing": {
+                "prompt": "0.0000002",
+                "completion": "0.0000015",
+                "input_cache_read": "0.00000002",
+                "web_search": "0.005"
+            },
+            "context_length": 256000,
             "isFree": false
         },
         {
@@ -2997,6 +3051,18 @@
             "isFree": false
         },
         {
+            "id": "rekaai/reka-flash-3",
+            "name": "Reka Flash 3",
+            "created": 1741812813,
+            "description": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (\"<reasoning>\") to indicate its internal thought process.\n\nReka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.",
+            "pricing": {
+                "prompt": "0.0000001",
+                "completion": "0.0000002"
+            },
+            "context_length": 65536,
+            "isFree": false
+        },
+        {
             "id": "google/gemma-3-27b-it",
             "name": "Google: Gemma 3 27B",
             "created": 1741756359,
@@ -3593,20 +3659,6 @@
             "isFree": false
         },
         {
-            "id": "anthropic/claude-3.5-sonnet",
-            "name": "Anthropic: Claude 3.5 Sonnet",
-            "created": 1729555200,
-            "description": "New Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:\n\n- Coding: Scores ~49% on SWE-Bench Verified, higher than the last best score, and without any fancy prompt scaffolding\n- Data science: Augments human data science expertise; navigates unstructured data while using multiple tools for insights\n- Visual processing: excelling at interpreting charts, graphs, and images, accurately transcribing text to derive insights beyond just the text alone\n- Agentic tasks: exceptional tool use, making it great at agentic tasks (i.e. complex, multi-step problem solving tasks that require engaging with other systems)\n\n#multimodal",
-            "pricing": {
-                "prompt": "0.000006",
-                "completion": "0.00003",
-                "input_cache_read": "0.0000006",
-                "input_cache_write": "0.0000075"
-            },
-            "context_length": 200000,
-            "isFree": false
-        },
-        {
             "id": "qwen/qwen-2.5-7b-instruct",
             "name": "Qwen: Qwen2.5 7B Instruct",
             "created": 1729036800,
@@ -3631,10 +3683,10 @@
             "isFree": false
         },
         {
-            "id": "inflection/inflection-3-productivity",
-            "name": "Inflection: Inflection 3 Productivity",
+            "id": "inflection/inflection-3-pi",
+            "name": "Inflection: Inflection 3 Pi",
             "created": 1728604800,
-            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news.\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection's announcement](https://inflection.ai/blog/enterprise) for more details.",
+            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay.\n\nPi has been trained to mirror your tone and style, if you use more emojis, so will Pi! Try experimenting with various prompts and conversation styles.",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001"
@@ -3643,10 +3695,10 @@
             "isFree": false
         },
         {
-            "id": "inflection/inflection-3-pi",
-            "name": "Inflection: Inflection 3 Pi",
+            "id": "inflection/inflection-3-productivity",
+            "name": "Inflection: Inflection 3 Productivity",
             "created": 1728604800,
-            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay.\n\nPi has been trained to mirror your tone and style, if you use more emojis, so will Pi! Try experimenting with various prompts and conversation styles.",
+            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news.\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection's announcement](https://inflection.ai/blog/enterprise) for more details.",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001"
@@ -3715,18 +3767,6 @@
             "isFree": false
         },
         {
-            "id": "cohere/command-r-plus-08-2024",
-            "name": "Cohere: Command R+ (08-2024)",
-            "created": 1724976000,
-            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint the same.\n\nRead the launch post [here](https://docs.cohere.com/changelog/command-gets-refreshed).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001"
-            },
-            "context_length": 128000,
-            "isFree": false
-        },
-        {
             "id": "cohere/command-r-08-2024",
             "name": "Cohere: Command R (08-2024)",
             "created": 1724976000,
@@ -3734,6 +3774,18 @@
             "pricing": {
                 "prompt": "0.00000015",
                 "completion": "0.0000006"
+            },
+            "context_length": 128000,
+            "isFree": false
+        },
+        {
+            "id": "cohere/command-r-plus-08-2024",
+            "name": "Cohere: Command R+ (08-2024)",
+            "created": 1724976000,
+            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint the same.\n\nRead the launch post [here](https://docs.cohere.com/changelog/command-gets-refreshed).\n\nUse of this model is subject to Cohere's [Usage Policy](https://docs.cohere.com/docs/usage-policy) and [SaaS Agreement](https://cohere.com/saas-agreement).",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.00001"
             },
             "context_length": 128000,
             "isFree": false
@@ -3836,8 +3888,8 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4o-mini",
-            "name": "OpenAI: GPT-4o-mini",
+            "id": "openai/gpt-4o-mini-2024-07-18",
+            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.\n\nAs their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than [GPT-3.5 Turbo](/models/openai/gpt-3.5-turbo). It maintains SOTA intelligence, while being significantly more cost-effective.\n\nGPT-4o mini achieves an 82% score on MMLU and presently ranks higher than GPT-4 on chat preferences [common leaderboards](https://arena.lmsys.org/).\n\nCheck out the [launch announcement](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) to learn more.\n\n#multimodal",
             "pricing": {
@@ -3849,8 +3901,8 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4o-mini-2024-07-18",
-            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+            "id": "openai/gpt-4o-mini",
+            "name": "OpenAI: GPT-4o-mini",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.\n\nAs their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than [GPT-3.5 Turbo](/models/openai/gpt-3.5-turbo). It maintains SOTA intelligence, while being significantly more cost-effective.\n\nGPT-4o mini achieves an 82% score on MMLU and presently ranks higher than GPT-4 on chat preferences [common leaderboards](https://arena.lmsys.org/).\n\nCheck out the [launch announcement](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) to learn more.\n\n#multimodal",
             "pricing": {
@@ -4035,18 +4087,6 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4-turbo-preview",
-            "name": "OpenAI: GPT-4 Turbo Preview",
-            "created": 1706140800,
-            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023.\n\n**Note:** heavily rate limited by OpenAI while in preview.",
-            "pricing": {
-                "prompt": "0.00001",
-                "completion": "0.00003"
-            },
-            "context_length": 128000,
-            "isFree": false
-        },
-        {
             "id": "openai/gpt-3.5-turbo-0613",
             "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
             "created": 1706140800,
@@ -4056,6 +4096,18 @@
                 "completion": "0.000002"
             },
             "context_length": 4095,
+            "isFree": false
+        },
+        {
+            "id": "openai/gpt-4-turbo-preview",
+            "name": "OpenAI: GPT-4 Turbo Preview",
+            "created": 1706140800,
+            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023.\n\n**Note:** heavily rate limited by OpenAI while in preview.",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00003"
+            },
+            "context_length": 128000,
             "isFree": false
         },
         {
@@ -4107,18 +4159,6 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-3.5-turbo-instruct",
-            "name": "OpenAI: GPT-3.5 Turbo Instruct",
-            "created": 1695859200,
-            "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations. Training data: up to Sep 2021.",
-            "pricing": {
-                "prompt": "0.0000015",
-                "completion": "0.000002"
-            },
-            "context_length": 4095,
-            "isFree": false
-        },
-        {
             "id": "mistralai/mistral-7b-instruct-v0.1",
             "name": "Mistral: Mistral 7B Instruct v0.1",
             "created": 1695859200,
@@ -4128,6 +4168,18 @@
                 "completion": "0.00000019"
             },
             "context_length": 2824,
+            "isFree": false
+        },
+        {
+            "id": "openai/gpt-3.5-turbo-instruct",
+            "name": "OpenAI: GPT-3.5 Turbo Instruct",
+            "created": 1695859200,
+            "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations. Training data: up to Sep 2021.",
+            "pricing": {
+                "prompt": "0.0000015",
+                "completion": "0.000002"
+            },
+            "context_length": 4095,
             "isFree": false
         },
         {
@@ -4179,18 +4231,6 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4",
-            "name": "OpenAI: GPT-4",
-            "created": 1685232000,
-            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities. Training data: up to Sep 2021.",
-            "pricing": {
-                "prompt": "0.00003",
-                "completion": "0.00006"
-            },
-            "context_length": 8191,
-            "isFree": false
-        },
-        {
             "id": "openai/gpt-4-0314",
             "name": "OpenAI: GPT-4 (older v0314)",
             "created": 1685232000,
@@ -4215,6 +4255,18 @@
             "isFree": false
         },
         {
+            "id": "openai/gpt-4",
+            "name": "OpenAI: GPT-4",
+            "created": 1685232000,
+            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities. Training data: up to Sep 2021.",
+            "pricing": {
+                "prompt": "0.00003",
+                "completion": "0.00006"
+            },
+            "context_length": 8191,
+            "isFree": false
+        },
+        {
             "id": "corethink:free",
             "canonical_slug": "corethink:free",
             "hugging_face_id": "",
@@ -4229,63 +4281,6 @@
                 "image": "0",
                 "web_search": "0",
                 "internal_reasoning": "0"
-            },
-            "isFree": true
-        },
-        {
-            "id": "minimax/minimax-m2.5:free",
-            "canonical_slug": "minimax/minimax-m2.5:free",
-            "hugging_face_id": "",
-            "name": "MiniMax: MiniMax M2.5 (free)",
-            "created": 1756238927,
-            "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
-            "context_length": 204800,
-            "pricing": {
-                "prompt": "0.0000000",
-                "completion": "0.0000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.00000000"
-            },
-            "isFree": true
-        },
-        {
-            "id": "xiaomi/mimo-v2-omni:free",
-            "canonical_slug": "xiaomi/mimo-v2-omni:free",
-            "hugging_face_id": "",
-            "name": "Xiaomi: MiMo-V2-Omni (free)",
-            "created": 1756238927,
-            "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability — visual grounding, multi-step planning, tool use, and code execution — making it well-suited for complex real-world tasks that span modalities. 256K context window.",
-            "context_length": 262144,
-            "pricing": {
-                "prompt": "0.0000000",
-                "completion": "0.0000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.00000000"
-            },
-            "isFree": true
-        },
-        {
-            "id": "x-ai/grok-code-fast-1:optimized:free",
-            "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
-            "hugging_face_id": "",
-            "name": "xAI: Grok Code Fast 1 Optimized (experimental, free)",
-            "created": 1756238927,
-            "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
-            "context_length": 256000,
-            "pricing": {
-                "prompt": "0.0000000",
-                "completion": "0.0000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.00000000"
             },
             "isFree": true
         },
