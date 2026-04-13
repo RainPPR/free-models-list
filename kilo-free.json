@@ -3,7 +3,7 @@
         "id": "kilo-auto/free",
         "name": "Kilo Auto Free",
         "created": 0,
-        "description": "Free with limited capability. No credits required. Uses MiniMax M2.5.",
+        "description": "Free with limited capability. No credits required.",
         "context_length": 204800
     },
     {
@@ -22,50 +22,32 @@
         "name": "xAI: Grok Code Fast 1 Optimized (free)",
         "created": 1756238927,
         "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
-        "context_length": 256000
-    },
-    {
-        "id": "qwen/qwen3.6-plus:free",
-        "name": "Qwen: Qwen3.6 Plus (free)",
-        "created": 1775133557,
-        "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers major gains in agentic coding, front-end development, and overall reasoning, with a significantly improved “vibe coding” experience. The model excels at complex tasks such as 3D scenes, games, and repository-level problem solving, achieving a 78.8 score on SWE-bench Verified. It represents a substantial leap in both pure-text and multimodal capabilities, performing at the level of leading state-of-the-art models.",
-        "context_length": 1000000
+        "context_length": 256000,
+        "openclaw": {
+            "api_adapter": "openai-responses"
+        }
     },
     {
         "id": "nvidia/nemotron-3-super-120b-a12b:free",
         "name": "NVIDIA: Nemotron 3 Super (free)",
         "created": 1773245239,
-        "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer Mixture-of-Experts architecture with multi-token prediction (MTP), it delivers over 50% higher token generation compared to leading open models.\n \nThe model features a 1M token context window for long-term agent coherence, cross-document reasoning, and multi-step task planning. Latent MoE enables calling 4 experts for the inference cost of only one, improving intelligence and generalization. Multi-environment RL training across 10+ environments delivers leading accuracy on benchmarks including AIME 2025, TerminalBench, and SWE-Bench Verified.\n \nFully open with weights, datasets, and recipes under the NVIDIA Open License, Nemotron 3 Super allows easy customization and secure deployment anywhere — from workstation to cloud.",
+        "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
         "context_length": 262144
     },
     {
         "id": "openrouter/free",
         "name": "Free Models Router",
         "created": 1769917427,
-        "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that support features needed for your request such as image understanding, tool calling, structured outputs and more. ",
+        "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
         "context_length": 200000
     },
     {
-        "id": "stepfun/step-3.5-flash:free",
-        "name": "StepFun: Step 3.5 Flash (free)",
-        "created": 1769728337,
-        "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
-        "context_length": 256000
-    },
-    {
-        "id": "arcee-ai/trinity-large-preview:free",
-        "name": "Arcee AI: Trinity Large Preview (free)",
-        "created": 1769552670,
-        "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. \n\nIt excels in creative writing, storytelling, role-play, chat scenarios, and real-time voice assistance, better than your average reasoning model usually can. But we’re also introducing some of our newer agentic performance. It was trained to navigate well in agent harnesses like OpenCode, Cline, and Kilo Code, and to handle complex toolchains and long, constraint-filled prompts. \n\nThe architecture natively supports very long context windows up to 512k tokens, with the Preview API currently served at 128k context using 8-bit quantization for practical deployment. Trinity-Large-Preview reflects Arcee’s efficiency-first design philosophy, offering a production-oriented frontier model with open weights and permissive licensing suitable for real-world applications and experimentation.",
-        "context_length": 131000
-    },
-    {
-        "id": "corethink:free",
-        "canonical_slug": "corethink:free",
+        "id": "arcee-ai/trinity-large-thinking:free",
+        "canonical_slug": "arcee-ai/trinity-large-thinking:free",
         "hugging_face_id": "",
-        "name": "CoreThink (free)",
+        "name": "Arcee AI: Trinity Large Thinking (free)",
         "created": 1756238927,
-        "description": "CoreThink - AI that reasons through problems instead of guessing. Available free of charge in Kilo for a limited time.",
-        "context_length": 78000
+        "description": "A powerful open source reasoning model from Arcee AI. Strong performance in multi-turn tool use, context coherence, and instruction following across long-horizon agent runs in tools like OpenClaw and KiloClaw. **Note:** For the free endpoint, all prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information.",
+        "context_length": 262144
     }
 ]
