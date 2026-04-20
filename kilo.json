@@ -54,25 +54,6 @@
             "isFree": true
         },
         {
-            "id": "bytedance-seed/dola-seed-2.0-pro:free",
-            "canonical_slug": "bytedance-seed/dola-seed-2.0-pro:free",
-            "hugging_face_id": "",
-            "name": "ByteDance Seed: Dola Seed 2.0 Pro (free)",
-            "created": 1756238927,
-            "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis. **Note:** For the free endpoint, all prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information.",
-            "context_length": 256000,
-            "pricing": {
-                "prompt": "0.000000000000",
-                "completion": "0.000000000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000000000"
-            },
-            "isFree": true
-        },
-        {
             "id": "x-ai/grok-code-fast-1:optimized:free",
             "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
             "hugging_face_id": "",
@@ -95,10 +76,41 @@
             }
         },
         {
-            "id": "anthropic/claude-opus-4.6",
-            "name": "Anthropic: Claude Opus 4.6",
-            "created": 1770219050,
-            "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
+            "id": "stepfun/step-3.5-flash:free",
+            "canonical_slug": "stepfun/step-3.5-flash:free",
+            "hugging_face_id": "",
+            "name": "StepFun: Step 3.5 Flash (free)",
+            "created": 1756238927,
+            "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
+            "context_length": 262144,
+            "pricing": {
+                "prompt": "0.000000000000",
+                "completion": "0.000000000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000000000"
+            },
+            "isFree": true
+        },
+        {
+            "id": "openrouter/elephant-alpha",
+            "name": "Elephant (new)",
+            "created": 1776052598,
+            "description": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong performance while minimizing token usage. It supports a 256K context window with up to 32K output tokens,...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0"
+            },
+            "context_length": 262144,
+            "isFree": true
+        },
+        {
+            "id": "anthropic/claude-opus-4.7",
+            "name": "Anthropic: Claude Opus 4.7 (new)",
+            "created": 1776351100,
+            "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
             "pricing": {
                 "prompt": "0.000005",
                 "completion": "0.000025",
@@ -165,9 +177,9 @@
             "pricing": {
                 "prompt": "0.0000003",
                 "completion": "0.0000012",
-                "input_cache_read": "0.00000006"
+                "input_cache_read": "0.000000059"
             },
-            "context_length": 204800,
+            "context_length": 196608,
             "isFree": false
         },
         {
@@ -185,7 +197,7 @@
         },
         {
             "id": "z-ai/glm-5.1",
-            "name": "Z.ai: GLM 5.1 (new)",
+            "name": "Z.ai: GLM 5.1",
             "created": 1775578025,
             "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
             "pricing": {
@@ -217,8 +229,9 @@
             "created": 1775227989,
             "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
             "pricing": {
-                "prompt": "0.00000012",
-                "completion": "0.0000004"
+                "prompt": "0.00000008",
+                "completion": "0.00000035",
+                "input_cache_read": "0.00000001"
             },
             "context_length": 262144,
             "isFree": false
@@ -229,8 +242,9 @@
             "created": 1775148486,
             "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
             "pricing": {
-                "prompt": "0.00000014",
-                "completion": "0.0000004"
+                "prompt": "0.00000013",
+                "completion": "0.00000038",
+                "input_cache_read": "0.0000000199999995"
             },
             "context_length": 262144,
             "isFree": false
@@ -255,7 +269,8 @@
             "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7",
             "pricing": {
                 "prompt": "0.00000022",
-                "completion": "0.00000085"
+                "completion": "0.00000085",
+                "input_cache_read": "0.00000006"
             },
             "context_length": 262144,
             "isFree": false
@@ -447,9 +462,8 @@
             "created": 1773245239,
             "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
             "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000005",
-                "input_cache_read": "0.0000001"
+                "prompt": "0.00000009",
+                "completion": "0.00000045"
             },
             "context_length": 262144,
             "isFree": false
@@ -472,10 +486,10 @@
             "created": 1773152396,
             "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design...",
             "pricing": {
-                "prompt": "0.00000005",
+                "prompt": "0.0000001",
                 "completion": "0.00000015"
             },
-            "context_length": 256000,
+            "context_length": 262144,
             "isFree": false
         },
         {
@@ -607,7 +621,8 @@
             "description": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Compared to the...",
             "pricing": {
                 "prompt": "0.000000065",
-                "completion": "0.00000026"
+                "completion": "0.00000026",
+                "input_cache_write": "0.00000008125"
             },
             "context_length": 1000000,
             "isFree": false
@@ -677,7 +692,8 @@
             "description": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency. In a variety of...",
             "pricing": {
                 "prompt": "0.00000026",
-                "completion": "0.00000156"
+                "completion": "0.00000156",
+                "input_cache_write": "0.000000325"
             },
             "context_length": 1000000,
             "isFree": false
@@ -689,7 +705,8 @@
             "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It delivers...",
             "pricing": {
                 "prompt": "0.00000039",
-                "completion": "0.00000234"
+                "completion": "0.00000234",
+                "input_cache_read": "0.000000195"
             },
             "context_length": 262144,
             "isFree": false
@@ -729,6 +746,21 @@
                 "completion": "0.0000039"
             },
             "context_length": 262144,
+            "isFree": false
+        },
+        {
+            "id": "anthropic/claude-opus-4.6",
+            "name": "Anthropic: Claude Opus 4.6",
+            "created": 1770219050,
+            "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
             "isFree": false
         },
         {
@@ -1214,9 +1246,9 @@
             "created": 1764594642,
             "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
             "pricing": {
-                "prompt": "0.00000026",
-                "completion": "0.00000038",
-                "input_cache_read": "0.00000013"
+                "prompt": "0.000000259",
+                "completion": "0.00000042",
+                "input_cache_read": "0.000000135"
             },
             "context_length": 163840,
             "isFree": false
@@ -1377,7 +1409,8 @@
             "description": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning. Built on the trillion-parameter Mixture-of-Experts (MoE) architecture introduced in...",
             "pricing": {
                 "prompt": "0.0000006",
-                "completion": "0.0000025"
+                "completion": "0.0000025",
+                "input_cache_read": "0.00000015"
             },
             "context_length": 262144,
             "isFree": false
@@ -1783,7 +1816,8 @@
             "pricing": {
                 "prompt": "0.00000078",
                 "completion": "0.0000039",
-                "input_cache_read": "0.000000156"
+                "input_cache_read": "0.000000156",
+                "input_cache_write": "0.000000975"
             },
             "context_length": 262144,
             "isFree": false
@@ -1796,7 +1830,8 @@
             "pricing": {
                 "prompt": "0.00000065",
                 "completion": "0.00000325",
-                "input_cache_read": "0.00000013"
+                "input_cache_read": "0.00000013",
+                "input_cache_write": "0.0000008125"
             },
             "context_length": 1000000,
             "isFree": false
@@ -1868,7 +1903,8 @@
             "pricing": {
                 "prompt": "0.000000195",
                 "completion": "0.000000975",
-                "input_cache_read": "0.000000039"
+                "input_cache_read": "0.000000039",
+                "input_cache_write": "0.00000024375"
             },
             "context_length": 1000000,
             "isFree": false
@@ -1898,26 +1934,14 @@
             "isFree": false
         },
         {
-            "id": "meituan/longcat-flash-chat",
-            "name": "Meituan: LongCat Flash Chat",
-            "created": 1757427658,
-            "description": "LongCat-Flash-Chat is a large-scale Mixture-of-Experts (MoE) model with 560B total parameters, of which 18.6B–31.3B (≈27B on average) are dynamically activated per input. It introduces a shortcut-connected MoE design to reduce...",
-            "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000008",
-                "input_cache_read": "0.0000002"
-            },
-            "context_length": 131072,
-            "isFree": false
-        },
-        {
             "id": "qwen/qwen-plus-2025-07-28:thinking",
             "name": "Qwen: Qwen Plus 0728 (thinking)",
             "created": 1757347599,
             "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
             "pricing": {
                 "prompt": "0.00000026",
-                "completion": "0.00000078"
+                "completion": "0.00000078",
+                "input_cache_write": "0.000000325"
             },
             "context_length": 1000000,
             "isFree": false
@@ -1929,7 +1953,8 @@
             "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
             "pricing": {
                 "prompt": "0.00000026",
-                "completion": "0.00000078"
+                "completion": "0.00000078",
+                "input_cache_write": "0.000000325"
             },
             "context_length": 1000000,
             "isFree": false
@@ -2275,10 +2300,10 @@
             "created": 1753449557,
             "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
             "pricing": {
-                "prompt": "0.0000001495",
-                "completion": "0.000001495"
+                "prompt": "0.00000013",
+                "completion": "0.0000006"
             },
-            "context_length": 131072,
+            "context_length": 262144,
             "isFree": false
         },
         {
@@ -2313,7 +2338,8 @@
             "description": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with reinforcement...",
             "pricing": {
                 "prompt": "0.0000001",
-                "completion": "0.0000002"
+                "completion": "0.0000002",
+                "input_cache_read": "0.0000001"
             },
             "context_length": 128000,
             "isFree": false
@@ -2487,19 +2513,6 @@
             "isFree": false
         },
         {
-            "id": "inception/mercury",
-            "name": "Inception: Mercury",
-            "created": 1750973026,
-            "description": "Mercury is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like GPT-4.1 Nano and Claude...",
-            "pricing": {
-                "prompt": "0.00000025",
-                "completion": "0.00000075",
-                "input_cache_read": "0.000000025"
-            },
-            "context_length": 128000,
-            "isFree": false
-        },
-        {
             "id": "mistralai/mistral-small-3.2-24b-instruct",
             "name": "Mistral: Mistral Small 3.2 24B",
             "created": 1750443016,
@@ -2670,8 +2683,8 @@
             "created": 1747776824,
             "description": "Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks...",
             "pricing": {
-                "prompt": "0.00000002",
-                "completion": "0.00000004"
+                "prompt": "0.00000006",
+                "completion": "0.00000012"
             },
             "context_length": 32768,
             "isFree": false
@@ -2751,19 +2764,6 @@
                 "completion": "0.0000008"
             },
             "context_length": 32768,
-            "isFree": false
-        },
-        {
-            "id": "inception/mercury-coder",
-            "name": "Inception: Mercury Coder",
-            "created": 1746033880,
-            "description": "Mercury Coder is the first diffusion large language model (dLLM). Applying a breakthrough discrete diffusion approach, the model runs 5-10x faster than even speed optimized models like Claude 3.5 Haiku...",
-            "pricing": {
-                "prompt": "0.00000025",
-                "completion": "0.00000075",
-                "input_cache_read": "0.000000025"
-            },
-            "context_length": 128000,
             "isFree": false
         },
         {
@@ -2892,18 +2892,6 @@
             }
         },
         {
-            "id": "qwen/qwen2.5-coder-7b-instruct",
-            "name": "Qwen: Qwen2.5 Coder 7B Instruct",
-            "created": 1744734887,
-            "description": "Qwen2.5-Coder-7B-Instruct is a 7B parameter instruction-tuned language model optimized for code-related tasks such as code generation, reasoning, and bug fixing. Based on the Qwen2.5 architecture, it incorporates enhancements like RoPE,...",
-            "pricing": {
-                "prompt": "0.00000003",
-                "completion": "0.00000009"
-            },
-            "context_length": 32768,
-            "isFree": false
-        },
-        {
             "id": "openai/gpt-4.1",
             "name": "OpenAI: GPT-4.1",
             "created": 1744651385,
@@ -3000,18 +2988,6 @@
             }
         },
         {
-            "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
-            "name": "NVIDIA: Llama 3.1 Nemotron Ultra 253B v1",
-            "created": 1744115059,
-            "description": "Llama-3.1-Nemotron-Ultra-253B-v1 is a large language model (LLM) optimized for advanced reasoning, human-interactive chat, retrieval-augmented generation (RAG), and tool-calling tasks. Derived from Meta’s Llama-3.1-405B-Instruct, it has been significantly customized using Neural...",
-            "pricing": {
-                "prompt": "0.0000006",
-                "completion": "0.0000018"
-            },
-            "context_length": 131072,
-            "isFree": false
-        },
-        {
             "id": "meta-llama/llama-4-maverick",
             "name": "Meta: Llama 4 Maverick",
             "created": 1743881822,
@@ -3033,18 +3009,6 @@
                 "completion": "0.0000003"
             },
             "context_length": 327680,
-            "isFree": false
-        },
-        {
-            "id": "qwen/qwen2.5-vl-32b-instruct",
-            "name": "Qwen: Qwen2.5 VL 32B Instruct",
-            "created": 1742839838,
-            "description": "Qwen2.5-VL-32B is a multimodal vision-language model fine-tuned through reinforcement learning for enhanced mathematical reasoning, structured outputs, and visual problem-solving capabilities. It excels at visual analysis tasks, including object recognition, textual...",
-            "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000006"
-            },
-            "context_length": 128000,
             "isFree": false
         },
         {
@@ -3083,18 +3047,6 @@
             "pricing": {
                 "prompt": "0.00000035",
                 "completion": "0.00000056"
-            },
-            "context_length": 128000,
-            "isFree": false
-        },
-        {
-            "id": "allenai/olmo-2-0325-32b-instruct",
-            "name": "AllenAI: Olmo 2 32B Instruct",
-            "created": 1741988556,
-            "description": "OLMo-2 32B Instruct is a supervised instruction-finetuned variant of the OLMo-2 32B March 2025 base model. It excels in complex reasoning and instruction-following tasks across diverse benchmarks such as GSM8K,...",
-            "pricing": {
-                "prompt": "0.00000005",
-                "completion": "0.0000002"
             },
             "context_length": 128000,
             "isFree": false
@@ -3198,7 +3150,8 @@
             "description": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling.",
             "pricing": {
                 "prompt": "0.00000055",
-                "completion": "0.0000008"
+                "completion": "0.0000008",
+                "input_cache_read": "0.00000025"
             },
             "context_length": 32768,
             "isFree": false
@@ -3318,8 +3271,8 @@
             "created": 1739401318,
             "description": "Llama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification)...",
             "pricing": {
-                "prompt": "0.00000002",
-                "completion": "0.00000006"
+                "prompt": "0.00000048",
+                "completion": "0.00000003"
             },
             "context_length": 131072,
             "isFree": false
@@ -3353,7 +3306,7 @@
                 "input_cache_write": "0.00000008333333333333334",
                 "internal_reasoning": "0.0000004"
             },
-            "context_length": 1048576,
+            "context_length": 1000000,
             "isFree": false
         },
         {
@@ -3436,10 +3389,10 @@
             "created": 1738410311,
             "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
             "pricing": {
-                "prompt": "0.0000008",
-                "completion": "0.0000008"
+                "prompt": "0.00000025",
+                "completion": "0.00000075"
             },
-            "context_length": 32768,
+            "context_length": 32000,
             "isFree": false
         },
         {
@@ -3450,7 +3403,8 @@
             "pricing": {
                 "prompt": "0.00000026",
                 "completion": "0.00000078",
-                "input_cache_read": "0.000000052"
+                "input_cache_read": "0.000000052",
+                "input_cache_write": "0.000000325"
             },
             "context_length": 1000000,
             "isFree": false
@@ -3639,8 +3593,8 @@
             "created": 1733506137,
             "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model...",
             "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.00000032"
+                "prompt": "0.00000012",
+                "completion": "0.00000038"
             },
             "context_length": 131072,
             "isFree": false
@@ -3848,6 +3802,18 @@
             "isFree": false
         },
         {
+            "id": "meta-llama/llama-3.2-1b-instruct",
+            "name": "Meta: Llama 3.2 1B Instruct",
+            "created": 1727222400,
+            "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
+            "pricing": {
+                "prompt": "0.000000027",
+                "completion": "0.0000002"
+            },
+            "context_length": 60000,
+            "isFree": false
+        },
+        {
             "id": "meta-llama/llama-3.2-11b-vision-instruct",
             "name": "Meta: Llama 3.2 11B Vision Instruct",
             "created": 1727222400,
@@ -3869,18 +3835,6 @@
                 "completion": "0.00000034"
             },
             "context_length": 80000,
-            "isFree": false
-        },
-        {
-            "id": "meta-llama/llama-3.2-1b-instruct",
-            "name": "Meta: Llama 3.2 1B Instruct",
-            "created": 1727222400,
-            "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
-            "pricing": {
-                "prompt": "0.000000027",
-                "completion": "0.0000002"
-            },
-            "context_length": 60000,
             "isFree": false
         },
         {
@@ -4020,8 +3974,8 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4o-mini-2024-07-18",
-            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+            "id": "openai/gpt-4o-mini",
+            "name": "OpenAI: GPT-4o-mini",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -4036,8 +3990,8 @@
             }
         },
         {
-            "id": "openai/gpt-4o-mini",
-            "name": "OpenAI: GPT-4o-mini",
+            "id": "openai/gpt-4o-mini-2024-07-18",
+            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -4059,18 +4013,6 @@
             "pricing": {
                 "prompt": "0.00000065",
                 "completion": "0.00000065"
-            },
-            "context_length": 8192,
-            "isFree": false
-        },
-        {
-            "id": "google/gemma-2-9b-it",
-            "name": "Google: Gemma 2 9B",
-            "created": 1719532800,
-            "description": "Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class. Designed for a wide variety of...",
-            "pricing": {
-                "prompt": "0.00000003",
-                "completion": "0.00000009"
             },
             "context_length": 8192,
             "isFree": false
@@ -4100,21 +4042,6 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4o-2024-05-13",
-            "name": "OpenAI: GPT-4o (2024-05-13)",
-            "created": 1715558400,
-            "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as...",
-            "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.000015"
-            },
-            "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
             "id": "openai/gpt-4o",
             "name": "OpenAI: GPT-4o",
             "created": 1715558400,
@@ -4130,13 +4057,13 @@
             }
         },
         {
-            "id": "openai/gpt-4o:extended",
-            "name": "OpenAI: GPT-4o (extended)",
+            "id": "openai/gpt-4o-2024-05-13",
+            "name": "OpenAI: GPT-4o (2024-05-13)",
             "created": 1715558400,
             "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as...",
             "pricing": {
-                "prompt": "0.000006",
-                "completion": "0.000018"
+                "prompt": "0.000005",
+                "completion": "0.000015"
             },
             "context_length": 128000,
             "isFree": false,
@@ -4317,18 +4244,6 @@
             }
         },
         {
-            "id": "mistralai/mistral-7b-instruct-v0.1",
-            "name": "Mistral: Mistral 7B Instruct v0.1",
-            "created": 1695859200,
-            "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
-            "pricing": {
-                "prompt": "0.00000011",
-                "completion": "0.00000019"
-            },
-            "context_length": 2824,
-            "isFree": false
-        },
-        {
             "id": "openai/gpt-3.5-turbo-instruct",
             "name": "OpenAI: GPT-3.5 Turbo Instruct",
             "created": 1695859200,
@@ -4342,6 +4257,18 @@
             "openclaw": {
                 "api_adapter": "openai-responses"
             }
+        },
+        {
+            "id": "mistralai/mistral-7b-instruct-v0.1",
+            "name": "Mistral: Mistral 7B Instruct v0.1",
+            "created": 1695859200,
+            "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
+            "pricing": {
+                "prompt": "0.00000011",
+                "completion": "0.00000019"
+            },
+            "context_length": 2824,
+            "isFree": false
         },
         {
             "id": "openai/gpt-3.5-turbo-16k",
@@ -4395,6 +4322,21 @@
             "isFree": false
         },
         {
+            "id": "openai/gpt-4",
+            "name": "OpenAI: GPT-4",
+            "created": 1685232000,
+            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
+            "pricing": {
+                "prompt": "0.00003",
+                "completion": "0.00006"
+            },
+            "context_length": 8191,
+            "isFree": false,
+            "openclaw": {
+                "api_adapter": "openai-responses"
+            }
+        },
+        {
             "id": "openai/gpt-4-0314",
             "name": "OpenAI: GPT-4 (older v0314)",
             "created": 1685232000,
@@ -4425,19 +4367,23 @@
             }
         },
         {
-            "id": "openai/gpt-4",
-            "name": "OpenAI: GPT-4",
-            "created": 1685232000,
-            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
+            "id": "bytedance-seed/dola-seed-2.0-pro:free",
+            "canonical_slug": "bytedance-seed/dola-seed-2.0-pro:free",
+            "hugging_face_id": "",
+            "name": "ByteDance Seed: Dola Seed 2.0 Pro (free)",
+            "created": 1756238927,
+            "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis. **Note:** For the free endpoint, all prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information.",
+            "context_length": 256000,
             "pricing": {
-                "prompt": "0.00003",
-                "completion": "0.00006"
+                "prompt": "0.000000000000",
+                "completion": "0.000000000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000000000"
             },
-            "context_length": 8191,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "isFree": true
         },
         {
             "id": "qwen/qwen3.6-plus",
@@ -4492,7 +4438,7 @@
                 "web_search": "0",
                 "internal_reasoning": "0"
             },
-            "context_length": 131072,
+            "context_length": 262144,
             "isFree": false
         }
     ]

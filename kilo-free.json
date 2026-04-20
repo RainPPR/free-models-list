@@ -7,15 +7,6 @@
         "context_length": 204800
     },
     {
-        "id": "bytedance-seed/dola-seed-2.0-pro:free",
-        "canonical_slug": "bytedance-seed/dola-seed-2.0-pro:free",
-        "hugging_face_id": "",
-        "name": "ByteDance Seed: Dola Seed 2.0 Pro (free)",
-        "created": 1756238927,
-        "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis. **Note:** For the free endpoint, all prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information.",
-        "context_length": 256000
-    },
-    {
         "id": "x-ai/grok-code-fast-1:optimized:free",
         "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
         "hugging_face_id": "",
@@ -26,6 +17,22 @@
         "openclaw": {
             "api_adapter": "openai-responses"
         }
+    },
+    {
+        "id": "stepfun/step-3.5-flash:free",
+        "canonical_slug": "stepfun/step-3.5-flash:free",
+        "hugging_face_id": "",
+        "name": "StepFun: Step 3.5 Flash (free)",
+        "created": 1756238927,
+        "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
+        "context_length": 262144
+    },
+    {
+        "id": "openrouter/elephant-alpha",
+        "name": "Elephant (new)",
+        "created": 1776052598,
+        "description": "Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong performance while minimizing token usage. It supports a 256K context window with up to 32K output tokens,...",
+        "context_length": 262144
     },
     {
         "id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -40,6 +47,15 @@
         "created": 1769917427,
         "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
         "context_length": 200000
+    },
+    {
+        "id": "bytedance-seed/dola-seed-2.0-pro:free",
+        "canonical_slug": "bytedance-seed/dola-seed-2.0-pro:free",
+        "hugging_face_id": "",
+        "name": "ByteDance Seed: Dola Seed 2.0 Pro (free)",
+        "created": 1756238927,
+        "description": "Built for the Agent era, it delivers stable performance in complex reasoning and long-horizon tasks, including multi-step planning, visual-text reasoning, video understanding, and advanced analysis. **Note:** For the free endpoint, all prompts and output are logged to improve the provider's model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information.",
+        "context_length": 256000
     },
     {
         "id": "arcee-ai/trinity-large-thinking:free",
