@@ -40,7 +40,7 @@
             "id": "kilo-auto/free",
             "name": "Auto Free",
             "created": 0,
-            "description": "Rotates through available free models. Limited capability and no credits required. Note: prompts may be logged by the upstream provider and used to improve their services.",
+            "description": "Rotates through available free models. Limited capability and no credits required.\n\n**Warning:** prompts may be logged by the upstream provider and used to improve their services. Not suitable for production or sensitive data workloads.\n\n[Learn more](https://kilo.ai/docs/code-with-ai/agents/auto-model)",
             "pricing": {
                 "prompt": "0",
                 "completion": "0",
@@ -52,18 +52,6 @@
                 "internal_reasoning": "0"
             },
             "context_length": 256000,
-            "isFree": true
-        },
-        {
-            "id": "inclusionai/ling-2.6-1t:free",
-            "name": "inclusionAI: Ling-2.6-1T (free)",
-            "created": 1776948238,
-            "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0"
-            },
-            "context_length": 262144,
             "isFree": true
         },
         {
@@ -91,26 +79,16 @@
             "isFree": true
         },
         {
-            "id": "x-ai/grok-code-fast-1:optimized:free",
-            "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
-            "hugging_face_id": "",
-            "name": "xAI: Grok Code Fast 1 Optimized (free)",
-            "created": 1756238927,
-            "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
-            "context_length": 256000,
+            "id": "inclusionai/ring-2.6-1t:free",
+            "name": "inclusionAI: Ring-2.6-1T (free)",
+            "created": 1778247440,
+            "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
             "pricing": {
-                "prompt": "0.000000000000",
-                "completion": "0.000000000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000000000"
+                "prompt": "0",
+                "completion": "0"
             },
-            "isFree": true,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "context_length": 262144,
+            "isFree": true
         },
         {
             "id": "stepfun/step-3.5-flash:free",
@@ -155,11 +133,11 @@
             "created": 1776699402,
             "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
             "pricing": {
-                "prompt": "0.00000074",
-                "completion": "0.00000349",
-                "input_cache_read": "0.00000014"
+                "prompt": "0.00000075",
+                "completion": "0.0000035",
+                "input_cache_read": "0.00000015"
             },
-            "context_length": 262142,
+            "context_length": 262144,
             "isFree": false
         },
         {
@@ -220,9 +198,8 @@
             "created": 1773836697,
             "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
             "pricing": {
-                "prompt": "0.0000003",
-                "completion": "0.0000012",
-                "input_cache_read": "0.000000059"
+                "prompt": "0.000000299",
+                "completion": "0.0000012"
             },
             "context_length": 196608,
             "isFree": false
@@ -261,6 +238,52 @@
             "isFree": false
         },
         {
+            "id": "google/gemini-3.1-flash-lite",
+            "name": "Google: Gemini 3.1 Flash Lite",
+            "created": 1778168828,
+            "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+            "pricing": {
+                "prompt": "0.00000025",
+                "completion": "0.0000015",
+                "image": "0.00000025",
+                "input_cache_read": "0.000000025",
+                "input_cache_write": "0.00000008333333333333334",
+                "web_search": "0.014",
+                "internal_reasoning": "0.0000015"
+            },
+            "context_length": 1048576,
+            "isFree": false
+        },
+        {
+            "id": "baidu/cobuddy:free",
+            "name": "Baidu Qianfan: CoBuddy (free)",
+            "created": 1778035480,
+            "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows. It features high inference throughput and low end-to-end latency, with native support for tool...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0"
+            },
+            "context_length": 131072,
+            "isFree": true
+        },
+        {
+            "id": "openai/gpt-chat-latest",
+            "name": "OpenAI: GPT Chat Latest",
+            "created": 1778000212,
+            "description": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.00003",
+                "input_cache_read": "0.0000005",
+                "web_search": "0.01"
+            },
+            "context_length": 400000,
+            "isFree": false,
+            "openclaw": {
+                "api_adapter": "openai-responses"
+            }
+        },
+        {
             "id": "x-ai/grok-4.3",
             "name": "xAI: Grok 4.3",
             "created": 1777591821,
@@ -288,6 +311,18 @@
                 "input_cache_read": "0.00000005"
             },
             "context_length": 131072,
+            "isFree": false
+        },
+        {
+            "id": "mistralai/mistral-medium-3-5",
+            "name": "Mistral: Mistral Medium 3.5",
+            "created": 1777570439,
+            "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+            "pricing": {
+                "prompt": "0.0000015",
+                "completion": "0.0000075"
+            },
+            "context_length": 262144,
             "isFree": false
         },
         {
@@ -384,11 +419,11 @@
             "created": 1777318428,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.00000074",
-                "completion": "0.00000349",
-                "input_cache_read": "0.00000014"
+                "prompt": "0.00000075",
+                "completion": "0.0000035",
+                "input_cache_read": "0.00000015"
             },
-            "context_length": 262142,
+            "context_length": 262144,
             "isFree": false
         },
         {
@@ -461,9 +496,9 @@
             "created": 1777260255,
             "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
             "pricing": {
-                "prompt": "0.0000001612",
-                "completion": "0.00000096525",
-                "input_cache_read": "0.0000001612"
+                "prompt": "0.00000015",
+                "completion": "0.000001",
+                "input_cache_read": "0.00000005"
             },
             "context_length": 262144,
             "isFree": false
@@ -511,16 +546,30 @@
             "isFree": false
         },
         {
-            "id": "tencent/hy3-preview:free",
-            "name": "Tencent: Hy3 preview (free)",
+            "id": "inclusionai/ling-2.6-1t",
+            "name": "inclusionAI: Ling-2.6-1T",
+            "created": 1776948238,
+            "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
+            "pricing": {
+                "prompt": "0.0000003",
+                "completion": "0.0000025",
+                "input_cache_read": "0.00000006"
+            },
+            "context_length": 262144,
+            "isFree": false
+        },
+        {
+            "id": "tencent/hy3-preview",
+            "name": "Tencent: Hy3 preview",
             "created": 1776878150,
             "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
             "pricing": {
-                "prompt": "0",
-                "completion": "0"
+                "prompt": "0.000000066",
+                "completion": "0.00000026",
+                "input_cache_read": "0.000000029"
             },
             "context_length": 262144,
-            "isFree": true
+            "isFree": false
         },
         {
             "id": "xiaomi/mimo-v2.5-pro",
@@ -600,12 +649,12 @@
             "id": "openrouter/pareto-code",
             "name": "Pareto Code Router",
             "created": 1776747900,
-            "description": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one. You express a single `min_coding_score` preference...",
+            "description": "The Pareto Router maintains a tiered shortlist of strong coding models, ranked by [Artificial Analysis](https://artificialanalysis.ai/) coding percentiles. Set min_coding_score between 0 and 1 on the [pareto-router plugin](https://openrouter.ai/docs/guides/routing/routers/pareto-router#the-min_coding_score-parameter) to control how...",
             "pricing": {
                 "prompt": "-1",
                 "completion": "-1"
             },
-            "context_length": 200000,
+            "context_length": 2000000,
             "isFree": false
         },
         {
@@ -709,7 +758,7 @@
             "id": "x-ai/grok-4.20",
             "name": "xAI: Grok 4.20",
             "created": 1774979019,
-            "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently...",
+            "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering...",
             "pricing": {
                 "prompt": "0.00000125",
                 "completion": "0.0000025",
@@ -887,7 +936,7 @@
             "created": 1773152396,
             "description": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language design...",
             "pricing": {
-                "prompt": "0.0000001",
+                "prompt": "0.00000004",
                 "completion": "0.00000015"
             },
             "context_length": 262144,
@@ -1004,8 +1053,9 @@
             "created": 1772053822,
             "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. Its overall...",
             "pricing": {
-                "prompt": "0.0000001625",
-                "completion": "0.0000013"
+                "prompt": "0.00000014",
+                "completion": "0.000001",
+                "input_cache_read": "0.00000005"
             },
             "context_length": 262144,
             "isFree": false
@@ -1139,8 +1189,7 @@
             "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
             "pricing": {
                 "prompt": "0.00000015",
-                "completion": "0.00000115",
-                "input_cache_read": "0.00000003"
+                "completion": "0.00000115"
             },
             "context_length": 196608,
             "isFree": false
@@ -1152,7 +1201,7 @@
             "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading...",
             "pricing": {
                 "prompt": "0.0000006",
-                "completion": "0.00000208",
+                "completion": "0.00000192",
                 "input_cache_read": "0.00000012"
             },
             "context_length": 202752,
@@ -1194,7 +1243,7 @@
             "created": 1770164101,
             "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per...",
             "pricing": {
-                "prompt": "0.00000012",
+                "prompt": "0.00000011",
                 "completion": "0.0000008",
                 "input_cache_read": "0.00000007"
             },
@@ -1243,9 +1292,9 @@
             "created": 1769487076,
             "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed...",
             "pricing": {
-                "prompt": "0.00000044",
-                "completion": "0.000002",
-                "input_cache_read": "0.00000022"
+                "prompt": "0.0000004",
+                "completion": "0.00000198",
+                "input_cache_read": "0.00000005"
             },
             "context_length": 262144,
             "isFree": false
@@ -1348,18 +1397,6 @@
             }
         },
         {
-            "id": "allenai/olmo-3.1-32b-instruct",
-            "name": "AllenAI: Olmo 3.1 32B Instruct",
-            "created": 1767728554,
-            "description": "Olmo 3.1 32B Instruct is a large-scale, 32-billion-parameter instruction-tuned language model engineered for high-performance conversational AI, multi-turn dialogue, and practical instruction following. As part of the Olmo 3.1 family, this...",
-            "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000006"
-            },
-            "context_length": 65536,
-            "isFree": false
-        },
-        {
             "id": "bytedance-seed/seed-1.6-flash",
             "name": "ByteDance Seed: Seed 1.6 Flash",
             "created": 1766505011,
@@ -1402,8 +1439,9 @@
             "created": 1766378014,
             "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
             "pricing": {
-                "prompt": "0.00000038",
-                "completion": "0.00000174"
+                "prompt": "0.0000004",
+                "completion": "0.00000175",
+                "input_cache_read": "0.00000008"
             },
             "context_length": 202752,
             "isFree": false
@@ -1431,9 +1469,9 @@
             "created": 1765731308,
             "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a...",
             "pricing": {
-                "prompt": "0.00000009",
-                "completion": "0.00000029",
-                "input_cache_read": "0.000000045"
+                "prompt": "0.0000001",
+                "completion": "0.0000003",
+                "input_cache_read": "0.00000001"
             },
             "context_length": 262144,
             "isFree": false
@@ -1671,9 +1709,9 @@
             "created": 1764594837,
             "description": "DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 optimized for maximum reasoning and agentic performance. It builds on DeepSeek Sparse Attention (DSA) for efficient long-context processing, then scales post-training reinforcement learning...",
             "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.0000012",
-                "input_cache_read": "0.0000002"
+                "prompt": "0.000000287",
+                "completion": "0.000000431",
+                "input_cache_read": "0.000000058"
             },
             "context_length": 163840,
             "isFree": false
@@ -1910,18 +1948,6 @@
             "isFree": false
         },
         {
-            "id": "nvidia/nemotron-nano-12b-v2-vl",
-            "name": "NVIDIA: Nemotron Nano 12B 2 VL",
-            "created": 1761675565,
-            "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s...",
-            "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000006"
-            },
-            "context_length": 131072,
-            "isFree": false
-        },
-        {
             "id": "minimax/minimax-m2",
             "name": "MiniMax: MiniMax M2",
             "created": 1761252093,
@@ -1956,6 +1982,19 @@
                 "completion": "0.00000011"
             },
             "context_length": 131000,
+            "isFree": false
+        },
+        {
+            "id": "microsoft/phi-4-mini-instruct",
+            "name": "Microsoft: Phi 4 Mini Instruct",
+            "created": 1760726049,
+            "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4...",
+            "pricing": {
+                "prompt": "0.00000008",
+                "completion": "0.00000035",
+                "input_cache_read": "0.00000008"
+            },
+            "context_length": 128000,
             "isFree": false
         },
         {
@@ -2905,19 +2944,6 @@
             "isFree": false
         },
         {
-            "id": "tngtech/deepseek-r1t2-chimera",
-            "name": "TNG: DeepSeek R1T2 Chimera",
-            "created": 1751986985,
-            "description": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech. It is a 671 B-parameter mixture-of-experts text-generation model assembled from DeepSeek-AI’s R1-0528, R1, and V3-0324 checkpoints with an Assembly-of-Experts merge. The...",
-            "pricing": {
-                "prompt": "0.0000003",
-                "completion": "0.0000011",
-                "input_cache_read": "0.00000015"
-            },
-            "context_length": 163840,
-            "isFree": false
-        },
-        {
             "id": "morph/morph-v3-large",
             "name": "Morph: Morph V3 Large",
             "created": 1751910858,
@@ -3285,8 +3311,7 @@
             "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
             "pricing": {
                 "prompt": "0.00000008",
-                "completion": "0.00000024",
-                "input_cache_read": "0.00000004"
+                "completion": "0.00000028"
             },
             "context_length": 40960,
             "isFree": false
@@ -3675,42 +3700,6 @@
             "isFree": false
         },
         {
-            "id": "anthropic/claude-3.7-sonnet",
-            "name": "Anthropic: Claude 3.7 Sonnet",
-            "created": 1740422110,
-            "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities. It introduces a hybrid reasoning approach, allowing users to choose between rapid responses and...",
-            "pricing": {
-                "prompt": "0.000003",
-                "completion": "0.000015",
-                "input_cache_read": "0.0000003",
-                "input_cache_write": "0.00000375",
-                "web_search": "0.01"
-            },
-            "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
-        },
-        {
-            "id": "anthropic/claude-3.7-sonnet:thinking",
-            "name": "Anthropic: Claude 3.7 Sonnet (thinking)",
-            "created": 1740422110,
-            "description": "Claude 3.7 Sonnet is an advanced large language model with improved reasoning, coding, and problem-solving capabilities. It introduces a hybrid reasoning approach, allowing users to choose between rapid responses and...",
-            "pricing": {
-                "prompt": "0.000003",
-                "completion": "0.000015",
-                "input_cache_read": "0.0000003",
-                "input_cache_write": "0.00000375",
-                "web_search": "0.01"
-            },
-            "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
-        },
-        {
             "id": "mistralai/mistral-saba",
             "name": "Mistral: Saba",
             "created": 1739803239,
@@ -3765,7 +3754,7 @@
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000004"
             },
-            "context_length": 1048576,
+            "context_length": 1000000,
             "isFree": false
         },
         {
@@ -4216,18 +4205,6 @@
             "isFree": false
         },
         {
-            "id": "nvidia/llama-3.1-nemotron-70b-instruct",
-            "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
-            "created": 1728950400,
-            "description": "NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses. Leveraging [Llama 3.1 70B](/models/meta-llama/llama-3.1-70b-instruct) architecture and Reinforcement Learning from Human Feedback (RLHF), it excels...",
-            "pricing": {
-                "prompt": "0.0000012",
-                "completion": "0.0000012"
-            },
-            "context_length": 131072,
-            "isFree": false
-        },
-        {
             "id": "inflection/inflection-3-productivity",
             "name": "Inflection: Inflection 3 Productivity",
             "created": 1728604800,
@@ -4539,7 +4516,7 @@
             "created": 1713398400,
             "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
             "pricing": {
-                "prompt": "0.00000003",
+                "prompt": "0.00000004",
                 "completion": "0.00000004"
             },
             "context_length": 8192,
@@ -4658,18 +4635,6 @@
             }
         },
         {
-            "id": "mistralai/mixtral-8x7b-instruct",
-            "name": "Mistral: Mixtral 8x7B Instruct",
-            "created": 1702166400,
-            "description": "Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion...",
-            "pricing": {
-                "prompt": "0.00000054",
-                "completion": "0.00000054"
-            },
-            "context_length": 32768,
-            "isFree": false
-        },
-        {
             "id": "alpindale/goliath-120b",
             "name": "Goliath 120B",
             "created": 1699574400,
@@ -4685,7 +4650,7 @@
             "id": "openrouter/auto",
             "name": "Auto Router",
             "created": 1699401600,
-            "description": "\"Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output. To see which model was used,...",
+            "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output. To see which model was used,...",
             "pricing": {
                 "prompt": "-1",
                 "completion": "-1"
@@ -4827,6 +4792,28 @@
             },
             "context_length": 16385,
             "isFree": false,
+            "openclaw": {
+                "api_adapter": "openai-responses"
+            }
+        },
+        {
+            "id": "x-ai/grok-code-fast-1:optimized:free",
+            "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
+            "hugging_face_id": "",
+            "name": "xAI: Grok Code Fast 1, retiring May 15 (free)",
+            "created": 1756238927,
+            "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. Going away May 15, 2026. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
+            "context_length": 256000,
+            "pricing": {
+                "prompt": "0.000000000000",
+                "completion": "0.000000000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000000000"
+            },
+            "isFree": true,
             "openclaw": {
                 "api_adapter": "openai-responses"
             }

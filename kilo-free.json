@@ -3,15 +3,8 @@
         "id": "kilo-auto/free",
         "name": "Auto Free",
         "created": 0,
-        "description": "Rotates through available free models. Limited capability and no credits required. Note: prompts may be logged by the upstream provider and used to improve their services.",
+        "description": "Rotates through available free models. Limited capability and no credits required.\n\n**Warning:** prompts may be logged by the upstream provider and used to improve their services. Not suitable for production or sensitive data workloads.\n\n[Learn more](https://kilo.ai/docs/code-with-ai/agents/auto-model)",
         "context_length": 256000
-    },
-    {
-        "id": "inclusionai/ling-2.6-1t:free",
-        "name": "inclusionAI: Ling-2.6-1T (free)",
-        "created": 1776948238,
-        "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
-        "context_length": 262144
     },
     {
         "id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -28,16 +21,11 @@
         "context_length": 131072
     },
     {
-        "id": "x-ai/grok-code-fast-1:optimized:free",
-        "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
-        "hugging_face_id": "",
-        "name": "xAI: Grok Code Fast 1 Optimized (free)",
-        "created": 1756238927,
-        "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
-        "context_length": 256000,
-        "openclaw": {
-            "api_adapter": "openai-responses"
-        }
+        "id": "inclusionai/ring-2.6-1t:free",
+        "name": "inclusionAI: Ring-2.6-1T (free)",
+        "created": 1778247440,
+        "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
+        "context_length": 262144
     },
     {
         "id": "stepfun/step-3.5-flash:free",
@@ -47,6 +35,13 @@
         "created": 1756238927,
         "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
         "context_length": 262144
+    },
+    {
+        "id": "baidu/cobuddy:free",
+        "name": "Baidu Qianfan: CoBuddy (free)",
+        "created": 1778035480,
+        "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows. It features high inference throughput and low end-to-end latency, with native support for tool...",
+        "context_length": 131072
     },
     {
         "id": "openrouter/owl-alpha",
@@ -70,13 +65,6 @@
         "context_length": 131072
     },
     {
-        "id": "tencent/hy3-preview:free",
-        "name": "Tencent: Hy3 preview (free)",
-        "created": 1776878150,
-        "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
-        "context_length": 262144
-    },
-    {
         "id": "baidu/qianfan-ocr-fast:free",
         "name": "Baidu: Qianfan-OCR-Fast (free)",
         "created": 1776707472,
@@ -89,5 +77,17 @@
         "created": 1769917427,
         "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
         "context_length": 200000
+    },
+    {
+        "id": "x-ai/grok-code-fast-1:optimized:free",
+        "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
+        "hugging_face_id": "",
+        "name": "xAI: Grok Code Fast 1, retiring May 15 (free)",
+        "created": 1756238927,
+        "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. Going away May 15, 2026. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
+        "context_length": 256000,
+        "openclaw": {
+            "api_adapter": "openai-responses"
+        }
     }
 ]
