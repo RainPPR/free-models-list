@@ -11,7 +11,7 @@
         "name": "NVIDIA: Nemotron 3 Super (free)",
         "created": 1773245239,
         "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-        "context_length": 262144
+        "context_length": 1000000
     },
     {
         "id": "poolside/laguna-m.1:free",
@@ -19,13 +19,6 @@
         "created": 1777388504,
         "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
         "context_length": 131072
-    },
-    {
-        "id": "inclusionai/ring-2.6-1t:free",
-        "name": "inclusionAI: Ring-2.6-1T (free)",
-        "created": 1778247440,
-        "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
-        "context_length": 262144
     },
     {
         "id": "stepfun/step-3.5-flash:free",
@@ -65,11 +58,11 @@
         "context_length": 131072
     },
     {
-        "id": "baidu/qianfan-ocr-fast:free",
-        "name": "Baidu: Qianfan-OCR-Fast (free)",
-        "created": 1776707472,
-        "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR. By leveraging specialized OCR training data while preserving versatile multimodal intelligence, it provides a powerful performance upgrade over Qianfan-OCR.",
-        "context_length": 65536
+        "id": "deepseek/deepseek-v4-flash:free",
+        "name": "DeepSeek: DeepSeek V4 Flash (free)",
+        "created": 1777000666,
+        "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
+        "context_length": 1048576
     },
     {
         "id": "openrouter/free",
