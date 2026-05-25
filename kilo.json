@@ -79,25 +79,6 @@
             "isFree": true
         },
         {
-            "id": "stepfun/step-3.5-flash:free",
-            "canonical_slug": "stepfun/step-3.5-flash:free",
-            "hugging_face_id": "",
-            "name": "StepFun: Step 3.5 Flash (free)",
-            "created": 1756238927,
-            "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
-            "context_length": 262144,
-            "pricing": {
-                "prompt": "0.000000000000",
-                "completion": "0.000000000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000000000"
-            },
-            "isFree": true
-        },
-        {
             "id": "anthropic/claude-opus-4.7",
             "name": "Anthropic: Claude Opus 4.7",
             "created": 1776351100,
@@ -223,6 +204,53 @@
                 "input_cache_read": "0.000000182"
             },
             "context_length": 202752,
+            "isFree": false
+        },
+        {
+            "id": "qwen/qwen3.7-max",
+            "name": "Qwen: Qwen3.7 Max",
+            "created": 1779376861,
+            "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.0000075",
+                "input_cache_write": "0.000003125"
+            },
+            "context_length": 1000000,
+            "isFree": false
+        },
+        {
+            "id": "x-ai/grok-build-0.1",
+            "name": "xAI: Grok Build 0.1",
+            "created": 1779298123,
+            "description": "Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding...",
+            "pricing": {
+                "prompt": "0.000001",
+                "completion": "0.000002",
+                "input_cache_read": "0.0000002",
+                "web_search": "0.005"
+            },
+            "context_length": 256000,
+            "isFree": false,
+            "openclaw": {
+                "api_adapter": "openai-responses"
+            }
+        },
+        {
+            "id": "google/gemini-3.5-flash",
+            "name": "Google: Gemini 3.5 Flash",
+            "created": 1779193800,
+            "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...",
+            "pricing": {
+                "prompt": "0.0000015",
+                "completion": "0.000009",
+                "image": "0.0000015",
+                "input_cache_read": "0.00000015",
+                "input_cache_write": "0.00000008333333333333334",
+                "web_search": "0.014",
+                "internal_reasoning": "0.000009"
+            },
+            "context_length": 1048576,
             "isFree": false
         },
         {
@@ -463,13 +491,13 @@
             "created": 1777318398,
             "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
             "pricing": {
-                "prompt": "0.0000005",
-                "completion": "0.000003",
-                "image": "0.0000005",
-                "input_cache_read": "0.00000005",
+                "prompt": "0.0000015",
+                "completion": "0.000009",
+                "image": "0.0000015",
+                "input_cache_read": "0.00000015",
                 "input_cache_write": "0.00000008333333333333334",
                 "web_search": "0.014",
-                "internal_reasoning": "0.000003"
+                "internal_reasoning": "0.000009"
             },
             "context_length": 1048576,
             "isFree": false
@@ -528,8 +556,7 @@
             "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
             "pricing": {
                 "prompt": "0.00000015",
-                "completion": "0.000001",
-                "input_cache_read": "0.00000005"
+                "completion": "0.000001"
             },
             "context_length": 262144,
             "isFree": false
@@ -581,9 +608,9 @@
             "created": 1777000666,
             "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
             "pricing": {
-                "prompt": "0.000000112",
-                "completion": "0.000000224",
-                "input_cache_read": "0.000000022"
+                "prompt": "0.0000001",
+                "completion": "0.0000002",
+                "input_cache_read": "0.00000002"
             },
             "context_length": 1048576,
             "isFree": false
@@ -594,9 +621,9 @@
             "created": 1776948238,
             "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...",
             "pricing": {
-                "prompt": "0.0000003",
-                "completion": "0.0000025",
-                "input_cache_read": "0.00000006"
+                "prompt": "0.000000075",
+                "completion": "0.000000625",
+                "input_cache_read": "0.000000015"
             },
             "context_length": 262144,
             "isFree": false
@@ -1096,9 +1123,8 @@
             "created": 1772053822,
             "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. Its overall...",
             "pricing": {
-                "prompt": "0.00000014",
-                "completion": "0.000001",
-                "input_cache_read": "0.00000005"
+                "prompt": "0.000000139",
+                "completion": "0.000001"
             },
             "context_length": 262144,
             "isFree": false
@@ -1219,8 +1245,7 @@
             "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It delivers...",
             "pricing": {
                 "prompt": "0.00000039",
-                "completion": "0.00000234",
-                "input_cache_read": "0.000000195"
+                "completion": "0.00000234"
             },
             "context_length": 262144,
             "isFree": false
@@ -1311,22 +1336,11 @@
             "created": 1769728337,
             "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token....",
             "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000003"
+                "prompt": "0.00000009",
+                "completion": "0.0000003",
+                "input_cache_read": "0.00000002"
             },
             "context_length": 262144,
-            "isFree": false
-        },
-        {
-            "id": "arcee-ai/trinity-large-preview",
-            "name": "Arcee AI: Trinity Large Preview",
-            "created": 1769552670,
-            "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. It excels in creative writing,...",
-            "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.00000045"
-            },
-            "context_length": 131000,
             "isFree": false
         },
         {
@@ -1431,7 +1445,8 @@
             "pricing": {
                 "prompt": "0.00000175",
                 "completion": "0.000014",
-                "input_cache_read": "0.000000175"
+                "input_cache_read": "0.000000175",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -1539,7 +1554,8 @@
             "pricing": {
                 "prompt": "0.00000175",
                 "completion": "0.000014",
-                "input_cache_read": "0.000000175"
+                "input_cache_read": "0.000000175",
+                "web_search": "0.01"
             },
             "context_length": 128000,
             "isFree": false,
@@ -1571,7 +1587,8 @@
             "pricing": {
                 "prompt": "0.00000175",
                 "completion": "0.000014",
-                "input_cache_read": "0.000000175"
+                "input_cache_read": "0.000000175",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -1851,7 +1868,8 @@
             "pricing": {
                 "prompt": "0.00000125",
                 "completion": "0.00001",
-                "input_cache_read": "0.00000013"
+                "input_cache_read": "0.00000013",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -1884,7 +1902,8 @@
             "pricing": {
                 "prompt": "0.00000125",
                 "completion": "0.00001",
-                "input_cache_read": "0.000000125"
+                "input_cache_read": "0.000000125",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -1900,7 +1919,8 @@
             "pricing": {
                 "prompt": "0.00000025",
                 "completion": "0.000002",
-                "input_cache_read": "0.00000003"
+                "input_cache_read": "0.00000003",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -2359,7 +2379,8 @@
             "pricing": {
                 "prompt": "0.00000125",
                 "completion": "0.00001",
-                "input_cache_read": "0.000000125"
+                "input_cache_read": "0.000000125",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -2633,7 +2654,8 @@
             "pricing": {
                 "prompt": "0.00000125",
                 "completion": "0.00001",
-                "input_cache_read": "0.000000125"
+                "input_cache_read": "0.000000125",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -2666,7 +2688,8 @@
             "pricing": {
                 "prompt": "0.00000005",
                 "completion": "0.0000004",
-                "input_cache_read": "0.00000001"
+                "input_cache_read": "0.00000001",
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "isFree": false,
@@ -3329,7 +3352,8 @@
             "pricing": {
                 "prompt": "0.000002",
                 "completion": "0.000008",
-                "input_cache_read": "0.0000005"
+                "input_cache_read": "0.0000005",
+                "web_search": "0.01"
             },
             "context_length": 1047576,
             "isFree": false,
@@ -3427,7 +3451,8 @@
             "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide...",
             "pricing": {
                 "prompt": "0.00015",
-                "completion": "0.0006"
+                "completion": "0.0006",
+                "web_search": "0.01"
             },
             "context_length": 200000,
             "isFree": false,
@@ -3640,7 +3665,8 @@
             "pricing": {
                 "prompt": "0.0000011",
                 "completion": "0.0000044",
-                "input_cache_read": "0.00000055"
+                "input_cache_read": "0.00000055",
+                "web_search": "0.01"
             },
             "context_length": 200000,
             "isFree": false,
@@ -3662,7 +3688,7 @@
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000004"
             },
-            "context_length": 1048576,
+            "context_length": 1000000,
             "isFree": false
         },
         {
@@ -3735,7 +3761,8 @@
             "pricing": {
                 "prompt": "0.0000011",
                 "completion": "0.0000044",
-                "input_cache_read": "0.00000055"
+                "input_cache_read": "0.00000055",
+                "web_search": "0.01"
             },
             "context_length": 200000,
             "isFree": false,
@@ -3872,7 +3899,8 @@
             "pricing": {
                 "prompt": "0.000015",
                 "completion": "0.00006",
-                "input_cache_read": "0.0000075"
+                "input_cache_read": "0.0000075",
+                "web_search": "0.01"
             },
             "context_length": 200000,
             "isFree": false,
@@ -4146,18 +4174,6 @@
             "isFree": false
         },
         {
-            "id": "cohere/command-r-plus-08-2024",
-            "name": "Cohere: Command R+ (08-2024)",
-            "created": 1724976000,
-            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001"
-            },
-            "context_length": 128000,
-            "isFree": false
-        },
-        {
             "id": "cohere/command-r-08-2024",
             "name": "Cohere: Command R (08-2024)",
             "created": 1724976000,
@@ -4165,6 +4181,18 @@
             "pricing": {
                 "prompt": "0.00000015",
                 "completion": "0.0000006"
+            },
+            "context_length": 128000,
+            "isFree": false
+        },
+        {
+            "id": "cohere/command-r-plus-08-2024",
+            "name": "Cohere: Command R+ (08-2024)",
+            "created": 1724976000,
+            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.00001"
             },
             "context_length": 128000,
             "isFree": false
@@ -4462,21 +4490,6 @@
             "isFree": false
         },
         {
-            "id": "openai/gpt-4-turbo-preview",
-            "name": "OpenAI: GPT-4 Turbo Preview",
-            "created": 1706140800,
-            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...",
-            "pricing": {
-                "prompt": "0.00001",
-                "completion": "0.00003"
-            },
-            "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
             "id": "openai/gpt-3.5-turbo-0613",
             "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
             "created": 1706140800,
@@ -4486,6 +4499,21 @@
                 "completion": "0.000002"
             },
             "context_length": 4095,
+            "isFree": false,
+            "openclaw": {
+                "api_adapter": "openai-responses"
+            }
+        },
+        {
+            "id": "openai/gpt-4-turbo-preview",
+            "name": "OpenAI: GPT-4 Turbo Preview",
+            "created": 1706140800,
+            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00003"
+            },
+            "context_length": 128000,
             "isFree": false,
             "openclaw": {
                 "api_adapter": "openai-responses"
@@ -4510,7 +4538,8 @@
             "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to April 2023.",
             "pricing": {
                 "prompt": "0.00001",
-                "completion": "0.00003"
+                "completion": "0.00003",
+                "web_search": "0.01"
             },
             "context_length": 128000,
             "isFree": false,
@@ -4721,6 +4750,29 @@
                 "input_cache_read": "0.000000325000"
             },
             "isFree": false
+        },
+        {
+            "id": "stealth/claude-opus-4.7",
+            "canonical_slug": "stealth/claude-opus-4.7",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Opus 4.7 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.7 is offered at 20% lower cost than standard Claude Opus 4.7 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000020000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
+            "isFree": false,
+            "openclaw": {
+                "api_adapter": "anthropic-messages"
+            }
         },
         {
             "id": "kilo-auto/small",
