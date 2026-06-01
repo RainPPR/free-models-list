@@ -11,67 +11,56 @@
         "name": "NVIDIA: Nemotron 3 Super (free)",
         "created": 1773245239,
         "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-        "context_length": 1000000
+        "context_length": 1000000,
+        "expiration_date": null
     },
     {
         "id": "poolside/laguna-m.1:free",
         "name": "Poolside: Laguna M.1 (free)",
         "created": 1777388504,
         "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
-        "context_length": 131072
+        "context_length": 262144,
+        "expiration_date": null
     },
     {
-        "id": "baidu/cobuddy:free",
-        "name": "Baidu Qianfan: CoBuddy (free)",
-        "created": 1778035480,
-        "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows. It features high inference throughput and low end-to-end latency, with native support for tool...",
-        "context_length": 131072
+        "id": "stepfun/step-3.7-flash:free",
+        "canonical_slug": "stepfun/step-3.7-flash:free",
+        "hugging_face_id": "",
+        "name": "StepFun: Step 3.7 Flash (free)",
+        "created": 1756238927,
+        "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters per token. The model supports a 256K context window and exposes selectable reasoning levels (high/medium/low), letting callers trade off speed, cost, and depth of reasoning.\n\nDesigned for coding, agentic workflows, structured outputs, and long-context productivity tasks.",
+        "context_length": 262144
     },
     {
         "id": "openrouter/owl-alpha",
         "name": "Owl Alpha",
         "created": 1777398589,
         "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
-        "context_length": 1048756
+        "context_length": 1048756,
+        "expiration_date": null
     },
     {
         "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
         "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
         "created": 1777393095,
         "description": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and...",
-        "context_length": 256000
+        "context_length": 256000,
+        "expiration_date": null
     },
     {
         "id": "poolside/laguna-xs.2:free",
         "name": "Poolside: Laguna XS.2 (free)",
         "created": 1777389604,
         "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
-        "context_length": 131072
-    },
-    {
-        "id": "deepseek/deepseek-v4-flash:free",
-        "name": "DeepSeek: DeepSeek V4 Flash (free)",
-        "created": 1777000666,
-        "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
-        "context_length": 1048576
+        "context_length": 262144,
+        "expiration_date": null
     },
     {
         "id": "openrouter/free",
         "name": "Free Models Router",
         "created": 1769917427,
         "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
-        "context_length": 200000
-    },
-    {
-        "id": "x-ai/grok-code-fast-1:optimized:free",
-        "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
-        "hugging_face_id": "",
-        "name": "xAI: Grok Code Fast 1, retiring May 15 (free)",
-        "created": 1756238927,
-        "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. Going away May 15, 2026. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
-        "context_length": 256000,
-        "openclaw": {
-            "api_adapter": "openai-responses"
-        }
+        "context_length": 200000,
+        "expiration_date": null
     }
 ]

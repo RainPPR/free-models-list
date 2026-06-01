@@ -64,6 +64,7 @@
                 "completion": "0"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": true
         },
         {
@@ -75,14 +76,34 @@
                 "prompt": "0",
                 "completion": "0"
             },
-            "context_length": 131072,
+            "context_length": 262144,
+            "expiration_date": null,
             "isFree": true
         },
         {
-            "id": "anthropic/claude-opus-4.7",
-            "name": "Anthropic: Claude Opus 4.7",
-            "created": 1776351100,
-            "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
+            "id": "stepfun/step-3.7-flash:free",
+            "canonical_slug": "stepfun/step-3.7-flash:free",
+            "hugging_face_id": "",
+            "name": "StepFun: Step 3.7 Flash (free)",
+            "created": 1756238927,
+            "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters per token. The model supports a 256K context window and exposes selectable reasoning levels (high/medium/low), letting callers trade off speed, cost, and depth of reasoning.\n\nDesigned for coding, agentic workflows, structured outputs, and long-context productivity tasks.",
+            "context_length": 262144,
+            "pricing": {
+                "prompt": "0.000000000000",
+                "completion": "0.000000000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000000000"
+            },
+            "isFree": true
+        },
+        {
+            "id": "anthropic/claude-opus-4.8",
+            "name": "Anthropic: Claude Opus 4.8 (new)",
+            "created": 1779905091,
+            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
             "pricing": {
                 "prompt": "0.000005",
                 "completion": "0.000025",
@@ -91,10 +112,88 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "stealth/claude-opus-4.8",
+            "canonical_slug": "stealth/claude-opus-4.8",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Opus 4.8 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.8 is offered at 20% lower cost than standard Claude Opus 4.8 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000020000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
+            "isFree": false
+        },
+        {
+            "id": "stealth/claude-opus-4.7",
+            "canonical_slug": "stealth/claude-opus-4.7",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Opus 4.7 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.7 is offered at 20% lower cost than standard Claude Opus 4.7 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000020000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
+            "isFree": false
+        },
+        {
+            "id": "stealth/claude-sonnet-4.6",
+            "canonical_slug": "stealth/claude-sonnet-4.6",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Sonnet 4.6 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Sonnet 4.6 is offered at 20% lower cost than standard Claude Sonnet 4.6 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000002400000",
+                "completion": "0.000012000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000240000",
+                "input_cache_write": "0.000003000000"
+            },
+            "isFree": false
+        },
+        {
+            "id": "stealth/claude-opus-4.6",
+            "canonical_slug": "stealth/claude-opus-4.6",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Opus 4.6 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.6 is offered at 20% lower cost than standard Claude Opus 4.6 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000020000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
+            "isFree": false
         },
         {
             "id": "moonshotai/kimi-k2.6",
@@ -102,11 +201,12 @@
             "created": 1776699402,
             "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
             "pricing": {
-                "prompt": "0.00000073",
-                "completion": "0.00000349",
-                "input_cache_read": "0.00000025"
+                "prompt": "0.0000008",
+                "completion": "0.0000034",
+                "input_cache_read": "0.00000016"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -122,10 +222,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.5",
@@ -139,10 +237,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1050000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/gemini-3.1-pro-preview",
@@ -159,6 +255,7 @@
                 "internal_reasoning": "0.000012"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -167,10 +264,12 @@
             "created": 1773836697,
             "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
             "pricing": {
-                "prompt": "0.000000279",
-                "completion": "0.0000012"
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
+                "input_cache_read": "0.00000006"
             },
             "context_length": 204800,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -194,29 +293,81 @@
             "isFree": false
         },
         {
+            "id": "stealth/qwen3.6-plus",
+            "canonical_slug": "stealth/qwen3.6-plus",
+            "hugging_face_id": "",
+            "name": "Stealth: Qwen3.6 Plus (50% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Qwen3.6 Plus is offered at 50% lower cost than standard Qwen3.6 Plus pricing and is not served by Alibaba or Kilo Code. Note: a surcharge applies to long-context workloads exceeding 256K input tokens.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000000250000",
+                "completion": "0.000001500000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000025000",
+                "input_cache_write": "0.000000312500"
+            },
+            "isFree": false
+        },
+        {
             "id": "z-ai/glm-5.1",
             "name": "Z.ai: GLM 5.1",
             "created": 1775578025,
             "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
             "pricing": {
-                "prompt": "0.00000098",
-                "completion": "0.00000308",
-                "input_cache_read": "0.000000182"
+                "prompt": "0.00000138",
+                "completion": "0.0000044",
+                "input_cache_read": "0.00000026"
             },
             "context_length": 202752,
+            "expiration_date": null,
             "isFree": false
         },
         {
-            "id": "qwen/qwen3.7-max",
-            "name": "Qwen: Qwen3.7 Max",
-            "created": 1779376861,
-            "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,...",
+            "id": "minimax/minimax-m3",
+            "name": "MiniMax: MiniMax M3",
+            "created": 1780245374,
+            "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
             "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.0000075",
-                "input_cache_write": "0.000003125"
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
+                "input_cache_read": "0.00000006"
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "stepfun/step-3.7-flash",
+            "name": "StepFun: Step 3.7 Flash",
+            "created": 1779985069,
+            "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters...",
+            "pricing": {
+                "prompt": "0.0000002",
+                "completion": "0.00000115",
+                "input_cache_read": "0.00000004"
+            },
+            "context_length": 256000,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "anthropic/claude-opus-4.8-fast",
+            "name": "Anthropic: Claude Opus 4.8 (Fast) ($$$$)",
+            "created": 1779913703,
+            "description": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00005",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125",
+                "web_search": "0.01"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -231,10 +382,8 @@
                 "web_search": "0.005"
             },
             "context_length": 256000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/gemini-3.5-flash",
@@ -251,6 +400,7 @@
                 "internal_reasoning": "0.000009"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -266,10 +416,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "perceptron/perceptron-mk1",
@@ -281,6 +429,7 @@
                 "completion": "0.0000015"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -289,11 +438,12 @@
             "created": 1778247440,
             "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
             "pricing": {
-                "prompt": "0.000000075",
-                "completion": "0.000000625",
-                "input_cache_read": "0.000000015"
+                "prompt": "0.0000003",
+                "completion": "0.0000025",
+                "input_cache_read": "0.00000006"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -311,19 +461,8 @@
                 "internal_reasoning": "0.0000015"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
-        },
-        {
-            "id": "baidu/cobuddy:free",
-            "name": "Baidu Qianfan: CoBuddy (free)",
-            "created": 1778035480,
-            "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows. It features high inference throughput and low end-to-end latency, with native support for tool...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0"
-            },
-            "context_length": 131072,
-            "isFree": true
         },
         {
             "id": "openai/gpt-chat-latest",
@@ -337,10 +476,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "x-ai/grok-4.3",
@@ -354,10 +491,8 @@
                 "web_search": "0.005"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "ibm-granite/granite-4.1-8b",
@@ -370,6 +505,7 @@
                 "input_cache_read": "0.00000005"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -382,6 +518,7 @@
                 "completion": "0.0000075"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -394,6 +531,7 @@
                 "completion": "0"
             },
             "context_length": 1048756,
+            "expiration_date": null,
             "isFree": true
         },
         {
@@ -406,6 +544,7 @@
                 "completion": "0"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": true
         },
         {
@@ -417,7 +556,8 @@
                 "prompt": "0",
                 "completion": "0"
             },
-            "context_length": 131072,
+            "context_length": 262144,
+            "expiration_date": null,
             "isFree": true
         },
         {
@@ -433,10 +573,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "~openai/gpt-mini-latest",
@@ -450,10 +588,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "~google/gemini-pro-latest",
@@ -470,6 +606,7 @@
                 "internal_reasoning": "0.000012"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -478,11 +615,12 @@
             "created": 1777318428,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.00000073",
-                "completion": "0.00000349",
-                "input_cache_read": "0.00000025"
+                "prompt": "0.000000684",
+                "completion": "0.00000342",
+                "input_cache_read": "0.000000144"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -500,6 +638,7 @@
                 "internal_reasoning": "0.000009"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -515,10 +654,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "~openai/gpt-latest",
@@ -532,10 +669,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1050000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "qwen/qwen3.5-plus-20260420",
@@ -544,9 +679,11 @@
             "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba. It accepts text, image, and video input and produces text output, with a 1M token context window. This...",
             "pricing": {
                 "prompt": "0.0000003",
-                "completion": "0.0000018"
+                "completion": "0.0000018",
+                "input_cache_write": "0.000000375"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -555,10 +692,11 @@
             "created": 1777260255,
             "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
             "pricing": {
-                "prompt": "0.00000015",
+                "prompt": "0.00000014",
                 "completion": "0.000001"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -572,10 +710,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1050000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "deepseek/deepseek-v4-pro",
@@ -583,24 +719,13 @@
             "created": 1777000679,
             "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
             "pricing": {
-                "prompt": "0.000000435",
-                "completion": "0.00000087",
-                "input_cache_read": "0.000000003625"
+                "prompt": "0.000001608",
+                "completion": "0.000003216",
+                "input_cache_read": "0.000000134"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
-        },
-        {
-            "id": "deepseek/deepseek-v4-flash:free",
-            "name": "DeepSeek: DeepSeek V4 Flash (free)",
-            "created": 1777000666,
-            "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0"
-            },
-            "context_length": 1048576,
-            "isFree": true
         },
         {
             "id": "deepseek/deepseek-v4-flash",
@@ -608,11 +733,12 @@
             "created": 1777000666,
             "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
             "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000002",
-                "input_cache_read": "0.00000002"
+                "prompt": "0.000000134",
+                "completion": "0.000000268",
+                "input_cache_read": "0.0000000268"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -626,6 +752,7 @@
                 "input_cache_read": "0.000000015"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -634,11 +761,12 @@
             "created": 1776878150,
             "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
             "pricing": {
-                "prompt": "0.000000066",
-                "completion": "0.00000026",
-                "input_cache_read": "0.000000029"
+                "prompt": "0.000000063",
+                "completion": "0.00000021",
+                "input_cache_read": "0.000000021"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -647,11 +775,12 @@
             "created": 1776874273,
             "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
             "pricing": {
-                "prompt": "0.000001",
-                "completion": "0.000003",
-                "input_cache_read": "0.0000002"
+                "prompt": "0.000000435",
+                "completion": "0.00000087",
+                "input_cache_read": "0.0000000036"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -660,11 +789,12 @@
             "created": 1776874269,
             "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
             "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.000002",
-                "input_cache_read": "0.00000008"
+                "prompt": "0.00000014",
+                "completion": "0.00000028",
+                "input_cache_read": "0.0000000028"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -679,10 +809,8 @@
                 "web_search": "0.01"
             },
             "context_length": 272000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "inclusionai/ling-2.6-flash",
@@ -695,6 +823,7 @@
                 "input_cache_read": "0.000000002"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -710,10 +839,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openrouter/pareto-code",
@@ -725,18 +852,23 @@
                 "completion": "-1"
             },
             "context_length": 2000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
-            "id": "baidu/qianfan-ocr-fast",
-            "name": "Baidu: Qianfan-OCR-Fast",
-            "created": 1776707472,
-            "description": "Qianfan-OCR-Fast is a domain-specific multimodal large model purpose-built for OCR. By leveraging specialized OCR training data while preserving versatile multimodal intelligence, it provides a powerful performance upgrade over Qianfan-OCR.",
+            "id": "anthropic/claude-opus-4.7",
+            "name": "Anthropic: Claude Opus 4.7",
+            "created": 1776351100,
+            "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
             "pricing": {
-                "prompt": "0.00000068",
-                "completion": "0.00000281"
+                "prompt": "0.000005",
+                "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
+                "web_search": "0.01"
             },
-            "context_length": 65536,
+            "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -752,10 +884,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": "2026-06-29",
+            "isFree": false
         },
         {
             "id": "google/gemma-4-26b-a4b-it",
@@ -767,6 +897,7 @@
                 "completion": "0.00000033"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -779,6 +910,7 @@
                 "completion": "0.00000037"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -792,6 +924,7 @@
                 "input_cache_read": "0.00000024"
             },
             "context_length": 202752,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -805,6 +938,7 @@
                 "input_cache_read": "0.00000006"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -819,10 +953,8 @@
                 "web_search": "0.005"
             },
             "context_length": 2000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "x-ai/grok-4.20",
@@ -836,10 +968,8 @@
                 "web_search": "0.005"
             },
             "context_length": 2000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/lyria-3-pro-preview",
@@ -851,6 +981,7 @@
                 "completion": "0"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -863,6 +994,7 @@
                 "completion": "0"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -876,6 +1008,7 @@
                 "input_cache_read": "0.00000006"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -888,32 +1021,7 @@
                 "completion": "0.0000001"
             },
             "context_length": 16384,
-            "isFree": false
-        },
-        {
-            "id": "xiaomi/mimo-v2-omni",
-            "name": "Xiaomi: MiMo-V2-Omni",
-            "created": 1773863703,
-            "description": "MiMo-V2-Omni is a frontier omni-modal model that natively processes image, video, and audio inputs within a unified architecture. It combines strong multimodal perception with agentic capability - visual grounding, multi-step...",
-            "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.000002",
-                "input_cache_read": "0.00000008"
-            },
-            "context_length": 262144,
-            "isFree": false
-        },
-        {
-            "id": "xiaomi/mimo-v2-pro",
-            "name": "Xiaomi: MiMo-V2-Pro",
-            "created": 1773863643,
-            "description": "MiMo-V2-Pro is Xiaomi's flagship foundation model, featuring over 1T total parameters and a 1M context length, deeply optimized for agentic scenarios. It is highly adaptable to general agent frameworks like...",
-            "pricing": {
-                "prompt": "0.000001",
-                "completion": "0.000003",
-                "input_cache_read": "0.0000002"
-            },
-            "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -928,10 +1036,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.4-mini",
@@ -945,10 +1051,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "mistralai/mistral-small-2603",
@@ -961,6 +1065,7 @@
                 "input_cache_read": "0.000000015"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -974,6 +1079,7 @@
                 "input_cache_read": "0.00000024"
             },
             "context_length": 202752,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -986,6 +1092,7 @@
                 "completion": "0.00000045"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -998,6 +1105,7 @@
                 "completion": "0.000002"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1010,6 +1118,7 @@
                 "completion": "0.00000015"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1023,10 +1132,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1050000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.4",
@@ -1040,10 +1147,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1050000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "inception/mercury-2",
@@ -1056,6 +1161,7 @@
                 "input_cache_read": "0.000000025"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1070,10 +1176,8 @@
                 "web_search": "0.01"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/gemini-3.1-flash-lite-preview",
@@ -1090,6 +1194,7 @@
                 "internal_reasoning": "0.0000015"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1102,6 +1207,7 @@
                 "completion": "0.0000004"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1115,6 +1221,7 @@
                 "web_search": "0.014"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1123,10 +1230,12 @@
             "created": 1772053822,
             "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. Its overall...",
             "pricing": {
-                "prompt": "0.000000139",
-                "completion": "0.000001"
+                "prompt": "0.00000014",
+                "completion": "0.000001",
+                "input_cache_read": "0.00000005"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1139,6 +1248,7 @@
                 "completion": "0.00000156"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1151,6 +1261,7 @@
                 "completion": "0.00000208"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1160,10 +1271,10 @@
             "description": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Compared to the...",
             "pricing": {
                 "prompt": "0.000000065",
-                "completion": "0.00000026",
-                "input_cache_write": "0.00000008125"
+                "completion": "0.00000026"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1176,6 +1287,7 @@
                 "completion": "0.00000012"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1193,6 +1305,7 @@
                 "internal_reasoning": "0.000012"
             },
             "context_length": 1048756,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1207,10 +1320,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "aion-labs/aion-2.0",
@@ -1223,6 +1334,7 @@
                 "input_cache_read": "0.0000002"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1232,10 +1344,10 @@
             "description": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency. In a variety of...",
             "pricing": {
                 "prompt": "0.00000026",
-                "completion": "0.00000156",
-                "input_cache_write": "0.000000325"
+                "completion": "0.00000156"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1248,6 +1360,7 @@
                 "completion": "0.00000234"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1256,10 +1369,12 @@
             "created": 1770908502,
             "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
             "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.00000115"
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
+                "input_cache_read": "0.00000003"
             },
             "context_length": 204800,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1268,11 +1383,12 @@
             "created": 1770829182,
             "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading...",
             "pricing": {
-                "prompt": "0.0000006",
-                "completion": "0.00000192",
-                "input_cache_read": "0.00000012"
+                "prompt": "0.000001",
+                "completion": "0.0000032",
+                "input_cache_read": "0.0000002"
             },
             "context_length": 202752,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1285,6 +1401,7 @@
                 "completion": "0.0000039"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1300,10 +1417,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "qwen/qwen3-coder-next",
@@ -1316,6 +1431,7 @@
                 "input_cache_read": "0.00000007"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1328,6 +1444,7 @@
                 "completion": "0"
             },
             "context_length": 200000,
+            "expiration_date": null,
             "isFree": true
         },
         {
@@ -1341,6 +1458,7 @@
                 "input_cache_read": "0.00000002"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1349,11 +1467,12 @@
             "created": 1769487076,
             "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed...",
             "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.0000019",
-                "input_cache_read": "0.00000009"
+                "prompt": "0.00000057",
+                "completion": "0.00000285",
+                "input_cache_read": "0.000000095"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1367,6 +1486,7 @@
                 "input_cache_read": "0.000000015"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1380,6 +1500,7 @@
                 "input_cache_read": "0.00000003"
             },
             "context_length": 65536,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1392,6 +1513,7 @@
                 "completion": "0.000006"
             },
             "context_length": 1040000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1404,10 +1526,8 @@
                 "completion": "0.00001"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-audio-mini",
@@ -1419,10 +1539,8 @@
                 "completion": "0.0000024"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "z-ai/glm-4.7-flash",
@@ -1430,11 +1548,12 @@
             "created": 1768833913,
             "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,...",
             "pricing": {
-                "prompt": "0.00000006",
+                "prompt": "0.00000007",
                 "completion": "0.0000004",
                 "input_cache_read": "0.00000001"
             },
             "context_length": 202752,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1449,10 +1568,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "bytedance-seed/seed-1.6-flash",
@@ -1464,6 +1581,7 @@
                 "completion": "0.0000003"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1476,6 +1594,7 @@
                 "completion": "0.000002"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1484,11 +1603,12 @@
             "created": 1766454997,
             "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
             "pricing": {
-                "prompt": "0.00000029",
-                "completion": "0.00000095",
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
                 "input_cache_read": "0.00000003"
             },
             "context_length": 204800,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1497,11 +1617,12 @@
             "created": 1766378014,
             "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
             "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.00000175",
-                "input_cache_read": "0.00000008"
+                "prompt": "0.00000054",
+                "completion": "0.00000198",
+                "input_cache_read": "0.000000099"
             },
             "context_length": 202752,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1519,6 +1640,7 @@
                 "internal_reasoning": "0.000003"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1532,6 +1654,7 @@
                 "input_cache_read": "0.00000001"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1544,11 +1667,12 @@
                 "completion": "0.0000002"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "openai/gpt-5.2-chat",
-            "name": "OpenAI: GPT-5.2 Chat",
+            "name": "OpenAI: GPT-5.2 Chat (retires Aug 10)",
             "created": 1765389783,
             "description": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on...",
             "pricing": {
@@ -1558,14 +1682,12 @@
                 "web_search": "0.01"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": "2026-08-10",
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.2-pro",
-            "name": "OpenAI: GPT-5.2 Pro",
+            "name": "OpenAI: GPT-5.2 Pro ($$$$)",
             "created": 1765389780,
             "description": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,...",
             "pricing": {
@@ -1574,10 +1696,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.2",
@@ -1591,10 +1711,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "mistralai/devstral-2512",
@@ -1607,6 +1725,7 @@
                 "input_cache_read": "0.00000004"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1619,6 +1738,7 @@
                 "completion": "0.000003"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1629,9 +1749,10 @@
             "pricing": {
                 "prompt": "0.0000003",
                 "completion": "0.0000009",
-                "input_cache_read": "0.00000005"
+                "input_cache_read": "0.000000055"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1644,6 +1765,7 @@
                 "completion": "0.0000005"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1656,6 +1778,7 @@
                 "completion": "0.00000015"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1668,6 +1791,7 @@
                 "completion": "-1"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1682,10 +1806,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "amazon/nova-2-lite-v1",
@@ -1697,6 +1819,7 @@
                 "completion": "0.0000025"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1710,6 +1833,7 @@
                 "input_cache_read": "0.00000002"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1723,6 +1847,7 @@
                 "input_cache_read": "0.000000015"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1736,6 +1861,7 @@
                 "input_cache_read": "0.00000001"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1749,6 +1875,7 @@
                 "input_cache_read": "0.00000005"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1761,19 +1888,7 @@
                 "completion": "0.00000015"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "deepseek/deepseek-v3.2-speciale",
-            "name": "DeepSeek: DeepSeek V3.2 Speciale",
-            "created": 1764594837,
-            "description": "DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 optimized for maximum reasoning and agentic performance. It builds on DeepSeek Sparse Attention (DSA) for efficient long-context processing, then scales post-training reinforcement learning...",
-            "pricing": {
-                "prompt": "0.000000287",
-                "completion": "0.000000431",
-                "input_cache_read": "0.000000058"
-            },
-            "context_length": 163840,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1782,11 +1897,13 @@
             "created": 1764594642,
             "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
             "pricing": {
-                "prompt": "0.000000252",
-                "completion": "0.000000378",
-                "input_cache_read": "0.0000000252"
+                "prompt": "0.0000003705",
+                "completion": "0.0000011115",
+                "input_cache_read": "0.0000000741",
+                "input_cache_write": "0.000000463125"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1799,6 +1916,7 @@
                 "completion": "0.0000011"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1814,10 +1932,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "allenai/olmo-3-32b-think",
@@ -1829,6 +1945,7 @@
                 "completion": "0.0000005"
             },
             "context_length": 65536,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1846,6 +1963,7 @@
                 "internal_reasoning": "0.000012"
             },
             "context_length": 65536,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1858,6 +1976,7 @@
                 "completion": "0.00000125"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1872,10 +1991,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.1-chat",
@@ -1885,14 +2002,12 @@
             "pricing": {
                 "prompt": "0.00000125",
                 "completion": "0.00001",
-                "input_cache_read": "0.000000125",
+                "input_cache_read": "0.00000013",
                 "web_search": "0.01"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.1-codex",
@@ -1902,14 +2017,12 @@
             "pricing": {
                 "prompt": "0.00000125",
                 "completion": "0.00001",
-                "input_cache_read": "0.000000125",
+                "input_cache_read": "0.00000013",
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5.1-codex-mini",
@@ -1919,14 +2032,12 @@
             "pricing": {
                 "prompt": "0.00000025",
                 "completion": "0.000002",
-                "input_cache_read": "0.00000003",
+                "input_cache_read": "0.000000025",
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "moonshotai/kimi-k2-thinking",
@@ -1935,9 +2046,11 @@
             "description": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning. Built on the trillion-parameter Mixture-of-Experts (MoE) architecture introduced in...",
             "pricing": {
                 "prompt": "0.0000006",
-                "completion": "0.0000025"
+                "completion": "0.0000025",
+                "input_cache_read": "0.00000015"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1951,6 +2064,7 @@
                 "input_cache_read": "0.000000625"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1964,6 +2078,7 @@
                 "web_search": "0.018"
             },
             "context_length": 200000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1977,6 +2092,7 @@
                 "input_cache_read": "0.00000001"
             },
             "context_length": 32000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1990,6 +2106,7 @@
                 "input_cache_read": "0.000000037"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -1999,10 +2116,10 @@
             "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning,...",
             "pricing": {
                 "prompt": "0.000000255",
-                "completion": "0.000001",
-                "input_cache_read": "0.00000003"
+                "completion": "0.00000102"
             },
             "context_length": 204800,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2015,6 +2132,7 @@
                 "completion": "0.000000416"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2027,6 +2145,7 @@
                 "completion": "0.000000112"
             },
             "context_length": 131000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2040,6 +2159,7 @@
                 "input_cache_read": "0.00000008"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2054,10 +2174,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "anthropic/claude-haiku-4.5",
@@ -2072,10 +2190,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "qwen/qwen3-vl-8b-thinking",
@@ -2087,6 +2203,7 @@
                 "completion": "0.000001365"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2099,11 +2216,12 @@
                 "completion": "0.0000005"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "openai/gpt-5-image",
-            "name": "OpenAI: GPT-5 Image",
+            "name": "OpenAI: GPT-5 Image ($$$$)",
             "created": 1760447986,
             "description": "[GPT-5](https://openrouter.ai/openai/gpt-5) Image combines OpenAI's GPT-5 model with state-of-the-art image generation capabilities. It offers major improvements in reasoning, code quality, and user experience while incorporating GPT Image 1's superior instruction following,...",
             "pricing": {
@@ -2113,14 +2231,12 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/o3-deep-research",
-            "name": "OpenAI: o3 Deep Research",
+            "name": "OpenAI: o3 Deep Research ($$$$)",
             "created": 1760129661,
             "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.\n\nNote: This model always uses the 'web_search' tool which adds additional cost.",
             "pricing": {
@@ -2130,10 +2246,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/o4-mini-deep-research",
@@ -2147,10 +2261,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
@@ -2162,18 +2274,7 @@
                 "completion": "0.0000004"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "baidu/ernie-4.5-21b-a3b-thinking",
-            "name": "Baidu: ERNIE 4.5 21B A3B Thinking",
-            "created": 1760048887,
-            "description": "ERNIE-4.5-21B-A3B-Thinking is Baidu's upgraded lightweight MoE model, refined to boost reasoning depth and quality for top-tier performance in logical puzzles, math, science, coding, text generation, and expert-level academic benchmarks.",
-            "pricing": {
-                "prompt": "0.00000007",
-                "completion": "0.00000028"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2191,6 +2292,7 @@
                 "internal_reasoning": "0.0000025"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2203,6 +2305,7 @@
                 "completion": "0.00000156"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2215,11 +2318,12 @@
                 "completion": "0.00000052"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "openai/gpt-5-pro",
-            "name": "OpenAI: GPT-5 Pro",
+            "name": "OpenAI: GPT-5 Pro ($$$$)",
             "created": 1759776663,
             "description": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and...",
             "pricing": {
@@ -2228,10 +2332,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "z-ai/glm-4.6",
@@ -2239,11 +2341,12 @@
             "created": 1759235576,
             "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex...",
             "pricing": {
-                "prompt": "0.00000043",
-                "completion": "0.00000174",
-                "input_cache_read": "0.00000008"
+                "prompt": "0.00000055",
+                "completion": "0.0000022",
+                "input_cache_read": "0.00000011"
             },
             "context_length": 202752,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2259,10 +2362,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "deepseek/deepseek-v3.2-exp",
@@ -2274,6 +2375,7 @@
                 "completion": "0.00000041"
             },
             "context_length": 163840,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2287,6 +2389,7 @@
                 "input_cache_read": "0.00000015"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2299,6 +2402,7 @@
                 "completion": "0.00000125"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2316,6 +2420,7 @@
                 "internal_reasoning": "0.0000004"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2328,6 +2433,7 @@
                 "completion": "0.0000026"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2341,6 +2447,7 @@
                 "input_cache_read": "0.00000011"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2355,6 +2462,7 @@
                 "input_cache_write": "0.000000975"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2369,6 +2477,7 @@
                 "input_cache_write": "0.0000008125"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2383,10 +2492,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "deepseek/deepseek-v3.1-terminus",
@@ -2399,19 +2506,7 @@
                 "input_cache_read": "0.00000013"
             },
             "context_length": 163840,
-            "isFree": false
-        },
-        {
-            "id": "alibaba/tongyi-deepresearch-30b-a3b",
-            "name": "Tongyi DeepResearch 30B A3B",
-            "created": 1758210804,
-            "description": "Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It's optimized for long-horizon, deep information-seeking tasks...",
-            "pricing": {
-                "prompt": "0.00000009",
-                "completion": "0.00000045",
-                "input_cache_read": "0.00000009"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2426,6 +2521,7 @@
                 "input_cache_write": "0.00000024375"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2438,6 +2534,7 @@
                 "completion": "0.00000078"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2450,6 +2547,7 @@
                 "completion": "0.0000011"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2463,6 +2561,7 @@
                 "input_cache_write": "0.000000325"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2472,10 +2571,10 @@
             "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
             "pricing": {
                 "prompt": "0.00000026",
-                "completion": "0.00000078",
-                "input_cache_write": "0.000000325"
+                "completion": "0.00000078"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2488,6 +2587,7 @@
                 "completion": "0.00000016"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2500,6 +2600,7 @@
                 "completion": "0.0000025"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2513,6 +2614,7 @@
                 "input_cache_read": "0.00000008"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2525,6 +2627,7 @@
                 "completion": "0.0000004"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2537,6 +2640,7 @@
                 "completion": "0.000003"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2550,22 +2654,8 @@
                 "input_cache_read": "0.00000013"
             },
             "context_length": 163840,
+            "expiration_date": null,
             "isFree": false
-        },
-        {
-            "id": "openai/gpt-4o-audio-preview",
-            "name": "OpenAI: GPT-4o Audio",
-            "created": 1755233061,
-            "description": "The gpt-4o-audio-preview model adds support for audio inputs as prompts. This enhancement allows the model to detect nuances within audio recordings and add depth to generated user experiences. Audio outputs...",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001"
-            },
-            "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
         },
         {
             "id": "mistralai/mistral-medium-3.1",
@@ -2578,18 +2668,7 @@
                 "input_cache_read": "0.00000004"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "baidu/ernie-4.5-21b-a3b",
-            "name": "Baidu: ERNIE 4.5 21B A3B",
-            "created": 1755034167,
-            "description": "A sophisticated text-based Mixture-of-Experts (MoE) model featuring 21B total parameters with 3B activated per token, delivering exceptional multimodal understanding and generation through heterogeneous MoE structures and modality-isolated routing. Supporting an...",
-            "pricing": {
-                "prompt": "0.00000007",
-                "completion": "0.00000028"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2602,6 +2681,7 @@
                 "completion": "0.00000056"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2615,6 +2695,7 @@
                 "input_cache_read": "0.00000011"
             },
             "context_length": 65536,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2627,6 +2708,7 @@
                 "completion": "0.000008"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2641,10 +2723,8 @@
                 "web_search": "0.01"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5",
@@ -2658,10 +2738,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5-mini",
@@ -2675,10 +2753,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-5-nano",
@@ -2692,10 +2768,8 @@
                 "web_search": "0.01"
             },
             "context_length": 400000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-oss-120b",
@@ -2707,6 +2781,7 @@
                 "completion": "0.00000018"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2715,15 +2790,16 @@
             "created": 1754414229,
             "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
             "pricing": {
-                "prompt": "0.00000003",
+                "prompt": "0.000000029",
                 "completion": "0.00000014"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "anthropic/claude-opus-4.1",
-            "name": "Anthropic: Claude Opus 4.1",
+            "name": "Anthropic: Claude Opus 4.1 ($$$$)",
             "created": 1754411591,
             "description": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains...",
             "pricing": {
@@ -2734,10 +2810,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "mistralai/codestral-2508",
@@ -2750,6 +2824,7 @@
                 "input_cache_read": "0.00000003"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2762,6 +2837,7 @@
                 "completion": "0.00000027"
             },
             "context_length": 160000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2774,6 +2850,7 @@
                 "completion": "0.0000003"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2787,6 +2864,7 @@
                 "input_cache_read": "0.00000011"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2800,6 +2878,7 @@
                 "input_cache_read": "0.000000025"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2808,10 +2887,12 @@
             "created": 1753449557,
             "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
             "pricing": {
-                "prompt": "0.0000001495",
-                "completion": "0.000001495"
+                "prompt": "0.0000001",
+                "completion": "0.0000001",
+                "input_cache_read": "0.0000001"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2824,6 +2905,7 @@
                 "completion": "0.0000001"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2836,6 +2918,7 @@
                 "completion": "0.0000018"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2849,6 +2932,7 @@
                 "input_cache_read": "0.0000001"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2866,6 +2950,7 @@
                 "internal_reasoning": "0.0000004"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2878,6 +2963,7 @@
                 "completion": "0.0000001"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2890,6 +2976,7 @@
                 "completion": "0.0000034"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2902,32 +2989,7 @@
                 "completion": "0.0000023"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "mistralai/devstral-medium",
-            "name": "Mistral: Devstral Medium",
-            "created": 1752161321,
-            "description": "Devstral Medium is a high-performance code generation and agentic reasoning model developed jointly by Mistral AI and All Hands AI. Positioned as a step up from Devstral Small, it achieves...",
-            "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.000002",
-                "input_cache_read": "0.00000004"
-            },
-            "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "mistralai/devstral-small",
-            "name": "Mistral: Devstral Small 1.1",
-            "created": 1752160751,
-            "description": "Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and...",
-            "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000003",
-                "input_cache_read": "0.00000001"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2940,6 +3002,7 @@
                 "completion": "0.00000057"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2952,6 +3015,7 @@
                 "completion": "0.0000019"
             },
             "context_length": 262144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2964,6 +3028,7 @@
                 "completion": "0.0000012"
             },
             "context_length": 81920,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2976,6 +3041,7 @@
                 "completion": "0.00000125"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2988,6 +3054,7 @@
                 "completion": "0.0000011"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -2996,10 +3063,12 @@
             "created": 1750443016,
             "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on...",
             "pricing": {
-                "prompt": "0.000000075",
-                "completion": "0.0000002"
+                "prompt": "0.0000001",
+                "completion": "0.0000003",
+                "input_cache_read": "0.00000001"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3012,6 +3081,7 @@
                 "completion": "0.0000022"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3029,6 +3099,7 @@
                 "internal_reasoning": "0.0000025"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3046,11 +3117,12 @@
                 "internal_reasoning": "0.00001"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "openai/o3-pro",
-            "name": "OpenAI: o3 Pro",
+            "name": "OpenAI: o3 Pro ($$$$)",
             "created": 1749598352,
             "description": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o3-pro model uses more compute to think harder and provide consistently...",
             "pricing": {
@@ -3059,10 +3131,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/gemini-2.5-pro-preview",
@@ -3079,6 +3149,7 @@
                 "internal_reasoning": "0.00001"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3092,11 +3163,12 @@
                 "input_cache_read": "0.00000035"
             },
             "context_length": 163840,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "anthropic/claude-opus-4",
-            "name": "Anthropic: Claude Opus 4",
+            "name": "Anthropic: Claude Opus 4 ($$$$)",
             "created": 1747931245,
             "description": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in...",
             "pricing": {
@@ -3107,10 +3179,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "anthropic/claude-sonnet-4",
@@ -3125,10 +3195,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1000000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/gemma-3n-e4b-it",
@@ -3140,6 +3208,7 @@
                 "completion": "0.00000012"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3153,6 +3222,7 @@
                 "input_cache_read": "0.00000004"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3170,6 +3240,7 @@
                 "internal_reasoning": "0.00001"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3182,6 +3253,7 @@
                 "completion": "0.00000018"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3194,6 +3266,7 @@
                 "completion": "0.0000033"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3206,6 +3279,7 @@
                 "completion": "0.0000012"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3218,6 +3292,7 @@
                 "completion": "0.0000008"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3230,11 +3305,12 @@
                 "completion": "0.00000018"
             },
             "context_length": 163840,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "qwen/qwen3-30b-a3b",
-            "name": "Qwen: Qwen3 30B A3B",
+            "name": "Qwen: Qwen3 30B A3B (retires Jun 5)",
             "created": 1745878604,
             "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
             "pricing": {
@@ -3242,6 +3318,7 @@
                 "completion": "0.00000045"
             },
             "context_length": 131072,
+            "expiration_date": "2026-06-05",
             "isFree": false
         },
         {
@@ -3255,6 +3332,7 @@
                 "input_cache_read": "0.00000005"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3267,6 +3345,7 @@
                 "completion": "0.00000024"
             },
             "context_length": 131702,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3279,6 +3358,7 @@
                 "completion": "0.00000028"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3291,6 +3371,7 @@
                 "completion": "0.00000182"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3305,10 +3386,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/o3",
@@ -3322,10 +3401,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/o4-mini",
@@ -3339,10 +3416,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-4.1",
@@ -3356,10 +3431,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1047576,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-4.1-mini",
@@ -3373,10 +3446,8 @@
                 "web_search": "0.01"
             },
             "context_length": 1047576,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-4.1-nano",
@@ -3390,21 +3461,7 @@
                 "web_search": "0.01"
             },
             "context_length": 1047576,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "alfredpros/codellama-7b-instruct-solidity",
-            "name": "AlfredPros: CodeLLaMa 7B Instruct Solidity",
-            "created": 1744641874,
-            "description": "A finetuned 7 billion parameters Code LLaMA - Instruct model to generate Solidity smart contract using 4-bit QLoRA finetuning provided by PEFT library.",
-            "pricing": {
-                "prompt": "0.0000008",
-                "completion": "0.0000012"
-            },
-            "context_length": 4096,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3417,6 +3474,7 @@
                 "completion": "0.0000006"
             },
             "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3429,6 +3487,7 @@
                 "completion": "0.0000003"
             },
             "context_length": 10000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3442,6 +3501,7 @@
                 "input_cache_read": "0.000000135"
             },
             "context_length": 163840,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3455,10 +3515,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -3470,6 +3528,7 @@
                 "completion": "0.000000555"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3482,6 +3541,7 @@
                 "completion": "0.00000008"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3494,6 +3554,7 @@
                 "completion": "0.00000013"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3506,6 +3567,7 @@
                 "completion": "0.00001"
             },
             "context_length": 256000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3519,10 +3581,8 @@
                 "web_search": "0.0275"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-4o-search-preview",
@@ -3535,10 +3595,8 @@
                 "web_search": "0.035"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "rekaai/reka-flash-3",
@@ -3550,6 +3608,7 @@
                 "completion": "0.0000002"
             },
             "context_length": 65536,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3562,6 +3621,7 @@
                 "completion": "0.00000016"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3575,6 +3635,7 @@
                 "input_cache_read": "0.00000025"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3588,6 +3649,7 @@
                 "web_search": "0.005"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3601,6 +3663,7 @@
                 "web_search": "0.005"
             },
             "context_length": 200000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3615,11 +3678,12 @@
                 "internal_reasoning": "0.000003"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "google/gemini-2.0-flash-lite-001",
-            "name": "Google: Gemini 2.0 Flash Lite",
+            "name": "Google: Gemini 2.0 Flash Lite (retires Jun 1)",
             "created": 1740506212,
             "description": "Gemini 2.0 Flash Lite offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5),...",
             "pricing": {
@@ -3630,6 +3694,7 @@
                 "internal_reasoning": "0.0000003"
             },
             "context_length": 1048576,
+            "expiration_date": "2026-06-01",
             "isFree": false
         },
         {
@@ -3643,6 +3708,7 @@
                 "input_cache_read": "0.00000002"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3655,6 +3721,7 @@
                 "completion": "0.00000003"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3669,14 +3736,12 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/gemini-2.0-flash-001",
-            "name": "Google: Gemini 2.0 Flash",
+            "name": "Google: Gemini 2.0 Flash (retires Jun 1)",
             "created": 1738769413,
             "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
             "pricing": {
@@ -3688,7 +3753,8 @@
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000004"
             },
-            "context_length": 1000000,
+            "context_length": 1048576,
+            "expiration_date": "2026-06-01",
             "isFree": false
         },
         {
@@ -3701,6 +3767,7 @@
                 "completion": "0.000008"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3713,6 +3780,7 @@
                 "completion": "0.0000014"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3725,6 +3793,7 @@
                 "completion": "0.0000016"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3737,6 +3806,7 @@
                 "completion": "0.00000075"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3751,6 +3821,7 @@
                 "input_cache_write": "0.000000325"
             },
             "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3765,10 +3836,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "mistralai/mistral-small-24b-instruct-2501",
@@ -3780,6 +3849,7 @@
                 "completion": "0.00000008"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3792,6 +3862,7 @@
                 "completion": "0.00000029"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3805,6 +3876,7 @@
                 "web_search": "0.005"
             },
             "context_length": 127072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3817,6 +3889,7 @@
                 "completion": "0.0000008"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3829,6 +3902,7 @@
                 "completion": "0.0000025"
             },
             "context_length": 163840,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3841,6 +3915,7 @@
                 "completion": "0.0000011"
             },
             "context_length": 1000192,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3853,6 +3928,7 @@
                 "completion": "0.00000014"
             },
             "context_length": 16384,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3865,6 +3941,7 @@
                 "completion": "0.000003"
             },
             "context_length": 16000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3873,10 +3950,11 @@
             "created": 1735241320,
             "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations...",
             "pricing": {
-                "prompt": "0.00000032",
-                "completion": "0.00000089"
+                "prompt": "0.0000002288",
+                "completion": "0.0000009144"
             },
-            "context_length": 163840,
+            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3889,11 +3967,12 @@
                 "completion": "0.00000075"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "openai/o1",
-            "name": "OpenAI: o1",
+            "name": "OpenAI: o1 ($$$$)",
             "created": 1734459999,
             "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason...",
             "pricing": {
@@ -3903,10 +3982,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "cohere/command-r7b-12-2024",
@@ -3918,6 +3995,7 @@
                 "completion": "0.00000015"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3930,6 +4008,7 @@
                 "completion": "0.00000032"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3942,6 +4021,7 @@
                 "completion": "0.00000024"
             },
             "context_length": 300000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3954,6 +4034,7 @@
                 "completion": "0.00000014"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3966,6 +4047,7 @@
                 "completion": "0.0000032"
             },
             "context_length": 300000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -3979,22 +4061,7 @@
                 "input_cache_read": "0.00000125"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "mistralai/mistral-large-2411",
-            "name": "Mistral Large 2411",
-            "created": 1731978685,
-            "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411) It provides a significant upgrade on the previous [Mistral Large 24.07](/mistralai/mistral-large-2407), with notable...",
-            "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000002"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4008,19 +4075,7 @@
                 "input_cache_read": "0.0000002"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "mistralai/pixtral-large-2411",
-            "name": "Mistral: Pixtral Large 2411",
-            "created": 1731977388,
-            "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images. The model is...",
-            "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000002"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4033,6 +4088,7 @@
                 "completion": "0.000001"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4045,6 +4101,7 @@
                 "completion": "0.0000004"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4060,10 +4117,8 @@
                 "web_search": "0.01"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "anthracite-org/magnum-v4-72b",
@@ -4075,6 +4130,7 @@
                 "completion": "0.000005"
             },
             "context_length": 32768,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4087,18 +4143,7 @@
                 "completion": "0.0000001"
             },
             "context_length": 131072,
-            "isFree": false
-        },
-        {
-            "id": "inflection/inflection-3-productivity",
-            "name": "Inflection: Inflection 3 Productivity",
-            "created": 1728604800,
-            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001"
-            },
-            "context_length": 8000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4111,6 +4156,20 @@
                 "completion": "0.00001"
             },
             "context_length": 8000,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "inflection/inflection-3-productivity",
+            "name": "Inflection: Inflection 3 Productivity",
+            "created": 1728604800,
+            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.00001"
+            },
+            "context_length": 8000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4123,18 +4182,7 @@
                 "completion": "0.00000043"
             },
             "context_length": 32768,
-            "isFree": false
-        },
-        {
-            "id": "meta-llama/llama-3.2-11b-vision-instruct",
-            "name": "Meta: Llama 3.2 11B Vision Instruct",
-            "created": 1727222400,
-            "description": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and...",
-            "pricing": {
-                "prompt": "0.000000245",
-                "completion": "0.000000245"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4147,6 +4195,20 @@
                 "completion": "0.000000201"
             },
             "context_length": 131072,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "meta-llama/llama-3.2-11b-vision-instruct",
+            "name": "Meta: Llama 3.2 11B Vision Instruct",
+            "created": 1727222400,
+            "description": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and...",
+            "pricing": {
+                "prompt": "0.000000245",
+                "completion": "0.000000245"
+            },
+            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4159,6 +4221,7 @@
                 "completion": "0.000000335"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4171,6 +4234,7 @@
                 "completion": "0.0000004"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4183,6 +4247,7 @@
                 "completion": "0.0000006"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4195,6 +4260,7 @@
                 "completion": "0.00001"
             },
             "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4207,6 +4273,7 @@
                 "completion": "0.00000085"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4219,6 +4286,7 @@
                 "completion": "0.0000003"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4231,6 +4299,7 @@
                 "completion": "0.000001"
             },
             "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4243,6 +4312,7 @@
                 "completion": "0.00000005"
             },
             "context_length": 8192,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4256,21 +4326,7 @@
                 "input_cache_read": "0.00000125"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "meta-llama/llama-3.1-70b-instruct",
-            "name": "Meta: Llama 3.1 70B Instruct",
-            "created": 1721692800,
-            "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases. It has demonstrated strong...",
-            "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.0000004"
-            },
-            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4283,6 +4339,20 @@
                 "completion": "0.00000005"
             },
             "context_length": 131072,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "meta-llama/llama-3.1-70b-instruct",
+            "name": "Meta: Llama 3.1 70B Instruct",
+            "created": 1721692800,
+            "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases. It has demonstrated strong...",
+            "pricing": {
+                "prompt": "0.0000004",
+                "completion": "0.0000004"
+            },
+            "context_length": 131072,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4291,10 +4361,26 @@
             "created": 1721347200,
             "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA. The model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese,...",
             "pricing": {
-                "prompt": "0.00000002",
-                "completion": "0.00000003"
+                "prompt": "0.00000015",
+                "completion": "0.00000015",
+                "input_cache_read": "0.000000015"
             },
             "context_length": 131072,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "openai/gpt-4o-mini",
+            "name": "OpenAI: GPT-4o-mini",
+            "created": 1721260800,
+            "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
+            "pricing": {
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
+                "input_cache_read": "0.000000075"
+            },
+            "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4308,26 +4394,8 @@
                 "input_cache_read": "0.000000075"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "openai/gpt-4o-mini",
-            "name": "OpenAI: GPT-4o-mini",
-            "created": 1721260800,
-            "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
-            "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.0000006",
-                "input_cache_read": "0.000000075"
-            },
-            "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "google/gemma-2-27b-it",
@@ -4339,11 +4407,12 @@
                 "completion": "0.00000065"
             },
             "context_length": 8192,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "sao10k/l3-euryale-70b",
-            "name": "Sao10k: Llama 3 Euryale 70B v2.1",
+            "name": "Sao10k: Llama 3 Euryale 70B v2.1 (retires Jun 5)",
             "created": 1718668800,
             "description": "Euryale 70B v2.1 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). - Better prompt adherence. - Better anatomy / spatial awareness. - Adapts much better to unique and custom...",
             "pricing": {
@@ -4351,11 +4420,12 @@
                 "completion": "0.00000148"
             },
             "context_length": 8192,
+            "expiration_date": "2026-06-05",
             "isFree": false
         },
         {
             "id": "nousresearch/hermes-2-pro-llama-3-8b",
-            "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
+            "name": "NousResearch: Hermes 2 Pro - Llama-3 8B (retires Jun 5)",
             "created": 1716768000,
             "description": "Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced...",
             "pricing": {
@@ -4363,6 +4433,7 @@
                 "completion": "0.00000014"
             },
             "context_length": 8192,
+            "expiration_date": "2026-06-05",
             "isFree": false
         },
         {
@@ -4375,10 +4446,8 @@
                 "completion": "0.00001"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-4o-2024-05-13",
@@ -4390,21 +4459,7 @@
                 "completion": "0.000015"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "meta-llama/llama-3-70b-instruct",
-            "name": "Meta: Llama 3 70B Instruct",
-            "created": 1713398400,
-            "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
-            "pricing": {
-                "prompt": "0.00000051",
-                "completion": "0.00000074"
-            },
-            "context_length": 8192,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4417,6 +4472,20 @@
                 "completion": "0.00000004"
             },
             "context_length": 8192,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "meta-llama/llama-3-70b-instruct",
+            "name": "Meta: Llama 3 70B Instruct",
+            "created": 1713398400,
+            "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
+            "pricing": {
+                "prompt": "0.00000051",
+                "completion": "0.00000074"
+            },
+            "context_length": 8192,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4430,6 +4499,7 @@
                 "input_cache_read": "0.0000002"
             },
             "context_length": 65536,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4442,11 +4512,12 @@
                 "completion": "0.00000062"
             },
             "context_length": 65536,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "openai/gpt-4-turbo",
-            "name": "OpenAI: GPT-4 Turbo",
+            "name": "OpenAI: GPT-4 Turbo ($$$$)",
             "created": 1712620800,
             "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023.",
             "pricing": {
@@ -4454,10 +4525,8 @@
                 "completion": "0.00003"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "anthropic/claude-3-haiku",
@@ -4471,10 +4540,8 @@
                 "input_cache_write": "0.0000003"
             },
             "context_length": 200000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "mistralai/mistral-large",
@@ -4487,6 +4554,20 @@
                 "input_cache_read": "0.0000002"
             },
             "context_length": 128000,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "openai/gpt-4-turbo-preview",
+            "name": "OpenAI: GPT-4 Turbo Preview ($$$$)",
+            "created": 1706140800,
+            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00003"
+            },
+            "context_length": 128000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4499,25 +4580,8 @@
                 "completion": "0.000002"
             },
             "context_length": 4095,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "openai/gpt-4-turbo-preview",
-            "name": "OpenAI: GPT-4 Turbo Preview",
-            "created": 1706140800,
-            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...",
-            "pricing": {
-                "prompt": "0.00001",
-                "completion": "0.00003"
-            },
-            "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openrouter/auto",
@@ -4529,11 +4593,12 @@
                 "completion": "-1"
             },
             "context_length": 2000000,
+            "expiration_date": null,
             "isFree": false
         },
         {
             "id": "openai/gpt-4-1106-preview",
-            "name": "OpenAI: GPT-4 Turbo (older v1106)",
+            "name": "OpenAI: GPT-4 Turbo (older v1106) ($$$$)",
             "created": 1699228800,
             "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to April 2023.",
             "pricing": {
@@ -4542,21 +4607,7 @@
                 "web_search": "0.01"
             },
             "context_length": 128000,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "mistralai/mistral-7b-instruct-v0.1",
-            "name": "Mistral: Mistral 7B Instruct v0.1",
-            "created": 1695859200,
-            "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
-            "pricing": {
-                "prompt": "0.00000011",
-                "completion": "0.00000019"
-            },
-            "context_length": 4096,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4569,10 +4620,8 @@
                 "completion": "0.000002"
             },
             "context_length": 4095,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "openai/gpt-3.5-turbo-16k",
@@ -4584,10 +4633,8 @@
                 "completion": "0.000004"
             },
             "context_length": 16385,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
             "id": "mancer/weaver",
@@ -4599,6 +4646,7 @@
                 "completion": "0.000001"
             },
             "context_length": 8000,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4611,6 +4659,7 @@
                 "completion": "0.00000065"
             },
             "context_length": 6144,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4623,6 +4672,33 @@
                 "completion": "0.00000006"
             },
             "context_length": 4096,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "openai/gpt-3.5-turbo",
+            "name": "OpenAI: GPT-3.5 Turbo",
+            "created": 1685232000,
+            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+            "pricing": {
+                "prompt": "0.0000005",
+                "completion": "0.0000015"
+            },
+            "context_length": 16385,
+            "expiration_date": null,
+            "isFree": false
+        },
+        {
+            "id": "openai/gpt-4",
+            "name": "OpenAI: GPT-4 ($$$$)",
+            "created": 1685232000,
+            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
+            "pricing": {
+                "prompt": "0.00003",
+                "completion": "0.00006"
+            },
+            "context_length": 8191,
+            "expiration_date": null,
             "isFree": false
         },
         {
@@ -4635,62 +4711,28 @@
                 "completion": "0.00006"
             },
             "context_length": 8191,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "expiration_date": null,
+            "isFree": false
         },
         {
-            "id": "openai/gpt-3.5-turbo",
-            "name": "OpenAI: GPT-3.5 Turbo",
-            "created": 1685232000,
-            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-            "pricing": {
-                "prompt": "0.0000005",
-                "completion": "0.0000015"
-            },
-            "context_length": 16385,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "openai/gpt-4",
-            "name": "OpenAI: GPT-4 ($$$$)",
-            "created": 1685232000,
-            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
-            "pricing": {
-                "prompt": "0.00003",
-                "completion": "0.00006"
-            },
-            "context_length": 8191,
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
-        },
-        {
-            "id": "x-ai/grok-code-fast-1:optimized:free",
-            "canonical_slug": "x-ai/grok-code-fast-1:optimized:free",
+            "id": "qwen/qwen3.7-max",
+            "canonical_slug": "qwen/qwen3.7-max",
             "hugging_face_id": "",
-            "name": "xAI: Grok Code Fast 1, retiring May 15 (free)",
+            "name": "Qwen: Qwen3.7 Max",
             "created": 1756238927,
-            "description": "An optimized variant of Grok Code Fast 1, provided free of charge for a limited time. Going away May 15, 2026. **Note:** All prompts and completions for this model are logged by the provider and may be used to improve their services.",
-            "context_length": 256000,
+            "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks, and long-horizon autonomous execution.",
+            "context_length": 1000000,
             "pricing": {
-                "prompt": "0.000000000000",
-                "completion": "0.000000000000",
+                "prompt": "0.000001625000",
+                "completion": "0.000004875000",
                 "request": "0",
                 "image": "0",
                 "web_search": "0",
                 "internal_reasoning": "0",
-                "input_cache_read": "0.000000000000"
+                "input_cache_read": "0.000000162500",
+                "input_cache_write": "0.000002031250"
             },
-            "isFree": true,
-            "openclaw": {
-                "api_adapter": "openai-responses"
-            }
+            "isFree": false
         },
         {
             "id": "qwen/qwen3.6-flash",
@@ -4752,27 +4794,42 @@
             "isFree": false
         },
         {
-            "id": "stealth/claude-opus-4.7",
-            "canonical_slug": "stealth/claude-opus-4.7",
+            "id": "deepseek/deepseek-v4-pro:discounted",
+            "canonical_slug": "deepseek/deepseek-v4-pro:discounted",
             "hugging_face_id": "",
-            "name": "Stealth: Claude Opus 4.7 (20% off)",
+            "name": "DeepSeek: DeepSeek V4 Pro (>80% off)",
             "created": 1756238927,
-            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.7 is offered at 20% lower cost than standard Claude Opus 4.7 pricing and is not served by Anthropic or Kilo Code.",
-            "context_length": 1000000,
+            "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
+            "context_length": 1048576,
             "pricing": {
-                "prompt": "0.000004000000",
-                "completion": "0.000020000000",
+                "prompt": "0.000000435000",
+                "completion": "0.000000870000",
                 "request": "0",
                 "image": "0",
                 "web_search": "0",
                 "internal_reasoning": "0",
-                "input_cache_read": "0.000000400000",
-                "input_cache_write": "0.000005000000"
+                "input_cache_read": "0.000000003625"
             },
-            "isFree": false,
-            "openclaw": {
-                "api_adapter": "anthropic-messages"
-            }
+            "isFree": false
+        },
+        {
+            "id": "deepseek/deepseek-v4-flash:discounted",
+            "canonical_slug": "deepseek/deepseek-v4-flash:discounted",
+            "hugging_face_id": "",
+            "name": "DeepSeek: DeepSeek V4 Flash (>40% off)",
+            "created": 1756238927,
+            "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
+            "context_length": 1048576,
+            "pricing": {
+                "prompt": "0.000000140000",
+                "completion": "0.000000280000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000002800"
+            },
+            "isFree": false
         },
         {
             "id": "kilo-auto/small",
