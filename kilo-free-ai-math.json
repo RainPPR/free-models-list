@@ -7,13 +7,6 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
-    "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
-    "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "NVIDIA: Nemotron 3 Super (Kilo)"
-  },
-  {
     "id": "e95fc0cb-3ce7-5503-a2f5-99bfd69160a3",
     "modelId": "poolside/laguna-m.1:free",
     "enableTools": true,
@@ -26,6 +19,20 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "StepFun: Step 3.7 Flash (Kilo)"
+  },
+  {
+    "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",
+    "modelId": "nvidia/nemotron-3.5-content-safety:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "NVIDIA: Nemotron 3.5 Content Safety (Kilo)"
+  },
+  {
+    "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)"
   },
   {
     "id": "3de9da4d-c9b8-5e79-a12f-6257ab2a7103",
@@ -47,6 +54,13 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Poolside: Laguna XS.2 (Kilo)"
+  },
+  {
+    "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
+    "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "NVIDIA: Nemotron 3 Super (Kilo)"
   },
   {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
