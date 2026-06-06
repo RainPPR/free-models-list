@@ -17,7 +17,6 @@ def main():
         "default_parameters",
         "preferredIndex",
         "per_request_limits",
-        "opencode",
         "versioned_settings"
     ]
 

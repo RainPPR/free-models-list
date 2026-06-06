@@ -16,6 +16,23 @@ def generate_model_uuid(model_id: str) -> str:
     return str(uuid.uuid5(NAMESPACE, model_id))
 
 
+def get_reasoning_effort(model: dict) -> str | None:
+    """获取推理努力级别，按照 max -> high -> medium -> low 优先级。"""
+    opencode = model.get("opencode", {})
+    variants = opencode.get("variants", {})
+
+    if not variants:
+        return None
+
+    # 按优先级顺序检查
+    priority_order = ["max", "high", "medium", "low"]
+    for effort in priority_order:
+        if effort in variants:
+            return effort
+
+    return None
+
+
 def generate_ai_math_config(models: list[dict]) -> list[dict]:
     """生成 AI Math 配置。"""
     result = []
@@ -30,13 +47,20 @@ def generate_ai_math_config(models: list[dict]) -> list[dict]:
         if name.endswith(" (free)"):
             name = name[:-7]
 
-        result.append({
+        config = {
             "id": generate_model_uuid(model_id),
             "modelId": model_id,
             "enableTools": True,  # Kilo 的所有模型都支持工具调用
             "disabledTools": [],
             "displayName": f"{name} (Kilo)",
-        })
+        }
+
+        # 添加 reasoningEffort 如果存在 variants
+        reasoning_effort = get_reasoning_effort(model)
+        if reasoning_effort:
+            config["reasoningEffort"] = reasoning_effort
+
+        result.append(config)
 
     return result
 
