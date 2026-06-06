@@ -18,7 +18,8 @@
     "modelId": "stepfun/step-3.7-flash:free",
     "enableTools": true,
     "disabledTools": [],
-    "displayName": "StepFun: Step 3.7 Flash (Kilo)"
+    "displayName": "StepFun: Step 3.7 Flash (Kilo)",
+    "reasoningEffort": "high"
   },
   {
     "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",

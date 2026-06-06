@@ -4,7 +4,8 @@
         "name": "Auto Free",
         "created": 0,
         "description": "Rotates through available free models. Limited capability and no credits required. [Learn more](https://kilo.ai/docs/code-with-ai/agents/auto-model)\n\n**Warning** Prompts may be logged by the upstream provider and used to improve their services. Not suitable for production or sensitive data workloads.\n\n**In particular** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
-        "context_length": 256000
+        "context_length": 256000,
+        "opencode": {}
     },
     {
         "id": "poolside/laguna-m.1:free",
@@ -12,7 +13,8 @@
         "created": 1777388504,
         "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
         "context_length": 262144,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "stepfun/step-3.7-flash:free",
@@ -21,7 +23,29 @@
         "name": "StepFun: Step 3.7 Flash (free)",
         "created": 1756238927,
         "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters per token. The model supports a 256K context window and exposes selectable reasoning levels (high/medium/low), letting callers trade off speed, cost, and depth of reasoning.\n\nDesigned for coding, agentic workflows, structured outputs, and long-context productivity tasks.",
-        "context_length": 262144
+        "context_length": 262144,
+        "opencode": {
+            "variants": {
+                "low": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "low"
+                    }
+                },
+                "medium": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "medium"
+                    }
+                },
+                "high": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -29,7 +53,8 @@
         "created": 1780581864,
         "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...\n\n**Terms of service** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
         "context_length": 128000,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -37,7 +62,8 @@
         "created": 1780551208,
         "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...\n\n**Terms of service** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
         "context_length": 1000000,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "openrouter/owl-alpha",
@@ -45,7 +71,8 @@
         "created": 1777398589,
         "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
         "context_length": 1048756,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -53,7 +80,8 @@
         "created": 1777393095,
         "description": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and...\n\n**Terms of service** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
         "context_length": 256000,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "poolside/laguna-xs.2:free",
@@ -61,7 +89,8 @@
         "created": 1777389604,
         "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
         "context_length": 262144,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -69,7 +98,8 @@
         "created": 1773245239,
         "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...\n\n**Terms of service** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
         "context_length": 1000000,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "openrouter/free",
@@ -77,6 +107,7 @@
         "created": 1769917427,
         "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
         "context_length": 200000,
-        "expiration_date": null
+        "expiration_date": null,
+        "opencode": {}
     }
 ]
