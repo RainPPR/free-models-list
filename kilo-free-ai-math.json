@@ -1,0 +1,58 @@
+[
+  {
+    "id": "07c6c650-b7eb-529e-833e-f64c31733caf",
+    "modelId": "kilo-auto/free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Auto Free (Kilo)"
+  },
+  {
+    "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
+    "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "NVIDIA: Nemotron 3 Super (Kilo)"
+  },
+  {
+    "id": "e95fc0cb-3ce7-5503-a2f5-99bfd69160a3",
+    "modelId": "poolside/laguna-m.1:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Poolside: Laguna M.1 (Kilo)"
+  },
+  {
+    "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
+    "modelId": "stepfun/step-3.7-flash:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "StepFun: Step 3.7 Flash (Kilo)"
+  },
+  {
+    "id": "3de9da4d-c9b8-5e79-a12f-6257ab2a7103",
+    "modelId": "openrouter/owl-alpha",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Owl Alpha (Kilo)"
+  },
+  {
+    "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
+    "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
+  },
+  {
+    "id": "487fc175-cccb-5edd-ad91-21d3cc13bf20",
+    "modelId": "poolside/laguna-xs.2:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Poolside: Laguna XS.2 (Kilo)"
+  },
+  {
+    "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
+    "modelId": "openrouter/free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Free Models Router (Kilo)"
+  }
+]
