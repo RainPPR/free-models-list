@@ -5302,21 +5302,6 @@
             "opencode": {}
         },
         {
-            "id": "baidu/ernie-4.5-vl-28b-a3b",
-            "name": "Baidu: ERNIE 4.5 VL 28B A3B",
-            "created": 1755032836,
-            "description": "A powerful multimodal Mixture-of-Experts chat model featuring 28B total parameters with 3B activated per token, delivering exceptional text and vision understanding through its innovative heterogeneous MoE structure with modality-isolated routing....",
-            "pricing": {
-                "prompt": "0.00000014",
-                "completion": "0.00000056",
-                "discount": 0
-            },
-            "context_length": 131072,
-            "expiration_date": null,
-            "isFree": false,
-            "opencode": {}
-        },
-        {
             "id": "z-ai/glm-4.5v",
             "name": "Z.ai: GLM 4.5V",
             "created": 1754922288,
@@ -6305,21 +6290,6 @@
                 "discount": 0
             },
             "context_length": 1048576,
-            "expiration_date": null,
-            "isFree": false,
-            "opencode": {}
-        },
-        {
-            "id": "arcee-ai/spotlight",
-            "name": "Arcee AI: Spotlight",
-            "created": 1746481552,
-            "description": "Spotlight is a 7‑billion‑parameter vision‑language model derived from Qwen 2.5‑VL and fine‑tuned by Arcee AI for tight image‑text grounding tasks. It offers a 32 k‑token context window, enabling rich multimodal...",
-            "pricing": {
-                "prompt": "0.00000018",
-                "completion": "0.00000018",
-                "discount": 0
-            },
-            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "opencode": {}
@@ -8343,16 +8313,16 @@
         },
         {
             "id": "meta-llama/llama-3-8b-instruct",
-            "name": "Meta: Llama 3 8B Instruct (retires Jun 19)",
+            "name": "Meta: Llama 3 8B Instruct",
             "created": 1713398400,
             "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
             "pricing": {
-                "prompt": "0.00000004",
-                "completion": "0.00000004",
+                "prompt": "0.00000014",
+                "completion": "0.00000014",
                 "discount": 0
             },
             "context_length": 8192,
-            "expiration_date": "2026-06-19",
+            "expiration_date": null,
             "isFree": false,
             "opencode": {}
         },
@@ -8633,56 +8603,6 @@
             "expiration_date": null,
             "isFree": false,
             "opencode": {}
-        },
-        {
-            "id": "openai/gpt-4-1106-preview",
-            "name": "OpenAI: GPT-4 Turbo (older v1106) ($$$$)",
-            "created": 1699228800,
-            "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to April 2023.",
-            "pricing": {
-                "prompt": "0.00001",
-                "completion": "0.00003",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 128000,
-            "expiration_date": null,
-            "isFree": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        }
-                    }
-                }
-            }
         },
         {
             "id": "openai/gpt-3.5-turbo-instruct",
