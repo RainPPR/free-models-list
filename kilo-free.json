@@ -14,6 +14,10 @@
         "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
         "context_length": 262144,
         "expiration_date": null,
+        "terminalBench": {
+            "overallScore": 0.25393258,
+            "avgAttemptCostUsd": 0
+        },
         "opencode": {}
     },
     {
@@ -46,6 +50,15 @@
                 }
             }
         }
+    },
+    {
+        "id": "nex-agi/nex-n2-pro:free",
+        "name": "Nex AGI: Nex-N2-Pro (free)",
+        "created": 1780937140,
+        "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
+        "context_length": 262144,
+        "expiration_date": null,
+        "opencode": {}
     },
     {
         "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -99,6 +112,10 @@
         "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...\n\n**Terms of service** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
         "context_length": 1000000,
         "expiration_date": null,
+        "terminalBench": {
+            "overallScore": 0.15505618,
+            "avgAttemptCostUsd": 0
+        },
         "opencode": {}
     },
     {
