@@ -138,6 +138,10 @@
             },
             "context_length": 1000000,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.67640449,
+                "avgAttemptCostUsd": 85.194714
+            },
             "isFree": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
@@ -545,6 +549,10 @@
             },
             "context_length": 1050000,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.74157303,
+                "avgAttemptCostUsd": 72.62918640000001
+            },
             "isFree": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
@@ -648,7 +656,22 @@
                 "avgAttemptCostUsd": 10.350343800000001
             },
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "qwen/qwen3.7-plus",
@@ -729,7 +752,7 @@
             "created": 1775578025,
             "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
             "pricing": {
-                "prompt": "0.00000138",
+                "prompt": "0.0000014",
                 "completion": "0.0000044",
                 "input_cache_read": "0.00000026",
                 "discount": 0
@@ -754,6 +777,117 @@
                             "enabled": true,
                             "effort": "high"
                         }
+                    }
+                }
+            }
+        },
+        {
+            "id": "~anthropic/claude-fable-latest",
+            "name": "Anthropic: Claude Fable Latest ($$$$)",
+            "created": 1781029944,
+            "description": "This model always redirects to the latest model in the Claude Fable family.",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00005",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "anthropic/claude-fable-5",
+            "name": "Anthropic: Claude Fable 5 ($$$$)",
+            "created": 1781007515,
+            "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00005",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
                     }
                 }
             }
@@ -958,6 +1092,10 @@
             },
             "context_length": 1048576,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.64719101,
+                "avgAttemptCostUsd": 104.4912192
+            },
             "isFree": false,
             "opencode": {
                 "variants": {
@@ -1791,6 +1929,10 @@
             },
             "context_length": 1048576,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.44044944,
+                "avgAttemptCostUsd": 15.908566
+            },
             "isFree": false,
             "opencode": {
                 "variants": {
@@ -2098,6 +2240,10 @@
             },
             "context_length": 1000000,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.7011236,
+                "avgAttemptCostUsd": 100.5076156
+            },
             "isFree": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
@@ -2293,36 +2439,6 @@
             }
         },
         {
-            "id": "z-ai/glm-5v-turbo",
-            "name": "Z.ai: GLM 5V Turbo",
-            "created": 1775061458,
-            "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
-            "pricing": {
-                "prompt": "0.0000012",
-                "completion": "0.000004",
-                "input_cache_read": "0.00000024"
-            },
-            "context_length": 202752,
-            "expiration_date": null,
-            "isFree": false,
-            "opencode": {
-                "variants": {
-                    "instant": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "arcee-ai/trinity-large-thinking",
             "name": "Arcee AI: Trinity Large Thinking",
             "created": 1775058318,
@@ -2479,7 +2595,22 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "openai/gpt-5.4-nano",
@@ -2609,7 +2740,7 @@
                 "completion": "0.000004",
                 "input_cache_read": "0.00000024"
             },
-            "context_length": 202752,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "opencode": {
@@ -3318,7 +3449,22 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "z-ai/glm-5",
@@ -3328,7 +3474,7 @@
             "pricing": {
                 "prompt": "0.000001",
                 "completion": "0.0000032",
-                "input_cache_read": "0.0000002",
+                "input_cache_read": "0.0000005",
                 "discount": 0
             },
             "context_length": 202752,
@@ -3576,7 +3722,22 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "writer/palmyra-x5",
@@ -3697,10 +3858,9 @@
             "created": 1768833913,
             "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,...",
             "pricing": {
-                "prompt": "0.00000007",
+                "prompt": "0.00000006",
                 "completion": "0.0000004",
-                "input_cache_read": "0.00000001",
-                "discount": 0
+                "input_cache_read": "0.00000001"
             },
             "context_length": 202752,
             "expiration_date": null,
@@ -3811,7 +3971,22 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "z-ai/glm-4.7",
@@ -3819,9 +3994,9 @@
             "created": 1766378014,
             "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
             "pricing": {
-                "prompt": "0.000000600000",
-                "completion": "0.000002200000",
-                "input_cache_read": "0.000000110000"
+                "prompt": "0.0000004",
+                "completion": "0.00000175",
+                "input_cache_read": "0.00000008"
             },
             "context_length": 202752,
             "expiration_date": null,
@@ -4127,8 +4302,7 @@
             "pricing": {
                 "prompt": "0.0000003",
                 "completion": "0.0000009",
-                "input_cache_read": "0.000000055",
-                "discount": 0
+                "input_cache_read": "0.000000055"
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -4801,7 +4975,22 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "qwen/qwen3-vl-32b-instruct",
@@ -5330,10 +5519,9 @@
             "created": 1759235576,
             "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex...",
             "pricing": {
-                "prompt": "0.00000055",
-                "completion": "0.0000022",
-                "input_cache_read": "0.00000011",
-                "discount": 0
+                "prompt": "0.00000043",
+                "completion": "0.00000174",
+                "input_cache_read": "0.00000008"
             },
             "context_length": 202752,
             "expiration_date": null,
@@ -6010,8 +6198,7 @@
             "pricing": {
                 "prompt": "0.0000006",
                 "completion": "0.0000018",
-                "input_cache_read": "0.00000011",
-                "discount": 0
+                "input_cache_read": "0.00000011"
             },
             "context_length": 65536,
             "expiration_date": null,
@@ -6420,8 +6607,7 @@
             "pricing": {
                 "prompt": "0.0000006",
                 "completion": "0.0000022",
-                "input_cache_read": "0.00000011",
-                "discount": 0
+                "input_cache_read": "0.00000011"
             },
             "context_length": 131072,
             "expiration_date": "2026-06-19",
@@ -6449,10 +6635,9 @@
             "created": 1753471258,
             "description": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter...",
             "pricing": {
-                "prompt": "0.00000013",
+                "prompt": "0.000000125",
                 "completion": "0.00000085",
-                "input_cache_read": "0.000000025",
-                "discount": 0
+                "input_cache_read": "0.00000006"
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -6484,35 +6669,6 @@
                 "completion": "0.000002300000"
             },
             "context_length": 262144,
-            "expiration_date": null,
-            "isFree": false,
-            "opencode": {
-                "variants": {
-                    "instant": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "z-ai/glm-4-32b",
-            "name": "Z.ai: GLM 4 32B ",
-            "created": 1753376617,
-            "description": "GLM 4 32B is a cost-effective foundation language model. It can efficiently perform complex tasks and has significantly enhanced capabilities in tool use, online search, and code-related intelligent tasks. It...",
-            "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000001"
-            },
-            "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
             "opencode": {
@@ -6760,7 +6916,22 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "google/gemini-2.5-flash",
@@ -7081,21 +7252,6 @@
                 "discount": 0
             },
             "context_length": 1048576,
-            "expiration_date": null,
-            "isFree": false,
-            "opencode": {}
-        },
-        {
-            "id": "arcee-ai/maestro-reasoning",
-            "name": "Arcee AI: Maestro Reasoning",
-            "created": 1746481269,
-            "description": "Maestro Reasoning is Arcee's flagship analysis model: a 32 B‑parameter derivative of Qwen 2.5‑32 B tuned with DPO and chain‑of‑thought RL for step‑by‑step logic. Compared to the earlier 7 B...",
-            "pricing": {
-                "prompt": "0.0000009",
-                "completion": "0.0000033",
-                "discount": 0
-            },
-            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "opencode": {}
@@ -8391,7 +8547,22 @@
             "context_length": 1000192,
             "expiration_date": null,
             "isFree": false,
-            "opencode": {}
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "microsoft/phi-4",
@@ -9462,6 +9633,7 @@
                 "completion": "0.00000125",
                 "input_cache_read": "0.00000003",
                 "input_cache_write": "0.0000003",
+                "web_search": "0.01",
                 "discount": 0
             },
             "context_length": 200000,
