@@ -21,7 +21,8 @@
                 "family": "claude",
                 "prompt": "anthropic"
             },
-            "isFree": false
+            "isFree": false,
+            "mayTrainOnYourPrompts": false
         },
         {
             "id": "kilo-auto/balanced",
@@ -42,7 +43,8 @@
             "opencode": {
                 "ai_sdk_provider": "alibaba"
             },
-            "isFree": false
+            "isFree": false,
+            "mayTrainOnYourPrompts": false
         },
         {
             "id": "kilo-auto/free",
@@ -61,7 +63,8 @@
             },
             "context_length": 256000,
             "opencode": {},
-            "isFree": true
+            "isFree": true,
+            "mayTrainOnYourPrompts": true
         },
         {
             "id": "poolside/laguna-m.1:free",
@@ -80,6 +83,7 @@
                 "avgAttemptCostUsd": 0
             },
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -100,6 +104,7 @@
                 "input_cache_read": "0.000000000000"
             },
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "variants": {
                     "low": {
@@ -143,6 +148,7 @@
                 "avgAttemptCostUsd": 85.194714
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -209,6 +215,7 @@
                 "input_cache_write": "0.000005000000"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -275,6 +282,7 @@
                 "input_cache_write": "0.000005000000"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -341,6 +349,7 @@
                 "input_cache_write": "0.000003000000"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -400,6 +409,7 @@
                 "input_cache_write": "0.000005000000"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -430,6 +440,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -458,6 +475,7 @@
                 "avgAttemptCostUsd": 24.844050600000003
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -495,6 +513,7 @@
                 "avgAttemptCostUsd": 53.374126600000004
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -554,6 +573,7 @@
                 "avgAttemptCostUsd": 72.62918640000001
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -609,6 +629,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -656,6 +677,7 @@
                 "avgAttemptCostUsd": 10.350343800000001
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -692,6 +714,7 @@
                 "input_cache_write": "0.000000400000"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "alibaba",
                 "variants": {
@@ -729,6 +752,7 @@
                 "input_cache_write": "0.000000312500"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -764,6 +788,7 @@
                 "avgAttemptCostUsd": 23.9824468
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -796,6 +821,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -825,6 +851,13 @@
                             "effort": "high"
                         },
                         "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
                     },
                     "max": {
                         "reasoning": {
@@ -852,6 +885,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -882,6 +916,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -905,6 +946,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -920,6 +962,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -935,6 +978,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -951,6 +995,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -967,6 +1012,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -1005,6 +1051,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -1071,6 +1118,7 @@
                 "avgAttemptCostUsd": 30.701289600000003
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai"
             }
@@ -1097,6 +1145,7 @@
                 "avgAttemptCostUsd": 104.4912192
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -1141,6 +1190,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -1200,6 +1250,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -1215,6 +1266,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -1230,6 +1282,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -1250,6 +1303,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -1294,6 +1348,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -1345,6 +1400,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai"
             }
@@ -1363,6 +1419,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -1378,6 +1435,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -1408,6 +1466,7 @@
             "context_length": 1048756,
             "expiration_date": null,
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -1423,6 +1482,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -1438,6 +1498,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -1455,6 +1516,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -1509,6 +1571,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -1562,6 +1625,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -1577,6 +1641,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -1611,6 +1676,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -1628,6 +1694,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -1682,6 +1749,7 @@
             "context_length": 1050000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -1731,6 +1799,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -1761,6 +1830,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -1790,6 +1860,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -1820,6 +1891,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -1849,6 +1921,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -1880,6 +1953,7 @@
             "context_length": 1050000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -1934,6 +2008,7 @@
                 "avgAttemptCostUsd": 15.908566
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -1970,6 +2045,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -2006,6 +2082,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2022,6 +2099,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2042,6 +2120,7 @@
                 "avgAttemptCostUsd": 4.9236556
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2073,6 +2152,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2105,6 +2185,7 @@
             "context_length": 272000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -2154,6 +2235,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2171,6 +2253,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -2201,6 +2284,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -2223,6 +2313,7 @@
             "context_length": 2000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2245,6 +2336,7 @@
                 "avgAttemptCostUsd": 100.5076156
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -2307,6 +2399,7 @@
             "context_length": 1000000,
             "expiration_date": "2026-06-29",
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -2337,6 +2430,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -2360,6 +2460,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2391,6 +2492,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2421,6 +2523,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2452,6 +2555,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2469,6 +2573,7 @@
             "context_length": 2000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -2502,6 +2607,7 @@
             "context_length": 2000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -2533,6 +2639,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2548,6 +2655,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2564,6 +2672,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2579,6 +2688,7 @@
             "context_length": 16384,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2595,6 +2705,7 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2627,6 +2738,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -2678,6 +2790,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -2728,6 +2841,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2743,6 +2857,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2777,6 +2892,7 @@
                 "avgAttemptCostUsd": 0
             },
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -2792,6 +2908,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2807,6 +2924,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -2821,6 +2939,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2852,6 +2971,7 @@
             "context_length": 1050000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -2903,6 +3023,7 @@
             "context_length": 1050000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -2953,6 +3074,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -2997,6 +3119,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -3051,6 +3174,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -3093,6 +3217,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -3109,6 +3234,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -3150,6 +3276,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3179,6 +3306,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3208,6 +3336,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3237,6 +3366,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3267,6 +3397,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -3287,6 +3418,7 @@
             "context_length": 1048756,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -3331,6 +3463,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -3375,6 +3508,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -3389,6 +3523,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3418,6 +3553,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3449,6 +3585,7 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3480,6 +3617,7 @@
             "context_length": 202752,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3509,6 +3647,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3542,6 +3681,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -3572,6 +3712,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -3595,6 +3742,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3624,6 +3772,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": true,
+            "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
@@ -3639,6 +3788,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -3675,6 +3825,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3706,6 +3857,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -3722,6 +3874,7 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3752,6 +3905,7 @@
             "context_length": 1040000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -3767,6 +3921,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -3816,6 +3971,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -3865,6 +4021,7 @@
             "context_length": 202752,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -3897,6 +4054,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -3940,6 +4098,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -3955,6 +4114,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -3971,6 +4131,7 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -4001,6 +4162,7 @@
             "context_length": 202752,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -4036,6 +4198,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -4079,6 +4242,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -4109,6 +4273,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4126,6 +4291,7 @@
             "context_length": 128000,
             "expiration_date": "2026-08-10",
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4176,6 +4342,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4227,6 +4394,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4277,6 +4445,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4292,6 +4461,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4307,6 +4477,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -4337,6 +4508,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4351,6 +4523,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4368,6 +4541,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4411,6 +4585,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4427,6 +4602,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4443,6 +4619,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4459,6 +4636,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4475,6 +4653,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4490,6 +4669,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4506,6 +4686,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -4542,6 +4723,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4560,6 +4742,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -4590,6 +4773,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -4612,6 +4802,7 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4632,6 +4823,7 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "low": {
@@ -4674,6 +4866,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4691,6 +4884,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4742,6 +4936,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4793,6 +4988,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4838,6 +5034,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -4882,6 +5079,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -4913,6 +5111,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4929,6 +5128,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4945,6 +5145,7 @@
             "context_length": 32000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4961,6 +5162,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -4975,6 +5177,7 @@
             "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5004,6 +5207,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5034,6 +5238,7 @@
             "context_length": 131000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -5050,6 +5255,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -5067,6 +5273,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -5119,6 +5326,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -5171,6 +5379,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5200,6 +5409,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5232,6 +5442,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -5283,6 +5494,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -5334,6 +5546,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -5383,6 +5596,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -5403,6 +5617,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -5417,6 +5632,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5446,6 +5662,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5477,6 +5694,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -5526,6 +5744,7 @@
             "context_length": 202752,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5559,6 +5778,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -5611,6 +5831,7 @@
             "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -5648,6 +5869,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -5663,6 +5885,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -5683,6 +5906,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -5697,6 +5921,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5726,6 +5951,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5757,6 +5983,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5788,6 +6015,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5820,6 +6048,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -5863,6 +6092,7 @@
             "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -5900,6 +6130,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5929,6 +6160,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5958,6 +6190,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -5988,6 +6221,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6017,6 +6251,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6047,6 +6282,7 @@
             "context_length": 131072,
             "expiration_date": "2026-06-11",
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6062,6 +6298,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6091,6 +6328,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6121,6 +6359,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6136,6 +6375,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6151,6 +6391,7 @@
             "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -6188,6 +6429,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6203,6 +6445,7 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6233,6 +6476,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6250,6 +6494,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -6301,6 +6546,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -6352,6 +6598,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -6403,6 +6650,7 @@
             "context_length": 400000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -6452,6 +6700,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6467,6 +6716,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6485,6 +6735,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -6515,6 +6766,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -6539,6 +6797,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6553,6 +6812,7 @@
             "context_length": 160000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6582,6 +6842,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6612,6 +6873,7 @@
             "context_length": 131072,
             "expiration_date": "2026-06-19",
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6642,6 +6904,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6671,6 +6934,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6700,6 +6964,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6731,6 +6996,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6751,6 +7017,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6765,6 +7032,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6795,6 +7063,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6810,6 +7079,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6840,6 +7110,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6855,6 +7126,7 @@
             "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6870,6 +7142,7 @@
             "context_length": 81920,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6885,6 +7158,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6901,6 +7175,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6916,6 +7191,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -6951,6 +7227,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6971,6 +7248,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -6987,6 +7265,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7041,6 +7320,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7056,6 +7336,7 @@
             "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -7094,6 +7375,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -7124,6 +7406,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -7150,6 +7439,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -7203,6 +7493,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7234,6 +7525,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7254,6 +7546,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7269,6 +7562,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7284,6 +7578,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7299,6 +7594,7 @@
             "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7313,6 +7609,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7342,6 +7639,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7371,6 +7669,7 @@
             "context_length": 131702,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7400,6 +7699,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7429,6 +7729,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7461,6 +7762,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7512,6 +7814,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7563,6 +7866,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7614,6 +7918,7 @@
             "context_length": 1047576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7665,6 +7970,7 @@
             "context_length": 1047576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7716,6 +8022,7 @@
             "context_length": 1047576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7765,6 +8072,7 @@
             "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7780,6 +8088,7 @@
             "context_length": 10000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7792,9 +8101,10 @@
                 "completion": "0.00000077",
                 "input_cache_read": "0.000000135"
             },
-            "context_length": 163840,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -7832,6 +8142,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -7880,6 +8191,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7895,6 +8207,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7925,6 +8238,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -7955,6 +8269,7 @@
             "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -7971,6 +8286,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -8021,6 +8337,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -8070,6 +8387,7 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8085,6 +8403,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -8116,6 +8435,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8132,6 +8452,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8148,6 +8469,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8165,6 +8487,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8181,6 +8504,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8196,6 +8520,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8213,6 +8538,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -8262,6 +8588,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8277,6 +8604,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8292,6 +8620,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8306,6 +8635,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -8337,6 +8667,7 @@
             "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -8369,6 +8700,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -8417,6 +8749,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8431,6 +8764,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -8462,6 +8796,7 @@
             "context_length": 127072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8476,6 +8811,7 @@
             "context_length": 131072,
             "expiration_date": "2026-06-11",
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -8511,6 +8847,7 @@
             "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -8547,6 +8884,7 @@
             "context_length": 1000192,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -8577,6 +8915,7 @@
             "context_length": 16384,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8592,6 +8931,7 @@
             "context_length": 16000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8606,6 +8946,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "none": {
@@ -8642,6 +8983,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8659,6 +9001,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -8708,6 +9051,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8723,6 +9067,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8738,6 +9083,7 @@
             "context_length": 300000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8753,6 +9099,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8768,6 +9115,7 @@
             "context_length": 300000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8784,6 +9132,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -8834,6 +9183,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8848,6 +9198,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -8878,6 +9229,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8896,6 +9248,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -8949,6 +9302,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -8963,6 +9317,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -8993,6 +9348,7 @@
             "context_length": 8000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9008,6 +9364,7 @@
             "context_length": 8000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9023,6 +9380,7 @@
             "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9038,6 +9396,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9053,6 +9412,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9068,6 +9428,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9082,6 +9443,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -9112,6 +9474,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9127,6 +9490,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9142,6 +9506,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9157,6 +9522,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9172,6 +9538,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9187,6 +9554,7 @@
             "context_length": 8192,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9203,6 +9571,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9252,6 +9621,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9267,6 +9637,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9283,6 +9654,7 @@
             "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9299,6 +9671,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9349,6 +9722,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9398,6 +9772,7 @@
             "context_length": 8192,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -9428,6 +9803,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9477,6 +9853,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9526,6 +9903,7 @@
             "context_length": 8192,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9541,6 +9919,7 @@
             "context_length": 8192,
             "expiration_date": "2026-06-19",
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9557,6 +9936,7 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9572,6 +9952,7 @@
             "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9587,6 +9968,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9639,6 +10021,7 @@
             "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -9693,6 +10076,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9708,6 +10092,7 @@
             "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9757,6 +10142,7 @@
             "context_length": 4095,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9805,6 +10191,7 @@
             "context_length": 2000000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9820,6 +10207,7 @@
             "context_length": 4095,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9869,6 +10257,7 @@
             "context_length": 16385,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -9918,6 +10307,7 @@
             "context_length": 8000,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9933,6 +10323,7 @@
             "context_length": 6144,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9948,6 +10339,7 @@
             "context_length": 4096,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {}
         },
         {
@@ -9963,6 +10355,7 @@
             "context_length": 8191,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -10012,6 +10405,7 @@
             "context_length": 16385,
             "expiration_date": null,
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -10067,6 +10461,7 @@
                 "input_cache_write": "0.000001562500"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "alibaba",
                 "variants": {
@@ -10103,6 +10498,7 @@
                 "input_cache_read": "0.000000003625"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "variants": {
                     "none": {
@@ -10144,6 +10540,7 @@
                 "input_cache_read": "0.000000002800"
             },
             "isFree": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "variants": {
                     "none": {
@@ -10183,7 +10580,8 @@
             },
             "context_length": 262144,
             "opencode": {},
-            "isFree": false
+            "isFree": false,
+            "mayTrainOnYourPrompts": false
         }
     ]
 }
