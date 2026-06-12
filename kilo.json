@@ -40,9 +40,7 @@
                 "internal_reasoning": "0"
             },
             "context_length": 1000000,
-            "opencode": {
-                "ai_sdk_provider": "alibaba"
-            },
+            "opencode": {},
             "isFree": false,
             "mayTrainOnYourPrompts": false
         },
@@ -82,6 +80,22 @@
                 "overallScore": 0.25393258,
                 "avgAttemptCostUsd": 0
             },
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {}
+        },
+        {
+            "id": "nex-agi/nex-n2-pro:free",
+            "name": "Nex AGI: Nex-N2-Pro (free)",
+            "created": 1780937140,
+            "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0",
+                "discount": 0
+            },
+            "context_length": 262144,
+            "expiration_date": null,
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {}
@@ -697,26 +711,20 @@
         },
         {
             "id": "qwen/qwen3.7-plus",
-            "canonical_slug": "qwen/qwen3.7-plus",
-            "hugging_face_id": "",
-            "name": "Qwen: Qwen3.7 Plus",
-            "created": 1756238927,
-            "description": "Qwen3.7-Plus is Alibaba's native multimodal agent model for visual-language reasoning, agentic coding, tool use, and productivity workflows. It supports text, image, and video inputs. Note: a surcharge applies to long-context workloads exceeding 256K input tokens.",
-            "context_length": 1000000,
+            "name": "Qwen: Qwen3.7 Plus (20% off)",
+            "created": 1780491783,
+            "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
             "pricing": {
                 "prompt": "0.000000320000",
                 "completion": "0.000001280000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
                 "input_cache_read": "0.000000032000",
                 "input_cache_write": "0.000000400000"
             },
+            "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
-                "ai_sdk_provider": "alibaba",
                 "variants": {
                     "instant": {
                         "reasoning": {
@@ -934,22 +942,6 @@
             }
         },
         {
-            "id": "nex-agi/nex-n2-pro:free",
-            "name": "Nex AGI: Nex-N2-Pro (free)",
-            "created": 1780937140,
-            "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0",
-                "discount": 0
-            },
-            "context_length": 262144,
-            "expiration_date": null,
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {}
-        },
-        {
             "id": "nvidia/nemotron-3.5-content-safety:free",
             "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
             "created": 1780581864,
@@ -1095,6 +1087,38 @@
                             "effort": "xhigh"
                         },
                         "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "qwen/qwen3.7-max",
+            "name": "Qwen: Qwen3.7 Max (50% off)",
+            "created": 1779376861,
+            "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,...",
+            "pricing": {
+                "prompt": "0.000001250000",
+                "completion": "0.000003750000",
+                "input_cache_read": "0.000000125000",
+                "input_cache_write": "0.000001562500"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
                     }
                 }
             }
@@ -1634,9 +1658,9 @@
             "created": 1777318428,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.00000068",
-                "completion": "0.00000341",
-                "input_cache_read": "0.00000034"
+                "prompt": "0.00000067",
+                "completion": "0.00000339",
+                "input_cache_read": "0.00000014"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -1854,8 +1878,9 @@
             "created": 1777260255,
             "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
             "pricing": {
-                "prompt": "0.00000014",
-                "completion": "0.000001"
+                "prompt": "0.00000015",
+                "completion": "0.000001",
+                "input_cache_read": "0.00000005"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -2485,7 +2510,7 @@
             "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
             "pricing": {
                 "prompt": "0.00000012",
-                "completion": "0.00000036",
+                "completion": "0.00000035",
                 "input_cache_read": "0.00000009",
                 "discount": 0
             },
@@ -6270,22 +6295,6 @@
             }
         },
         {
-            "id": "nvidia/nemotron-nano-9b-v2",
-            "name": "NVIDIA: Nemotron Nano 9B V2 (retires Jun 11)",
-            "created": 1757106807,
-            "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and...",
-            "pricing": {
-                "prompt": "0.00000004",
-                "completion": "0.00000016",
-                "discount": 0
-            },
-            "context_length": 131072,
-            "expiration_date": "2026-06-11",
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
             "id": "moonshotai/kimi-k2-0905",
             "name": "MoonshotAI: Kimi K2 0905",
             "created": 1757021147,
@@ -8101,7 +8110,7 @@
                 "completion": "0.00000077",
                 "input_cache_read": "0.000000135"
             },
-            "context_length": 131072,
+            "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -8629,8 +8638,9 @@
             "created": 1738410311,
             "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
             "pricing": {
-                "prompt": "0.00000025",
-                "completion": "0.00000075"
+                "prompt": "0.0000008",
+                "completion": "0.000001",
+                "input_cache_read": "0.0000004"
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -8801,15 +8811,15 @@
         },
         {
             "id": "deepseek/deepseek-r1-distill-llama-70b",
-            "name": "DeepSeek: R1 Distill Llama 70B (retires Jun 11)",
+            "name": "DeepSeek: R1 Distill Llama 70B",
             "created": 1737663169,
             "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across...",
             "pricing": {
-                "prompt": "0.0000007",
+                "prompt": "0.0000008",
                 "completion": "0.0000008"
             },
-            "context_length": 131072,
-            "expiration_date": "2026-06-11",
+            "context_length": 128000,
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -10437,44 +10447,6 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "qwen/qwen3.7-max",
-            "canonical_slug": "qwen/qwen3.7-max",
-            "hugging_face_id": "",
-            "name": "Qwen: Qwen3.7 Max",
-            "created": 1756238927,
-            "description": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks, and long-horizon autonomous execution.",
-            "context_length": 1000000,
-            "pricing": {
-                "prompt": "0.000001250000",
-                "completion": "0.000003750000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000125000",
-                "input_cache_write": "0.000001562500"
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "alibaba",
-                "variants": {
-                    "instant": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
                         }
                     }
                 }

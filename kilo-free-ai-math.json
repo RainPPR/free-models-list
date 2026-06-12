@@ -14,19 +14,19 @@
     "displayName": "Poolside: Laguna M.1 (Kilo)"
   },
   {
+    "id": "d60d9970-6313-5028-be37-406d86c97f16",
+    "modelId": "nex-agi/nex-n2-pro:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Nex AGI: Nex-N2-Pro (Kilo)"
+  },
+  {
     "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
     "modelId": "stepfun/step-3.7-flash:free",
     "enableTools": true,
     "disabledTools": [],
     "displayName": "StepFun: Step 3.7 Flash (Kilo)",
     "reasoningEffort": "high"
-  },
-  {
-    "id": "d60d9970-6313-5028-be37-406d86c97f16",
-    "modelId": "nex-agi/nex-n2-pro:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Nex AGI: Nex-N2-Pro (Kilo)"
   },
   {
     "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",

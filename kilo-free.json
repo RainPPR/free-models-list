@@ -23,6 +23,16 @@
         "opencode": {}
     },
     {
+        "id": "nex-agi/nex-n2-pro:free",
+        "name": "Nex AGI: Nex-N2-Pro (free)",
+        "created": 1780937140,
+        "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
+        "context_length": 262144,
+        "expiration_date": null,
+        "mayTrainOnYourPrompts": true,
+        "opencode": {}
+    },
+    {
         "id": "stepfun/step-3.7-flash:free",
         "canonical_slug": "stepfun/step-3.7-flash:free",
         "hugging_face_id": "",
@@ -53,16 +63,6 @@
                 }
             }
         }
-    },
-    {
-        "id": "nex-agi/nex-n2-pro:free",
-        "name": "Nex AGI: Nex-N2-Pro (free)",
-        "created": 1780937140,
-        "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
-        "context_length": 262144,
-        "expiration_date": null,
-        "mayTrainOnYourPrompts": true,
-        "opencode": {}
     },
     {
         "id": "nvidia/nemotron-3.5-content-safety:free",
