@@ -815,6 +815,21 @@
             }
         },
         {
+            "id": "openrouter/fusion",
+            "name": "OpenRouter: Fusion",
+            "created": 1781371647,
+            "description": "Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a...",
+            "pricing": {
+                "prompt": "-1",
+                "completion": "-1"
+            },
+            "context_length": 128000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
             "id": "moonshotai/kimi-k2.7-code",
             "name": "MoonshotAI: Kimi K2.7 Code",
             "created": 1781266361,
@@ -1287,21 +1302,6 @@
                     }
                 }
             }
-        },
-        {
-            "id": "openrouter/fusion",
-            "name": "OpenRouter: Fusion",
-            "created": 1778603606,
-            "description": "Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a...",
-            "pricing": {
-                "prompt": "-1",
-                "completion": "-1"
-            },
-            "context_length": 128000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
         },
         {
             "id": "perceptron/perceptron-mk1",
