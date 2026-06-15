@@ -4281,7 +4281,7 @@
         },
         {
             "id": "xiaomi/mimo-v2-flash",
-            "name": "Xiaomi: MiMo-V2-Flash",
+            "name": "Xiaomi: MiMo-V2-Flash (retires Jun 17)",
             "created": 1765731308,
             "description": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a...",
             "pricing": {
@@ -4291,7 +4291,7 @@
                 "discount": 0
             },
             "context_length": 262144,
-            "expiration_date": null,
+            "expiration_date": "2026-06-17",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
