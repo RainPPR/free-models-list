@@ -823,7 +823,7 @@
                 "prompt": "-1",
                 "completion": "-1"
             },
-            "context_length": 128000,
+            "context_length": 1000000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -851,133 +851,6 @@
                             "enabled": true,
                             "effort": "high"
                         }
-                    }
-                }
-            }
-        },
-        {
-            "id": "~anthropic/claude-fable-latest",
-            "name": "Anthropic: Claude Fable Latest ($$$$)",
-            "created": 1781029944,
-            "description": "This model always redirects to the latest model in the Claude Fable family.",
-            "pricing": {
-                "prompt": "0.00001",
-                "completion": "0.00005",
-                "input_cache_read": "0.000001",
-                "input_cache_write": "0.0000125",
-                "web_search": "0.01"
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "anthropic/claude-fable-5",
-            "name": "Anthropic: Claude Fable 5 ($$$$)",
-            "created": 1781007515,
-            "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
-            "pricing": {
-                "prompt": "0.00001",
-                "completion": "0.00005",
-                "input_cache_read": "0.000001",
-                "input_cache_write": "0.0000125",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
                     }
                 }
             }
@@ -2615,8 +2488,8 @@
             "created": 1774979158,
             "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information...",
             "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.000006",
+                "prompt": "0.00000125",
+                "completion": "0.0000025",
                 "input_cache_read": "0.0000002",
                 "web_search": "0.005",
                 "discount": 0
@@ -3601,7 +3474,7 @@
                 "prompt": "0.000000600000",
                 "completion": "0.000003600000"
             },
-            "context_length": 262144,
+            "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
