@@ -65,6 +65,16 @@
         }
     },
     {
+        "id": "cohere/north-mini-code:free",
+        "name": "Cohere: North Mini Code (free)",
+        "created": 1781723748,
+        "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized...",
+        "context_length": 256000,
+        "expiration_date": null,
+        "mayTrainOnYourPrompts": true,
+        "opencode": {}
+    },
+    {
         "id": "nvidia/nemotron-3.5-content-safety:free",
         "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
         "created": 1780581864,
@@ -108,7 +118,7 @@
         "id": "poolside/laguna-xs.2:free",
         "name": "Poolside: Laguna XS.2 (free)",
         "created": 1777389604,
-        "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
+        "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
         "context_length": 262144,
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,

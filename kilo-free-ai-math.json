@@ -29,6 +29,13 @@
     "reasoningEffort": "high"
   },
   {
+    "id": "e2c6d1c5-44b3-5bcd-aa30-790edccdc2ed",
+    "modelId": "cohere/north-mini-code:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Cohere: North Mini Code (Kilo)"
+  },
+  {
     "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",
     "modelId": "nvidia/nemotron-3.5-content-safety:free",
     "enableTools": true,
