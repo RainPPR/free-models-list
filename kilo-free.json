@@ -12,7 +12,7 @@
         "id": "poolside/laguna-m.1:free",
         "name": "Poolside: Laguna M.1 (free)",
         "created": 1777388504,
-        "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 128K...",
+        "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
         "context_length": 262144,
         "expiration_date": null,
         "terminalBench": {
@@ -28,7 +28,7 @@
         "created": 1780937140,
         "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
         "context_length": 262144,
-        "expiration_date": null,
+        "expiration_date": "2026-06-22",
         "mayTrainOnYourPrompts": true,
         "opencode": {}
     },
