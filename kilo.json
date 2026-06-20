@@ -493,7 +493,7 @@
         },
         {
             "id": "moonshotai/kimi-k2.7-code",
-            "name": "MoonshotAI: Kimi K2.7 Code (new)",
+            "name": "MoonshotAI: Kimi K2.7 Code",
             "created": 1781266361,
             "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
             "pricing": {
@@ -7011,7 +7011,7 @@
         },
         {
             "id": "z-ai/glm-4.5",
-            "name": "Z.ai: GLM 4.5 (retires Jun 19)",
+            "name": "Z.ai: GLM 4.5",
             "created": 1753471347,
             "description": "GLM-4.5 is our latest flagship foundation model, purpose-built for agent-based applications. It leverages a Mixture-of-Experts (MoE) architecture and supports a context length of up to 128k tokens. GLM-4.5 delivers significantly...",
             "pricing": {
@@ -7020,7 +7020,7 @@
                 "input_cache_read": "0.00000011"
             },
             "context_length": 131072,
-            "expiration_date": "2026-06-19",
+            "expiration_date": "2026-12-31",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -10020,22 +10020,6 @@
             },
             "context_length": 8192,
             "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
-            "id": "meta-llama/llama-3-70b-instruct",
-            "name": "Meta: Llama 3 70B Instruct (retires Jun 19)",
-            "created": 1713398400,
-            "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
-            "pricing": {
-                "prompt": "0.00000051",
-                "completion": "0.00000074",
-                "discount": 0
-            },
-            "context_length": 8192,
-            "expiration_date": "2026-06-19",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
