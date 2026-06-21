@@ -1702,9 +1702,9 @@
             "created": 1777318428,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.00000067",
+                "prompt": "0.00000066",
                 "completion": "0.0000035",
-                "input_cache_read": "0.0000002"
+                "input_cache_read": "0.00000033"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -2163,9 +2163,9 @@
             "created": 1776878150,
             "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
             "pricing": {
-                "prompt": "0.000000066",
-                "completion": "0.00000026",
-                "input_cache_read": "0.000000029",
+                "prompt": "0.000000063",
+                "completion": "0.00000021",
+                "input_cache_read": "0.000000021",
                 "discount": 0
             },
             "context_length": 262144,
@@ -2697,8 +2697,8 @@
             "created": 1775058318,
             "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7...",
             "pricing": {
-                "prompt": "0.00000022",
-                "completion": "0.00000085",
+                "prompt": "0.00000025",
+                "completion": "0.0000008",
                 "input_cache_read": "0.00000006",
                 "discount": 0
             },
