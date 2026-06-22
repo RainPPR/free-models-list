@@ -115,7 +115,7 @@
                 "discount": 0
             },
             "context_length": 262144,
-            "expiration_date": "2026-06-22",
+            "expiration_date": null,
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {}
@@ -953,6 +953,23 @@
                 "completion": "-1"
             },
             "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
+            "id": "nex-agi/nex-n2-pro",
+            "name": "Nex AGI: Nex-N2-Pro",
+            "created": 1780937140,
+            "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
+            "pricing": {
+                "prompt": "0.0000005",
+                "completion": "0.0000025",
+                "input_cache_read": "0.00000025",
+                "discount": 0
+            },
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9349,63 +9366,6 @@
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
-        },
-        {
-            "id": "anthropic/claude-3.5-haiku",
-            "name": "Anthropic: Claude 3.5 Haiku",
-            "created": 1730678400,
-            "description": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic...",
-            "pricing": {
-                "prompt": "0.0000008",
-                "completion": "0.000004",
-                "input_cache_read": "0.00000008",
-                "input_cache_write": "0.000001",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 200000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
         },
         {
             "id": "anthracite-org/magnum-v4-72b",

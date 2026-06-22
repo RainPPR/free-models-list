@@ -28,7 +28,7 @@
         "created": 1780937140,
         "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
         "context_length": 262144,
-        "expiration_date": "2026-06-22",
+        "expiration_date": null,
         "mayTrainOnYourPrompts": true,
         "opencode": {}
     },
