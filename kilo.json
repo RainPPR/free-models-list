@@ -105,22 +105,6 @@
             "opencode": {}
         },
         {
-            "id": "nex-agi/nex-n2-pro:free",
-            "name": "Nex AGI: Nex-N2-Pro (free)",
-            "created": 1780937140,
-            "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0",
-                "discount": 0
-            },
-            "context_length": 262144,
-            "expiration_date": null,
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {}
-        },
-        {
             "id": "stepfun/step-3.7-flash:free",
             "canonical_slug": "stepfun/step-3.7-flash:free",
             "hugging_face_id": "",
@@ -1720,8 +1704,8 @@
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
                 "prompt": "0.00000066",
-                "completion": "0.0000035",
-                "input_cache_read": "0.00000033"
+                "completion": "0.00000341",
+                "input_cache_read": "0.000000144"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -2703,6 +2687,43 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "z-ai/glm-5v-turbo",
+            "name": "Z.ai: GLM 5V Turbo",
+            "created": 1775061458,
+            "description": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex coding,...",
+            "pricing": {
+                "prompt": "0.0000012",
+                "completion": "0.000004",
+                "input_cache_read": "0.00000024"
+            },
+            "context_length": 202752,
+            "expiration_date": "2098-12-31",
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
                         }
                     }
                 }
@@ -3958,7 +3979,7 @@
         },
         {
             "id": "stepfun/step-3.5-flash",
-            "name": "StepFun: Step 3.5 Flash",
+            "name": "StepFun: Step 3.5 Flash (retires Jun 29)",
             "created": 1769728337,
             "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token....",
             "pricing": {
@@ -3967,7 +3988,7 @@
                 "input_cache_read": "0.00000002"
             },
             "context_length": 262144,
-            "expiration_date": null,
+            "expiration_date": "2026-06-29",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
