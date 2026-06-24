@@ -779,7 +779,7 @@
         },
         {
             "id": "z-ai/glm-5.2",
-            "name": "Z.ai: GLM 5.2 (new)",
+            "name": "Z.ai: GLM 5.2",
             "created": 1781631930,
             "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
             "pricing": {
@@ -4686,22 +4686,6 @@
             }
         },
         {
-            "id": "essentialai/rnj-1-instruct",
-            "name": "EssentialAI: Rnj 1 Instruct",
-            "created": 1765094847,
-            "description": "Rnj-1 is an 8B-parameter, dense, open-weight model family developed by Essential AI and trained from scratch with a focus on programming, math, and scientific reasoning. The model demonstrates strong performance...",
-            "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.00000015",
-                "discount": 0
-            },
-            "context_length": 32768,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
             "id": "openrouter/bodybuilder",
             "name": "Body Builder (beta)",
             "created": 1764903653,
@@ -4899,22 +4883,6 @@
                     }
                 }
             }
-        },
-        {
-            "id": "prime-intellect/intellect-3",
-            "name": "Prime Intellect: INTELLECT-3",
-            "created": 1764212534,
-            "description": "INTELLECT-3 is a 106B-parameter Mixture-of-Experts model (12B active) post-trained from GLM-4.5-Air-Base using supervised fine-tuning (SFT) followed by large-scale reinforcement learning (RL). It offers state-of-the-art performance for its size across math,...",
-            "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000011",
-                "discount": 0
-            },
-            "context_length": 131072,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
         },
         {
             "id": "anthropic/claude-opus-4.5",
