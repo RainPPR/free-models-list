@@ -820,6 +820,24 @@
             }
         },
         {
+            "id": "sakana/fugu-ultra",
+            "name": "Sakana: Fugu Ultra",
+            "created": 1782276303,
+            "description": "Fugu Ultra is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.00003",
+                "input_cache_read": "0.0000005",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
             "id": "google/gemini-3.1-flash-image",
             "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
             "created": 1781754065,
@@ -948,9 +966,9 @@
             "created": 1780937140,
             "description": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...",
             "pricing": {
-                "prompt": "0.0000005",
-                "completion": "0.0000025",
-                "input_cache_read": "0.00000025",
+                "prompt": "0.00000025",
+                "completion": "0.000001",
+                "input_cache_read": "0.000000025",
                 "discount": 0
             },
             "context_length": 262144,
@@ -2217,9 +2235,8 @@
             "created": 1776874269,
             "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
             "pricing": {
-                "prompt": "0.00000014",
+                "prompt": "0.000000105",
                 "completion": "0.00000028",
-                "input_cache_read": "0.0000000028",
                 "discount": 0
             },
             "context_length": 1048576,
@@ -9032,7 +9049,7 @@
             "created": 1736489872,
             "description": "[Microsoft Research](/microsoft) Phi-4 is designed to perform well in complex reasoning tasks and can operate efficiently in situations with limited memory or where quick responses are needed. At 14 billion...",
             "pricing": {
-                "prompt": "0.000000065",
+                "prompt": "0.00000007",
                 "completion": "0.00000014",
                 "discount": 0
             },
@@ -9440,8 +9457,8 @@
             "created": 1727654400,
             "description": "Rocinante 12B is designed for engaging storytelling and rich prose. Early testers have reported: - Expanded vocabulary with unique and expressive word choices - Enhanced creativity for vivid narratives -...",
             "pricing": {
-                "prompt": "0.00000017",
-                "completion": "0.00000043",
+                "prompt": "0.00000025",
+                "completion": "0.0000005",
                 "discount": 0
             },
             "context_length": 32768,
@@ -9529,13 +9546,13 @@
             }
         },
         {
-            "id": "cohere/command-r-plus-08-2024",
-            "name": "Cohere: Command R+ (08-2024)",
+            "id": "cohere/command-r-08-2024",
+            "name": "Cohere: Command R (08-2024)",
             "created": 1724976000,
-            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...",
+            "description": "command-r-08-2024 is an update of the [Command R](/models/cohere/command-r) with improved performance for multilingual retrieval-augmented generation (RAG) and tool use. More broadly, it is better at math, code and reasoning and...",
             "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001",
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
                 "discount": 0
             },
             "context_length": 128000,
@@ -9545,13 +9562,13 @@
             "opencode": {}
         },
         {
-            "id": "cohere/command-r-08-2024",
-            "name": "Cohere: Command R (08-2024)",
+            "id": "cohere/command-r-plus-08-2024",
+            "name": "Cohere: Command R+ (08-2024)",
             "created": 1724976000,
-            "description": "command-r-08-2024 is an update of the [Command R](/models/cohere/command-r) with improved performance for multilingual retrieval-augmented generation (RAG) and tool use. More broadly, it is better at math, code and reasoning and...",
+            "description": "command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...",
             "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.0000006",
+                "prompt": "0.0000025",
+                "completion": "0.00001",
                 "discount": 0
             },
             "context_length": 128000,
@@ -9725,8 +9742,8 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-4o-mini-2024-07-18",
-            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+            "id": "openai/gpt-4o-mini",
+            "name": "OpenAI: GPT-4o-mini",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -9776,8 +9793,8 @@
             }
         },
         {
-            "id": "openai/gpt-4o-mini",
-            "name": "OpenAI: GPT-4o-mini",
+            "id": "openai/gpt-4o-mini-2024-07-18",
+            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -10394,16 +10411,16 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-4",
-            "name": "OpenAI: GPT-4 ($$$$)",
+            "id": "openai/gpt-3.5-turbo",
+            "name": "OpenAI: GPT-3.5 Turbo",
             "created": 1685232000,
-            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
+            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
             "pricing": {
-                "prompt": "0.00003",
-                "completion": "0.00006",
+                "prompt": "0.0000005",
+                "completion": "0.0000015",
                 "discount": 0
             },
-            "context_length": 8191,
+            "context_length": 16385,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10444,16 +10461,16 @@
             }
         },
         {
-            "id": "openai/gpt-3.5-turbo",
-            "name": "OpenAI: GPT-3.5 Turbo",
+            "id": "openai/gpt-4",
+            "name": "OpenAI: GPT-4 ($$$$)",
             "created": 1685232000,
-            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
             "pricing": {
-                "prompt": "0.0000005",
-                "completion": "0.0000015",
+                "prompt": "0.00003",
+                "completion": "0.00006",
                 "discount": 0
             },
-            "context_length": 16385,
+            "context_length": 8191,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
