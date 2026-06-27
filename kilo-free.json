@@ -6,7 +6,13 @@
         "description": "Rotates through available free models. Limited capability and no credits required. [Learn more](https://kilo.ai/docs/code-with-ai/agents/auto-model)\n\n**Warning** Prompts may be logged by the upstream provider and used to improve their services. Not suitable for production or sensitive data workloads.\n\n**In particular** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
         "context_length": 256000,
         "opencode": {},
-        "mayTrainOnYourPrompts": true
+        "mayTrainOnYourPrompts": true,
+        "autoRouting": {
+            "models": [
+                "poolside/laguna-m.1:free",
+                "stepfun/step-3.7-flash:free"
+            ]
+        }
     },
     {
         "id": "poolside/laguna-m.1:free",

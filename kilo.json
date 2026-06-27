@@ -62,7 +62,18 @@
             "context_length": 1000000,
             "opencode": {},
             "isFree": false,
-            "mayTrainOnYourPrompts": false
+            "mayTrainOnYourPrompts": false,
+            "autoRouting": {
+                "models": [
+                    "deepseek/deepseek-v4-pro",
+                    "google/gemini-3.5-flash",
+                    "minimax/minimax-m3",
+                    "moonshotai/kimi-k2.7-code",
+                    "qwen/qwen3.7-max",
+                    "x-ai/grok-build-0.1",
+                    "z-ai/glm-5.2"
+                ]
+            }
         },
         {
             "id": "kilo-auto/free",
@@ -82,7 +93,13 @@
             "context_length": 256000,
             "opencode": {},
             "isFree": true,
-            "mayTrainOnYourPrompts": true
+            "mayTrainOnYourPrompts": true,
+            "autoRouting": {
+                "models": [
+                    "poolside/laguna-m.1:free",
+                    "stepfun/step-3.7-flash:free"
+                ]
+            }
         },
         {
             "id": "poolside/laguna-m.1:free",
