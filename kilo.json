@@ -1720,9 +1720,9 @@
             "created": 1777318428,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.00000066",
-                "completion": "0.00000341",
-                "input_cache_read": "0.000000144"
+                "prompt": "0.00000055",
+                "completion": "0.0000032",
+                "input_cache_read": "0.00000011"
             },
             "context_length": 262144,
             "expiration_date": null,
