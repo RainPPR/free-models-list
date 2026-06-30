@@ -65,12 +65,18 @@
             "mayTrainOnYourPrompts": false,
             "autoRouting": {
                 "models": [
+                    "anthropic/claude-opus-4.8",
+                    "anthropic/claude-sonnet-4.6",
                     "deepseek/deepseek-v4-pro",
                     "google/gemini-3.5-flash",
+                    "inclusionai/ling-2.6-1t",
                     "minimax/minimax-m3",
                     "moonshotai/kimi-k2.7-code",
+                    "nvidia/nemotron-3-ultra-550b-a55b",
+                    "openai/gpt-5.5",
                     "qwen/qwen3.7-max",
                     "x-ai/grok-build-0.1",
+                    "xiaomi/mimo-v2.5-pro",
                     "z-ai/glm-5.2"
                 ]
             }
@@ -498,10 +504,9 @@
             "created": 1781266361,
             "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
             "pricing": {
-                "prompt": "0.00000095",
-                "completion": "0.000004",
-                "input_cache_read": "0.00000019",
-                "discount": 0
+                "prompt": "0.000000950000",
+                "completion": "0.000004000000",
+                "input_cache_read": "0.000000190000"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -1548,7 +1553,7 @@
                 "discount": 0
             },
             "context_length": 262144,
-            "expiration_date": null,
+            "expiration_date": "9999-01-01",
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {}
@@ -2460,69 +2465,6 @@
                 "overallScore": 0.7011236,
                 "avgAttemptCostUsd": 100.5076156
             },
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "anthropic/claude-opus-4.6-fast",
-            "name": "Anthropic: Claude Opus 4.6 (Fast) ($$$$)",
-            "created": 1775592472,
-            "description": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-            "pricing": {
-                "prompt": "0.00003",
-                "completion": "0.00015",
-                "input_cache_read": "0.000003",
-                "input_cache_write": "0.0000375",
-                "web_search": "0.01"
-            },
-            "context_length": 1000000,
-            "expiration_date": "2026-06-29",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -3995,16 +3937,15 @@
         },
         {
             "id": "stepfun/step-3.5-flash",
-            "name": "StepFun: Step 3.5 Flash (retires Jun 29)",
+            "name": "StepFun: Step 3.5 Flash",
             "created": 1769728337,
             "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token....",
             "pricing": {
-                "prompt": "0.00000009",
-                "completion": "0.0000003",
-                "input_cache_read": "0.00000002"
+                "prompt": "0.0000001",
+                "completion": "0.0000003"
             },
             "context_length": 262144,
-            "expiration_date": "2026-06-29",
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
