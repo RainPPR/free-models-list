@@ -842,6 +842,107 @@
             }
         },
         {
+            "id": "anthropic/claude-sonnet-5",
+            "name": "Anthropic: Claude Sonnet 5",
+            "created": 1782843083,
+            "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
+            "pricing": {
+                "prompt": "0.000002",
+                "completion": "0.00001",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.0000025",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "google/gemini-3.1-flash-lite-image",
+            "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+            "created": 1782837225,
+            "description": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image generation...",
+            "pricing": {
+                "prompt": "0.00000025",
+                "completion": "0.0000015",
+                "web_search": "0.014",
+                "discount": 0
+            },
+            "context_length": 65536,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "google/gemini-3.1-flash-image",
             "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
             "created": 1781754065,
@@ -1511,22 +1612,6 @@
             }
         },
         {
-            "id": "openrouter/owl-alpha",
-            "name": "Owl Alpha",
-            "created": 1777398589,
-            "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0",
-                "discount": 0
-            },
-            "context_length": 1048756,
-            "expiration_date": null,
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {}
-        },
-        {
             "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
             "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
             "created": 1777393095,
@@ -1588,6 +1673,10 @@
             },
             "context_length": 262144,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.3258427,
+                "avgAttemptCostUsd": 40.549143
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -1776,10 +1865,10 @@
             "created": 1777318368,
             "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
             "pricing": {
-                "prompt": "0.000003",
-                "completion": "0.000015",
-                "input_cache_read": "0.0000003",
-                "input_cache_write": "0.00000375",
+                "prompt": "0.000002",
+                "completion": "0.00001",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.0000025",
                 "web_search": "0.01"
             },
             "context_length": 1000000,
@@ -5352,23 +5441,6 @@
                 "discount": 0
             },
             "context_length": 131000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
-            "id": "microsoft/phi-4-mini-instruct",
-            "name": "Microsoft: Phi 4 Mini Instruct",
-            "created": 1760726049,
-            "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4...",
-            "pricing": {
-                "prompt": "0.00000008",
-                "completion": "0.00000035",
-                "input_cache_read": "0.00000008",
-                "discount": 0
-            },
-            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9359,10 +9431,10 @@
             }
         },
         {
-            "id": "inflection/inflection-3-productivity",
-            "name": "Inflection: Inflection 3 Productivity",
+            "id": "inflection/inflection-3-pi",
+            "name": "Inflection: Inflection 3 Pi",
             "created": 1728604800,
-            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
+            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001",
@@ -9375,10 +9447,10 @@
             "opencode": {}
         },
         {
-            "id": "inflection/inflection-3-pi",
-            "name": "Inflection: Inflection 3 Pi",
+            "id": "inflection/inflection-3-productivity",
+            "name": "Inflection: Inflection 3 Productivity",
             "created": 1728604800,
-            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
+            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001",
@@ -9401,22 +9473,6 @@
                 "discount": 0
             },
             "context_length": 32768,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
-            "id": "meta-llama/llama-3.2-3b-instruct",
-            "name": "Meta: Llama 3.2 3B Instruct",
-            "created": 1727222400,
-            "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
-            "pricing": {
-                "prompt": "0.0000000509",
-                "completion": "0.000000335",
-                "discount": 0
-            },
-            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9446,6 +9502,22 @@
             "pricing": {
                 "prompt": "0.000000345",
                 "completion": "0.000000345",
+                "discount": 0
+            },
+            "context_length": 131072,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
+            "id": "meta-llama/llama-3.2-3b-instruct",
+            "name": "Meta: Llama 3.2 3B Instruct",
+            "created": 1727222400,
+            "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
+            "pricing": {
+                "prompt": "0.0000000509",
+                "completion": "0.000000335",
                 "discount": 0
             },
             "context_length": 131072,
@@ -9681,8 +9753,8 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-4o-mini",
-            "name": "OpenAI: GPT-4o-mini",
+            "id": "openai/gpt-4o-mini-2024-07-18",
+            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -9732,8 +9804,8 @@
             }
         },
         {
-            "id": "openai/gpt-4o-mini-2024-07-18",
-            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+            "id": "openai/gpt-4o-mini",
+            "name": "OpenAI: GPT-4o-mini",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -10087,16 +10159,16 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-4-turbo-preview",
-            "name": "OpenAI: GPT-4 Turbo Preview ($$$$)",
+            "id": "openai/gpt-3.5-turbo-0613",
+            "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
             "created": 1706140800,
-            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...",
+            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
             "pricing": {
-                "prompt": "0.00001",
-                "completion": "0.00003",
+                "prompt": "0.000001",
+                "completion": "0.000002",
                 "discount": 0
             },
-            "context_length": 128000,
+            "context_length": 4095,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10137,16 +10209,16 @@
             }
         },
         {
-            "id": "openai/gpt-3.5-turbo-0613",
-            "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+            "id": "openai/gpt-4-turbo-preview",
+            "name": "OpenAI: GPT-4 Turbo Preview ($$$$)",
             "created": 1706140800,
-            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+            "description": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...",
             "pricing": {
-                "prompt": "0.000001",
-                "completion": "0.000002",
+                "prompt": "0.00001",
+                "completion": "0.00003",
                 "discount": 0
             },
-            "context_length": 4095,
+            "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,

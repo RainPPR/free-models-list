@@ -91,16 +91,6 @@
         "opencode": {}
     },
     {
-        "id": "openrouter/owl-alpha",
-        "name": "Owl Alpha",
-        "created": 1777398589,
-        "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
-        "context_length": 1048756,
-        "expiration_date": null,
-        "mayTrainOnYourPrompts": true,
-        "opencode": {}
-    },
-    {
         "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
         "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
         "created": 1777393095,

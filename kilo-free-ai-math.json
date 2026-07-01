@@ -43,13 +43,6 @@
     "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)"
   },
   {
-    "id": "3de9da4d-c9b8-5e79-a12f-6257ab2a7103",
-    "modelId": "openrouter/owl-alpha",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Owl Alpha (Kilo)"
-  },
-  {
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "enableTools": true,
