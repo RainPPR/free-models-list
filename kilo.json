@@ -74,6 +74,7 @@
                     "moonshotai/kimi-k2.7-code",
                     "nvidia/nemotron-3-ultra-550b-a55b",
                     "openai/gpt-5.5",
+                    "poolside/laguna-m.1",
                     "qwen/qwen3.7-max",
                     "x-ai/grok-build-0.1",
                     "xiaomi/mimo-v2.5-pro",
@@ -528,23 +529,23 @@
             }
         },
         {
-            "id": "anthropic/claude-sonnet-4.6",
-            "name": "Anthropic: Claude Sonnet 4.6",
-            "created": 1771342990,
-            "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...",
+            "id": "anthropic/claude-sonnet-5",
+            "name": "Anthropic: Claude Sonnet 5 (new)",
+            "created": 1782843083,
+            "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
             "pricing": {
-                "prompt": "0.000003",
-                "completion": "0.000015",
-                "input_cache_read": "0.0000003",
-                "input_cache_write": "0.00000375",
+                "prompt": "0.000002",
+                "completion": "0.00001",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.0000025",
                 "web_search": "0.01",
                 "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
             "terminalBench": {
-                "overallScore": 0.5505618,
-                "avgAttemptCostUsd": 53.374126600000004
+                "overallScore": 0.59550562,
+                "avgAttemptCostUsd": 36.186279799999994
             },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -842,63 +843,6 @@
             }
         },
         {
-            "id": "anthropic/claude-sonnet-5",
-            "name": "Anthropic: Claude Sonnet 5",
-            "created": 1782843083,
-            "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
-            "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.00001",
-                "input_cache_read": "0.0000002",
-                "input_cache_write": "0.0000025",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
             "id": "google/gemini-3.1-flash-lite-image",
             "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
             "created": 1782837225,
@@ -1064,6 +1008,133 @@
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
+        },
+        {
+            "id": "~anthropic/claude-fable-latest",
+            "name": "Anthropic: Claude Fable Latest ($$$$)",
+            "created": 1781029944,
+            "description": "This model always redirects to the latest model in the Claude Fable family.",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00005",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "anthropic/claude-fable-5",
+            "name": "Anthropic: Claude Fable 5 ($$$$)",
+            "created": 1781007515,
+            "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00005",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
         },
         {
             "id": "nex-agi/nex-n2-pro",
@@ -1638,14 +1709,14 @@
                 "discount": 0
             },
             "context_length": 262144,
-            "expiration_date": "9999-01-01",
+            "expiration_date": "2026-07-09",
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {}
         },
         {
             "id": "poolside/laguna-xs.2",
-            "name": "Poolside: Laguna XS.2",
+            "name": "Poolside: Laguna XS.2 (retires Jul 9)",
             "created": 1777389604,
             "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
             "pricing": {
@@ -1655,7 +1726,7 @@
                 "discount": 0
             },
             "context_length": 262144,
-            "expiration_date": null,
+            "expiration_date": "2026-07-09",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -3752,6 +3823,67 @@
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
+        },
+        {
+            "id": "anthropic/claude-sonnet-4.6",
+            "name": "Anthropic: Claude Sonnet 4.6",
+            "created": 1771342990,
+            "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...",
+            "pricing": {
+                "prompt": "0.000003",
+                "completion": "0.000015",
+                "input_cache_read": "0.0000003",
+                "input_cache_write": "0.00000375",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.5505618,
+                "avgAttemptCostUsd": 53.374126600000004
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
         },
         {
             "id": "qwen/qwen3.5-plus-02-15",
@@ -8293,8 +8425,8 @@
             "created": 1742824755,
             "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well...",
             "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.00000077",
+                "prompt": "0.00000024",
+                "completion": "0.0000009",
                 "input_cache_read": "0.000000135"
             },
             "context_length": 163840,
