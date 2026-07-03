@@ -61,6 +61,16 @@
         }
     },
     {
+        "id": "poolside/laguna-xs-2.1:free",
+        "name": "Poolside: Laguna XS 2.1 (free)",
+        "created": 1783002429,
+        "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
+        "context_length": 262144,
+        "expiration_date": null,
+        "mayTrainOnYourPrompts": true,
+        "opencode": {}
+    },
+    {
         "id": "cohere/north-mini-code:free",
         "name": "Cohere: North Mini Code (free)",
         "created": 1781723748,
