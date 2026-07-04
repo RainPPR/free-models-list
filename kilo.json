@@ -423,6 +423,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -579,6 +586,13 @@
                             "effort": "high"
                         },
                         "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
                     },
                     "max": {
                         "reasoning": {
@@ -1831,6 +1845,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -2008,6 +2029,13 @@
                             "effort": "high"
                         },
                         "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
                     },
                     "max": {
                         "reasoning": {
@@ -3247,8 +3275,8 @@
             "created": 1773245239,
             "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
             "pricing": {
-                "prompt": "0.000000085",
-                "completion": "0.0000004",
+                "prompt": "0.00000008",
+                "completion": "0.00000045",
                 "discount": 0
             },
             "context_length": 1000000,
@@ -3907,6 +3935,13 @@
                             "effort": "high"
                         },
                         "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
                     },
                     "max": {
                         "reasoning": {
@@ -5709,6 +5744,13 @@
                         },
                         "verbosity": "high"
                     },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
                     "max": {
                         "reasoning": {
                             "enabled": true,
@@ -6166,6 +6208,13 @@
                             "effort": "high"
                         },
                         "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
                     },
                     "max": {
                         "reasoning": {
@@ -7829,6 +7878,13 @@
                             "effort": "high"
                         },
                         "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
                     },
                     "max": {
                         "reasoning": {
@@ -10294,6 +10350,13 @@
                             "effort": "high"
                         },
                         "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
                     },
                     "max": {
                         "reasoning": {
