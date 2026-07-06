@@ -76,6 +76,7 @@
                     "nvidia/nemotron-3-ultra-550b-a55b",
                     "openai/gpt-5.5",
                     "poolside/laguna-m.1",
+                    "poolside/laguna-xs-2.1",
                     "qwen/qwen3.7-max",
                     "x-ai/grok-build-0.1",
                     "xiaomi/mimo-v2.5-pro",
@@ -1138,6 +1139,10 @@
             },
             "context_length": 1000000,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.71011236,
+                "avgAttemptCostUsd": 87.5169082
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
