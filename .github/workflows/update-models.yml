@@ -32,10 +32,13 @@ jobs:
       - name: Generate AI Math config
         run: python generate_kilo_ai_math_config.py
 
+      - name: Run opencode.py
+        run: uv run python opencode.py
+
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add kilo.json kilo-free.json kilo-free-ai-math.json
+          git add kilo.json kilo-free.json kilo-free-ai-math.json opencode.json opencode-free.json opencode-free-ai-math.json
           git diff --staged --quiet || git commit -m "Update models data [skip ci]"
           git push

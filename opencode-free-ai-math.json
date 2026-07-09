@@ -1,0 +1,37 @@
+[
+  {
+    "id": "f2966238-6603-52b9-aa2c-3dc37c3c19a9",
+    "modelId": "deepseek-v4-flash-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Deepseek V4 Flash (OpenCode)"
+  },
+  {
+    "id": "1a49d398-0224-583f-973a-a0bb2af90ee2",
+    "modelId": "mimo-v2.5-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Mimo V2.5 (OpenCode)"
+  },
+  {
+    "id": "ac977b66-c8d1-5da3-a80f-9d44eceaed61",
+    "modelId": "hy3-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Hy3 (OpenCode)"
+  },
+  {
+    "id": "14f57ded-622b-5af6-8331-a14e299bdd14",
+    "modelId": "nemotron-3-ultra-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Nemotron 3 Ultra (OpenCode)"
+  },
+  {
+    "id": "f4b831e8-6a1a-5403-a625-007ffcd3ac96",
+    "modelId": "north-mini-code-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "North Mini Code (OpenCode)"
+  }
+]
