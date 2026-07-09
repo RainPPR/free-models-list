@@ -897,9 +897,9 @@
             "created": 1783344048,
             "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
             "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000008",
-                "input_cache_read": "0.0000005",
+                "prompt": "0.00000014",
+                "completion": "0.00000058",
+                "input_cache_read": "0.000000035",
                 "discount": 0
             },
             "context_length": 262144,
@@ -2035,7 +2035,7 @@
             "created": 1777318428,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.00000066",
+                "prompt": "0.00000065",
                 "completion": "0.00000341",
                 "input_cache_read": "0.00000014"
             },
@@ -7556,22 +7556,6 @@
             }
         },
         {
-            "id": "switchpoint/router",
-            "name": "Switchpoint Router",
-            "created": 1752272899,
-            "description": "Switchpoint AI's router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library. As the world of LLMs advances, our router gets smarter, ensuring you...",
-            "pricing": {
-                "prompt": "0.00000085",
-                "completion": "0.0000034",
-                "discount": 0
-            },
-            "context_length": 131072,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
             "id": "moonshotai/kimi-k2",
             "name": "MoonshotAI: Kimi K2 0711",
             "created": 1752263252,
@@ -9716,10 +9700,10 @@
             }
         },
         {
-            "id": "inflection/inflection-3-productivity",
-            "name": "Inflection: Inflection 3 Productivity",
+            "id": "inflection/inflection-3-pi",
+            "name": "Inflection: Inflection 3 Pi",
             "created": 1728604800,
-            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
+            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001",
@@ -9732,10 +9716,10 @@
             "opencode": {}
         },
         {
-            "id": "inflection/inflection-3-pi",
-            "name": "Inflection: Inflection 3 Pi",
+            "id": "inflection/inflection-3-productivity",
+            "name": "Inflection: Inflection 3 Productivity",
             "created": 1728604800,
-            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
+            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001",
@@ -9764,13 +9748,13 @@
             "opencode": {}
         },
         {
-            "id": "meta-llama/llama-3.2-1b-instruct",
-            "name": "Meta: Llama 3.2 1B Instruct",
+            "id": "meta-llama/llama-3.2-3b-instruct",
+            "name": "Meta: Llama 3.2 3B Instruct",
             "created": 1727222400,
-            "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
+            "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
             "pricing": {
-                "prompt": "0.000000027",
-                "completion": "0.000000201",
+                "prompt": "0.00000005",
+                "completion": "0.00000033",
                 "discount": 0
             },
             "context_length": 131072,
@@ -9780,13 +9764,13 @@
             "opencode": {}
         },
         {
-            "id": "meta-llama/llama-3.2-3b-instruct",
-            "name": "Meta: Llama 3.2 3B Instruct",
+            "id": "meta-llama/llama-3.2-1b-instruct",
+            "name": "Meta: Llama 3.2 1B Instruct",
             "created": 1727222400,
-            "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
+            "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
             "pricing": {
-                "prompt": "0.00000005",
-                "completion": "0.00000033",
+                "prompt": "0.000000027",
+                "completion": "0.000000201",
                 "discount": 0
             },
             "context_length": 131072,
@@ -9989,13 +9973,13 @@
             }
         },
         {
-            "id": "meta-llama/llama-3.1-70b-instruct",
-            "name": "Meta: Llama 3.1 70B Instruct",
+            "id": "meta-llama/llama-3.1-8b-instruct",
+            "name": "Meta: Llama 3.1 8B Instruct",
             "created": 1721692800,
-            "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases. It has demonstrated strong...",
+            "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to...",
             "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.0000004",
+                "prompt": "0.00000002",
+                "completion": "0.00000003",
                 "discount": 0
             },
             "context_length": 131072,
@@ -10005,13 +9989,13 @@
             "opencode": {}
         },
         {
-            "id": "meta-llama/llama-3.1-8b-instruct",
-            "name": "Meta: Llama 3.1 8B Instruct",
+            "id": "meta-llama/llama-3.1-70b-instruct",
+            "name": "Meta: Llama 3.1 70B Instruct",
             "created": 1721692800,
-            "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to...",
+            "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases. It has demonstrated strong...",
             "pricing": {
-                "prompt": "0.00000002",
-                "completion": "0.00000003",
+                "prompt": "0.0000004",
+                "completion": "0.0000004",
                 "discount": 0
             },
             "context_length": 131072,
@@ -10038,8 +10022,8 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-4o-mini",
-            "name": "OpenAI: GPT-4o-mini",
+            "id": "openai/gpt-4o-mini-2024-07-18",
+            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -10089,8 +10073,8 @@
             }
         },
         {
-            "id": "openai/gpt-4o-mini-2024-07-18",
-            "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+            "id": "openai/gpt-4o-mini",
+            "name": "OpenAI: GPT-4o-mini",
             "created": 1721260800,
             "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
             "pricing": {
@@ -10714,16 +10698,16 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-3.5-turbo",
-            "name": "OpenAI: GPT-3.5 Turbo",
+            "id": "openai/gpt-4",
+            "name": "OpenAI: GPT-4 ($$$$)",
             "created": 1685232000,
-            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
+            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
             "pricing": {
-                "prompt": "0.0000005",
-                "completion": "0.0000015",
+                "prompt": "0.00003",
+                "completion": "0.00006",
                 "discount": 0
             },
-            "context_length": 16385,
+            "context_length": 8191,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10764,16 +10748,16 @@
             }
         },
         {
-            "id": "openai/gpt-4",
-            "name": "OpenAI: GPT-4 ($$$$)",
+            "id": "openai/gpt-3.5-turbo",
+            "name": "OpenAI: GPT-3.5 Turbo",
             "created": 1685232000,
-            "description": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...",
+            "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
             "pricing": {
-                "prompt": "0.00003",
-                "completion": "0.00006",
+                "prompt": "0.0000005",
+                "completion": "0.0000015",
                 "discount": 0
             },
-            "context_length": 8191,
+            "context_length": 16385,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
