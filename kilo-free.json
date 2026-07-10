@@ -111,16 +111,6 @@
         "opencode": {}
     },
     {
-        "id": "poolside/laguna-xs.2:free",
-        "name": "Poolside: Laguna XS.2 (free)",
-        "created": 1777389604,
-        "description": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, offering...",
-        "context_length": 262144,
-        "expiration_date": "2026-07-09",
-        "mayTrainOnYourPrompts": true,
-        "opencode": {}
-    },
-    {
         "id": "poolside/laguna-m.1:free",
         "name": "Poolside: Laguna M.1 (free)",
         "created": 1777388504,
