@@ -172,23 +172,23 @@
             }
         },
         {
-            "id": "anthropic/claude-opus-4.8",
-            "name": "Anthropic: Claude Opus 4.8",
-            "created": 1779905091,
-            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+            "id": "anthropic/claude-sonnet-5",
+            "name": "Anthropic: Claude Sonnet 5",
+            "created": 1782843083,
+            "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
             "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.000025",
-                "input_cache_read": "0.0000005",
-                "input_cache_write": "0.00000625",
+                "prompt": "0.000002",
+                "completion": "0.00001",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.0000025",
                 "web_search": "0.01",
                 "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
             "terminalBench": {
-                "overallScore": 0.67640449,
-                "avgAttemptCostUsd": 85.194714
+                "overallScore": 0.59550562,
+                "avgAttemptCostUsd": 36.186279799999994
             },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -307,321 +307,20 @@
             }
         },
         {
-            "id": "stealth/claude-opus-4.7",
-            "canonical_slug": "stealth/claude-opus-4.7",
-            "hugging_face_id": "",
-            "name": "Stealth: Claude Opus 4.7 (20% off)",
-            "created": 1756238927,
-            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.7 is offered at 20% lower cost than standard Claude Opus 4.7 pricing and is not served by Anthropic or Kilo Code.",
-            "context_length": 1000000,
-            "pricing": {
-                "prompt": "0.000004000000",
-                "completion": "0.000020000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000400000",
-                "input_cache_write": "0.000005000000"
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "stealth/claude-sonnet-4.6",
-            "canonical_slug": "stealth/claude-sonnet-4.6",
-            "hugging_face_id": "",
-            "name": "Stealth: Claude Sonnet 4.6 (20% off)",
-            "created": 1756238927,
-            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Sonnet 4.6 is offered at 20% lower cost than standard Claude Sonnet 4.6 pricing and is not served by Anthropic or Kilo Code.",
-            "context_length": 1000000,
-            "pricing": {
-                "prompt": "0.000002400000",
-                "completion": "0.000012000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000240000",
-                "input_cache_write": "0.000003000000"
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "stealth/claude-opus-4.6",
-            "canonical_slug": "stealth/claude-opus-4.6",
-            "hugging_face_id": "",
-            "name": "Stealth: Claude Opus 4.6 (20% off)",
-            "created": 1756238927,
-            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.6 is offered at 20% lower cost than standard Claude Opus 4.6 pricing and is not served by Anthropic or Kilo Code.",
-            "context_length": 1000000,
-            "pricing": {
-                "prompt": "0.000004000000",
-                "completion": "0.000020000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000400000",
-                "input_cache_write": "0.000005000000"
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "moonshotai/kimi-k2.7-code",
-            "name": "MoonshotAI: Kimi K2.7 Code",
-            "created": 1781266361,
-            "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
-            "pricing": {
-                "prompt": "0.000000950000",
-                "completion": "0.000004000000",
-                "input_cache_read": "0.000000190000"
-            },
-            "context_length": 262144,
-            "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.60674157,
-                "avgAttemptCostUsd": 32.940153
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "variants": {
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "anthropic/claude-sonnet-5",
-            "name": "Anthropic: Claude Sonnet 5",
-            "created": 1782843083,
-            "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
-            "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.00001",
-                "input_cache_read": "0.0000002",
-                "input_cache_write": "0.0000025",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.59550562,
-                "avgAttemptCostUsd": 36.186279799999994
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "openai/gpt-5.5",
-            "name": "OpenAI: GPT-5.5",
-            "created": 1777051893,
-            "description": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
+            "id": "openai/gpt-5.6-sol",
+            "name": "OpenAI: GPT-5.6 Sol (new)",
+            "created": 1783590850,
+            "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
             "pricing": {
                 "prompt": "0.000005",
                 "completion": "0.00003",
                 "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
                 "web_search": "0.01",
                 "discount": 0
             },
             "context_length": 1050000,
             "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.74157303,
-                "avgAttemptCostUsd": 72.62918640000001
-            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -656,32 +355,42 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
-                },
-                "prompt": "gpt55"
+                }
             }
         },
         {
-            "id": "google/gemini-3.1-pro-preview",
-            "name": "Google: Gemini 3.1 Pro Preview",
-            "created": 1771509627,
-            "description": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...",
+            "id": "openai/gpt-5.6-terra",
+            "name": "OpenAI: GPT-5.6 Terra (new)",
+            "created": 1783590857,
+            "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
             "pricing": {
-                "prompt": "0.000002",
-                "completion": "0.000012",
-                "image": "0.000002",
-                "input_cache_read": "0.0000002",
-                "input_cache_write": "0.000000375",
-                "web_search": "0.014",
-                "internal_reasoning": "0.000012",
+                "prompt": "0.0000025",
+                "completion": "0.000015",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.000003125",
+                "web_search": "0.01",
                 "discount": 0
             },
-            "context_length": 1048576,
+            "context_length": 1050000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
+                "ai_sdk_provider": "openai",
                 "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
                     "low": {
                         "reasoning": {
                             "enabled": true,
@@ -704,6 +413,125 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "deepseek/deepseek-v4-pro:discounted",
+            "canonical_slug": "deepseek/deepseek-v4-pro:discounted",
+            "hugging_face_id": "",
+            "name": "DeepSeek: DeepSeek V4 Pro (>80% off)",
+            "created": 1756238927,
+            "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
+            "context_length": 1048576,
+            "pricing": {
+                "prompt": "0.000000435000",
+                "completion": "0.000000870000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000003625"
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "z-ai/glm-5.2",
+            "name": "Z.ai: GLM 5.2",
+            "created": 1781631930,
+            "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+            "pricing": {
+                "prompt": "0.0000014",
+                "completion": "0.0000044",
+                "input_cache_read": "0.00000026",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.53033708,
+                "avgAttemptCostUsd": 26.2141134
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "moonshotai/kimi-k2.7-code",
+            "name": "MoonshotAI: Kimi K2.7 Code",
+            "created": 1781266361,
+            "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
+            "pricing": {
+                "prompt": "0.000000950000",
+                "completion": "0.000004000000",
+                "input_cache_read": "0.000000190000"
+            },
+            "context_length": 262144,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.60674157,
+                "avgAttemptCostUsd": 32.940153
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
                         }
                     }
                 }
@@ -730,38 +558,6 @@
             "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "instant": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "qwen/qwen3.7-plus",
-            "name": "Qwen: Qwen3.7 Plus (20% off)",
-            "created": 1780491783,
-            "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
-            "pricing": {
-                "prompt": "0.000000320000",
-                "completion": "0.000001280000",
-                "input_cache_read": "0.000000032000",
-                "input_cache_write": "0.000000400000"
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
                 "variants": {
                     "instant": {
                         "reasoning": {
@@ -816,48 +612,6 @@
             }
         },
         {
-            "id": "z-ai/glm-5.2",
-            "name": "Z.ai: GLM 5.2",
-            "created": 1781631930,
-            "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
-            "pricing": {
-                "prompt": "0.0000014",
-                "completion": "0.0000044",
-                "input_cache_read": "0.00000026",
-                "discount": 0
-            },
-            "context_length": 1048576,
-            "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.53033708,
-                "avgAttemptCostUsd": 26.2141134
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "openai/gpt-5.6-luna-pro",
             "name": "OpenAI: GPT-5.6 Luna Pro",
             "created": 1783590867,
@@ -905,6 +659,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -959,6 +719,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -1012,58 +778,11 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
-                    }
-                }
-            }
-        },
-        {
-            "id": "openai/gpt-5.6-terra",
-            "name": "OpenAI: GPT-5.6 Terra",
-            "created": 1783590857,
-            "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.000015",
-                "input_cache_read": "0.00000025",
-                "input_cache_write": "0.000003125",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 1050000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
                     },
-                    "low": {
+                    "max": {
                         "reasoning": {
                             "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
+                            "effort": "max"
                         }
                     }
                 }
@@ -1118,58 +837,11 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
-                    }
-                }
-            }
-        },
-        {
-            "id": "openai/gpt-5.6-sol",
-            "name": "OpenAI: GPT-5.6 Sol",
-            "created": 1783590850,
-            "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
-            "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.00003",
-                "input_cache_read": "0.0000005",
-                "input_cache_write": "0.00000625",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 1050000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
                     },
-                    "low": {
+                    "max": {
                         "reasoning": {
                             "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
+                            "effort": "max"
                         }
                     }
                 }
@@ -1648,6 +1320,38 @@
             "opencode": {}
         },
         {
+            "id": "qwen/qwen3.7-plus",
+            "name": "Qwen: Qwen3.7 Plus (20% off)",
+            "created": 1780491783,
+            "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
+            "pricing": {
+                "prompt": "0.000000320000",
+                "completion": "0.000001280000",
+                "input_cache_read": "0.000000032000",
+                "input_cache_write": "0.000000400000"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "stepfun/step-3.7-flash",
             "name": "StepFun: Step 3.7 Flash",
             "created": 1779985069,
@@ -1699,6 +1403,74 @@
             },
             "context_length": 1000000,
             "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "anthropic/claude-opus-4.8",
+            "name": "Anthropic: Claude Opus 4.8",
+            "created": 1779905091,
+            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.67640449,
+                "avgAttemptCostUsd": 85.194714
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -2051,6 +1823,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -2290,6 +2068,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -2475,6 +2259,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -2679,6 +2469,75 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                },
+                "prompt": "gpt55"
+            }
+        },
+        {
+            "id": "openai/gpt-5.5",
+            "name": "OpenAI: GPT-5.5",
+            "created": 1777051893,
+            "description": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.00003",
+                "input_cache_read": "0.0000005",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1050000,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.74157303,
+                "avgAttemptCostUsd": 72.62918640000001
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 },
@@ -2915,6 +2774,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -3522,6 +3387,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -3573,6 +3444,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -3761,6 +3638,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -3812,6 +3695,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -3908,6 +3797,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -4251,6 +4146,54 @@
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
+        },
+        {
+            "id": "google/gemini-3.1-pro-preview",
+            "name": "Google: Gemini 3.1 Pro Preview",
+            "created": 1771509627,
+            "description": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...",
+            "pricing": {
+                "prompt": "0.000002",
+                "completion": "0.000012",
+                "image": "0.000002",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.000000375",
+                "web_search": "0.014",
+                "internal_reasoning": "0.000012",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "anthropic/claude-sonnet-4.6",
@@ -4769,6 +4712,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -4818,6 +4767,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -5120,6 +5075,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -5170,6 +5131,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -5222,6 +5189,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -5438,22 +5411,6 @@
             },
             "context_length": 262144,
             "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
-            "id": "arcee-ai/trinity-mini",
-            "name": "Arcee AI: Trinity Mini (retires Jul 10)",
-            "created": 1764601720,
-            "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function...",
-            "pricing": {
-                "prompt": "0.000000045",
-                "completion": "0.00000015",
-                "discount": 0
-            },
-            "context_length": 131072,
-            "expiration_date": "2026-07-10",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -5687,6 +5644,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -5738,6 +5701,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -6060,6 +6029,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -6236,6 +6211,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -6287,6 +6268,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -6340,13 +6327,19 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
         },
         {
             "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-            "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
+            "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5 (retires Jul 17)",
             "created": 1760101395,
             "description": "Llama-3.3-Nemotron-Super-49B-v1.5 is a 49B-parameter, English-centric reasoning/chat model derived from Meta’s Llama-3.3-70B-Instruct with a 128K context. It’s post-trained for agentic workflows (RAG, tool calling) via SFT across math, code, science, and...",
             "pricing": {
@@ -6355,7 +6348,7 @@
                 "discount": 0
             },
             "context_length": 131072,
-            "expiration_date": null,
+            "expiration_date": "2026-07-17",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -6487,6 +6480,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -7270,6 +7269,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -7321,6 +7326,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -7374,6 +7385,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -7425,6 +7442,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -8053,6 +8076,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -8557,6 +8586,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -8608,6 +8643,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -8661,6 +8702,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -8712,6 +8759,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -8765,6 +8818,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -8816,6 +8875,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -8936,6 +9001,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -9081,6 +9152,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -9131,6 +9208,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -9317,6 +9400,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -9447,6 +9536,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -9720,6 +9815,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -9850,6 +9951,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -10030,7 +10137,7 @@
         },
         {
             "id": "meta-llama/llama-3.2-11b-vision-instruct",
-            "name": "Meta: Llama 3.2 11B Vision Instruct",
+            "name": "Meta: Llama 3.2 11B Vision Instruct (retires Jul 17)",
             "created": 1727222400,
             "description": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and...",
             "pricing": {
@@ -10039,7 +10146,7 @@
                 "discount": 0
             },
             "context_length": 131072,
-            "expiration_date": null,
+            "expiration_date": "2026-07-17",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -10233,6 +10340,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -10333,6 +10446,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -10383,6 +10502,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -10465,6 +10590,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -10515,25 +10646,15 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
-        },
-        {
-            "id": "meta-llama/llama-3-8b-instruct",
-            "name": "Meta: Llama 3 8B Instruct",
-            "created": 1713398400,
-            "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
-            "pricing": {
-                "prompt": "0.00000014",
-                "completion": "0.00000014",
-                "discount": 0
-            },
-            "context_length": 8192,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
         },
         {
             "id": "mistralai/mixtral-8x22b-instruct",
@@ -10613,6 +10734,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -10745,6 +10872,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -10794,6 +10927,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -10860,6 +10999,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -10909,6 +11054,12 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
                         }
                     }
                 }
@@ -11008,6 +11159,12 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
                     }
                 }
             }
@@ -11058,47 +11215,11 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
-                    }
-                }
-            }
-        },
-        {
-            "id": "deepseek/deepseek-v4-pro:discounted",
-            "canonical_slug": "deepseek/deepseek-v4-pro:discounted",
-            "hugging_face_id": "",
-            "name": "DeepSeek: DeepSeek V4 Pro (>80% off)",
-            "created": 1756238927,
-            "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
-            "context_length": 1048576,
-            "pricing": {
-                "prompt": "0.000000435000",
-                "completion": "0.000000870000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000003625"
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
                     },
-                    "high": {
+                    "max": {
                         "reasoning": {
                             "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
+                            "effort": "max"
                         }
                     }
                 }
@@ -11142,6 +11263,207 @@
                             "enabled": true,
                             "effort": "xhigh"
                         }
+                    }
+                }
+            }
+        },
+        {
+            "id": "stealth/claude-opus-4.7",
+            "canonical_slug": "stealth/claude-opus-4.7",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Opus 4.7 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.7 is offered at 20% lower cost than standard Claude Opus 4.7 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000020000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "stealth/claude-sonnet-4.6",
+            "canonical_slug": "stealth/claude-sonnet-4.6",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Sonnet 4.6 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Sonnet 4.6 is offered at 20% lower cost than standard Claude Sonnet 4.6 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000002400000",
+                "completion": "0.000012000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000240000",
+                "input_cache_write": "0.000003000000"
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "stealth/claude-opus-4.6",
+            "canonical_slug": "stealth/claude-opus-4.6",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Opus 4.6 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.6 is offered at 20% lower cost than standard Claude Opus 4.6 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000020000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
                     }
                 }
             }
