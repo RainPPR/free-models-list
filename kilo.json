@@ -9432,9 +9432,8 @@
             "created": 1738410311,
             "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
             "pricing": {
-                "prompt": "0.0000008",
-                "completion": "0.000001",
-                "input_cache_read": "0.0000004"
+                "prompt": "0.00000025",
+                "completion": "0.00000075"
             },
             "context_length": 131072,
             "expiration_date": null,
