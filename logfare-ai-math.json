@@ -1,0 +1,58 @@
+[
+  {
+    "id": "f66904d4-5a05-55ff-a3e8-3f42b90414ef",
+    "modelId": "grok-4.3",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Grok 4.3 (LogFare)"
+  },
+  {
+    "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
+    "modelId": "kimi-k2.6",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kimi K2.6 (LogFare)"
+  },
+  {
+    "id": "5ab7cacf-75df-5490-8295-8edd9c1d374b",
+    "modelId": "deepseek-v4-flash",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "DeepSeek V4 Flash (LogFare)"
+  },
+  {
+    "id": "c7995cd3-216c-5394-ad7c-c6458a16de51",
+    "modelId": "glm-5.2",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "GLM 5.2 (LogFare)"
+  },
+  {
+    "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
+    "modelId": "kimi-k2.7-code",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kimi K2.7 Code (LogFare)"
+  },
+  {
+    "id": "248c1cbe-0ff5-5ed2-b6cc-0f5d89abccae",
+    "modelId": "deepseek-v4-pro",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "DeepSeek V4 Pro (LogFare)"
+  },
+  {
+    "id": "4ed31846-fff0-5772-a6c5-e111ea731e0c",
+    "modelId": "minimax-m3",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "MiniMax M3 (LogFare)"
+  },
+  {
+    "id": "e1e8e975-b3ce-58d8-bc4b-812a5bd4b9c5",
+    "modelId": "mimo-v2.5",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "MiMo V2.5 (LogFare)"
+  }
+]
