@@ -1,12 +1,5 @@
 [
   {
-    "id": "f66904d4-5a05-55ff-a3e8-3f42b90414ef",
-    "modelId": "grok-4.3",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Grok 4.3 (LogFare)"
-  },
-  {
     "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
     "modelId": "kimi-k2.6",
     "enableTools": true,
@@ -28,13 +21,6 @@
     "displayName": "GLM 5.2 (LogFare)"
   },
   {
-    "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
-    "modelId": "kimi-k2.7-code",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Kimi K2.7 Code (LogFare)"
-  },
-  {
     "id": "248c1cbe-0ff5-5ed2-b6cc-0f5d89abccae",
     "modelId": "deepseek-v4-pro",
     "enableTools": true,
@@ -54,5 +40,19 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "MiMo V2.5 (LogFare)"
+  },
+  {
+    "id": "e9c170a6-bda7-59db-99f5-bfbe321ebdf5",
+    "modelId": "grok-4.5",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Grok 4.5 (LogFare)"
+  },
+  {
+    "id": "2f8870b2-8c24-5d63-b382-a194a1b18398",
+    "modelId": "mimo-v2.5-pro",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "MiMo V2.5 Pro (LogFare)"
   }
 ]
