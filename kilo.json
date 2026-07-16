@@ -240,25 +240,26 @@
             }
         },
         {
-            "id": "stealth/claude-opus-4.8",
-            "canonical_slug": "stealth/claude-opus-4.8",
-            "hugging_face_id": "",
-            "name": "Stealth: Claude Opus 4.8 (20% off)",
-            "created": 1756238927,
-            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.8 is offered at 20% lower cost than standard Claude Opus 4.8 pricing and is not served by Anthropic or Kilo Code.",
-            "context_length": 1000000,
+            "id": "anthropic/claude-opus-4.8",
+            "name": "Anthropic: Claude Opus 4.8",
+            "created": 1779905091,
+            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
             "pricing": {
-                "prompt": "0.000004000000",
-                "completion": "0.000020000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000400000",
-                "input_cache_write": "0.000005000000"
+                "prompt": "0.000005",
+                "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.67640449,
+                "avgAttemptCostUsd": 85.194714
             },
             "isFree": false,
-            "mayTrainOnYourPrompts": true,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "ai_sdk_provider": "anthropic",
                 "variants": {
@@ -366,22 +367,25 @@
             }
         },
         {
-            "id": "openai/gpt-5.6-terra",
-            "name": "OpenAI: GPT-5.6 Terra (new)",
-            "created": 1783590857,
-            "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.000015",
-                "input_cache_read": "0.00000025",
-                "input_cache_write": "0.000003125",
-                "web_search": "0.01",
-                "discount": 0
-            },
+            "id": "stealth/gpt-5.6-sol",
+            "canonical_slug": "stealth/gpt-5.6-sol",
+            "hugging_face_id": "",
+            "name": "Stealth: GPT-5.6 Sol (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of GPT-5.6 Sol is offered at 20% lower cost than standard GPT-5.6 Sol pricing and is not served by OpenAI or Kilo Code.",
             "context_length": 1050000,
-            "expiration_date": null,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000024000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
             "isFree": false,
-            "mayTrainOnYourPrompts": false,
+            "mayTrainOnYourPrompts": true,
             "opencode": {
                 "ai_sdk_provider": "openai",
                 "variants": {
@@ -575,25 +579,20 @@
             }
         },
         {
-            "id": "stealth/qwen3.6-plus",
-            "canonical_slug": "stealth/qwen3.6-plus",
-            "hugging_face_id": "",
-            "name": "Stealth: Qwen3.6 Plus (50% off)",
-            "created": 1756238927,
-            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Qwen3.6 Plus is offered at 50% lower cost than standard Qwen3.6 Plus pricing and is not served by Alibaba or Kilo Code. Note: a surcharge applies to long-context workloads exceeding 256K input tokens.",
-            "context_length": 1000000,
+            "id": "qwen/qwen3.7-plus",
+            "name": "Qwen: Qwen3.7 Plus (20% off)",
+            "created": 1780491783,
+            "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
             "pricing": {
-                "prompt": "0.000000250000",
-                "completion": "0.000001500000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000025000",
-                "input_cache_write": "0.000000312500"
+                "prompt": "0.000000320000",
+                "completion": "0.000001280000",
+                "input_cache_read": "0.000000032000",
+                "input_cache_write": "0.000000400000"
             },
+            "context_length": 1000000,
+            "expiration_date": null,
             "isFree": false,
-            "mayTrainOnYourPrompts": true,
+            "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
                     "instant": {
@@ -641,6 +640,10 @@
             },
             "context_length": 256000,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.50337079,
+                "avgAttemptCostUsd": 36.158530799999994
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -768,6 +771,65 @@
             "name": "OpenAI: GPT-5.6 Terra Pro",
             "created": 1783590861,
             "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.000015",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.000003125",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1050000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "openai/gpt-5.6-terra",
+            "name": "OpenAI: GPT-5.6 Terra",
+            "created": 1783590857,
+            "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.000015",
@@ -1354,38 +1416,6 @@
             "opencode": {}
         },
         {
-            "id": "qwen/qwen3.7-plus",
-            "name": "Qwen: Qwen3.7 Plus (20% off)",
-            "created": 1780491783,
-            "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
-            "pricing": {
-                "prompt": "0.000000320000",
-                "completion": "0.000001280000",
-                "input_cache_read": "0.000000032000",
-                "input_cache_write": "0.000000400000"
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "variants": {
-                    "instant": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "stepfun/step-3.7-flash",
             "name": "StepFun: Step 3.7 Flash",
             "created": 1779985069,
@@ -1437,74 +1467,6 @@
             },
             "context_length": 1000000,
             "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "anthropic/claude-opus-4.8",
-            "name": "Anthropic: Claude Opus 4.8",
-            "created": 1779905091,
-            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
-            "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.000025",
-                "input_cache_read": "0.0000005",
-                "input_cache_write": "0.00000625",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.67640449,
-                "avgAttemptCostUsd": 85.194714
-            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -3516,8 +3478,8 @@
                 "completion": "0.000004",
                 "input_cache_read": "0.00000024"
             },
-            "context_length": 262144,
-            "expiration_date": null,
+            "context_length": 202752,
+            "expiration_date": "2098-12-31",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -3786,7 +3748,7 @@
         },
         {
             "id": "openai/gpt-5.3-chat",
-            "name": "OpenAI: GPT-5.3 Chat",
+            "name": "OpenAI: GPT-5.3 Chat (retires Aug 10)",
             "created": 1772564061,
             "description": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly...",
             "pricing": {
@@ -3797,7 +3759,7 @@
                 "discount": 0
             },
             "context_length": 128000,
-            "expiration_date": null,
+            "expiration_date": "2026-08-10",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -4336,7 +4298,7 @@
                 "prompt": "0.000000600000",
                 "completion": "0.000003600000"
             },
-            "context_length": 256000,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -4396,9 +4358,9 @@
             "created": 1770829182,
             "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading...",
             "pricing": {
-                "prompt": "0.0000006",
-                "completion": "0.00000192",
-                "input_cache_read": "0.00000012"
+                "prompt": "0.00000095",
+                "completion": "0.00000315",
+                "input_cache_read": "0.00000019"
             },
             "context_length": 202752,
             "expiration_date": null,
@@ -5460,7 +5422,7 @@
                 "input_cache_read": "0.000000114000",
                 "input_cache_write": "0.000000712500"
             },
-            "context_length": 131072,
+            "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6531,11 +6493,11 @@
             "created": 1759235576,
             "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex...",
             "pricing": {
-                "prompt": "0.00000043",
-                "completion": "0.00000175",
-                "input_cache_read": "0.00000008"
+                "prompt": "0.0000005",
+                "completion": "0.000002",
+                "input_cache_read": "0.0000001"
             },
-            "context_length": 200000,
+            "context_length": 202752,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6734,7 +6696,7 @@
                 "prompt": "0.000000400000",
                 "completion": "0.000001600000"
             },
-            "context_length": 262144,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6872,10 +6834,10 @@
             "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
             "pricing": {
                 "prompt": "0.00000027",
-                "completion": "0.00000095",
-                "input_cache_read": "0.00000013"
+                "completion": "0.000001",
+                "input_cache_read": "0.000000135"
             },
-            "context_length": 163840,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -7639,7 +7601,7 @@
                 "prompt": "0.000000200000",
                 "completion": "0.000000800000"
             },
-            "context_length": 131072,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -7983,7 +7945,7 @@
                 "input_cache_read": "0.00000001",
                 "discount": 0
             },
-            "context_length": 128000,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -8385,22 +8347,6 @@
                 "discount": 0
             },
             "context_length": 131072,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
-            "id": "arcee-ai/coder-large",
-            "name": "Arcee AI: Coder Large",
-            "created": 1746478663,
-            "description": "Coder‑Large is a 32 B‑parameter offspring of Qwen 2.5‑Instruct that has been further trained on permissively‑licensed GitHub, CodeSearchNet and synthetic bug‑fix corpora. It supports a 32k context window, enabling multi‑file...",
-            "pricing": {
-                "prompt": "0.0000005",
-                "completion": "0.0000008",
-                "discount": 0
-            },
-            "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -8958,8 +8904,8 @@
             "created": 1742824755,
             "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well...",
             "pricing": {
-                "prompt": "0.00000024",
-                "completion": "0.0000009",
+                "prompt": "0.00000027",
+                "completion": "0.00000112",
                 "input_cache_read": "0.000000135"
             },
             "context_length": 163840,
@@ -9466,8 +9412,9 @@
             "created": 1738410311,
             "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
             "pricing": {
-                "prompt": "0.00000025",
-                "completion": "0.00000075"
+                "prompt": "0.0000008",
+                "completion": "0.000001",
+                "input_cache_read": "0.0000004"
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -11285,62 +11232,37 @@
             }
         },
         {
-            "id": "stealth/gpt-5.6-sol",
-            "canonical_slug": "stealth/gpt-5.6-sol",
+            "id": "stealth/qwen3.6-plus",
+            "canonical_slug": "stealth/qwen3.6-plus",
             "hugging_face_id": "",
-            "name": "Stealth: GPT-5.6 Sol (20% off)",
+            "name": "Stealth: Qwen3.6 Plus (50% off)",
             "created": 1756238927,
-            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of GPT-5.6 Sol is offered at 20% lower cost than standard GPT-5.6 Sol pricing and is not served by OpenAI or Kilo Code.",
-            "context_length": 1050000,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Qwen3.6 Plus is offered at 50% lower cost than standard Qwen3.6 Plus pricing and is not served by Alibaba or Kilo Code. Note: a surcharge applies to long-context workloads exceeding 256K input tokens.",
+            "context_length": 1000000,
             "pricing": {
-                "prompt": "0.000004000000",
-                "completion": "0.000024000000",
+                "prompt": "0.000000250000",
+                "completion": "0.000001500000",
                 "request": "0",
                 "image": "0",
                 "web_search": "0",
                 "internal_reasoning": "0",
-                "input_cache_read": "0.000000400000",
-                "input_cache_write": "0.000005000000"
+                "input_cache_read": "0.000000025000",
+                "input_cache_write": "0.000000312500"
             },
             "isFree": false,
             "mayTrainOnYourPrompts": true,
             "opencode": {
-                "ai_sdk_provider": "openai",
                 "variants": {
-                    "none": {
+                    "instant": {
                         "reasoning": {
                             "enabled": false,
                             "effort": "none"
                         }
                     },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
+                    "thinking": {
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        }
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "max"
                         }
                     }
                 }
@@ -11397,6 +11319,73 @@
                             "enabled": true,
                             "effort": "high"
                         }
+                    }
+                }
+            }
+        },
+        {
+            "id": "stealth/claude-opus-4.8",
+            "canonical_slug": "stealth/claude-opus-4.8",
+            "hugging_face_id": "",
+            "name": "Stealth: Claude Opus 4.8 (20% off)",
+            "created": 1756238927,
+            "description": "Your prompts and completions may be retained and used to train or improve the provider's services. This third-party-served variant of Claude Opus 4.8 is offered at 20% lower cost than standard Claude Opus 4.8 pricing and is not served by Anthropic or Kilo Code.",
+            "context_length": 1000000,
+            "pricing": {
+                "prompt": "0.000004000000",
+                "completion": "0.000020000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000400000",
+                "input_cache_write": "0.000005000000"
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
                     }
                 }
             }
