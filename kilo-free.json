@@ -116,7 +116,7 @@
         "created": 1777388504,
         "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
         "context_length": 262144,
-        "expiration_date": null,
+        "expiration_date": "2026-07-28",
         "terminalBench": {
             "overallScore": 0.25393258,
             "avgAttemptCostUsd": 0
@@ -147,5 +147,18 @@
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,
         "opencode": {}
+    },
+    {
+        "id": "kwaipilot/kat-coder-pro-v2.5:free",
+        "canonical_slug": "kwaipilot/kat-coder-pro-v2.5:free",
+        "hugging_face_id": "",
+        "name": "Kwaipilot: KAT-Coder-Pro V2.5 (free)",
+        "created": 1756238927,
+        "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make modifications, and complete the entire process in the actual repository. At the same time, it seamlessly integrates multiple experts to fully retain the front-end aesthetic generation capability of V2.",
+        "context_length": 256000,
+        "mayTrainOnYourPrompts": true,
+        "opencode": {
+            "ai_sdk_provider": "openai-compatible"
+        }
     }
 ]

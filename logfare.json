@@ -86,20 +86,6 @@
             "premium_unlocked": true
         },
         {
-            "id": "grok-4.5",
-            "object": "model",
-            "created": 1784010286,
-            "owned_by": "logfare",
-            "display_name": "Grok 4.5",
-            "endpoints": [
-                "chat/completions"
-            ],
-            "visibility": "public",
-            "tier": 2,
-            "requires_training_optin": true,
-            "premium_unlocked": false
-        },
-        {
             "id": "mimo-v2.5-pro",
             "object": "model",
             "created": 1779618551,
@@ -112,6 +98,48 @@
             "tier": 2,
             "requires_training_optin": true,
             "premium_unlocked": false
+        },
+        {
+            "id": "kimi-k2.7-code",
+            "object": "model",
+            "created": 1782950282,
+            "owned_by": "logfare",
+            "display_name": "Kimi K2.7 Code",
+            "endpoints": [
+                "chat/completions"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "gemma-4-31b-it",
+            "object": "model",
+            "created": 1777284620,
+            "owned_by": "logfare",
+            "display_name": "Gemma 4 31b IT",
+            "endpoints": [
+                "chat/completions"
+            ],
+            "visibility": "public",
+            "tier": 1,
+            "requires_training_optin": false,
+            "premium_unlocked": true
+        },
+        {
+            "id": "kimi-k3",
+            "object": "model",
+            "created": 1784245302,
+            "owned_by": "logfare",
+            "display_name": "Kimi K3",
+            "endpoints": [
+                "chat/completions"
+            ],
+            "visibility": "public",
+            "tier": 1,
+            "requires_training_optin": false,
+            "premium_unlocked": true
         }
     ]
 }

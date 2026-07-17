@@ -76,5 +76,12 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Free Models Router (Kilo)"
+  },
+  {
+    "id": "ae79de9e-a798-52d9-8023-85ac4d63d590",
+    "modelId": "kwaipilot/kat-coder-pro-v2.5:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kwaipilot: KAT-Coder-Pro V2.5 (Kilo)"
   }
 ]

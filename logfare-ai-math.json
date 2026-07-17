@@ -42,17 +42,31 @@
     "displayName": "MiMo V2.5 (LogFare)"
   },
   {
-    "id": "e9c170a6-bda7-59db-99f5-bfbe321ebdf5",
-    "modelId": "grok-4.5",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Grok 4.5 (LogFare)"
-  },
-  {
     "id": "2f8870b2-8c24-5d63-b382-a194a1b18398",
     "modelId": "mimo-v2.5-pro",
     "enableTools": true,
     "disabledTools": [],
     "displayName": "MiMo V2.5 Pro (LogFare)"
+  },
+  {
+    "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
+    "modelId": "kimi-k2.7-code",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kimi K2.7 Code (LogFare)"
+  },
+  {
+    "id": "d8110e6a-edb8-5f9f-84bb-957bf68379e4",
+    "modelId": "gemma-4-31b-it",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Gemma 4 31b IT (LogFare)"
+  },
+  {
+    "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
+    "modelId": "kimi-k3",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kimi K3 (LogFare)"
   }
 ]
