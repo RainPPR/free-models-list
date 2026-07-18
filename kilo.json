@@ -77,8 +77,10 @@
                     "moonshotai/kimi-k2.7-code",
                     "nvidia/nemotron-3-ultra-550b-a55b",
                     "openai/gpt-5.5",
+                    "openai/gpt-5.6-sol",
                     "poolside/laguna-m.1",
                     "qwen/qwen3.7-max",
+                    "x-ai/grok-4.5",
                     "x-ai/grok-build-0.1",
                     "xiaomi/mimo-v2.5-pro",
                     "z-ai/glm-5.2"
@@ -616,6 +618,38 @@
             }
         },
         {
+            "id": "thinkingmachines/inkling",
+            "name": "Thinking Machines: Inkling",
+            "created": 1784325956,
+            "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+            "pricing": {
+                "prompt": "0.000001",
+                "completion": "0.00000405",
+                "input_cache_read": "0.00000017",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
+            "id": "openrouter/auto-beta",
+            "name": "Auto Router (Beta)",
+            "created": 1784311165,
+            "description": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your...",
+            "pricing": {
+                "prompt": "-1",
+                "completion": "-1"
+            },
+            "context_length": 2000000,
+            "expiration_date": null,
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {}
+        },
+        {
             "id": "moonshotai/kimi-k3",
             "name": "MoonshotAI: Kimi K3",
             "created": 1784215858,
@@ -631,13 +665,63 @@
             "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
-                    "instant": {
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "meta/muse-spark-1.1",
+            "name": "Meta: Muse Spark 1.1",
+            "created": 1784215741,
+            "description": "Muse Spark 1.1 is a multimodal reasoning model from Meta, built for agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context...",
+            "pricing": {
+                "prompt": "0.00000125",
+                "completion": "0.00000425",
+                "input_cache_read": "0.00000015",
+                "web_search": "0.0025",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.59775281,
+                "avgAttemptCostUsd": 30.153412199999998
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
                         "reasoning": {
                             "enabled": false,
                             "effort": "none"
                         }
                     },
-                    "thinking": {
+                    "minimal": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "minimal"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
@@ -2743,10 +2827,9 @@
             "created": 1776878150,
             "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...",
             "pricing": {
-                "prompt": "0.000000063",
-                "completion": "0.00000021",
-                "input_cache_read": "0.000000021",
-                "discount": 0
+                "prompt": "0.000000180000",
+                "completion": "0.000000600000",
+                "input_cache_read": "0.000000060000"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -2760,10 +2843,9 @@
             "created": 1776874273,
             "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
             "pricing": {
-                "prompt": "0.000000435",
-                "completion": "0.00000087",
-                "input_cache_read": "0.0000000036",
-                "discount": 0
+                "prompt": "0.000000435000",
+                "completion": "0.000000870000",
+                "input_cache_read": "0.000000004000"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -4885,7 +4967,7 @@
                 "input_cache_read": "0.00000001",
                 "discount": 0
             },
-            "context_length": 202752,
+            "context_length": 200000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6436,22 +6518,6 @@
             }
         },
         {
-            "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-            "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5 (retires Jul 17)",
-            "created": 1760101395,
-            "description": "Llama-3.3-Nemotron-Super-49B-v1.5 is a 49B-parameter, English-centric reasoning/chat model derived from Meta’s Llama-3.3-70B-Instruct with a 128K context. It’s post-trained for agentic workflows (RAG, tool calling) via SFT across math, code, science, and...",
-            "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.0000004",
-                "discount": 0
-            },
-            "context_length": 131072,
-            "expiration_date": "2026-07-17",
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
             "id": "google/gemini-2.5-flash-image",
             "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
             "created": 1759870431,
@@ -7279,7 +7345,7 @@
                 "discount": 0
             },
             "context_length": 65536,
-            "expiration_date": null,
+            "expiration_date": "2026-12-31",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -7560,7 +7626,7 @@
             "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized...",
             "pricing": {
                 "prompt": "0.00000003",
-                "completion": "0.00000015",
+                "completion": "0.00000018",
                 "discount": 0
             },
             "context_length": 131072,
@@ -10189,22 +10255,6 @@
             "opencode": {}
         },
         {
-            "id": "meta-llama/llama-3.2-11b-vision-instruct",
-            "name": "Meta: Llama 3.2 11B Vision Instruct (retires Jul 17)",
-            "created": 1727222400,
-            "description": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and...",
-            "pricing": {
-                "prompt": "0.000000345",
-                "completion": "0.000000345",
-                "discount": 0
-            },
-            "context_length": 131072,
-            "expiration_date": "2026-07-17",
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
             "id": "meta-llama/llama-3.2-1b-instruct",
             "name": "Meta: Llama 3.2 1B Instruct",
             "created": 1727222400,
@@ -11140,8 +11190,8 @@
             "created": 1690934400,
             "description": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations.",
             "pricing": {
-                "prompt": "0.00000075",
-                "completion": "0.000001",
+                "prompt": "0.0000005",
+                "completion": "0.00000075",
                 "discount": 0
             },
             "context_length": 8000,
@@ -11388,61 +11438,6 @@
                         }
                     },
                     "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "meta/muse-spark-1.1",
-            "canonical_slug": "meta/muse-spark-1.1",
-            "hugging_face_id": "",
-            "name": "Meta: Muse Spark 1.1",
-            "created": 1756238927,
-            "description": "Muse Spark 1.1 is strongest at agentic performance, tool use, and computer use. It does well on long-running tasks with a 1M-token context window and can delegate execution to sub-agents running in parallel.",
-            "context_length": 1048576,
-            "pricing": {
-                "prompt": "0.000001250000",
-                "completion": "0.000004250000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000150000"
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "minimal": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "minimal"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"

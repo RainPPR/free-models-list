@@ -2,31 +2,31 @@
     {
         "id": "deepseek-v4-flash-free",
         "object": "model",
-        "created": 1784256642,
+        "created": 1784342579,
         "owned_by": "opencode"
     },
     {
         "id": "mimo-v2.5-free",
         "object": "model",
-        "created": 1784256642,
+        "created": 1784342579,
         "owned_by": "opencode"
     },
     {
         "id": "hy3-free",
         "object": "model",
-        "created": 1784256642,
+        "created": 1784342579,
         "owned_by": "opencode"
     },
     {
         "id": "nemotron-3-ultra-free",
         "object": "model",
-        "created": 1784256642,
+        "created": 1784342579,
         "owned_by": "opencode"
     },
     {
         "id": "north-mini-code-free",
         "object": "model",
-        "created": 1784256642,
+        "created": 1784342579,
         "owned_by": "opencode"
     }
 ]
