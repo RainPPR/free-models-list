@@ -1071,7 +1071,7 @@
             "pricing": {
                 "prompt": "0.000002",
                 "completion": "0.000006",
-                "input_cache_read": "0.0000005",
+                "input_cache_read": "0.0000003",
                 "web_search": "0.005",
                 "discount": 0
             },
@@ -1115,7 +1115,7 @@
             "pricing": {
                 "prompt": "0.000002",
                 "completion": "0.000006",
-                "input_cache_read": "0.0000005",
+                "input_cache_read": "0.0000003",
                 "web_search": "0.005"
             },
             "context_length": 500000,
@@ -3239,9 +3239,9 @@
             "created": 1775148486,
             "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
             "pricing": {
-                "prompt": "0.00000012",
+                "prompt": "0.0000001",
                 "completion": "0.00000035",
-                "input_cache_read": "0.00000009",
+                "input_cache_read": "0.0000001",
                 "discount": 0
             },
             "context_length": 262144,
