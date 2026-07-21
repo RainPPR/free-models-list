@@ -7,26 +7,12 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
-    "id": "04560a4e-43f1-5a34-ada1-8019b1d4dda6",
-    "modelId": "tencent/hy3:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Tencent: Hy3 (Kilo)"
-  },
-  {
     "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
     "modelId": "stepfun/step-3.7-flash:free",
     "enableTools": true,
     "disabledTools": [],
     "displayName": "StepFun: Step 3.7 Flash (Kilo)",
     "reasoningEffort": "high"
-  },
-  {
-    "id": "9bb74094-16e5-522a-a405-92f18ec6c37f",
-    "modelId": "openrouter/auto-beta",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Auto Router (Beta) (Kilo)"
   },
   {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
@@ -82,7 +68,7 @@
     "modelId": "openrouter/free",
     "enableTools": true,
     "disabledTools": [],
-    "displayName": "Free Models Router (Kilo)"
+    "displayName": "OpenRouter Free Models Router (Kilo)"
   },
   {
     "id": "ae79de9e-a798-52d9-8023-85ac4d63d590",

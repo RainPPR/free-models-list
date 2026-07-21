@@ -40,5 +40,19 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "GLM 5.2 (LogFare)"
+  },
+  {
+    "id": "cd2e2f5e-12a8-5000-acf6-7be3dcab4f48",
+    "modelId": "kiro-auto",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kiro Auto (LogFare)"
+  },
+  {
+    "id": "d8110e6a-edb8-5f9f-84bb-957bf68379e4",
+    "modelId": "gemma-4-31b-it",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Gemma 4 31b IT (LogFare)"
   }
 ]

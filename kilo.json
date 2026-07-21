@@ -65,21 +65,17 @@
             "mayTrainOnYourPrompts": false,
             "autoRouting": {
                 "models": [
-                    "anthropic/claude-fable-5",
-                    "anthropic/claude-opus-4.8",
                     "anthropic/claude-sonnet-5",
                     "deepseek/deepseek-v4-pro",
-                    "google/gemini-3.5-flash",
                     "inclusionai/ling-2.6-1t",
                     "kwaipilot/kat-coder-pro-v2.5",
                     "meta/muse-spark-1.1",
                     "minimax/minimax-m3",
                     "moonshotai/kimi-k2.7-code",
-                    "nvidia/nemotron-3-ultra-550b-a55b",
-                    "openai/gpt-5.5",
-                    "openai/gpt-5.6-sol",
+                    "moonshotai/kimi-k3",
                     "poolside/laguna-m.1",
                     "qwen/qwen3.7-max",
+                    "thinkingmachines/inkling",
                     "x-ai/grok-4.5",
                     "x-ai/grok-build-0.1",
                     "xiaomi/mimo-v2.5-pro",
@@ -108,30 +104,9 @@
             "mayTrainOnYourPrompts": true,
             "autoRouting": {
                 "models": [
-                    "stepfun/step-3.7-flash:free",
-                    "tencent/hy3:free"
+                    "stepfun/step-3.7-flash:free"
                 ]
             }
-        },
-        {
-            "id": "tencent/hy3:free",
-            "name": "Tencent: Hy3 (free)",
-            "created": 1783344048,
-            "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0",
-                "discount": 0
-            },
-            "context_length": 262144,
-            "expiration_date": "2026-07-21",
-            "terminalBench": {
-                "overallScore": 0.47640449,
-                "avgAttemptCostUsd": 0
-            },
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {}
         },
         {
             "id": "stepfun/step-3.7-flash:free",
@@ -520,29 +495,37 @@
             }
         },
         {
-            "id": "moonshotai/kimi-k2.7-code",
-            "name": "MoonshotAI: Kimi K2.7 Code",
-            "created": 1781266361,
-            "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
+            "id": "moonshotai/kimi-k3",
+            "name": "MoonshotAI: Kimi K3 (new)",
+            "created": 1784215858,
+            "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
             "pricing": {
-                "prompt": "0.000000950000",
-                "completion": "0.000004000000",
-                "input_cache_read": "0.000000190000"
+                "prompt": "0.000003",
+                "completion": "0.000015",
+                "input_cache_read": "0.0000003"
             },
-            "context_length": 262144,
+            "context_length": 1048576,
             "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.60674157,
-                "avgAttemptCostUsd": 32.940153
-            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
-                    "thinking": {
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    },
+                    "high": {
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
                         }
                     }
                 }
@@ -618,6 +601,22 @@
             }
         },
         {
+            "id": "meituan/longcat-2.0",
+            "name": "Meituan: LongCat 2.0",
+            "created": 1784554658,
+            "description": "LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic...",
+            "pricing": {
+                "prompt": "0.000000750000",
+                "completion": "0.000003000000",
+                "input_cache_read": "0.000000015000"
+            },
+            "context_length": 1048756,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
             "id": "thinkingmachines/inkling",
             "name": "Thinking Machines: Inkling",
             "created": 1784325956,
@@ -636,7 +635,7 @@
         },
         {
             "id": "openrouter/auto-beta",
-            "name": "Auto Router (Beta)",
+            "name": "OpenRouter Auto Router (Beta)",
             "created": 1784311165,
             "description": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your...",
             "pricing": {
@@ -645,34 +644,9 @@
             },
             "context_length": 2000000,
             "expiration_date": null,
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {}
-        },
-        {
-            "id": "moonshotai/kimi-k3",
-            "name": "MoonshotAI: Kimi K3",
-            "created": 1784215858,
-            "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
-            "pricing": {
-                "prompt": "0.000003",
-                "completion": "0.000015",
-                "input_cache_read": "0.0000003"
-            },
-            "context_length": 1048576,
-            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "variants": {
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
+            "opencode": {}
         },
         {
             "id": "meta/muse-spark-1.1",
@@ -1166,9 +1140,9 @@
             "created": 1783344048,
             "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
             "pricing": {
-                "prompt": "0.00000014",
-                "completion": "0.00000058",
-                "input_cache_read": "0.000000035",
+                "prompt": "0.000000132",
+                "completion": "0.000000528",
+                "input_cache_read": "0.000000033",
                 "discount": 0
             },
             "context_length": 262144,
@@ -1396,6 +1370,35 @@
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
+        },
+        {
+            "id": "moonshotai/kimi-k2.7-code",
+            "name": "MoonshotAI: Kimi K2.7 Code",
+            "created": 1781266361,
+            "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
+            "pricing": {
+                "prompt": "0.000000950000",
+                "completion": "0.000004000000",
+                "input_cache_read": "0.000000190000"
+            },
+            "context_length": 262144,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.60674157,
+                "avgAttemptCostUsd": 32.940153
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "~anthropic/claude-fable-latest",
@@ -2293,16 +2296,22 @@
             "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
-                    "instant": {
+                    "max": {
                         "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
+                            "enabled": true,
+                            "effort": "max"
                         }
                     },
-                    "thinking": {
+                    "high": {
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
                         }
                     }
                 }
@@ -3043,7 +3052,7 @@
         },
         {
             "id": "openrouter/pareto-code",
-            "name": "Pareto Code Router",
+            "name": "OpenRouter Pareto Code Router",
             "created": 1776747900,
             "description": "The Pareto Router maintains a tiered shortlist of strong coding models, ranked by [Artificial Analysis](https://artificialanalysis.ai/) coding percentiles. Set min_coding_score between 0 and 1 on the [pareto-router plugin](https://openrouter.ai/docs/guides/routing/routers/pareto-router#the-min_coding_score-parameter) to control how...",
             "pricing": {
@@ -3339,8 +3348,8 @@
             "created": 1775058318,
             "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7...",
             "pricing": {
-                "prompt": "0.00000025",
-                "completion": "0.0000008",
+                "prompt": "0.00000022",
+                "completion": "0.00000085",
                 "input_cache_read": "0.00000006",
                 "discount": 0
             },
@@ -4698,7 +4707,7 @@
         },
         {
             "id": "openrouter/free",
-            "name": "Free Models Router",
+            "name": "OpenRouter Free Models Router",
             "created": 1769917427,
             "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
             "pricing": {
@@ -5452,7 +5461,7 @@
         },
         {
             "id": "openrouter/bodybuilder",
-            "name": "Body Builder (beta)",
+            "name": "OpenRouter Body Builder (beta)",
             "created": 1764903653,
             "description": "Transform your natural language requests into structured OpenRouter API request objects. Describe what you want to accomplish with AI models, and Body Builder will construct the appropriate API calls. Example:...",
             "pricing": {
@@ -11059,7 +11068,7 @@
         },
         {
             "id": "openrouter/auto",
-            "name": "Auto Router",
+            "name": "OpenRouter Auto Router",
             "created": 1699401600,
             "description": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output. To see which model was used,...",
             "pricing": {
