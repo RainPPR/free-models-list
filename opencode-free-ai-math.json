@@ -14,13 +14,6 @@
     "displayName": "Mimo V2.5 (OpenCode)"
   },
   {
-    "id": "ac977b66-c8d1-5da3-a80f-9d44eceaed61",
-    "modelId": "hy3-free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Hy3 (OpenCode)"
-  },
-  {
     "id": "14f57ded-622b-5af6-8331-a14e299bdd14",
     "modelId": "nemotron-3-ultra-free",
     "enableTools": true,
@@ -33,5 +26,12 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "North Mini Code (OpenCode)"
+  },
+  {
+    "id": "32d253e2-5a78-5c6b-9663-105cb03eb4e4",
+    "modelId": "laguna-s-2.1-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Laguna S 2.1 (OpenCode)"
   }
 ]

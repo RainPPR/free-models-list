@@ -15,6 +15,13 @@
     "reasoningEffort": "high"
   },
   {
+    "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
+    "modelId": "poolside/laguna-s-2.1:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Poolside: Laguna S 2.1 (Kilo)"
+  },
+  {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
     "modelId": "poolside/laguna-xs-2.1:free",
     "enableTools": true,

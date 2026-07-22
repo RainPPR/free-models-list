@@ -601,6 +601,135 @@
             }
         },
         {
+            "id": "poolside/laguna-s-2.1",
+            "name": "Poolside: Laguna S 2.1",
+            "created": 1784652683,
+            "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+            "pricing": {
+                "prompt": "0.0000001",
+                "completion": "0.0000002",
+                "input_cache_read": "0.00000001",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
+            "id": "poolside/laguna-s-2.1:free",
+            "name": "Poolside: Laguna S 2.1 (free)",
+            "created": 1784652683,
+            "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0",
+                "discount": 0
+            },
+            "context_length": 262144,
+            "expiration_date": null,
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {}
+        },
+        {
+            "id": "google/gemini-3.6-flash",
+            "name": "Google: Gemini 3.6 Flash",
+            "created": 1784646733,
+            "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
+            "pricing": {
+                "prompt": "0.0000015",
+                "completion": "0.0000075",
+                "image": "0.0000015",
+                "input_cache_read": "0.00000015",
+                "input_cache_write": "0.00000008333333333333334",
+                "web_search": "0.014",
+                "internal_reasoning": "0.0000075",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "google/gemini-3.5-flash-lite",
+            "name": "Google: Gemini 3.5 Flash-Lite",
+            "created": 1784646726,
+            "description": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+            "pricing": {
+                "prompt": "0.0000003",
+                "completion": "0.0000025",
+                "image": "0.0000003",
+                "input_cache_read": "0.00000003",
+                "input_cache_write": "0.00000008333333333333334",
+                "web_search": "0.014",
+                "internal_reasoning": "0.0000025",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "meituan/longcat-2.0",
             "name": "Meituan: LongCat 2.0",
             "created": 1784554658,
@@ -627,7 +756,7 @@
                 "input_cache_read": "0.00000017",
                 "discount": 0
             },
-            "context_length": 1048576,
+            "context_length": 524288,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -1140,10 +1269,9 @@
             "created": 1783344048,
             "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
             "pricing": {
-                "prompt": "0.000000132",
-                "completion": "0.000000528",
-                "input_cache_read": "0.000000033",
-                "discount": 0
+                "prompt": "0.000000140000",
+                "completion": "0.000000580000",
+                "input_cache_read": "0.000000035000"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -1307,7 +1435,7 @@
                 "internal_reasoning": "0.000012",
                 "discount": 0
             },
-            "context_length": 65536,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -1575,7 +1703,7 @@
                 "input_cache_read": "0.0000001",
                 "discount": 0
             },
-            "context_length": 1000000,
+            "context_length": 512288,
             "expiration_date": null,
             "terminalBench": {
                 "overallScore": 0.19101124,
@@ -1612,7 +1740,7 @@
                 "input_cache_read": "0.00000004",
                 "discount": 0
             },
-            "context_length": 256000,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -2324,12 +2452,12 @@
             "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
             "pricing": {
                 "prompt": "0.0000015",
-                "completion": "0.000009",
+                "completion": "0.0000075",
                 "image": "0.0000015",
                 "input_cache_read": "0.00000015",
                 "input_cache_write": "0.00000008333333333333334",
                 "web_search": "0.014",
-                "internal_reasoning": "0.000009"
+                "internal_reasoning": "0.0000075"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -2856,7 +2984,7 @@
                 "completion": "0.000000870000",
                 "input_cache_read": "0.000000004000"
             },
-            "context_length": 1048576,
+            "context_length": 1050000,
             "expiration_date": null,
             "terminalBench": {
                 "overallScore": 0.47640449,
@@ -2892,7 +3020,7 @@
                 "input_cache_read": "0.000000028",
                 "discount": 0
             },
-            "context_length": 1048576,
+            "context_length": 1050000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -3180,7 +3308,7 @@
                 "input_cache_read": "0.00000026",
                 "discount": 0
             },
-            "context_length": 202752,
+            "context_length": 204800,
             "expiration_date": null,
             "terminalBench": {
                 "overallScore": 0.49438202,
@@ -3470,7 +3598,7 @@
                 "input_cache_read": "0.00000006",
                 "discount": 0
             },
-            "context_length": 256000,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -3721,7 +3849,7 @@
                 "completion": "0",
                 "discount": 0
             },
-            "context_length": 1000000,
+            "context_length": 262144,
             "expiration_date": null,
             "terminalBench": {
                 "overallScore": 0.15505618,
@@ -4237,7 +4365,7 @@
                 "internal_reasoning": "0.000012",
                 "discount": 0
             },
-            "context_length": 1048756,
+            "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -4976,7 +5104,7 @@
                 "input_cache_read": "0.00000001",
                 "discount": 0
             },
-            "context_length": 200000,
+            "context_length": 202752,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -5124,7 +5252,7 @@
                 "completion": "0.000002200000",
                 "input_cache_read": "0.000000110000"
             },
-            "context_length": 202752,
+            "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6133,7 +6261,7 @@
                 "prompt": "0.000000160000",
                 "completion": "0.000000640000"
             },
-            "context_length": 262144,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6301,7 +6429,7 @@
                 "prompt": "0.000000180000",
                 "completion": "0.000002100000"
             },
-            "context_length": 256000,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6331,7 +6459,7 @@
                 "prompt": "0.000000180000",
                 "completion": "0.000000700000"
             },
-            "context_length": 256000,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6556,7 +6684,7 @@
                 "prompt": "0.000000200000",
                 "completion": "0.000002400000"
             },
-            "context_length": 131072,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6675,7 +6803,7 @@
                 "input_cache_read": "0.00000011",
                 "discount": 0
             },
-            "context_length": 202752,
+            "context_length": 204800,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -6874,7 +7002,7 @@
                 "prompt": "0.000000400000",
                 "completion": "0.000001600000"
             },
-            "context_length": 131072,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -7015,7 +7143,7 @@
                 "completion": "0.000001",
                 "input_cache_read": "0.000000135"
             },
-            "context_length": 131072,
+            "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -7235,7 +7363,7 @@
                 "prompt": "0.000000200000",
                 "completion": "0.000002400000"
             },
-            "context_length": 131072,
+            "context_length": 81920,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -7750,7 +7878,7 @@
                 "prompt": "0.000000450000",
                 "completion": "0.000002250000"
             },
-            "context_length": 160000,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -7915,7 +8043,7 @@
                 "prompt": "0.000001500000",
                 "completion": "0.000007500000"
             },
-            "context_length": 1048576,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -8108,7 +8236,7 @@
                 "completion": "0.00000125",
                 "discount": 0
             },
-            "context_length": 131072,
+            "context_length": 123000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -8125,7 +8253,7 @@
                 "input_cache_read": "0.00000001",
                 "discount": 0
             },
-            "context_length": 131072,
+            "context_length": 256000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -8542,7 +8670,7 @@
                 "completion": "0.00000018",
                 "discount": 0
             },
-            "context_length": 163840,
+            "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -8617,7 +8745,7 @@
                 "prompt": "0.000000350000",
                 "completion": "0.000001400000"
             },
-            "context_length": 131702,
+            "context_length": 131072,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9072,7 +9200,7 @@
                 "completion": "0.0000003",
                 "discount": 0
             },
-            "context_length": 10000000,
+            "context_length": 1310720,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9405,7 +9533,7 @@
                 "completion": "0.00000016",
                 "discount": 0
             },
-            "context_length": 131072,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9596,7 +9724,7 @@
                 "completion": "0.000001",
                 "input_cache_read": "0.0000004"
             },
-            "context_length": 131072,
+            "context_length": 128000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9748,7 +9876,7 @@
                 "prompt": "0.0000008",
                 "completion": "0.0000008"
             },
-            "context_length": 128000,
+            "context_length": 8192,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -9868,7 +9996,7 @@
                 "prompt": "0.0000002002",
                 "completion": "0.0000008001"
             },
-            "context_length": 131072,
+            "context_length": 163840,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10132,7 +10260,7 @@
                 "prompt": "0.00000066",
                 "completion": "0.000001"
             },
-            "context_length": 128000,
+            "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10179,7 +10307,7 @@
                 "completion": "0.000005",
                 "discount": 0
             },
-            "context_length": 32768,
+            "context_length": 16384,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10194,7 +10322,7 @@
                 "prompt": "0.00000004",
                 "completion": "0.0000001"
             },
-            "context_length": 131072,
+            "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10273,7 +10401,7 @@
                 "completion": "0.000000201",
                 "discount": 0
             },
-            "context_length": 131072,
+            "context_length": 60000,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10304,7 +10432,7 @@
                 "prompt": "0.00000036",
                 "completion": "0.0000004"
             },
-            "context_length": 131072,
+            "context_length": 32768,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -10811,7 +10939,7 @@
                 "completion": "0.00000062",
                 "discount": 0
             },
-            "context_length": 65536,
+            "context_length": 65535,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -11235,7 +11363,7 @@
                 "completion": "0.00000006",
                 "discount": 0
             },
-            "context_length": 4096,
+            "context_length": 8192,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
