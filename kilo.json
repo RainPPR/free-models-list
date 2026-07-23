@@ -73,7 +73,6 @@
                     "minimax/minimax-m3",
                     "moonshotai/kimi-k2.7-code",
                     "moonshotai/kimi-k3",
-                    "poolside/laguna-m.1",
                     "qwen/qwen3.7-max",
                     "thinkingmachines/inkling",
                     "x-ai/grok-4.5",
@@ -415,7 +414,7 @@
             "id": "deepseek/deepseek-v4-pro:discounted",
             "canonical_slug": "deepseek/deepseek-v4-pro:discounted",
             "hugging_face_id": "",
-            "name": "DeepSeek: DeepSeek V4 Pro (>80% off)",
+            "name": "DeepSeek: DeepSeek V4 Pro (lowest price)",
             "created": 1756238927,
             "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
             "context_length": 1048576,
@@ -683,9 +682,9 @@
         },
         {
             "id": "google/gemini-3.5-flash-lite",
-            "name": "Google: Gemini 3.5 Flash-Lite",
+            "name": "Google: Gemini 3.5 Flash Lite",
             "created": 1784646726,
-            "description": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+            "description": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
             "pricing": {
                 "prompt": "0.0000003",
                 "completion": "0.0000025",
@@ -2866,9 +2865,10 @@
             "created": 1777000679,
             "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
             "pricing": {
-                "prompt": "0.000002400000",
-                "completion": "0.000004800000",
-                "input_cache_read": "0.000000200000"
+                "prompt": "0.000000435",
+                "completion": "0.00000087",
+                "input_cache_read": "0.000000003625",
+                "discount": 0
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -2907,9 +2907,10 @@
             "created": 1777000666,
             "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000000400000",
-                "input_cache_read": "0.000000040000"
+                "prompt": "0.00000009",
+                "completion": "0.00000018",
+                "input_cache_read": "0.000000018",
+                "discount": 0
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -5738,10 +5739,9 @@
             "created": 1764594642,
             "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
             "pricing": {
-                "prompt": "0.000000570000",
-                "completion": "0.000001710000",
-                "input_cache_read": "0.000000114000",
-                "input_cache_write": "0.000000712500"
+                "prompt": "0.000000286000",
+                "completion": "0.000000429000",
+                "input_cache_read": "0.000000028600"
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -6901,7 +6901,8 @@
             "description": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
             "pricing": {
                 "prompt": "0.00000027",
-                "completion": "0.00000041"
+                "completion": "0.00000041",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -7140,8 +7141,9 @@
             "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
             "pricing": {
                 "prompt": "0.00000027",
-                "completion": "0.000001",
-                "input_cache_read": "0.000000135"
+                "completion": "0.00000095",
+                "input_cache_read": "0.00000013",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -7424,7 +7426,8 @@
             "pricing": {
                 "prompt": "0.00000025",
                 "completion": "0.00000095",
-                "input_cache_read": "0.00000013"
+                "input_cache_read": "0.00000013",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -7482,7 +7485,7 @@
                 "discount": 0
             },
             "context_length": 65536,
-            "expiration_date": "2026-12-31",
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -8419,7 +8422,8 @@
             "pricing": {
                 "prompt": "0.0000005",
                 "completion": "0.00000215",
-                "input_cache_read": "0.00000035"
+                "input_cache_read": "0.00000035",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -9212,9 +9216,10 @@
             "created": 1742824755,
             "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well...",
             "pricing": {
-                "prompt": "0.00000027",
-                "completion": "0.00000112",
-                "input_cache_read": "0.000000135"
+                "prompt": "0.00000024",
+                "completion": "0.0000009",
+                "input_cache_read": "0.000000135",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -9874,7 +9879,8 @@
             "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across...",
             "pricing": {
                 "prompt": "0.0000008",
-                "completion": "0.0000008"
+                "completion": "0.0000008",
+                "discount": 0
             },
             "context_length": 8192,
             "expiration_date": null,
@@ -9910,7 +9916,8 @@
             "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass....",
             "pricing": {
                 "prompt": "0.0000007",
-                "completion": "0.0000025"
+                "completion": "0.0000025",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -9993,8 +10000,8 @@
             "created": 1735241320,
             "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations...",
             "pricing": {
-                "prompt": "0.0000002002",
-                "completion": "0.0000008001"
+                "prompt": "0.000000286000",
+                "completion": "0.000001143000"
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -11508,7 +11515,7 @@
             "id": "deepseek/deepseek-v4-flash:discounted",
             "canonical_slug": "deepseek/deepseek-v4-flash:discounted",
             "hugging_face_id": "",
-            "name": "DeepSeek: DeepSeek V4 Flash (>40% off)",
+            "name": "DeepSeek: DeepSeek V4 Flash (lowest price)",
             "created": 1756238927,
             "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
             "context_length": 1048576,
