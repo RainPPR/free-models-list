@@ -2,6 +2,40 @@
     "object": "list",
     "data": [
         {
+            "id": "kiro-auto",
+            "object": "model",
+            "created": 1784533165,
+            "owned_by": "logfare",
+            "display_name": "Kiro Auto",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "minimax-m3",
+            "object": "model",
+            "created": 1782107443,
+            "owned_by": "logfare",
+            "display_name": "MiniMax M3",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
             "id": "kimi-k2.6",
             "object": "model",
             "created": 1777845431,
@@ -34,23 +68,6 @@
             "tier": 2,
             "requires_training_optin": true,
             "premium_unlocked": false
-        },
-        {
-            "id": "minimax-m3",
-            "object": "model",
-            "created": 1782107443,
-            "owned_by": "logfare",
-            "display_name": "MiniMax M3",
-            "aliases": [],
-            "endpoints": [
-                "chat/completions",
-                "messages",
-                "responses"
-            ],
-            "visibility": "public",
-            "tier": 1,
-            "requires_training_optin": false,
-            "premium_unlocked": true
         },
         {
             "id": "kimi-k2.7-code",
@@ -104,11 +121,11 @@
             "premium_unlocked": false
         },
         {
-            "id": "kiro-auto",
+            "id": "qwen-3.8-max",
             "object": "model",
-            "created": 1784533165,
+            "created": 1784788747,
             "owned_by": "logfare",
-            "display_name": "Kiro Auto",
+            "display_name": "Qwen 3.8 Max",
             "aliases": [],
             "endpoints": [
                 "chat/completions",
@@ -116,26 +133,9 @@
                 "responses"
             ],
             "visibility": "public",
-            "tier": 1,
-            "requires_training_optin": false,
-            "premium_unlocked": true
-        },
-        {
-            "id": "gemma-4-31b-it",
-            "object": "model",
-            "created": 1777284620,
-            "owned_by": "logfare",
-            "display_name": "Gemma 4 31b IT",
-            "aliases": [],
-            "endpoints": [
-                "chat/completions",
-                "messages",
-                "responses"
-            ],
-            "visibility": "public",
-            "tier": 1,
-            "requires_training_optin": false,
-            "premium_unlocked": true
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
         }
     ]
 }

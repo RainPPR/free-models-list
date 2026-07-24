@@ -150,6 +150,22 @@
             }
         },
         {
+            "id": "inclusionai/ling-3.0-flash:free",
+            "name": "Ling-3.0-flash (free)",
+            "created": 1784818580,
+            "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0",
+                "discount": 0
+            },
+            "context_length": 262144,
+            "expiration_date": null,
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {}
+        },
+        {
             "id": "anthropic/claude-sonnet-5",
             "name": "Anthropic: Claude Sonnet 5",
             "created": 1782843083,
@@ -416,7 +432,7 @@
             "hugging_face_id": "",
             "name": "DeepSeek: DeepSeek V4 Pro (lowest price)",
             "created": 1756238927,
-            "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
+            "description": "This DeepSeek V4 Pro endpoint provides the lowest cost for multi-turn conversations for this model. This is accomplished with an exceptionally low cache read price. By using this endpoint you agree prompts and completions may be retained by DeepSeek and used to train future models.",
             "context_length": 1048576,
             "pricing": {
                 "prompt": "0.000000435000",
@@ -495,7 +511,7 @@
         },
         {
             "id": "moonshotai/kimi-k3",
-            "name": "MoonshotAI: Kimi K3 (new)",
+            "name": "MoonshotAI: Kimi K3",
             "created": 1784215858,
             "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
             "pricing": {
@@ -505,6 +521,10 @@
             },
             "context_length": 1048576,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.6,
+                "avgAttemptCostUsd": 29.1905434
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -612,6 +632,10 @@
             },
             "context_length": 1048576,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.22921348,
+                "avgAttemptCostUsd": 0.8579081999999999
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -649,6 +673,10 @@
             },
             "context_length": 1048576,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.47865169,
+                "avgAttemptCostUsd": 80.3143008
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -755,8 +783,12 @@
                 "input_cache_read": "0.00000017",
                 "discount": 0
             },
-            "context_length": 524288,
+            "context_length": 1048576,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.43595506,
+                "avgAttemptCostUsd": 35.689686
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
@@ -2865,10 +2897,9 @@
             "created": 1777000679,
             "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
             "pricing": {
-                "prompt": "0.000000435",
-                "completion": "0.00000087",
-                "input_cache_read": "0.000000003625",
-                "discount": 0
+                "prompt": "0.000001600000",
+                "completion": "0.000003200000",
+                "input_cache_read": "0.000000135000"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -2907,9 +2938,9 @@
             "created": 1777000666,
             "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
             "pricing": {
-                "prompt": "0.00000009",
-                "completion": "0.00000018",
-                "input_cache_read": "0.000000018",
+                "prompt": "0.00000014",
+                "completion": "0.00000028",
+                "input_cache_read": "0.000000028",
                 "discount": 0
             },
             "context_length": 1048576,
@@ -5739,9 +5770,10 @@
             "created": 1764594642,
             "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
             "pricing": {
-                "prompt": "0.000000286000",
-                "completion": "0.000000429000",
-                "input_cache_read": "0.000000028600"
+                "prompt": "0.000000269",
+                "completion": "0.0000004",
+                "input_cache_read": "0.0000001345",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -7141,8 +7173,8 @@
             "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
             "pricing": {
                 "prompt": "0.00000027",
-                "completion": "0.00000095",
-                "input_cache_read": "0.00000013",
+                "completion": "0.000001",
+                "input_cache_read": "0.000000135",
                 "discount": 0
             },
             "context_length": 163840,
@@ -7424,9 +7456,9 @@
             "created": 1755779628,
             "description": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context...",
             "pricing": {
-                "prompt": "0.00000025",
-                "completion": "0.00000095",
-                "input_cache_read": "0.00000013",
+                "prompt": "0.00000027",
+                "completion": "0.000001",
+                "input_cache_read": "0.000000135",
                 "discount": 0
             },
             "context_length": 163840,
@@ -8420,8 +8452,8 @@
             "created": 1748455170,
             "description": "May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active...",
             "pricing": {
-                "prompt": "0.0000005",
-                "completion": "0.00000215",
+                "prompt": "0.0000007",
+                "completion": "0.0000025",
                 "input_cache_read": "0.00000035",
                 "discount": 0
             },
@@ -9216,8 +9248,8 @@
             "created": 1742824755,
             "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well...",
             "pricing": {
-                "prompt": "0.00000024",
-                "completion": "0.0000009",
+                "prompt": "0.00000027",
+                "completion": "0.00000112",
                 "input_cache_read": "0.000000135",
                 "discount": 0
             },
@@ -10000,8 +10032,9 @@
             "created": 1735241320,
             "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations...",
             "pricing": {
-                "prompt": "0.000000286000",
-                "completion": "0.000001143000"
+                "prompt": "0.0000004",
+                "completion": "0.0000013",
+                "discount": 0
             },
             "context_length": 163840,
             "expiration_date": null,
@@ -11517,7 +11550,7 @@
             "hugging_face_id": "",
             "name": "DeepSeek: DeepSeek V4 Flash (lowest price)",
             "created": 1756238927,
-            "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. For this discounted endpoint, your prompts and completions may be retained and used to train or improve the provider's services.",
+            "description": "This DeepSeek V4 Flash endpoint provides the lowest cost for multi-turn conversations for this model. This is accomplished with an exceptionally low cache read price. By using this endpoint you agree prompts and completions may be retained by DeepSeek and used to train future models.",
             "context_length": 1048576,
             "pricing": {
                 "prompt": "0.000000140000",

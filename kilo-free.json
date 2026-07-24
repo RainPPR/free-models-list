@@ -46,6 +46,16 @@
         }
     },
     {
+        "id": "inclusionai/ling-3.0-flash:free",
+        "name": "Ling-3.0-flash (free)",
+        "created": 1784818580,
+        "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
+        "context_length": 262144,
+        "expiration_date": null,
+        "mayTrainOnYourPrompts": true,
+        "opencode": {}
+    },
+    {
         "id": "poolside/laguna-s-2.1:free",
         "name": "Poolside: Laguna S 2.1 (free)",
         "created": 1784652683,

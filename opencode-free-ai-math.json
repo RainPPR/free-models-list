@@ -14,6 +14,13 @@
     "displayName": "Mimo V2.5 (OpenCode)"
   },
   {
+    "id": "0b7c361b-63dc-5731-8d0e-d2315ec9d694",
+    "modelId": "ling-3.0-flash-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Ling 3.0 Flash (OpenCode)"
+  },
+  {
     "id": "14f57ded-622b-5af6-8331-a14e299bdd14",
     "modelId": "nemotron-3-ultra-free",
     "enableTools": true,

@@ -15,6 +15,13 @@
     "reasoningEffort": "high"
   },
   {
+    "id": "ceb18c3b-f2bb-5ffc-9e78-35c7747122ed",
+    "modelId": "inclusionai/ling-3.0-flash:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Ling-3.0-flash (Kilo)"
+  },
+  {
     "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
     "modelId": "poolside/laguna-s-2.1:free",
     "enableTools": true,

@@ -1,5 +1,19 @@
 [
   {
+    "id": "cd2e2f5e-12a8-5000-acf6-7be3dcab4f48",
+    "modelId": "kiro-auto",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kiro Auto (LogFare)"
+  },
+  {
+    "id": "4ed31846-fff0-5772-a6c5-e111ea731e0c",
+    "modelId": "minimax-m3",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "MiniMax M3 (LogFare)"
+  },
+  {
     "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
     "modelId": "kimi-k2.6",
     "enableTools": true,
@@ -12,13 +26,6 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "DeepSeek V4 Pro (LogFare)"
-  },
-  {
-    "id": "4ed31846-fff0-5772-a6c5-e111ea731e0c",
-    "modelId": "minimax-m3",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "MiniMax M3 (LogFare)"
   },
   {
     "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
@@ -42,17 +49,10 @@
     "displayName": "GLM 5.2 (LogFare)"
   },
   {
-    "id": "cd2e2f5e-12a8-5000-acf6-7be3dcab4f48",
-    "modelId": "kiro-auto",
+    "id": "ca94f797-5465-53ae-a827-8052a0597516",
+    "modelId": "qwen-3.8-max",
     "enableTools": true,
     "disabledTools": [],
-    "displayName": "Kiro Auto (LogFare)"
-  },
-  {
-    "id": "d8110e6a-edb8-5f9f-84bb-957bf68379e4",
-    "modelId": "gemma-4-31b-it",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Gemma 4 31b IT (LogFare)"
+    "displayName": "Qwen 3.8 Max (LogFare)"
   }
 ]
