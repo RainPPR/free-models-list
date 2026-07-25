@@ -54,5 +54,12 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Qwen 3.8 Max (LogFare)"
+  },
+  {
+    "id": "28d54736-8e71-528a-a8d2-deb5d56a8aa8",
+    "modelId": "claude-opus-5",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Claude Opus 5 (LogFare)"
   }
 ]

@@ -103,6 +103,7 @@
             "mayTrainOnYourPrompts": true,
             "autoRouting": {
                 "models": [
+                    "inclusionai/ling-3.0-flash:free",
                     "stepfun/step-3.7-flash:free"
                 ]
             }
@@ -615,6 +616,133 @@
                             "enabled": true,
                             "effort": "high"
                         }
+                    }
+                }
+            }
+        },
+        {
+            "id": "anthropic/claude-opus-5-fast",
+            "name": "Claude Opus 5 (Fast) ($$$$)",
+            "created": 1784912546,
+            "description": "Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+            "pricing": {
+                "prompt": "0.00001",
+                "completion": "0.00005",
+                "input_cache_read": "0.000001",
+                "input_cache_write": "0.0000125",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "anthropic/claude-opus-5",
+            "name": "Claude Opus 5",
+            "created": 1784912544,
+            "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
                     }
                 }
             }
@@ -3377,8 +3505,8 @@
             "created": 1775227989,
             "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
             "pricing": {
-                "prompt": "0.00000006",
-                "completion": "0.00000033",
+                "prompt": "0.00000007",
+                "completion": "0.00000034",
                 "discount": 0
             },
             "context_length": 262144,
@@ -3409,7 +3537,7 @@
             "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
             "pricing": {
                 "prompt": "0.0000001",
-                "completion": "0.00000035",
+                "completion": "0.00000034",
                 "input_cache_read": "0.0000001",
                 "discount": 0
             },
@@ -3861,8 +3989,8 @@
             "created": 1773245239,
             "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
             "pricing": {
-                "prompt": "0.00000008",
-                "completion": "0.00000045",
+                "prompt": "0.000000085",
+                "completion": "0.0000004",
                 "discount": 0
             },
             "context_length": 1000000,
@@ -5367,6 +5495,7 @@
             "pricing": {
                 "prompt": "0.00000005",
                 "completion": "0.0000002",
+                "input_cache_read": "0.00000003",
                 "discount": 0
             },
             "context_length": 262144,
@@ -7517,7 +7646,7 @@
                 "discount": 0
             },
             "context_length": 65536,
-            "expiration_date": null,
+            "expiration_date": "2026-12-31",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -7798,7 +7927,8 @@
             "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized...",
             "pricing": {
                 "prompt": "0.00000003",
-                "completion": "0.00000018",
+                "completion": "0.00000017",
+                "input_cache_read": "0.00000003",
                 "discount": 0
             },
             "context_length": 131072,
@@ -7813,8 +7943,9 @@
             "created": 1754414229,
             "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
             "pricing": {
-                "prompt": "0.000000029",
-                "completion": "0.00000014",
+                "prompt": "0.00000003",
+                "completion": "0.00000013",
+                "input_cache_read": "0.00000003",
                 "discount": 0
             },
             "context_length": 131072,
@@ -10669,7 +10800,7 @@
             "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to...",
             "pricing": {
                 "prompt": "0.00000002",
-                "completion": "0.00000003",
+                "completion": "0.00000004",
                 "discount": 0
             },
             "context_length": 131072,

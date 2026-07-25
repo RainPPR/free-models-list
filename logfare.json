@@ -136,6 +136,23 @@
             "tier": 2,
             "requires_training_optin": true,
             "premium_unlocked": false
+        },
+        {
+            "id": "claude-opus-5",
+            "object": "model",
+            "created": 1784944882,
+            "owned_by": "logfare",
+            "display_name": "Claude Opus 5",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
         }
     ]
 }
