@@ -235,10 +235,10 @@
             }
         },
         {
-            "id": "anthropic/claude-opus-4.8",
-            "name": "Anthropic: Claude Opus 4.8",
-            "created": 1779905091,
-            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+            "id": "anthropic/claude-opus-5",
+            "name": "Claude Opus 5 (new)",
+            "created": 1784912544,
+            "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
             "pricing": {
                 "prompt": "0.000005",
                 "completion": "0.000025",
@@ -249,10 +249,6 @@
             },
             "context_length": 1000000,
             "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.67640449,
-                "avgAttemptCostUsd": 85.194714
-            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -631,70 +627,6 @@
                 "input_cache_read": "0.000001",
                 "input_cache_write": "0.0000125",
                 "web_search": "0.01"
-            },
-            "context_length": 1000000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "anthropic",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        },
-                        "verbosity": "low"
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        },
-                        "verbosity": "medium"
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        },
-                        "verbosity": "high"
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "xhigh"
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        },
-                        "verbosity": "max"
-                    }
-                }
-            }
-        },
-        {
-            "id": "anthropic/claude-opus-5",
-            "name": "Claude Opus 5",
-            "created": 1784912544,
-            "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
-            "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.000025",
-                "input_cache_read": "0.0000005",
-                "input_cache_write": "0.00000625",
-                "web_search": "0.01",
-                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -1940,6 +1872,74 @@
             },
             "context_length": 1000000,
             "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "anthropic/claude-opus-4.8",
+            "name": "Anthropic: Claude Opus 4.8",
+            "created": 1779905091,
+            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.67640449,
+                "avgAttemptCostUsd": 85.194714
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -7646,7 +7646,7 @@
                 "discount": 0
             },
             "context_length": 65536,
-            "expiration_date": "2026-12-31",
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
