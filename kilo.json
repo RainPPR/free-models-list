@@ -3175,10 +3175,9 @@
             "created": 1776874269,
             "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
             "pricing": {
-                "prompt": "0.000000105",
-                "completion": "0.00000028",
-                "input_cache_read": "0.000000028",
-                "discount": 0
+                "prompt": "0.000000140000",
+                "completion": "0.000000280000",
+                "input_cache_read": "0.000000003000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -9562,63 +9561,6 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-4o-mini-search-preview",
-            "name": "OpenAI: GPT-4o-mini Search Preview",
-            "created": 1741818122,
-            "description": "GPT-4o mini Search Preview is a specialized model for web search in Chat Completions. It is trained to understand and execute web search queries.",
-            "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.0000006",
-                "web_search": "0.0275",
-                "discount": 0
-            },
-            "context_length": 128000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        }
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "max"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "openai/gpt-4o-search-preview",
             "name": "OpenAI: GPT-4o Search Preview",
             "created": 1741817949,
@@ -10513,38 +10455,6 @@
                     }
                 }
             }
-        },
-        {
-            "id": "inflection/inflection-3-pi",
-            "name": "Inflection: Inflection 3 Pi",
-            "created": 1728604800,
-            "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001",
-                "discount": 0
-            },
-            "context_length": 8000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
-            "id": "inflection/inflection-3-productivity",
-            "name": "Inflection: Inflection 3 Productivity",
-            "created": 1728604800,
-            "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001",
-                "discount": 0
-            },
-            "context_length": 8000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
         },
         {
             "id": "thedrummer/rocinante-12b",
