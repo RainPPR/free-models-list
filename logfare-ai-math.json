@@ -49,10 +49,24 @@
     "displayName": "GLM 5.2 (LogFare)"
   },
   {
+    "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
+    "modelId": "kimi-k3",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kimi K3 (LogFare)"
+  },
+  {
     "id": "ca94f797-5465-53ae-a827-8052a0597516",
     "modelId": "qwen-3.8-max",
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Qwen 3.8 Max (LogFare)"
+  },
+  {
+    "id": "4d346ae1-ffb9-52b9-ac68-f39dc08385f6",
+    "modelId": "qwen-3.6-35b-a3b",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Qwen 3.6 35B A3B (LogFare)"
   }
 ]

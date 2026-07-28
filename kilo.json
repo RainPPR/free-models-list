@@ -617,6 +617,39 @@
             }
         },
         {
+            "id": "qwen/qwen3.7-flash",
+            "name": "Qwen: Qwen3.7 Flash",
+            "created": 1785190561,
+            "description": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real-world...",
+            "pricing": {
+                "prompt": "0.00000003",
+                "completion": "0.00000013",
+                "input_cache_read": "0.000000006",
+                "input_cache_write": "0.000000038",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "anthropic/claude-opus-5-fast",
             "name": "Claude Opus 5 (Fast) ($$$$)",
             "created": 1784912546,
@@ -968,12 +1001,11 @@
             "created": 1783590867,
             "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.000001",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000001",
-                "input_cache_write": "0.00000125",
-                "web_search": "0.01",
-                "discount": 0
+                "prompt": "0.000001000000",
+                "completion": "0.000006000000",
+                "input_cache_read": "0.000000100000",
+                "input_cache_write": "0.000001250000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1027,12 +1059,11 @@
             "created": 1783590864,
             "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
             "pricing": {
-                "prompt": "0.000001",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000001",
-                "input_cache_write": "0.00000125",
-                "web_search": "0.01",
-                "discount": 0
+                "prompt": "0.000001000000",
+                "completion": "0.000006000000",
+                "input_cache_read": "0.000000100000",
+                "input_cache_write": "0.000001250000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1086,12 +1117,11 @@
             "created": 1783590861,
             "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.000015",
-                "input_cache_read": "0.00000025",
-                "input_cache_write": "0.000003125",
-                "web_search": "0.01",
-                "discount": 0
+                "prompt": "0.000002500000",
+                "completion": "0.000015000000",
+                "input_cache_read": "0.000000250000",
+                "input_cache_write": "0.000003125000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1145,12 +1175,11 @@
             "created": 1783590857,
             "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
             "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.000015",
-                "input_cache_read": "0.00000025",
-                "input_cache_write": "0.000003125",
-                "web_search": "0.01",
-                "discount": 0
+                "prompt": "0.000002500000",
+                "completion": "0.000015000000",
+                "input_cache_read": "0.000000250000",
+                "input_cache_write": "0.000003125000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -3535,9 +3564,8 @@
             "created": 1775148486,
             "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
             "pricing": {
-                "prompt": "0.0000001",
+                "prompt": "0.00000009",
                 "completion": "0.00000034",
-                "input_cache_read": "0.0000001",
                 "discount": 0
             },
             "context_length": 262144,
@@ -4356,7 +4384,7 @@
                 "web_search": "0.014",
                 "discount": 0
             },
-            "context_length": 131072,
+            "context_length": 65536,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -7688,64 +7716,6 @@
             "opencode": {}
         },
         {
-            "id": "openai/gpt-5-chat",
-            "name": "OpenAI: GPT-5 Chat",
-            "created": 1754587837,
-            "description": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications.",
-            "pricing": {
-                "prompt": "0.00000125",
-                "completion": "0.00001",
-                "input_cache_read": "0.000000125",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 128000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        }
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "max"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "openai/gpt-5",
             "name": "OpenAI: GPT-5",
             "created": 1754587413,
@@ -9559,63 +9529,6 @@
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {}
-        },
-        {
-            "id": "openai/gpt-4o-search-preview",
-            "name": "OpenAI: GPT-4o Search Preview",
-            "created": 1741817949,
-            "description": "GPT-4o Search Previewis a specialized model for web search in Chat Completions. It is trained to understand and execute web search queries.",
-            "pricing": {
-                "prompt": "0.0000025",
-                "completion": "0.00001",
-                "web_search": "0.035",
-                "discount": 0
-            },
-            "context_length": 128000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        }
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "max"
-                        }
-                    }
-                }
-            }
         },
         {
             "id": "rekaai/reka-flash-3",
@@ -11560,29 +11473,6 @@
                         }
                     }
                 }
-            }
-        },
-        {
-            "id": "kwaipilot/kat-coder-pro-v2.5:free",
-            "canonical_slug": "kwaipilot/kat-coder-pro-v2.5:free",
-            "hugging_face_id": "",
-            "name": "Kwaipilot: KAT-Coder-Pro V2.5 (free)",
-            "created": 1756238927,
-            "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make modifications, and complete the entire process in the actual repository. At the same time, it seamlessly integrates multiple experts to fully retain the front-end aesthetic generation capability of V2.",
-            "context_length": 256000,
-            "pricing": {
-                "prompt": "0.000000000000",
-                "completion": "0.000000000000",
-                "request": "0",
-                "image": "0",
-                "web_search": "0",
-                "internal_reasoning": "0",
-                "input_cache_read": "0.000000000000"
-            },
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {
-                "ai_sdk_provider": "openai-compatible"
             }
         },
         {

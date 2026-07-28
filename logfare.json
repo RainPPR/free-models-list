@@ -121,6 +121,23 @@
             "premium_unlocked": false
         },
         {
+            "id": "kimi-k3",
+            "object": "model",
+            "created": 1784245302,
+            "owned_by": "logfare",
+            "display_name": "Kimi K3",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
             "id": "qwen-3.8-max",
             "object": "model",
             "created": 1784788747,
@@ -136,6 +153,23 @@
             "tier": 2,
             "requires_training_optin": true,
             "premium_unlocked": false
+        },
+        {
+            "id": "qwen-3.6-35b-a3b",
+            "object": "model",
+            "created": 1785196173,
+            "owned_by": "logfare",
+            "display_name": "Qwen 3.6 35B A3B",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 1,
+            "requires_training_optin": false,
+            "premium_unlocked": true
         }
     ]
 }
