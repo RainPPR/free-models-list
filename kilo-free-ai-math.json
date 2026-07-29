@@ -64,13 +64,6 @@
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
   },
   {
-    "id": "e95fc0cb-3ce7-5503-a2f5-99bfd69160a3",
-    "modelId": "poolside/laguna-m.1:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Poolside: Laguna M.1 (Kilo)"
-  },
-  {
     "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
     "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
     "enableTools": true,

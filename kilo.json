@@ -593,7 +593,8 @@
                 "prompt": "0.000000320000",
                 "completion": "0.000001280000",
                 "input_cache_read": "0.000000032000",
-                "input_cache_write": "0.000000400000"
+                "input_cache_write": "0.000000400000",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -802,6 +803,54 @@
             }
         },
         {
+            "id": "google/gemini-3.6-flash:batch",
+            "name": "Google: Gemini 3.6 Flash (batch)",
+            "created": 1784646733,
+            "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
+            "pricing": {
+                "prompt": "0.00000075",
+                "completion": "0.00000375",
+                "image": "0.00000075",
+                "input_cache_read": "0.000000075",
+                "input_cache_write": "0.00000008333333333333334",
+                "web_search": "0.014",
+                "internal_reasoning": "0.00000375",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "google/gemini-3.5-flash-lite",
             "name": "Google: Gemini 3.5 Flash Lite",
             "created": 1784646726,
@@ -814,6 +863,53 @@
                 "input_cache_write": "0.00000008333333333333334",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000025",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "google/gemini-3.5-flash-lite:batch",
+            "name": "Google: Gemini 3.5 Flash Lite (batch)",
+            "created": 1784646726,
+            "description": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+            "pricing": {
+                "prompt": "0.00000015",
+                "completion": "0.00000125",
+                "image": "0.00000015",
+                "input_cache_read": "0.000000015",
+                "web_search": "0.014",
+                "internal_reasoning": "0.00000125",
                 "discount": 0
             },
             "context_length": 1048576,
@@ -997,15 +1093,16 @@
         },
         {
             "id": "openai/gpt-5.6-luna-pro",
-            "name": "OpenAI: GPT-5.6 Luna Pro",
+            "name": "OpenAI: GPT-5.6 Luna Pro (50% off)",
             "created": 1783590867,
             "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.000001000000",
-                "completion": "0.000006000000",
-                "input_cache_read": "0.000000100000",
-                "input_cache_write": "0.000001250000",
-                "web_search": "0.010000000000"
+                "prompt": "0.0000005",
+                "completion": "0.000003",
+                "input_cache_read": "0.00000005",
+                "input_cache_write": "0.000000625",
+                "web_search": "0.005",
+                "discount": 0.5
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1055,15 +1152,16 @@
         },
         {
             "id": "openai/gpt-5.6-luna",
-            "name": "OpenAI: GPT-5.6 Luna",
+            "name": "OpenAI: GPT-5.6 Luna (50% off)",
             "created": 1783590864,
             "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
             "pricing": {
-                "prompt": "0.000001000000",
-                "completion": "0.000006000000",
-                "input_cache_read": "0.000000100000",
-                "input_cache_write": "0.000001250000",
-                "web_search": "0.010000000000"
+                "prompt": "0.0000005",
+                "completion": "0.000003",
+                "input_cache_read": "0.00000005",
+                "input_cache_write": "0.000000625",
+                "web_search": "0.005",
+                "discount": 0.5
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1113,15 +1211,16 @@
         },
         {
             "id": "openai/gpt-5.6-terra-pro",
-            "name": "OpenAI: GPT-5.6 Terra Pro",
+            "name": "OpenAI: GPT-5.6 Terra Pro (50% off)",
             "created": 1783590861,
             "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.000002500000",
-                "completion": "0.000015000000",
-                "input_cache_read": "0.000000250000",
-                "input_cache_write": "0.000003125000",
-                "web_search": "0.010000000000"
+                "prompt": "0.00000125",
+                "completion": "0.0000075",
+                "input_cache_read": "0.000000125",
+                "input_cache_write": "0.0000015625",
+                "web_search": "0.005",
+                "discount": 0.5
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1171,15 +1270,16 @@
         },
         {
             "id": "openai/gpt-5.6-terra",
-            "name": "OpenAI: GPT-5.6 Terra",
+            "name": "OpenAI: GPT-5.6 Terra (50% off)",
             "created": 1783590857,
             "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
             "pricing": {
-                "prompt": "0.000002500000",
-                "completion": "0.000015000000",
-                "input_cache_read": "0.000000250000",
-                "input_cache_write": "0.000003125000",
-                "web_search": "0.010000000000"
+                "prompt": "0.00000125",
+                "completion": "0.0000075",
+                "input_cache_read": "0.000000125",
+                "input_cache_write": "0.0000015625",
+                "web_search": "0.005",
+                "discount": 0.5
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1434,6 +1534,69 @@
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {}
+        },
+        {
+            "id": "anthropic/claude-sonnet-5:batch",
+            "name": "Anthropic: Claude Sonnet 5 (batch)",
+            "created": 1782843083,
+            "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
+            "pricing": {
+                "prompt": "0.000001",
+                "completion": "0.000005",
+                "input_cache_read": "0.0000001",
+                "input_cache_write": "0.00000125",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
         },
         {
             "id": "google/gemini-3.1-flash-lite-image",
@@ -1780,6 +1943,70 @@
             }
         },
         {
+            "id": "anthropic/claude-fable-5:batch",
+            "name": "Anthropic: Claude Fable 5 (batch)",
+            "created": 1781007515,
+            "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
+            "pricing": {
+                "prompt": "0.000005",
+                "completion": "0.000025",
+                "input_cache_read": "0.0000005",
+                "input_cache_write": "0.00000625",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
             "id": "nex-agi/nex-n2-pro",
             "name": "Nex AGI: Nex-N2-Pro",
             "created": 1780937140,
@@ -1848,6 +2075,38 @@
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {}
+        },
+        {
+            "id": "minimax/minimax-m3:batch",
+            "name": "MiniMax: MiniMax M3 (batch)",
+            "created": 1780245374,
+            "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+            "pricing": {
+                "prompt": "0.00000015",
+                "completion": "0.0000006",
+                "input_cache_read": "0.00000003"
+            },
+            "context_length": 524288,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
         },
         {
             "id": "stepfun/step-3.7-flash",
@@ -2019,6 +2278,69 @@
             }
         },
         {
+            "id": "anthropic/claude-opus-4.8:batch",
+            "name": "Anthropic: Claude Opus 4.8 (batch)",
+            "created": 1779905091,
+            "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.0000125",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.000003125",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
             "id": "qwen/qwen3.7-max",
             "name": "Qwen: Qwen3.7 Max (50% off)",
             "created": 1779376861,
@@ -2027,7 +2349,8 @@
                 "prompt": "0.000001250000",
                 "completion": "0.000003750000",
                 "input_cache_read": "0.000000125000",
-                "input_cache_write": "0.000001562500"
+                "input_cache_write": "0.000001562500",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -2099,6 +2422,53 @@
                 "overallScore": 0.64719101,
                 "avgAttemptCostUsd": 104.4912192
             },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "google/gemini-3.5-flash:batch",
+            "name": "Google: Gemini 3.5 Flash (batch)",
+            "created": 1779193800,
+            "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...",
+            "pricing": {
+                "prompt": "0.00000075",
+                "completion": "0.0000045",
+                "image": "0.00000075",
+                "input_cache_read": "0.000000075",
+                "web_search": "0.014",
+                "internal_reasoning": "0.0000045",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -2274,6 +2644,53 @@
             }
         },
         {
+            "id": "google/gemini-3.1-flash-lite:batch",
+            "name": "Google: Gemini 3.1 Flash Lite (batch)",
+            "created": 1778168828,
+            "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+            "pricing": {
+                "prompt": "0.000000125",
+                "completion": "0.00000075",
+                "image": "0.000000125",
+                "input_cache_read": "0.0000000125",
+                "web_search": "0.014",
+                "internal_reasoning": "0.00000075",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "openai/gpt-chat-latest",
             "name": "OpenAI: GPT Chat Latest",
             "created": 1778000212,
@@ -2411,47 +2828,6 @@
             },
             "context_length": 256000,
             "expiration_date": null,
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {}
-        },
-        {
-            "id": "poolside/laguna-m.1",
-            "name": "Poolside: Laguna M.1 (retires Jul 28)",
-            "created": 1777388504,
-            "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
-            "pricing": {
-                "prompt": "0.0000002",
-                "completion": "0.0000004",
-                "input_cache_read": "0.0000001",
-                "discount": 0
-            },
-            "context_length": 262144,
-            "expiration_date": "2026-07-28",
-            "terminalBench": {
-                "overallScore": 0.3258427,
-                "avgAttemptCostUsd": 40.549143
-            },
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
-            "id": "poolside/laguna-m.1:free",
-            "name": "Poolside: Laguna M.1 (free)",
-            "created": 1777388504,
-            "description": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0",
-                "discount": 0
-            },
-            "context_length": 262144,
-            "expiration_date": "2026-07-28",
-            "terminalBench": {
-                "overallScore": 0.25393258,
-                "avgAttemptCostUsd": 0
-            },
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {}
@@ -2780,9 +3156,10 @@
             "created": 1777261368,
             "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba. It accepts text, image, and video input and produces text output, with a 1M token context window. This...",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000002400000",
-                "input_cache_write": "0.000000500000"
+                "prompt": "0.0000003",
+                "completion": "0.0000018",
+                "input_cache_write": "0.000000375",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -2811,9 +3188,10 @@
             "created": 1777261362,
             "description": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series. It supports text, image, and video input with a 1M token context window. Tiered pricing kicks in...",
             "pricing": {
-                "prompt": "0.000000250000",
-                "completion": "0.000001500000",
-                "input_cache_write": "0.000000312500"
+                "prompt": "0.0000001875",
+                "completion": "0.000001125",
+                "input_cache_write": "0.000000234375",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -2872,9 +3250,10 @@
             "created": 1777260242,
             "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...",
             "pricing": {
-                "prompt": "0.000001300000",
-                "completion": "0.000007800000",
-                "input_cache_write": "0.000001625000"
+                "prompt": "0.00000104",
+                "completion": "0.00000624",
+                "input_cache_write": "0.0000013",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -2903,8 +3282,9 @@
             "created": 1777255064,
             "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs...",
             "pricing": {
-                "prompt": "0.000000600000",
-                "completion": "0.000003600000"
+                "prompt": "0.00000045",
+                "completion": "0.0000027",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -3003,6 +3383,65 @@
                 "overallScore": 0.74157303,
                 "avgAttemptCostUsd": 72.62918640000001
             },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                },
+                "prompt": "gpt55"
+            }
+        },
+        {
+            "id": "openai/gpt-5.5:batch",
+            "name": "OpenAI: GPT-5.5 (batch)",
+            "created": 1777051893,
+            "description": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.000015",
+                "input_cache_read": "0.00000025",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1050000,
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
@@ -3486,6 +3925,69 @@
             }
         },
         {
+            "id": "anthropic/claude-opus-4.7:batch",
+            "name": "Anthropic: Claude Opus 4.7 (batch)",
+            "created": 1776351100,
+            "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.0000125",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.000003125",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
             "id": "z-ai/glm-5.1",
             "name": "Z.ai: GLM 5.1",
             "created": 1775578025,
@@ -3595,9 +4097,10 @@
             "created": 1775133557,
             "description": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers...",
             "pricing": {
-                "prompt": "0.000000500000",
-                "completion": "0.000003000000",
-                "input_cache_write": "0.000000625000"
+                "prompt": "0.000000325",
+                "completion": "0.00000195",
+                "input_cache_write": "0.00000040625",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -3899,6 +4402,64 @@
             }
         },
         {
+            "id": "openai/gpt-5.4-nano:batch",
+            "name": "OpenAI: GPT-5.4 Nano (batch)",
+            "created": 1773748187,
+            "description": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency...",
+            "pricing": {
+                "prompt": "0.0000001",
+                "completion": "0.000000625",
+                "input_cache_read": "0.00000001",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 400000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "openai/gpt-5.4-mini",
             "name": "OpenAI: GPT-5.4 Mini",
             "created": 1773748178,
@@ -3907,6 +4468,64 @@
                 "prompt": "0.00000075",
                 "completion": "0.0000045",
                 "input_cache_read": "0.000000075",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 400000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "openai/gpt-5.4-mini:batch",
+            "name": "OpenAI: GPT-5.4 Mini (batch)",
+            "created": 1773748178,
+            "description": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,...",
+            "pricing": {
+                "prompt": "0.000000375",
+                "completion": "0.00000225",
+                "input_cache_read": "0.0000000375",
                 "web_search": "0.01",
                 "discount": 0
             },
@@ -4208,6 +4827,64 @@
             }
         },
         {
+            "id": "openai/gpt-5.4:batch",
+            "name": "OpenAI: GPT-5.4 (batch)",
+            "created": 1772734352,
+            "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for...",
+            "pricing": {
+                "prompt": "0.00000125",
+                "completion": "0.0000075",
+                "input_cache_read": "0.000000125",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 1050000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "inception/mercury-2",
             "name": "Inception: Mercury 2",
             "created": 1772636275,
@@ -4423,8 +5100,9 @@
             "created": 1772053822,
             "description": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. Its overall...",
             "pricing": {
-                "prompt": "0.000000250000",
-                "completion": "0.000002000000"
+                "prompt": "0.0000001625",
+                "completion": "0.0000013",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -4453,8 +5131,9 @@
             "created": 1772053810,
             "description": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance. Its overall capabilities are comparable to those of...",
             "pricing": {
-                "prompt": "0.000000300000",
-                "completion": "0.000002400000"
+                "prompt": "0.000000195",
+                "completion": "0.00000156",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -4483,8 +5162,9 @@
             "created": 1772053789,
             "description": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of...",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000003200000"
+                "prompt": "0.00000026",
+                "completion": "0.00000208",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -4513,8 +5193,9 @@
             "created": 1772053776,
             "description": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Compared to the...",
             "pricing": {
-                "prompt": "0.000000100000",
-                "completion": "0.000000400000"
+                "prompt": "0.000000065",
+                "completion": "0.00000026",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -4697,6 +5378,52 @@
             }
         },
         {
+            "id": "google/gemini-3.1-pro-preview:batch",
+            "name": "Google: Gemini 3.1 Pro Preview (batch)",
+            "created": 1771509627,
+            "description": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...",
+            "pricing": {
+                "prompt": "0.000001",
+                "completion": "0.000006",
+                "image": "0.000001",
+                "web_search": "0.014",
+                "internal_reasoning": "0.000006",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "anthropic/claude-sonnet-4.6",
             "name": "Anthropic: Claude Sonnet 4.6",
             "created": 1771342990,
@@ -4770,8 +5497,9 @@
             "created": 1771229416,
             "description": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency. In a variety of...",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000002400000"
+                "prompt": "0.00000026",
+                "completion": "0.00000156",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -4800,8 +5528,9 @@
             "created": 1771223018,
             "description": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It delivers...",
             "pricing": {
-                "prompt": "0.000000600000",
-                "completion": "0.000003600000"
+                "prompt": "0.00000039",
+                "completion": "0.00000234",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -4901,8 +5630,9 @@
             "created": 1770671901,
             "description": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning compute, it...",
             "pricing": {
-                "prompt": "0.000001200000",
-                "completion": "0.000006000000"
+                "prompt": "0.00000078",
+                "completion": "0.0000039",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -4937,6 +5667,69 @@
                 "input_cache_write": "0.00000625",
                 "web_search": "0.01",
                 "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
+            "id": "anthropic/claude-opus-4.6:batch",
+            "name": "Anthropic: Claude Opus 4.6 (batch)",
+            "created": 1770219050,
+            "description": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.0000125",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.000003125",
+                "web_search": "0.01"
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -5515,6 +6308,52 @@
             }
         },
         {
+            "id": "google/gemini-3-flash-preview:batch",
+            "name": "Google: Gemini 3 Flash Preview (batch)",
+            "created": 1765987078,
+            "description": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool...",
+            "pricing": {
+                "prompt": "0.00000025",
+                "completion": "0.0000015",
+                "image": "0.00000025",
+                "web_search": "0.014",
+                "internal_reasoning": "0.0000015",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "nvidia/nemotron-3-nano-30b-a3b",
             "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
             "created": 1765731275,
@@ -5655,6 +6494,64 @@
                 "prompt": "0.00000175",
                 "completion": "0.000014",
                 "input_cache_read": "0.000000175",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 400000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "openai/gpt-5.2:batch",
+            "name": "OpenAI: GPT-5.2 (batch)",
+            "created": 1765389775,
+            "description": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly...",
+            "pricing": {
+                "prompt": "0.000000875",
+                "completion": "0.000007",
+                "input_cache_read": "0.0000000875",
                 "web_search": "0.01",
                 "discount": 0
             },
@@ -6023,6 +6920,69 @@
             }
         },
         {
+            "id": "anthropic/claude-opus-4.5:batch",
+            "name": "Anthropic: Claude Opus 4.5 (batch)",
+            "created": 1764010580,
+            "description": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and...",
+            "pricing": {
+                "prompt": "0.0000025",
+                "completion": "0.0000125",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.000003125",
+                "web_search": "0.01"
+            },
+            "context_length": 200000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
             "id": "allenai/olmo-3-32b-think",
             "name": "AllenAI: Olmo 3 32B Think",
             "created": 1763758276,
@@ -6110,6 +7070,64 @@
                 "prompt": "0.00000125",
                 "completion": "0.00001",
                 "input_cache_read": "0.000000125",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 400000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "openai/gpt-5.1:batch",
+            "name": "OpenAI: GPT-5.1 (batch)",
+            "created": 1763060305,
+            "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning...",
+            "pricing": {
+                "prompt": "0.000000625",
+                "completion": "0.000005",
+                "input_cache_read": "0.0000000625",
                 "web_search": "0.01",
                 "discount": 0
             },
@@ -6271,7 +7289,7 @@
             "pricing": {
                 "prompt": "0.00000025",
                 "completion": "0.000002",
-                "input_cache_read": "0.000000025",
+                "input_cache_read": "0.00000003",
                 "web_search": "0.01",
                 "discount": 0
             },
@@ -6446,8 +7464,9 @@
             "created": 1761231332,
             "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text...",
             "pricing": {
-                "prompt": "0.000000160000",
-                "completion": "0.000000640000"
+                "prompt": "0.000000104",
+                "completion": "0.000000416",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -6609,13 +7628,77 @@
             }
         },
         {
+            "id": "anthropic/claude-haiku-4.5:batch",
+            "name": "Anthropic: Claude Haiku 4.5 (batch)",
+            "created": 1760547638,
+            "description": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance...",
+            "pricing": {
+                "prompt": "0.0000005",
+                "completion": "0.0000025",
+                "input_cache_read": "0.00000005",
+                "input_cache_write": "0.000000625",
+                "web_search": "0.01"
+            },
+            "context_length": 200000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
             "id": "qwen/qwen3-vl-8b-thinking",
             "name": "Qwen: Qwen3 VL 8B Thinking",
             "created": 1760463746,
             "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...",
             "pricing": {
-                "prompt": "0.000000180000",
-                "completion": "0.000002100000"
+                "prompt": "0.00000018",
+                "completion": "0.0000021",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -6644,8 +7727,9 @@
             "created": 1760463308,
             "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon...",
             "pricing": {
-                "prompt": "0.000000180000",
-                "completion": "0.000000700000"
+                "prompt": "0.000000117",
+                "completion": "0.000000455",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -6869,8 +7953,9 @@
             "created": 1759794479,
             "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000002400000"
+                "prompt": "0.0000002",
+                "completion": "0.0000024",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -6899,8 +7984,9 @@
             "created": 1759794476,
             "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception...",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000000800000"
+                "prompt": "0.00000013",
+                "completion": "0.00000052",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -7083,6 +8169,69 @@
             }
         },
         {
+            "id": "anthropic/claude-sonnet-4.5:batch",
+            "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+            "created": 1759161676,
+            "description": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with...",
+            "pricing": {
+                "prompt": "0.0000015",
+                "completion": "0.0000075",
+                "input_cache_read": "0.00000015",
+                "input_cache_write": "0.000001875",
+                "web_search": "0.01"
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
             "id": "deepseek/deepseek-v3.2-exp",
             "name": "DeepSeek: DeepSeek V3.2 Exp",
             "created": 1759150481,
@@ -7158,8 +8307,9 @@
             "created": 1758668690,
             "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math....",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000004000000"
+                "prompt": "0.0000004",
+                "completion": "0.000004",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -7188,8 +8338,9 @@
             "created": 1758668687,
             "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table...",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000001600000"
+                "prompt": "0.00000026",
+                "completion": "0.00000104",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -7218,10 +8369,11 @@
             "created": 1758662808,
             "description": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It...",
             "pricing": {
-                "prompt": "0.000001200000",
-                "completion": "0.000006000000",
-                "input_cache_read": "0.000000240000",
-                "input_cache_write": "0.000001500000"
+                "prompt": "0.00000078",
+                "completion": "0.0000039",
+                "input_cache_read": "0.000000156",
+                "input_cache_write": "0.000000975",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -7250,10 +8402,11 @@
             "created": 1758662707,
             "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and...",
             "pricing": {
-                "prompt": "0.000001000000",
-                "completion": "0.000005000000",
-                "input_cache_read": "0.000000200000",
-                "input_cache_write": "0.000001250000"
+                "prompt": "0.00000065",
+                "completion": "0.00000325",
+                "input_cache_read": "0.00000013",
+                "input_cache_write": "0.0000008125",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -7366,10 +8519,11 @@
             "created": 1758115536,
             "description": "Qwen3 Coder Flash is Alibaba's fast and cost efficient version of their proprietary Qwen3 Coder Plus. It is a powerful coding agent model specializing in autonomous programming via tool calling...",
             "pricing": {
-                "prompt": "0.000000300000",
-                "completion": "0.000001500000",
-                "input_cache_read": "0.000000060000",
-                "input_cache_write": "0.000000375000"
+                "prompt": "0.000000195",
+                "completion": "0.000000975",
+                "input_cache_read": "0.000000039",
+                "input_cache_write": "0.00000024375",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -7398,8 +8552,9 @@
             "created": 1757612284,
             "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic...",
             "pricing": {
-                "prompt": "0.000000150000",
-                "completion": "0.000001200000"
+                "prompt": "0.00000015",
+                "completion": "0.0000012",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -7428,8 +8583,9 @@
             "created": 1757612213,
             "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual...",
             "pricing": {
-                "prompt": "0.000000150000",
-                "completion": "0.000001200000"
+                "prompt": "0.0000000975",
+                "completion": "0.00000078",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -7458,8 +8614,9 @@
             "created": 1757347599,
             "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000001200000"
+                "prompt": "0.00000026",
+                "completion": "0.00000078",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -7488,9 +8645,10 @@
             "created": 1757347599,
             "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000001200000",
-                "input_cache_write": "0.000000500000"
+                "prompt": "0.0000004",
+                "completion": "0.0000012",
+                "input_cache_write": "0.0000005",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
@@ -7550,8 +8708,9 @@
             "created": 1756399192,
             "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal reasoning traces are separated...",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000002400000"
+                "prompt": "0.0000002",
+                "completion": "0.0000024",
+                "discount": 0
             },
             "context_length": 81920,
             "expiration_date": null,
@@ -7774,6 +8933,64 @@
             }
         },
         {
+            "id": "openai/gpt-5:batch",
+            "name": "OpenAI: GPT-5 (batch)",
+            "created": 1754587413,
+            "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy...",
+            "pricing": {
+                "prompt": "0.000000625",
+                "completion": "0.000005",
+                "input_cache_read": "0.0000000625",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 400000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "openai/gpt-5-mini",
             "name": "OpenAI: GPT-5 Mini",
             "created": 1754587407,
@@ -7832,6 +9049,64 @@
             }
         },
         {
+            "id": "openai/gpt-5-mini:batch",
+            "name": "OpenAI: GPT-5 Mini (batch)",
+            "created": 1754587407,
+            "description": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost....",
+            "pricing": {
+                "prompt": "0.000000125",
+                "completion": "0.000001",
+                "input_cache_read": "0.0000000125",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 400000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "openai/gpt-5-nano",
             "name": "OpenAI: GPT-5 Nano",
             "created": 1754587402,
@@ -7840,6 +9115,64 @@
                 "prompt": "0.00000005",
                 "completion": "0.0000004",
                 "input_cache_read": "0.000000005",
+                "web_search": "0.01",
+                "discount": 0
+            },
+            "context_length": 400000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "openai",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "openai/gpt-5-nano:batch",
+            "name": "OpenAI: GPT-5 Nano (batch)",
+            "created": 1754587402,
+            "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger...",
+            "pricing": {
+                "prompt": "0.000000025",
+                "completion": "0.0000002",
+                "input_cache_read": "0.0000000025",
                 "web_search": "0.01",
                 "discount": 0
             },
@@ -7988,6 +9321,69 @@
             }
         },
         {
+            "id": "anthropic/claude-opus-4.1:batch",
+            "name": "Anthropic: Claude Opus 4.1 (batch)",
+            "created": 1754411591,
+            "description": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains...",
+            "pricing": {
+                "prompt": "0.0000075",
+                "completion": "0.0000375",
+                "input_cache_read": "0.00000075",
+                "input_cache_write": "0.000009375",
+                "web_search": "0.01"
+            },
+            "context_length": 200000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "ai_sdk_provider": "anthropic",
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        },
+                        "verbosity": "low"
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        },
+                        "verbosity": "medium"
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        },
+                        "verbosity": "high"
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "xhigh"
+                    },
+                    "max": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        },
+                        "verbosity": "max"
+                    }
+                }
+            }
+        },
+        {
             "id": "mistralai/codestral-2508",
             "name": "Mistral: Codestral 2508",
             "created": 1754079630,
@@ -8010,8 +9406,9 @@
             "created": 1753972379,
             "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use. Built on the...",
             "pricing": {
-                "prompt": "0.000000450000",
-                "completion": "0.000002250000"
+                "prompt": "0.0000002925",
+                "completion": "0.0000014625",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -8040,8 +9437,9 @@
             "created": 1753806965,
             "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and...",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000000800000"
+                "prompt": "0.00000013",
+                "completion": "0.00000052",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -8145,8 +9543,9 @@
             "created": 1753449557,
             "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
             "pricing": {
-                "prompt": "0.000000230000",
-                "completion": "0.000002300000"
+                "prompt": "0.00000023",
+                "completion": "0.0000023",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -8175,8 +9574,9 @@
             "created": 1753230546,
             "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
             "pricing": {
-                "prompt": "0.000001500000",
-                "completion": "0.000007500000"
+                "prompt": "0.000000975",
+                "completion": "0.000004875",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -8238,13 +9638,34 @@
             "opencode": {}
         },
         {
+            "id": "google/gemini-2.5-flash-lite:batch",
+            "name": "Google: Gemini 2.5 Flash Lite (batch)",
+            "created": 1753200276,
+            "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance...",
+            "pricing": {
+                "prompt": "0.00000005",
+                "completion": "0.0000002",
+                "image": "0.00000005",
+                "input_cache_read": "0.00000001",
+                "web_search": "0.014",
+                "internal_reasoning": "0.0000002",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
             "id": "qwen/qwen3-235b-a22b-2507",
             "name": "Qwen: Qwen3 235B A22B Instruct 2507",
             "created": 1753119555,
             "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose text generation, including instruction following,...",
             "pricing": {
-                "prompt": "0.000000230000",
-                "completion": "0.000000920000"
+                "prompt": "0.0000001495",
+                "completion": "0.000000598",
+                "discount": 0
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -8448,6 +9869,26 @@
             "opencode": {}
         },
         {
+            "id": "google/gemini-2.5-flash:batch",
+            "name": "Google: Gemini 2.5 Flash (batch)",
+            "created": 1750172488,
+            "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
+            "pricing": {
+                "prompt": "0.00000015",
+                "completion": "0.00000125",
+                "image": "0.00000015",
+                "input_cache_read": "0.00000003",
+                "web_search": "0.014",
+                "internal_reasoning": "0.00000125",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
             "id": "google/gemini-2.5-pro",
             "name": "Google: Gemini 2.5 Pro",
             "created": 1750169544,
@@ -8460,6 +9901,26 @@
                 "input_cache_write": "0.000000375",
                 "web_search": "0.014",
                 "internal_reasoning": "0.00001",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
+            "id": "google/gemini-2.5-pro:batch",
+            "name": "Google: Gemini 2.5 Pro (batch)",
+            "created": 1750169544,
+            "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...",
+            "pricing": {
+                "prompt": "0.000000625",
+                "completion": "0.000005",
+                "image": "0.000000625",
+                "input_cache_read": "0.000000125",
+                "web_search": "0.014",
+                "internal_reasoning": "0.000005",
                 "discount": 0
             },
             "context_length": 1048576,
@@ -8818,8 +10279,9 @@
             "created": 1745878604,
             "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000000800000"
+                "prompt": "0.00000013",
+                "completion": "0.00000052",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -8848,8 +10310,9 @@
             "created": 1745876632,
             "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,...",
             "pricing": {
-                "prompt": "0.000000180000",
-                "completion": "0.000000700000"
+                "prompt": "0.000000117",
+                "completion": "0.000000455",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -8878,8 +10341,9 @@
             "created": 1745876478,
             "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
             "pricing": {
-                "prompt": "0.000000350000",
-                "completion": "0.000001400000"
+                "prompt": "0.0000002275",
+                "completion": "0.00000091",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -8908,8 +10372,9 @@
             "created": 1745875945,
             "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
             "pricing": {
-                "prompt": "0.000000160000",
-                "completion": "0.000000640000"
+                "prompt": "0.000000104",
+                "completion": "0.000000416",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -8938,8 +10403,9 @@
             "created": 1745875757,
             "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and...",
             "pricing": {
-                "prompt": "0.000000700000",
-                "completion": "0.000002800000"
+                "prompt": "0.000000455",
+                "completion": "0.00000182",
+                "discount": 0
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -9774,10 +11240,11 @@
             "created": 1738409840,
             "description": "Qwen-Plus, based on the Qwen2.5 foundation model, is a 131K context model with a balanced performance, speed, and cost combination.",
             "pricing": {
-                "prompt": "0.000000400000",
-                "completion": "0.000001200000",
-                "input_cache_read": "0.000000080000",
-                "input_cache_write": "0.000000500000"
+                "prompt": "0.00000026",
+                "completion": "0.00000078",
+                "input_cache_read": "0.000000052",
+                "input_cache_write": "0.000000325",
+                "discount": 0
             },
             "context_length": 1000000,
             "expiration_date": null,
