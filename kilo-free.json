@@ -10,6 +10,7 @@
         "autoRouting": {
             "models": [
                 "inclusionai/ling-3.0-flash:free",
+                "poolside/laguna-s-2.1:free",
                 "stepfun/step-3.7-flash:free"
             ]
         }
