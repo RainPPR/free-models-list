@@ -253,7 +253,7 @@
         },
         {
             "id": "anthropic/claude-opus-5",
-            "name": "Claude Opus 5 (new)",
+            "name": "Claude Opus 5",
             "created": 1784912544,
             "description": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
             "pricing": {
@@ -335,8 +335,8 @@
             "context_length": 1050000,
             "expiration_date": null,
             "terminalBench": {
-                "overallScore": 0.70337079,
-                "avgAttemptCostUsd": 58.9851462
+                "overallScore": 0.76179775,
+                "avgAttemptCostUsd": 87.40998859999999
             },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -637,6 +637,60 @@
                     }
                 }
             }
+        },
+        {
+            "id": "deepseek/deepseek-v4-flash-0731",
+            "name": "DeepSeek: DeepSeek V4 Flash 0731",
+            "created": 1785478908,
+            "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.",
+            "pricing": {
+                "prompt": "0.00000014",
+                "completion": "0.00000028",
+                "input_cache_read": "0.0000000028"
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "thinkingmachines/inkling-small",
+            "name": "Thinking Machines: Inkling Small",
+            "created": 1785443117,
+            "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+            "pricing": {
+                "prompt": "0.0000005",
+                "completion": "0.0000012",
+                "input_cache_read": "0.0000001",
+                "discount": 0
+            },
+            "context_length": 524288,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
         },
         {
             "id": "qwen/qwen3.7-flash",
@@ -1002,16 +1056,15 @@
         },
         {
             "id": "openai/gpt-5.6-luna-pro",
-            "name": "OpenAI: GPT-5.6 Luna Pro (50% off)",
+            "name": "OpenAI: GPT-5.6 Luna Pro",
             "created": 1783590867,
             "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000006000000000000001",
-                "input_cache_read": "0.00000001",
-                "input_cache_write": "0.00000012500000000000002",
-                "web_search": "0.005",
-                "discount": 0.5
+                "prompt": "0.000000200000",
+                "completion": "0.000001200000",
+                "input_cache_read": "0.000000020000",
+                "input_cache_write": "0.000000250000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1061,16 +1114,15 @@
         },
         {
             "id": "openai/gpt-5.6-luna",
-            "name": "OpenAI: GPT-5.6 Luna (50% off)",
+            "name": "OpenAI: GPT-5.6 Luna",
             "created": 1783590864,
             "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
             "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000006000000000000001",
-                "input_cache_read": "0.00000001",
-                "input_cache_write": "0.00000012500000000000002",
-                "web_search": "0.005",
-                "discount": 0.5
+                "prompt": "0.000000200000",
+                "completion": "0.000001200000",
+                "input_cache_read": "0.000000020000",
+                "input_cache_write": "0.000000250000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1120,16 +1172,15 @@
         },
         {
             "id": "openai/gpt-5.6-terra-pro",
-            "name": "OpenAI: GPT-5.6 Terra Pro (50% off)",
+            "name": "OpenAI: GPT-5.6 Terra Pro",
             "created": 1783590861,
             "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.00000100000000000000015",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000001",
-                "input_cache_write": "0.00000125",
-                "web_search": "0.005",
-                "discount": 0.5
+                "prompt": "0.000002000000",
+                "completion": "0.000012000000",
+                "input_cache_read": "0.000000200000",
+                "input_cache_write": "0.000002500000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1179,16 +1230,15 @@
         },
         {
             "id": "openai/gpt-5.6-terra",
-            "name": "OpenAI: GPT-5.6 Terra (50% off)",
+            "name": "OpenAI: GPT-5.6 Terra",
             "created": 1783590857,
             "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
             "pricing": {
-                "prompt": "0.00000100000000000000015",
-                "completion": "0.000006",
-                "input_cache_read": "0.0000001",
-                "input_cache_write": "0.00000125",
-                "web_search": "0.005",
-                "discount": 0.5
+                "prompt": "0.000002000000",
+                "completion": "0.000012000000",
+                "input_cache_read": "0.000000200000",
+                "input_cache_write": "0.000002500000",
+                "web_search": "0.010000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -3539,6 +3589,7 @@
             "pricing": {
                 "prompt": "0.00000009",
                 "completion": "0.00000034",
+                "input_cache_read": "0.00000005",
                 "discount": 0
             },
             "context_length": 262144,
@@ -5308,8 +5359,7 @@
                 "prompt": "0.00000175",
                 "completion": "0.000014",
                 "input_cache_read": "0.000000175",
-                "web_search": "0.01",
-                "discount": 0
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "expiration_date": null,
@@ -5686,23 +5736,6 @@
             }
         },
         {
-            "id": "mistralai/devstral-2512",
-            "name": "Mistral: Devstral 2 2512",
-            "created": 1765285419,
-            "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
-            "pricing": {
-                "prompt": "0.0000004",
-                "completion": "0.000002",
-                "input_cache_read": "0.00000004",
-                "discount": 0
-            },
-            "context_length": 262144,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {}
-        },
-        {
             "id": "relace/relace-search",
             "name": "Relace: Relace Search",
             "created": 1765213560,
@@ -5780,8 +5813,7 @@
                 "prompt": "0.00000125",
                 "completion": "0.00001",
                 "input_cache_read": "0.000000125",
-                "web_search": "0.01",
-                "discount": 0
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "expiration_date": null,
@@ -6141,64 +6173,6 @@
             }
         },
         {
-            "id": "openai/gpt-5.1-chat",
-            "name": "OpenAI: GPT-5.1 Chat",
-            "created": 1763060302,
-            "description": "GPT-5.1 Chat (AKA Instant is the fast, lightweight member of the 5.1 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on...",
-            "pricing": {
-                "prompt": "0.00000125",
-                "completion": "0.00001",
-                "input_cache_read": "0.00000013",
-                "web_search": "0.01",
-                "discount": 0
-            },
-            "context_length": 128000,
-            "expiration_date": null,
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "ai_sdk_provider": "openai",
-                "variants": {
-                    "none": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "medium": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "medium"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "xhigh": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "xhigh"
-                        }
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "max"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "openai/gpt-5.1-codex",
             "name": "OpenAI: GPT-5.1-Codex",
             "created": 1763060298,
@@ -6207,8 +6181,7 @@
                 "prompt": "0.00000125",
                 "completion": "0.00001",
                 "input_cache_read": "0.00000013",
-                "web_search": "0.01",
-                "discount": 0
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "expiration_date": null,
@@ -6253,8 +6226,7 @@
                 "prompt": "0.00000025",
                 "completion": "0.000002",
                 "input_cache_read": "0.00000003",
-                "web_search": "0.01",
-                "discount": 0
+                "web_search": "0.01"
             },
             "context_length": 400000,
             "expiration_date": null,
@@ -8222,10 +8194,8 @@
             "created": 1750443016,
             "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on...",
             "pricing": {
-                "prompt": "0.0000001",
-                "completion": "0.0000003",
-                "input_cache_read": "0.00000001",
-                "discount": 0
+                "prompt": "0.000000075",
+                "completion": "0.0000002"
             },
             "context_length": 256000,
             "expiration_date": null,
@@ -10483,10 +10453,8 @@
             "created": 1721347200,
             "description": "A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA. The model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese,...",
             "pricing": {
-                "prompt": "0.00000015",
-                "completion": "0.00000015",
-                "input_cache_read": "0.000000015",
-                "discount": 0
+                "prompt": "0.000000019",
+                "completion": "0.00000003"
             },
             "context_length": 131072,
             "expiration_date": null,
@@ -10647,6 +10615,7 @@
             "pricing": {
                 "prompt": "0.0000025",
                 "completion": "0.00001",
+                "input_cache_read": "0.00000125",
                 "discount": 0
             },
             "context_length": 128000,
@@ -10928,8 +10897,7 @@
             "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
             "pricing": {
                 "prompt": "0.000001",
-                "completion": "0.000002",
-                "discount": 0
+                "completion": "0.000002"
             },
             "context_length": 4095,
             "expiration_date": null,
