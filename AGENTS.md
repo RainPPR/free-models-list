@@ -9,7 +9,7 @@
 | 脚本 | API 地址 | 生成文件 | 认证 |
 |------|----------|----------|------|
 | `main.py` | `https://api.kilo.ai/api/gateway/models` | `kilo.json`（全部，移除冗余字段）、`kilo-free.json`（免费，移除 isFree/pricing） | 无 |
-| `opencode.py` | `https://opencode.ai/zen/v1/models` | `opencode.json`（全部）、`opencode-free.json`（id 以 `-free` 结尾）、`opencode-free-ai-math.json` | `Authorization: Bearer public` |
+| `opencode.py` | `https://opencode.ai/zen/v1/models`<br>`https://models.dev/api.json` | `opencode.json`（全部）、`opencode-free.json`（id 以 `-free` 结尾）、`opencode-free-ai-math.json`（从 models.dev 读取 opencode 项，取 id 以 `-free` 结尾或 cost 为 0 的模型，提取 id 和 name 生成） | `Authorization: Bearer public`（OpenCode）<br>无（models.dev） |
 | `logfare.py` | `https://logfare.ai/v1/models` | `logfare.json`（全部）、`logfare-ai-math.json`（全部为免费） | 无 |
 
 ## 共享工具库
@@ -67,6 +67,7 @@ uv run python logfare.py
 3. 修改 `generate_kilo_ai_math_config.py` 时：确保向后兼容，其他脚本均依赖它的导出函数
 4. 更新 GitHub Actions：如果新增/删除输出文件，必须同步更新 `git add` 和 `git commit` 部分的文件列表
 5. 所有 .json 文件（现在用的是 `git add .` 而不是具体的 json 方便新增）由 CI 自动生成并提交，**禁止手动编辑**
+6. 时间戳控制：为避免 API 返回的动态时间戳导致无意义的 Git commit，包含 `created` 字段的模型字典统一将时间戳固定为 `0`（即 UTC 1970-01-01 00:00:00）。
 
 ## 重要规则
 

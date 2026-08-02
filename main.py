@@ -20,8 +20,10 @@ def main():
         "versioned_settings"
     ]
 
-    # 遍历所有模型，删除指定字段
+    # 遍历所有模型，统一 created 字段为 0（UTC 1970-01-01 00:00:00），并删除指定字段
     for model in data["data"]:
+        if "created" in model:
+            model["created"] = 0
         for field in fields_to_remove:
             model.pop(field, None)
 

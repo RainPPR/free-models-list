@@ -68,5 +68,12 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Qwen 3.6 35B A3B (LogFare)"
+  },
+  {
+    "id": "cda1b042-7087-5159-8362-b734d8e5845e",
+    "modelId": "deepseek-v4-flash-0731",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "DeepSeek v4 Flash 0731 (LogFare)"
   }
 ]

@@ -21,6 +21,11 @@ def main() -> int:
     response.raise_for_status()
     raw = response.json()
 
+    # 统一 created 字段为 0（UTC 1970-01-01 00:00:00）
+    for model in raw.get("data", []):
+        if "created" in model:
+            model["created"] = 0
+
     # 1. 原文保存到 logfare.json
     with open(BASE_DIR / "logfare.json", "w", encoding="utf-8") as f:
         json.dump(raw, f, indent=4, ensure_ascii=False)
