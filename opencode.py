@@ -3,7 +3,7 @@
 获取 opencode 模型列表并生成配置文件：
 1. 从 https://opencode.ai/zen/v1 保存完整列表到 opencode.json
 2. 将免费模型（id 以 -free 结尾）保存到 opencode-free.json
-3. 从 https://models.dev/api.json 读取 opencode 项，合并 id 以 -free 结尾或 cost 全为 0 的模型，生成 opencode-free-ai-math.json
+3. 生成 opencode-free-ai-math.json（基于 opencode-free.json 免费模型列表，从 models.dev 查找 displayName 名称）
 """
 
 import json
@@ -19,6 +19,14 @@ MODELS_DEV_URL = "https://models.dev/api.json"
 API_KEY = "public"
 
 
+def derive_name(model_id: str) -> str:
+    """根据模型 id 推导一个可读名称（移除 -free 后缀并做标题化）。"""
+    name = model_id
+    if name.endswith("-free"):
+        name = name[:-5]
+    return name.replace("-", " ").replace(":", " ").title()
+
+
 def fetch_opencode_models() -> dict:
     """请求 opencode 模型列表。"""
     response = requests.get(OPENCODE_URL, headers={"Authorization": f"Bearer {API_KEY}"})
@@ -28,31 +36,12 @@ def fetch_opencode_models() -> dict:
 
 def fetch_models_dev_opencode() -> dict:
     """请求 models.dev API 并获取 opencode 的 models 字典。"""
-    response = requests.get(MODELS_DEV_URL)
-    response.raise_for_status()
-    return response.json().get("opencode", {}).get("models", {})
-
-
-def is_all_zero_cost(cost: dict | None) -> bool:
-    """判断 cost 字典中的所有数值项是否均为 0。"""
-    if not isinstance(cost, dict) or not cost:
-        return False
-
-    def check_values(d):
-        for k, v in d.items():
-            if isinstance(v, (int, float)):
-                if v != 0:
-                    return False
-            elif isinstance(v, dict):
-                if not check_values(v):
-                    return False
-            elif isinstance(v, list):
-                for item in v:
-                    if isinstance(item, dict) and not check_values(item):
-                        return False
-        return True
-
-    return check_values(cost)
+    try:
+        response = requests.get(MODELS_DEV_URL)
+        response.raise_for_status()
+        return response.json().get("opencode", {}).get("models", {})
+    except Exception:
+        return {}
 
 
 def get_reasoning_effort_from_models_dev(model: dict) -> str | None:
@@ -98,31 +87,27 @@ def main() -> int:
     with open(BASE_DIR / "opencode-free.json", "w", encoding="utf-8") as f:
         json.dump(free_models, f, indent=4, ensure_ascii=False)
 
-    # 3. 从 models.dev 生成 opencode-free-ai-math.json
+    # 3. 基于免费模型列表生成 opencode-free-ai-math.json（从 models.dev 查找名称）
     models_dev_opencode = fetch_models_dev_opencode()
     ai_math = []
-    for m_id, model in models_dev_opencode.items():
-        model_id = model.get("id", m_id)
-        cost = model.get("cost")
+    for model in free_models:
+        model_id = model["id"]
+        dev_model = models_dev_opencode.get(model_id, {})
+        name = dev_model.get("name") or derive_name(model_id)
 
-        is_free_id = model_id.endswith("-free")
-        is_free_cost = is_all_zero_cost(cost)
+        config = {
+            "id": generate_model_uuid(model_id),
+            "modelId": model_id,
+            "enableTools": True,
+            "disabledTools": [],
+            "displayName": f"{name} (OpenCode)",
+        }
 
-        if is_free_id or is_free_cost:
-            name = model.get("name", model_id)
-            config = {
-                "id": generate_model_uuid(model_id),
-                "modelId": model_id,
-                "enableTools": True,
-                "disabledTools": [],
-                "displayName": f"{name} (OpenCode)",
-            }
+        reasoning_effort = get_reasoning_effort_from_models_dev(dev_model)
+        if reasoning_effort:
+            config["reasoningEffort"] = reasoning_effort
 
-            reasoning_effort = get_reasoning_effort_from_models_dev(model)
-            if reasoning_effort:
-                config["reasoningEffort"] = reasoning_effort
-
-            ai_math.append(config)
+        ai_math.append(config)
 
     with open(BASE_DIR / "opencode-free-ai-math.json", "w", encoding="utf-8") as f:
         json.dump(ai_math, f, ensure_ascii=False, indent=2)
@@ -136,4 +121,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     exit(main())
+
 

@@ -9,7 +9,7 @@
 | 脚本 | API 地址 | 生成文件 | 认证 |
 |------|----------|----------|------|
 | `main.py` | `https://api.kilo.ai/api/gateway/models` | `kilo.json`（全部，移除冗余字段）、`kilo-free.json`（免费，移除 isFree/pricing） | 无 |
-| `opencode.py` | `https://opencode.ai/zen/v1/models`<br>`https://models.dev/api.json` | `opencode.json`（全部）、`opencode-free.json`（id 以 `-free` 结尾）、`opencode-free-ai-math.json`（从 models.dev 读取 opencode 项，取 id 以 `-free` 结尾或 cost 为 0 的模型，提取 id 和 name 生成） | `Authorization: Bearer public`（OpenCode）<br>无（models.dev） |
+| `opencode.py` | `https://opencode.ai/zen/v1/models`<br>`https://models.dev/api.json` | `opencode.json`（全部）、`opencode-free.json`（id 以 `-free` 结尾）、`opencode-free-ai-math.json`（对 id 以 `-free` 结尾的免费模型，从 models.dev 查找名称生成） | `Authorization: Bearer public`（OpenCode）<br>无（models.dev） |
 | `logfare.py` | `https://logfare.ai/v1/models` | `logfare.json`（全部）、`logfare-ai-math.json`（全部为免费） | 无 |
 
 ## 共享工具库
