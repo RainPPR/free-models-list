@@ -73,6 +73,7 @@
                     "minimax/minimax-m3",
                     "moonshotai/kimi-k2.7-code",
                     "moonshotai/kimi-k3",
+                    "poolside/laguna-s-2.1",
                     "qwen/qwen3.7-max",
                     "thinkingmachines/inkling",
                     "x-ai/grok-4.5",
@@ -719,7 +720,7 @@
             "created": 0,
             "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
             "pricing": {
-                "prompt": "0.0000005",
+                "prompt": "0.00000045",
                 "completion": "0.0000012",
                 "input_cache_read": "0.0000001",
                 "discount": 0
@@ -968,9 +969,9 @@
             "created": 0,
             "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
             "pricing": {
-                "prompt": "0.000001",
+                "prompt": "0.00000095",
                 "completion": "0.00000405",
-                "input_cache_read": "0.00000017",
+                "input_cache_read": "0.00000016",
                 "discount": 0
             },
             "context_length": 1048576,
