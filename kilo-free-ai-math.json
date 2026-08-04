@@ -76,5 +76,12 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "OpenRouter Free Models Router (Kilo)"
+  },
+  {
+    "id": "04560a4e-43f1-5a34-ada1-8019b1d4dda6",
+    "modelId": "tencent/hy3:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Tencent: Hy3 (Kilo)"
   }
 ]

@@ -73,7 +73,6 @@
                     "minimax/minimax-m3",
                     "moonshotai/kimi-k2.7-code",
                     "moonshotai/kimi-k3",
-                    "poolside/laguna-s-2.1",
                     "qwen/qwen3.7-max",
                     "thinkingmachines/inkling",
                     "x-ai/grok-4.5",
@@ -640,6 +639,39 @@
             }
         },
         {
+            "id": "qwen/qwen3.8-max",
+            "name": "Qwen: Qwen3.8 Max",
+            "created": 0,
+            "description": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,...",
+            "pricing": {
+                "prompt": "0.000002",
+                "completion": "0.000006",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.0000025",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "~deepseek/deepseek-v4-flash-latest",
             "name": "DeepSeek V4 Flash Latest",
             "created": 0,
@@ -857,7 +889,7 @@
                 "completion": "0.0000075",
                 "image": "0.0000015",
                 "input_cache_read": "0.00000015",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000075",
                 "discount": 0
@@ -909,7 +941,7 @@
                 "completion": "0.0000025",
                 "image": "0.0000003",
                 "input_cache_read": "0.00000003",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000025",
                 "discount": 0
@@ -2187,7 +2219,7 @@
                 "completion": "0.000009",
                 "image": "0.0000015",
                 "input_cache_read": "0.00000015",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.000009",
                 "discount": 0
@@ -2334,7 +2366,7 @@
                 "completion": "0.0000015",
                 "image": "0.00000025",
                 "input_cache_read": "0.000000025",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000015",
                 "discount": 0
@@ -2701,7 +2733,7 @@
                 "completion": "0.0000075",
                 "image": "0.0000015",
                 "input_cache_read": "0.00000015",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000075"
             },
@@ -3153,7 +3185,7 @@
         },
         {
             "id": "deepseek/deepseek-v4-flash",
-            "name": "DeepSeek: DeepSeek V4 Flash",
+            "name": "DeepSeek: DeepSeek V4 Flash 0423",
             "created": 0,
             "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
             "pricing": {
@@ -4383,7 +4415,7 @@
                 "completion": "0.0000015",
                 "image": "0.00000025",
                 "input_cache_read": "0.000000025",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000015",
                 "discount": 0
@@ -5546,7 +5578,7 @@
                 "completion": "0.000003",
                 "image": "0.0000005",
                 "input_cache_read": "0.00000005",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.000003",
                 "discount": 0
@@ -6731,7 +6763,7 @@
                 "completion": "0.0000025",
                 "image": "0.0000003",
                 "input_cache_read": "0.00000003",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000025",
                 "discount": 0
@@ -8075,7 +8107,7 @@
                 "completion": "0.0000004",
                 "image": "0.0000001",
                 "input_cache_read": "0.00000001",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000004",
                 "discount": 0
@@ -8284,7 +8316,7 @@
                 "completion": "0.0000025",
                 "image": "0.0000003",
                 "input_cache_read": "0.00000003",
-                "input_cache_write": "0.00000008333333333333334",
+                "input_cache_write": "0.0000000833333333333333",
                 "web_search": "0.014",
                 "internal_reasoning": "0.0000025",
                 "discount": 0
@@ -11673,6 +11705,27 @@
                     }
                 }
             }
+        },
+        {
+            "id": "tencent/hy3:free",
+            "canonical_slug": "tencent/hy3:free",
+            "hugging_face_id": "",
+            "name": "Tencent: Hy3 (free)",
+            "created": 0,
+            "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent, activating 21B parameters per token. It supports configurable reasoning effort, agentic workflows, reliable tool calling, and long-context tasks across coding, document processing, financial analysis, and frontend development.",
+            "context_length": 262144,
+            "pricing": {
+                "prompt": "0.000000000000",
+                "completion": "0.000000000000",
+                "request": "0",
+                "image": "0",
+                "web_search": "0",
+                "internal_reasoning": "0",
+                "input_cache_read": "0.000000000000"
+            },
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {}
         },
         {
             "id": "kilo-auto/small",
