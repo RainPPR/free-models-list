@@ -29,6 +29,13 @@
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
+    "id": "04560a4e-43f1-5a34-ada1-8019b1d4dda6",
+    "modelId": "tencent/hy3:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Tencent: Hy3 (Kilo)"
+  },
+  {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
     "modelId": "poolside/laguna-xs-2.1:free",
     "enableTools": true,
@@ -76,12 +83,5 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "OpenRouter Free Models Router (Kilo)"
-  },
-  {
-    "id": "04560a4e-43f1-5a34-ada1-8019b1d4dda6",
-    "modelId": "tencent/hy3:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Tencent: Hy3 (Kilo)"
   }
 ]
