@@ -44,5 +44,12 @@
     "disabledTools": [],
     "displayName": "Laguna S 2.1 Free (OpenCode)",
     "reasoningEffort": "high"
+  },
+  {
+    "id": "d853c7fc-b7ae-515e-b52f-f6ec206dbbef",
+    "modelId": "longcat-2.0-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "LongCat-2.0 Free (OpenCode)"
   }
 ]

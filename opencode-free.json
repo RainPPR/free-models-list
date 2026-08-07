@@ -34,5 +34,11 @@
         "object": "model",
         "created": 0,
         "owned_by": "opencode"
+    },
+    {
+        "id": "longcat-2.0-free",
+        "object": "model",
+        "created": 0,
+        "owned_by": "opencode"
     }
 ]

@@ -3,13 +3,12 @@
         "id": "kilo-auto/free",
         "name": "Auto Free",
         "created": 0,
-        "description": "Rotates through available free models. Limited capability and no credits required. [Learn more](https://kilo.ai/docs/code-with-ai/agents/auto-model)\n\n**Warning** Prompts may be logged by the upstream provider and used to improve their services. Not suitable for production or sensitive data workloads.\n\n**In particular** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
+        "description": "Rotates through available free models. Limited capability and no credits required. [Learn more](https://kilo.ai/docs/code-with-ai/agents/auto-model)\n\n**Warning** Prompts may be logged by the upstream provider and used to improve their services. Not suitable for production or sensitive data workloads.",
         "context_length": 256000,
         "opencode": {},
         "mayTrainOnYourPrompts": true,
         "autoRouting": {
             "models": [
-                "inclusionai/ling-3.0-flash:free",
                 "poolside/laguna-s-2.1:free",
                 "stepfun/step-3.7-flash:free"
             ]
@@ -48,16 +47,6 @@
         }
     },
     {
-        "id": "inclusionai/ling-3.0-flash:free",
-        "name": "Ling-3.0-flash (free)",
-        "created": 0,
-        "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
-        "context_length": 262144,
-        "expiration_date": null,
-        "mayTrainOnYourPrompts": true,
-        "opencode": {}
-    },
-    {
         "id": "poolside/laguna-s-2.1:free",
         "name": "Poolside: Laguna S 2.1 (free)",
         "created": 0,
@@ -65,7 +54,22 @@
         "context_length": 262144,
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "instant": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "thinking": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "tencent/hy3:free",
@@ -76,7 +80,53 @@
         "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent, activating 21B parameters per token. It supports configurable reasoning effort, agentic workflows, reliable tool calling, and long-context tasks across coding, document processing, financial analysis, and frontend development.",
         "context_length": 262144,
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "none": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "low": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "low"
+                    }
+                },
+                "high": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "inclusionai/ling-3.0-tiny:free",
+        "name": "inclusionAI: Ling 3.0 Tiny (free)",
+        "created": 0,
+        "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable...",
+        "context_length": 262144,
+        "expiration_date": null,
+        "mayTrainOnYourPrompts": true,
+        "opencode": {
+            "variants": {
+                "instant": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "thinking": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "poolside/laguna-xs-2.1:free",
@@ -86,7 +136,22 @@
         "context_length": 262144,
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "instant": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "thinking": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "cohere/north-mini-code:free",
@@ -96,7 +161,22 @@
         "context_length": 256000,
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "instant": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "thinking": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "nvidia/nemotron-3.5-content-safety:free",
@@ -106,7 +186,22 @@
         "context_length": 128000,
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "instant": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "thinking": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -116,7 +211,28 @@
         "context_length": 1000000,
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "none": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "medium": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "medium"
+                    }
+                },
+                "high": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -126,7 +242,22 @@
         "context_length": 256000,
         "expiration_date": null,
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "instant": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "thinking": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "nvidia/nemotron-3-super-120b-a12b:free",
@@ -140,7 +271,28 @@
             "avgAttemptCostUsd": 0
         },
         "mayTrainOnYourPrompts": true,
-        "opencode": {}
+        "opencode": {
+            "variants": {
+                "none": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "low": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "low"
+                    }
+                },
+                "medium": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "medium"
+                    }
+                }
+            }
+        }
     },
     {
         "id": "openrouter/free",

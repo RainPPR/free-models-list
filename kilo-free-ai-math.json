@@ -15,13 +15,6 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "ceb18c3b-f2bb-5ffc-9e78-35c7747122ed",
-    "modelId": "inclusionai/ling-3.0-flash:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Ling-3.0-flash (Kilo)"
-  },
-  {
     "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
     "modelId": "poolside/laguna-s-2.1:free",
     "enableTools": true,
@@ -33,7 +26,15 @@
     "modelId": "tencent/hy3:free",
     "enableTools": true,
     "disabledTools": [],
-    "displayName": "Tencent: Hy3 (Kilo)"
+    "displayName": "Tencent: Hy3 (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
+    "id": "298ac01e-1d80-5b4a-b4e7-1252aa26e59f",
+    "modelId": "inclusionai/ling-3.0-tiny:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "inclusionAI: Ling 3.0 Tiny (Kilo)"
   },
   {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
@@ -61,7 +62,8 @@
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "enableTools": true,
     "disabledTools": [],
-    "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)"
+    "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
+    "reasoningEffort": "high"
   },
   {
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
@@ -75,7 +77,8 @@
     "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
     "enableTools": true,
     "disabledTools": [],
-    "displayName": "NVIDIA: Nemotron 3 Super (Kilo)"
+    "displayName": "NVIDIA: Nemotron 3 Super (Kilo)",
+    "reasoningEffort": "medium"
   },
   {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
