@@ -47,7 +47,6 @@
                 "models": [
                     "anthropic/claude-sonnet-5",
                     "deepseek/deepseek-v4-flash-0731",
-                    "deepseek/deepseek-v4-pro",
                     "inclusionai/ling-2.6-1t",
                     "kwaipilot/kat-coder-pro-v2.5",
                     "meta/muse-spark-1.2",
@@ -56,7 +55,6 @@
                     "moonshotai/kimi-k3",
                     "openai/gpt-5.6-luna",
                     "qwen/qwen3.8-max",
-                    "tencent/hy3",
                     "thinkingmachines/inkling",
                     "x-ai/grok-4.5",
                     "xiaomi/mimo-v2.5-pro",
@@ -87,7 +85,6 @@
                 "models": [
                     "anthropic/claude-sonnet-5",
                     "deepseek/deepseek-v4-flash-0731",
-                    "deepseek/deepseek-v4-pro",
                     "inclusionai/ling-2.6-1t",
                     "kwaipilot/kat-coder-pro-v2.5",
                     "meta/muse-spark-1.2",
@@ -96,7 +93,6 @@
                     "moonshotai/kimi-k3",
                     "openai/gpt-5.6-luna",
                     "qwen/qwen3.8-max",
-                    "tencent/hy3",
                     "thinkingmachines/inkling",
                     "x-ai/grok-4.5",
                     "xiaomi/mimo-v2.5-pro",
@@ -3237,7 +3233,7 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.0000029",
+                "prompt": "0.0000025",
                 "completion": "0.000014",
                 "input_cache_read": "0.00000029"
             },
@@ -3839,9 +3835,10 @@
             "created": 0,
             "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
             "pricing": {
-                "prompt": "0.000000435000",
-                "completion": "0.000000870000",
-                "input_cache_read": "0.000000004000"
+                "prompt": "0.0000004",
+                "completion": "0.0000015",
+                "input_cache_read": "0.00000008",
+                "discount": 0
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -3874,9 +3871,10 @@
             "created": 0,
             "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
             "pricing": {
-                "prompt": "0.000000140000",
-                "completion": "0.000000280000",
-                "input_cache_read": "0.000000003000"
+                "prompt": "0.00000014",
+                "completion": "0.00000028",
+                "input_cache_read": "0.0000000028",
+                "discount": 0
             },
             "context_length": 1050000,
             "expiration_date": null,

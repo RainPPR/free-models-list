@@ -38,12 +38,6 @@
             "owned_by": "opencode"
         },
         {
-            "id": "claude-opus-4-1",
-            "object": "model",
-            "created": 0,
-            "owned_by": "opencode"
-        },
-        {
             "id": "claude-sonnet-5",
             "object": "model",
             "created": 0,
@@ -339,6 +333,12 @@
         },
         {
             "id": "ling-3.0-flash-free",
+            "object": "model",
+            "created": 0,
+            "owned_by": "opencode"
+        },
+        {
+            "id": "ling-3.0-tiny-free",
             "object": "model",
             "created": 0,
             "owned_by": "opencode"

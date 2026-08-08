@@ -14,13 +14,6 @@
     "displayName": "MiniMax M3 (LogFare)"
   },
   {
-    "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
-    "modelId": "kimi-k2.6",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Kimi K2.6 (LogFare)"
-  },
-  {
     "id": "248c1cbe-0ff5-5ed2-b6cc-0f5d89abccae",
     "modelId": "deepseek-v4-pro",
     "enableTools": true,
@@ -75,5 +68,12 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "DeepSeek v4 Flash 0731 (LogFare)"
+  },
+  {
+    "id": "ad77b720-8b36-5c4f-ad92-00ccc885f50d",
+    "modelId": "grape-2-pro",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "GRaPE 2 Pro (LogFare)"
   }
 ]

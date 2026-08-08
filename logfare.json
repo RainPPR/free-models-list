@@ -36,23 +36,6 @@
             "premium_unlocked": false
         },
         {
-            "id": "kimi-k2.6",
-            "object": "model",
-            "created": 0,
-            "owned_by": "logfare",
-            "display_name": "Kimi K2.6",
-            "aliases": [],
-            "endpoints": [
-                "chat/completions",
-                "messages",
-                "responses"
-            ],
-            "visibility": "public",
-            "tier": 2,
-            "requires_training_optin": true,
-            "premium_unlocked": false
-        },
-        {
             "id": "deepseek-v4-pro",
             "object": "model",
             "created": 0,
@@ -177,6 +160,23 @@
             "created": 0,
             "owned_by": "logfare",
             "display_name": "DeepSeek v4 Flash 0731",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "grape-2-pro",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "GRaPE 2 Pro",
             "aliases": [],
             "endpoints": [
                 "chat/completions",
