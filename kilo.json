@@ -846,9 +846,9 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
             "pricing": {
-                "prompt": "0.00000009",
-                "completion": "0.00000018",
-                "input_cache_read": "0.000000018"
+                "prompt": "0.000000079996",
+                "completion": "0.000000252",
+                "input_cache_read": "0.0000000252"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -3233,7 +3233,7 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.0000025",
+                "prompt": "0.0000028",
                 "completion": "0.000014",
                 "input_cache_read": "0.00000029"
             },
@@ -3508,7 +3508,7 @@
             "created": 0,
             "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
             "pricing": {
-                "prompt": "0.00000014",
+                "prompt": "0.00000015",
                 "completion": "0.000001",
                 "input_cache_read": "0.00000005"
             },
@@ -4220,9 +4220,9 @@
             "created": 0,
             "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
             "pricing": {
-                "prompt": "0.00000009",
-                "completion": "0.00000034",
-                "input_cache_read": "0.00000005",
+                "prompt": "0.00000008",
+                "completion": "0.00000035",
+                "input_cache_read": "0.00000001",
                 "discount": 0
             },
             "context_length": 262144,
