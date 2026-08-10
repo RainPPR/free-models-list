@@ -747,6 +747,10 @@
             },
             "context_length": 1048576,
             "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.51460674,
+                "avgAttemptCostUsd": 44.68511
+            },
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
