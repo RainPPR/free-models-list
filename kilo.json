@@ -697,6 +697,93 @@
             }
         },
         {
+            "id": "liquid/lfm-2.5-2.6b:free",
+            "name": "LiquidAI: LFM2.5-2.6B (free)",
+            "created": 0,
+            "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0",
+                "discount": 0
+            },
+            "context_length": 128000,
+            "expiration_date": null,
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "variants": {
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "nvidia/nemotron-3.5-lightning",
+            "name": "NVIDIA: Nemotron 3.5 Lightning",
+            "created": 0,
+            "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...",
+            "pricing": {
+                "prompt": "0.00000005",
+                "completion": "0.0000002",
+                "discount": 0
+            },
+            "context_length": 262144,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "nvidia/nemotron-3.5-lightning:free",
+            "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+            "created": 0,
+            "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...\n\n**Terms of service** For NVIDIA free endpoints (Super/Ultra/etc): Trial use only - do not submit personal or confidential data. Your use is logged for security purposes and to improve NVIDIA products and services. The logged session data for improvement purposes is not linked to your identity or any persistent identifier. For more information about our data processing practices, see our [Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/). By interacting with this endpoint, you consent to our collection, recording, and use of such information and the [NVIDIA API Trial Terms of Service](https://assets.ngc.nvidia.com/products/api-catalog/legal/NVIDIA%20API%20Trial%20Terms%20of%20Service.pdf).",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0",
+                "discount": 0
+            },
+            "context_length": 1000000,
+            "expiration_date": null,
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
             "id": "sakana/sakana-namazu",
             "name": "Sakana: Sakana Namazu",
             "created": 0,
@@ -766,8 +853,8 @@
             "created": 0,
             "description": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon...",
             "pricing": {
-                "prompt": "0.00000035",
-                "completion": "0.0000015",
+                "prompt": "0.0000003",
+                "completion": "0.0000012",
                 "input_cache_read": "0.00000004",
                 "discount": 0
             },
@@ -953,9 +1040,9 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
             "pricing": {
-                "prompt": "0.000000079996",
-                "completion": "0.000000252",
-                "input_cache_read": "0.0000000252"
+                "prompt": "0.000000072",
+                "completion": "0.000000144",
+                "input_cache_read": "0.0000000144"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -1029,6 +1116,49 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "max"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "bytedance-seed/seed-2.0-code",
+            "name": "ByteDance Seed: Seed-2.0-Code",
+            "created": 0,
+            "description": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude...",
+            "pricing": {
+                "prompt": "0.0000005",
+                "completion": "0.000003",
+                "discount": 0
+            },
+            "context_length": 262144,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "low": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "low"
+                        }
+                    },
+                    "medium": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "medium"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
                         }
                     }
                 }
@@ -8899,9 +9029,8 @@
             "created": 0,
             "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
             "pricing": {
-                "prompt": "0.000000104",
-                "completion": "0.000000416",
-                "discount": 0
+                "prompt": "0.00000008",
+                "completion": "0.00000028"
             },
             "context_length": 131072,
             "expiration_date": null,

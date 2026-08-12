@@ -12,6 +12,12 @@
         "owned_by": "opencode"
     },
     {
+        "id": "hy3-free",
+        "object": "model",
+        "created": 0,
+        "owned_by": "opencode"
+    },
+    {
         "id": "ling-3.0-flash-free",
         "object": "model",
         "created": 0,
@@ -25,6 +31,12 @@
     },
     {
         "id": "nemotron-3-ultra-free",
+        "object": "model",
+        "created": 0,
+        "owned_by": "opencode"
+    },
+    {
+        "id": "nemotron-3.5-lightning-free",
         "object": "model",
         "created": 0,
         "owned_by": "opencode"

@@ -15,6 +15,14 @@
     "displayName": "MiMo V2.5 Free (OpenCode)"
   },
   {
+    "id": "ac977b66-c8d1-5da3-a80f-9d44eceaed61",
+    "modelId": "hy3-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Hy3 Free (OpenCode)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "0b7c361b-63dc-5731-8d0e-d2315ec9d694",
     "modelId": "ling-3.0-flash-free",
     "enableTools": true,
@@ -35,6 +43,13 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Nemotron 3 Ultra Free (OpenCode)"
+  },
+  {
+    "id": "0944c784-0e4c-5e44-a48d-c9b608953465",
+    "modelId": "nemotron-3.5-lightning-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
   },
   {
     "id": "f4b831e8-6a1a-5403-a625-007ffcd3ac96",
