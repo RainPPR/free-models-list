@@ -18,12 +18,6 @@
         "owned_by": "opencode"
     },
     {
-        "id": "ling-3.0-flash-free",
-        "object": "model",
-        "created": 0,
-        "owned_by": "opencode"
-    },
-    {
         "id": "ling-3.0-tiny-free",
         "object": "model",
         "created": 0,
@@ -42,19 +36,7 @@
         "owned_by": "opencode"
     },
     {
-        "id": "north-mini-code-free",
-        "object": "model",
-        "created": 0,
-        "owned_by": "opencode"
-    },
-    {
         "id": "laguna-s-2.1-free",
-        "object": "model",
-        "created": 0,
-        "owned_by": "opencode"
-    },
-    {
-        "id": "longcat-2.0-free",
         "object": "model",
         "created": 0,
         "owned_by": "opencode"

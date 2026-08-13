@@ -23,14 +23,6 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "0b7c361b-63dc-5731-8d0e-d2315ec9d694",
-    "modelId": "ling-3.0-flash-free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Ling-3.0-flash Free (OpenCode)",
-    "reasoningEffort": "high"
-  },
-  {
     "id": "ee8f6b9a-edd7-5d92-8925-1f93d1ba2b62",
     "modelId": "ling-3.0-tiny-free",
     "enableTools": true,
@@ -52,26 +44,11 @@
     "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
   },
   {
-    "id": "f4b831e8-6a1a-5403-a625-007ffcd3ac96",
-    "modelId": "north-mini-code-free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "North Mini Code Free (OpenCode)",
-    "reasoningEffort": "high"
-  },
-  {
     "id": "32d253e2-5a78-5c6b-9663-105cb03eb4e4",
     "modelId": "laguna-s-2.1-free",
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Laguna S 2.1 Free (OpenCode)",
     "reasoningEffort": "high"
-  },
-  {
-    "id": "d853c7fc-b7ae-515e-b52f-f6ec206dbbef",
-    "modelId": "longcat-2.0-free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "LongCat-2.0 Free (OpenCode)"
   }
 ]
