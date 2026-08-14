@@ -23,13 +23,6 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "ee8f6b9a-edd7-5d92-8925-1f93d1ba2b62",
-    "modelId": "ling-3.0-tiny-free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Ling-3.0-tiny Free (OpenCode)"
-  },
-  {
     "id": "14f57ded-622b-5af6-8331-a14e299bdd14",
     "modelId": "nemotron-3-ultra-free",
     "enableTools": true,

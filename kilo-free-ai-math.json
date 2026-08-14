@@ -44,13 +44,6 @@
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
-    "id": "298ac01e-1d80-5b4a-b4e7-1252aa26e59f",
-    "modelId": "inclusionai/ling-3.0-tiny:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "inclusionAI: Ling 3.0 Tiny (Kilo)"
-  },
-  {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
     "modelId": "poolside/laguna-xs-2.1:free",
     "enableTools": true,

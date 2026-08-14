@@ -74,6 +74,12 @@
             "owned_by": "opencode"
         },
         {
+            "id": "gemini-3.7-flash",
+            "object": "model",
+            "created": 0,
+            "owned_by": "opencode"
+        },
+        {
             "id": "gemini-3.5-flash-lite",
             "object": "model",
             "created": 0,
@@ -339,12 +345,6 @@
         },
         {
             "id": "hy3-free",
-            "object": "model",
-            "created": 0,
-            "owned_by": "opencode"
-        },
-        {
-            "id": "ling-3.0-tiny-free",
             "object": "model",
             "created": 0,
             "owned_by": "opencode"
