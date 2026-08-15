@@ -504,9 +504,9 @@
             "created": 0,
             "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
             "pricing": {
-                "prompt": "0.0000014",
-                "completion": "0.0000044",
-                "input_cache_read": "0.00000026",
+                "prompt": "0.000001400000",
+                "completion": "0.000004400000",
+                "input_cache_read": "0.000000260000",
                 "discount": 0
             },
             "context_length": 1048576,
@@ -546,9 +546,9 @@
             "created": 0,
             "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
             "pricing": {
-                "prompt": "0.000003",
-                "completion": "0.000015",
-                "input_cache_read": "0.0000003"
+                "prompt": "0.000003000000",
+                "completion": "0.000015000000",
+                "input_cache_read": "0.000000300000"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -635,7 +635,7 @@
                 "image": "0.000000750000",
                 "input_cache_read": "0.000000075000",
                 "input_cache_write": "0.000000041667",
-                "web_search": "0.014000000000",
+                "web_search": "0.028000000000",
                 "internal_reasoning": "0.000003750000"
             },
             "context_length": 1048576,
@@ -708,7 +708,7 @@
                 "input_cache_write": "0.0000025",
                 "discount": 0
             },
-            "context_length": 1010000,
+            "context_length": 1048576,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -784,9 +784,10 @@
             "created": 0,
             "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
             "pricing": {
-                "prompt": "0.000000435",
-                "completion": "0.00000087",
-                "input_cache_read": "0.000000003625"
+                "prompt": "0.00000132",
+                "completion": "0.00000396",
+                "input_cache_read": "0.00000035",
+                "discount": 0
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -1185,9 +1186,9 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
             "pricing": {
-                "prompt": "0.000000079996",
-                "completion": "0.000000252",
-                "input_cache_read": "0.0000000252"
+                "prompt": "0.0000000798",
+                "completion": "0.0000001596",
+                "input_cache_read": "0.00000001596"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -1794,7 +1795,7 @@
                 "completion": "0.000001200000",
                 "input_cache_read": "0.000000020000",
                 "input_cache_write": "0.000000250000",
-                "web_search": "0.010000000000"
+                "web_search": "0.020000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1852,7 +1853,7 @@
                 "completion": "0.000001200000",
                 "input_cache_read": "0.000000020000",
                 "input_cache_write": "0.000000250000",
-                "web_search": "0.010000000000"
+                "web_search": "0.020000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1910,7 +1911,7 @@
                 "completion": "0.000012000000",
                 "input_cache_read": "0.000000200000",
                 "input_cache_write": "0.000002500000",
-                "web_search": "0.010000000000"
+                "web_search": "0.020000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1968,7 +1969,7 @@
                 "completion": "0.000012000000",
                 "input_cache_read": "0.000000200000",
                 "input_cache_write": "0.000002500000",
-                "web_search": "0.010000000000"
+                "web_search": "0.020000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -2222,9 +2223,9 @@
             "created": 0,
             "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
             "pricing": {
-                "prompt": "0.000000140000",
-                "completion": "0.000000580000",
-                "input_cache_read": "0.000000035000"
+                "prompt": "0.000000132000",
+                "completion": "0.000000528000",
+                "input_cache_read": "0.000000033000"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -3659,7 +3660,7 @@
                 "image": "0.000000375",
                 "input_cache_read": "0.0000000375",
                 "input_cache_write": "0.0000000208333333333333",
-                "web_search": "0.007",
+                "web_search": "0.014",
                 "internal_reasoning": "0.000001875"
             },
             "context_length": 1048576,
@@ -5936,9 +5937,9 @@
             "created": 0,
             "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading...",
             "pricing": {
-                "prompt": "0.00000095",
-                "completion": "0.00000255",
-                "input_cache_read": "0.0000002"
+                "prompt": "0.0000006",
+                "completion": "0.00000192",
+                "input_cache_read": "0.00000012"
             },
             "context_length": 204800,
             "expiration_date": null,
@@ -7747,7 +7748,7 @@
         },
         {
             "id": "deepseek/deepseek-v3.1-terminus",
-            "name": "DeepSeek: DeepSeek V3.1 Terminus",
+            "name": "DeepSeek: DeepSeek V3.1 Terminus (retires Aug 17)",
             "created": 0,
             "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
             "pricing": {
@@ -7757,7 +7758,7 @@
                 "discount": 0
             },
             "context_length": 163840,
-            "expiration_date": null,
+            "expiration_date": "2026-08-17",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
