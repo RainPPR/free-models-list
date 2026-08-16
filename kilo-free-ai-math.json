@@ -30,6 +30,13 @@
     "reasoningEffort": "high"
   },
   {
+    "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
+    "modelId": "dots-studio/dots-3-note-preview:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
+  },
+  {
     "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
     "modelId": "liquid/lfm-2.5-2.6b:free",
     "enableTools": true,

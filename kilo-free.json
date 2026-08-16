@@ -104,6 +104,31 @@
         }
     },
     {
+        "id": "dots-studio/dots-3-note-preview:free",
+        "name": "Dots Studio: Dots3-Note Preview (free)",
+        "created": 0,
+        "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+        "context_length": 512000,
+        "expiration_date": null,
+        "mayTrainOnYourPrompts": true,
+        "opencode": {
+            "variants": {
+                "instant": {
+                    "reasoning": {
+                        "enabled": false,
+                        "effort": "none"
+                    }
+                },
+                "thinking": {
+                    "reasoning": {
+                        "enabled": true,
+                        "effort": "high"
+                    }
+                }
+            }
+        }
+    },
+    {
         "id": "liquid/lfm-2.5-2.6b:free",
         "name": "LiquidAI: LFM2.5-2.6B (free)",
         "created": 0,
