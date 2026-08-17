@@ -858,9 +858,10 @@
             "created": 0,
             "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
             "pricing": {
-                "prompt": "0.000001320000",
-                "completion": "0.000003960000",
-                "input_cache_read": "0.000000350000"
+                "prompt": "0.00000132",
+                "completion": "0.00000396",
+                "input_cache_read": "0.00000035",
+                "discount": 0
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -1259,11 +1260,11 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
             "pricing": {
-                "prompt": "0.0000000603",
-                "completion": "0.0000001206",
-                "input_cache_read": "0.00000001206"
+                "prompt": "0.000000078596",
+                "completion": "0.000000157192",
+                "input_cache_read": "0.0000000157192"
             },
-            "context_length": 1048576,
+            "context_length": 1310720,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -1307,7 +1308,7 @@
                 "input_cache_read": "0.000000028",
                 "discount": 0
             },
-            "context_length": 1048576,
+            "context_length": 1310720,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -3721,8 +3722,8 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
             "pricing": {
-                "prompt": "0.0000028",
-                "completion": "0.000014",
+                "prompt": "0.0000026",
+                "completion": "0.000013",
                 "input_cache_read": "0.00000029"
             },
             "context_length": 1048576,

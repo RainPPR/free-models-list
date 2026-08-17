@@ -17,6 +17,51 @@
             "premium_unlocked": false
         },
         {
+            "id": "whisper-large-v3-turbo",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Whisper Large v3 Turbo",
+            "aliases": [],
+            "endpoints": [
+                "audio/transcriptions"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "phoenix-1.0",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Leonardo Phoenix",
+            "aliases": [],
+            "endpoints": [
+                "images/generations"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "qwen3-embedding-8b",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Qwen3 Embedding 8B",
+            "aliases": [],
+            "endpoints": [
+                "embeddings"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
             "id": "kiro-auto",
             "object": "model",
             "created": 0,
@@ -51,11 +96,11 @@
             "premium_unlocked": false
         },
         {
-            "id": "deepseek-v4-pro",
+            "id": "moondream3.1",
             "object": "model",
             "created": 0,
             "owned_by": "logfare",
-            "display_name": "DeepSeek V4 Pro",
+            "display_name": "Moondream 3.1 9B",
             "aliases": [],
             "endpoints": [
                 "chat/completions",
@@ -68,11 +113,11 @@
             "premium_unlocked": false
         },
         {
-            "id": "kimi-k3",
+            "id": "deepseek-v4-pro",
             "object": "model",
             "created": 0,
             "owned_by": "logfare",
-            "display_name": "Kimi K3",
+            "display_name": "DeepSeek V4 Pro",
             "aliases": [],
             "endpoints": [
                 "chat/completions",
@@ -102,16 +147,76 @@
             "premium_unlocked": false
         },
         {
-            "id": "deepseek-v4-flash-0731",
+            "id": "kimi-k3",
             "object": "model",
             "created": 0,
             "owned_by": "logfare",
-            "display_name": "DeepSeek v4 Flash 0731",
+            "display_name": "Kimi K3",
             "aliases": [],
             "endpoints": [
                 "chat/completions",
                 "messages",
                 "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "aura-2-en",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Deepgram Aura 2",
+            "aliases": [],
+            "endpoints": [
+                "audio/speech"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "nova-3",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Deepgram Nova 3",
+            "aliases": [],
+            "endpoints": [
+                "audio/transcriptions"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "lucid-origin",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Leonardo Lucid Origin",
+            "aliases": [],
+            "endpoints": [
+                "images/generations"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "text-embedding-3-small",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Text Embedding 3 Small",
+            "aliases": [],
+            "endpoints": [
+                "embeddings"
             ],
             "visibility": "public",
             "tier": 2,
@@ -136,11 +241,62 @@
             "premium_unlocked": false
         },
         {
+            "id": "gemma-4-26b",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Gemma 4 26B",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 1,
+            "requires_training_optin": false,
+            "premium_unlocked": true
+        },
+        {
+            "id": "deepseek-v4-flash-0731",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "DeepSeek v4 Flash 0731",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
             "id": "qwen-3.8-27b",
             "object": "model",
             "created": 0,
             "owned_by": "logfare",
             "display_name": "Qwen 3.8 27b",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "deepseek-v4-pro-0813",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "DeepSeek V4 Pro 0813",
             "aliases": [],
             "endpoints": [
                 "chat/completions",
