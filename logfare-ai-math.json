@@ -1,5 +1,12 @@
 [
   {
+    "id": "9f64c1cc-d048-559b-9077-364db12d0a60",
+    "modelId": "flux-2-pro",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Flux 2 Pro (LogFare)"
+  },
+  {
     "id": "cd2e2f5e-12a8-5000-acf6-7be3dcab4f48",
     "modelId": "kiro-auto",
     "enableTools": true,

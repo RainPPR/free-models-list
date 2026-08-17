@@ -631,7 +631,8 @@
             "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
             "pricing": {
                 "prompt": "0.00000045",
-                "completion": "0.0000032"
+                "completion": "0.0000032",
+                "input_cache_read": "0.00000005"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -857,10 +858,9 @@
             "created": 0,
             "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
             "pricing": {
-                "prompt": "0.00000132",
-                "completion": "0.00000396",
-                "input_cache_read": "0.00000035",
-                "discount": 0
+                "prompt": "0.000001320000",
+                "completion": "0.000003960000",
+                "input_cache_read": "0.000000350000"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -1259,9 +1259,9 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
             "pricing": {
-                "prompt": "0.0000000675",
-                "completion": "0.000000135",
-                "input_cache_read": "0.0000000135"
+                "prompt": "0.0000000603",
+                "completion": "0.0000001206",
+                "input_cache_read": "0.00000001206"
             },
             "context_length": 1048576,
             "expiration_date": null,
@@ -2296,9 +2296,9 @@
             "created": 0,
             "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
             "pricing": {
-                "prompt": "0.000000132000",
-                "completion": "0.000000528000",
-                "input_cache_read": "0.000000033000"
+                "prompt": "0.000000140000",
+                "completion": "0.000000580000",
+                "input_cache_read": "0.000000035000"
             },
             "context_length": 262144,
             "expiration_date": null,
@@ -2596,6 +2596,42 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "z-ai/glm-5.2:free",
+            "name": "Z.ai: GLM 5.2 (free)",
+            "created": 0,
+            "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0"
+            },
+            "context_length": 128000,
+            "expiration_date": null,
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
                         }
                     }
                 }
@@ -3954,7 +3990,7 @@
             "created": 0,
             "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
             "pricing": {
-                "prompt": "0.00000015",
+                "prompt": "0.00000014",
                 "completion": "0.000001",
                 "input_cache_read": "0.00000005"
             },
@@ -4141,7 +4177,7 @@
         },
         {
             "id": "deepseek/deepseek-v4-pro",
-            "name": "DeepSeek: DeepSeek V4 Pro",
+            "name": "DeepSeek: DeepSeek V4 Pro 0423",
             "created": 0,
             "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
             "pricing": {
@@ -7587,9 +7623,9 @@
             "created": 0,
             "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex...",
             "pricing": {
-                "prompt": "0.00000055",
-                "completion": "0.0000022",
-                "input_cache_read": "0.00000011"
+                "prompt": "0.0000005",
+                "completion": "0.000002",
+                "input_cache_read": "0.0000001"
             },
             "context_length": 204800,
             "expiration_date": null,
@@ -9793,8 +9829,9 @@
             "created": 0,
             "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
             "pricing": {
-                "prompt": "0.00000025",
-                "completion": "0.00000075"
+                "prompt": "0.0000008",
+                "completion": "0.000001",
+                "input_cache_read": "0.0000004"
             },
             "context_length": 128000,
             "expiration_date": null,
