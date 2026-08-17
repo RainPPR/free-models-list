@@ -1865,11 +1865,12 @@
             "created": 0,
             "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000001200000",
-                "input_cache_read": "0.000000020000",
-                "input_cache_write": "0.000000250000",
-                "web_search": "0.020000000000"
+                "prompt": "0.0000002",
+                "completion": "0.0000012",
+                "input_cache_read": "0.00000002",
+                "input_cache_write": "0.00000025",
+                "web_search": "0.01",
+                "discount": 0
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1923,11 +1924,12 @@
             "created": 0,
             "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
             "pricing": {
-                "prompt": "0.000000200000",
-                "completion": "0.000001200000",
-                "input_cache_read": "0.000000020000",
-                "input_cache_write": "0.000000250000",
-                "web_search": "0.020000000000"
+                "prompt": "0.0000002",
+                "completion": "0.0000012",
+                "input_cache_read": "0.00000002",
+                "input_cache_write": "0.00000025",
+                "web_search": "0.01",
+                "discount": 0
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -1981,11 +1983,12 @@
             "created": 0,
             "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.000002000000",
-                "completion": "0.000012000000",
-                "input_cache_read": "0.000000200000",
-                "input_cache_write": "0.000002500000",
-                "web_search": "0.020000000000"
+                "prompt": "0.000002",
+                "completion": "0.000012",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.0000025",
+                "web_search": "0.01",
+                "discount": 0
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -2039,11 +2042,12 @@
             "created": 0,
             "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
             "pricing": {
-                "prompt": "0.000002000000",
-                "completion": "0.000012000000",
-                "input_cache_read": "0.000000200000",
-                "input_cache_write": "0.000002500000",
-                "web_search": "0.020000000000"
+                "prompt": "0.000002",
+                "completion": "0.000012",
+                "input_cache_read": "0.0000002",
+                "input_cache_write": "0.0000025",
+                "web_search": "0.01",
+                "discount": 0
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -7857,7 +7861,7 @@
         },
         {
             "id": "deepseek/deepseek-v3.1-terminus",
-            "name": "DeepSeek: DeepSeek V3.1 Terminus (retires Aug 17)",
+            "name": "DeepSeek: DeepSeek V3.1 Terminus",
             "created": 0,
             "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
             "pricing": {
@@ -7867,7 +7871,7 @@
                 "discount": 0
             },
             "context_length": 163840,
-            "expiration_date": "2026-08-17",
+            "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
