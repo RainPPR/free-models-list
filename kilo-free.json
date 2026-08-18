@@ -204,37 +204,6 @@
         }
     },
     {
-        "id": "z-ai/glm-5.2:free",
-        "name": "Z.ai: GLM 5.2 (free)",
-        "created": 0,
-        "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
-        "context_length": 128000,
-        "expiration_date": null,
-        "mayTrainOnYourPrompts": true,
-        "opencode": {
-            "variants": {
-                "none": {
-                    "reasoning": {
-                        "enabled": false,
-                        "effort": "none"
-                    }
-                },
-                "high": {
-                    "reasoning": {
-                        "enabled": true,
-                        "effort": "high"
-                    }
-                },
-                "xhigh": {
-                    "reasoning": {
-                        "enabled": true,
-                        "effort": "xhigh"
-                    }
-                }
-            }
-        }
-    },
-    {
         "id": "nvidia/nemotron-3.5-content-safety:free",
         "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
         "created": 0,
