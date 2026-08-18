@@ -379,12 +379,11 @@
             "created": 0,
             "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
             "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.00003",
-                "input_cache_read": "0.0000005",
-                "input_cache_write": "0.00000625",
-                "web_search": "0.01",
-                "discount": 0
+                "prompt": "0.000005000000",
+                "completion": "0.000030000000",
+                "input_cache_read": "0.000000500000",
+                "input_cache_write": "0.000006250000",
+                "web_search": "0.020000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -941,31 +940,6 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "xhigh"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "liquid/lfm-2.5-2.6b:free",
-            "name": "LiquidAI: LFM2.5-2.6B (free)",
-            "created": 0,
-            "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0",
-                "discount": 0
-            },
-            "context_length": 128000,
-            "expiration_date": null,
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {
-                "variants": {
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
                         }
                     }
                 }
@@ -2101,12 +2075,11 @@
             "created": 0,
             "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
             "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.00003",
-                "input_cache_read": "0.0000005",
-                "input_cache_write": "0.00000625",
-                "web_search": "0.01",
-                "discount": 0
+                "prompt": "0.000005000000",
+                "completion": "0.000030000000",
+                "input_cache_read": "0.000000500000",
+                "input_cache_write": "0.000006250000",
+                "web_search": "0.020000000000"
             },
             "context_length": 1050000,
             "expiration_date": null,
@@ -3873,10 +3846,10 @@
             "created": 0,
             "description": "This model always redirects to the latest model in the OpenAI GPT family.",
             "pricing": {
-                "prompt": "0.000005",
-                "completion": "0.00003",
-                "input_cache_read": "0.0000005",
-                "input_cache_write": "0.00000625",
+                "prompt": "0.0000025",
+                "completion": "0.000015",
+                "input_cache_read": "0.00000025",
+                "input_cache_write": "0.000003125",
                 "web_search": "0.01"
             },
             "context_length": 1050000,
