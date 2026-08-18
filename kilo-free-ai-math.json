@@ -58,6 +58,14 @@
     "displayName": "Cohere: North Mini Code (Kilo)"
   },
   {
+    "id": "772a9e6b-0c0e-5a88-a5ca-3441e594d481",
+    "modelId": "z-ai/glm-5.2:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Z.ai: GLM 5.2 (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",
     "modelId": "nvidia/nemotron-3.5-content-safety:free",
     "enableTools": true,
