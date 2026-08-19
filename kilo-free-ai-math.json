@@ -15,19 +15,19 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
-    "modelId": "poolside/laguna-s-2.1:free",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Poolside: Laguna S 2.1 (Kilo)"
-  },
-  {
     "id": "04560a4e-43f1-5a34-ada1-8019b1d4dda6",
     "modelId": "tencent/hy3:free",
     "enableTools": true,
     "disabledTools": [],
     "displayName": "Tencent: Hy3 (Kilo)",
     "reasoningEffort": "high"
+  },
+  {
+    "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
+    "modelId": "poolside/laguna-s-2.1:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",

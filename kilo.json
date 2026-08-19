@@ -118,7 +118,8 @@
             "autoRouting": {
                 "models": [
                     "poolside/laguna-s-2.1:free",
-                    "stepfun/step-3.7-flash:free"
+                    "stepfun/step-3.7-flash:free",
+                    "tencent/hy3:free"
                 ]
             }
         },
@@ -165,37 +166,6 @@
             }
         },
         {
-            "id": "poolside/laguna-s-2.1:free",
-            "name": "Poolside: Laguna S 2.1 (free)",
-            "created": 0,
-            "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
-            "pricing": {
-                "prompt": "0",
-                "completion": "0",
-                "discount": 0
-            },
-            "context_length": 262144,
-            "expiration_date": null,
-            "isFree": true,
-            "mayTrainOnYourPrompts": true,
-            "opencode": {
-                "variants": {
-                    "instant": {
-                        "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
-                        }
-                    },
-                    "thinking": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "tencent/hy3:free",
             "canonical_slug": "tencent/hy3:free",
             "hugging_face_id": "",
@@ -229,6 +199,37 @@
                         }
                     },
                     "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "poolside/laguna-s-2.1:free",
+            "name": "Poolside: Laguna S 2.1 (free)",
+            "created": 0,
+            "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+            "pricing": {
+                "prompt": "0",
+                "completion": "0",
+                "discount": 0
+            },
+            "context_length": 262144,
+            "expiration_date": null,
+            "isFree": true,
+            "mayTrainOnYourPrompts": true,
+            "opencode": {
+                "variants": {
+                    "instant": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "thinking": {
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
@@ -498,30 +499,25 @@
             }
         },
         {
-            "id": "z-ai/glm-5.2",
-            "name": "Z.ai: GLM 5.2",
+            "id": "z-ai/glm-5.3",
+            "name": "Z.ai: GLM 5.3 (new)",
             "created": 0,
-            "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+            "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
             "pricing": {
-                "prompt": "0.000001400000",
-                "completion": "0.000004400000",
-                "input_cache_read": "0.000000260000",
-                "discount": 0
+                "prompt": "0.0000014",
+                "completion": "0.0000044",
+                "input_cache_read": "0.00000026"
             },
             "context_length": 1048576,
-            "expiration_date": null,
-            "terminalBench": {
-                "overallScore": 0.53033708,
-                "avgAttemptCostUsd": 26.2141134
-            },
+            "expiration_date": "2098-12-31",
             "isFree": false,
             "mayTrainOnYourPrompts": false,
             "opencode": {
                 "variants": {
-                    "none": {
+                    "low": {
                         "reasoning": {
-                            "enabled": false,
-                            "effort": "none"
+                            "enabled": true,
+                            "effort": "low"
                         }
                     },
                     "high": {
@@ -530,10 +526,10 @@
                             "effort": "high"
                         }
                     },
-                    "xhigh": {
+                    "max": {
                         "reasoning": {
                             "enabled": true,
-                            "effort": "xhigh"
+                            "effort": "max"
                         }
                     }
                 }
@@ -618,43 +614,6 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "z-ai/glm-5.3",
-            "name": "Z.ai: GLM 5.3",
-            "created": 0,
-            "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
-            "pricing": {
-                "prompt": "0.0000014",
-                "completion": "0.0000044",
-                "input_cache_read": "0.00000026"
-            },
-            "context_length": 1048576,
-            "expiration_date": "2098-12-31",
-            "isFree": false,
-            "mayTrainOnYourPrompts": false,
-            "opencode": {
-                "variants": {
-                    "low": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "low"
-                        }
-                    },
-                    "high": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "high"
-                        }
-                    },
-                    "max": {
-                        "reasoning": {
-                            "enabled": true,
-                            "effort": "max"
                         }
                     }
                 }
@@ -2635,6 +2594,48 @@
                         "reasoning": {
                             "enabled": true,
                             "effort": "high"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "z-ai/glm-5.2",
+            "name": "Z.ai: GLM 5.2",
+            "created": 0,
+            "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+            "pricing": {
+                "prompt": "0.000001400000",
+                "completion": "0.000004400000",
+                "input_cache_read": "0.000000260000",
+                "discount": 0
+            },
+            "context_length": 1048576,
+            "expiration_date": null,
+            "terminalBench": {
+                "overallScore": 0.53033708,
+                "avgAttemptCostUsd": 26.2141134
+            },
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {
+                "variants": {
+                    "none": {
+                        "reasoning": {
+                            "enabled": false,
+                            "effort": "none"
+                        }
+                    },
+                    "high": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "high"
+                        }
+                    },
+                    "xhigh": {
+                        "reasoning": {
+                            "enabled": true,
+                            "effort": "xhigh"
                         }
                     }
                 }
