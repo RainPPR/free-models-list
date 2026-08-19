@@ -130,25 +130,6 @@
         }
     },
     {
-        "id": "liquid/lfm-2.5-2.6b:free",
-        "name": "LiquidAI: LFM2.5-2.6B (free)",
-        "created": 0,
-        "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-        "context_length": 128000,
-        "expiration_date": null,
-        "mayTrainOnYourPrompts": true,
-        "opencode": {
-            "variants": {
-                "thinking": {
-                    "reasoning": {
-                        "enabled": true,
-                        "effort": "high"
-                    }
-                }
-            }
-        }
-    },
-    {
         "id": "nvidia/nemotron-3.5-lightning:free",
         "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
         "created": 0,
