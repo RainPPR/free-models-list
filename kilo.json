@@ -613,6 +613,38 @@
             }
         },
         {
+            "id": "tencent/hy-mt2-1.8b",
+            "name": "Tencent: Hy-MT2-1.8B",
+            "created": 0,
+            "description": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and style-guided...",
+            "pricing": {
+                "prompt": "0.000000044",
+                "completion": "0.000000177",
+                "discount": 0
+            },
+            "context_length": 8192,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
+            "id": "tencent/hy-mt2-30b-a3b",
+            "name": "Tencent: Hy-MT2-30B-A3B",
+            "created": 0,
+            "description": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and...",
+            "pricing": {
+                "prompt": "0.000000074",
+                "completion": "0.000000295",
+                "discount": 0
+            },
+            "context_length": 8192,
+            "expiration_date": null,
+            "isFree": false,
+            "mayTrainOnYourPrompts": false,
+            "opencode": {}
+        },
+        {
             "id": "~z-ai/glm-latest",
             "name": "Z.ai: GLM Latest",
             "created": 0,
@@ -705,7 +737,7 @@
                 "discount": 0
             },
             "context_length": 512000,
-            "expiration_date": null,
+            "expiration_date": "2026-09-30",
             "isFree": true,
             "mayTrainOnYourPrompts": true,
             "opencode": {
@@ -1009,7 +1041,7 @@
                 "input_cache_read": "0.00000004",
                 "discount": 0
             },
-            "context_length": 1000000,
+            "context_length": 262144,
             "expiration_date": null,
             "isFree": false,
             "mayTrainOnYourPrompts": false,
@@ -1133,6 +1165,7 @@
             "pricing": {
                 "prompt": "0.0000003",
                 "completion": "0.0000011",
+                "input_cache_read": "0.00000004",
                 "discount": 0
             },
             "context_length": 131072,
@@ -4707,8 +4740,8 @@
             "created": 0,
             "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...",
             "pricing": {
-                "prompt": "0.00000007",
-                "completion": "0.00000034",
+                "prompt": "0.00000003",
+                "completion": "0.000000165",
                 "discount": 0
             },
             "context_length": 262144,
@@ -6637,7 +6670,6 @@
             "pricing": {
                 "prompt": "0.00000005",
                 "completion": "0.0000002",
-                "input_cache_read": "0.00000003",
                 "discount": 0
             },
             "context_length": 262144,
