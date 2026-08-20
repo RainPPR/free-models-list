@@ -1,12 +1,5 @@
 [
   {
-    "id": "9f64c1cc-d048-559b-9077-364db12d0a60",
-    "modelId": "flux-2-pro",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Flux 2 Pro (LogFare)"
-  },
-  {
     "id": "dd443695-2465-5f54-979b-907d30d2eb1a",
     "modelId": "whisper-large-v3-turbo",
     "enableTools": true,
@@ -61,6 +54,27 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "GLM 5.2 (LogFare)"
+  },
+  {
+    "id": "9f64c1cc-d048-559b-9077-364db12d0a60",
+    "modelId": "flux-2-pro",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Flux 2 Pro (LogFare)"
+  },
+  {
+    "id": "e38655fb-c8a0-5149-90de-7bc19a3cb651",
+    "modelId": "sdxl-lightning",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Stable Diffusion XL Lightning (LogFare)"
+  },
+  {
+    "id": "4ae19449-ab07-532a-b408-f5820f189b62",
+    "modelId": "gpt-5.6-luna",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "GPT 5.6 Luna (LogFare)"
   },
   {
     "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
@@ -124,12 +138,5 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
-  },
-  {
-    "id": "ad77b720-8b36-5c4f-ad92-00ccc885f50d",
-    "modelId": "grape-2-pro",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "GRaPE 2 Pro (LogFare)"
   }
 ]

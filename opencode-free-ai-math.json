@@ -8,6 +8,14 @@
     "reasoningEffort": "max"
   },
   {
+    "id": "2d2b234b-3550-5b46-8e55-fb2a1c38eafb",
+    "modelId": "muse-spark-1.2-contributor-free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Muse Spark 1.2 Free (OpenCode)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "1a49d398-0224-583f-973a-a0bb2af90ee2",
     "modelId": "mimo-v2.5-free",
     "enableTools": true,

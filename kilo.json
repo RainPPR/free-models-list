@@ -1287,8 +1287,8 @@
             "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
             "pricing": {
                 "prompt": "0.000000065",
-                "completion": "0.00000018",
-                "input_cache_read": "0.00000002"
+                "completion": "0.00000014",
+                "input_cache_read": "0.000000014"
             },
             "context_length": 1310720,
             "expiration_date": null,
@@ -4217,9 +4217,10 @@
             "created": 0,
             "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
             "pricing": {
-                "prompt": "0.000001600000",
-                "completion": "0.000003200000",
-                "input_cache_read": "0.000000135000"
+                "prompt": "0.0000016",
+                "completion": "0.0000032",
+                "input_cache_read": "0.000000135",
+                "discount": 0
             },
             "context_length": 1048576,
             "expiration_date": null,

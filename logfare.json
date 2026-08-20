@@ -2,21 +2,6 @@
     "object": "list",
     "data": [
         {
-            "id": "flux-2-pro",
-            "object": "model",
-            "created": 0,
-            "owned_by": "logfare",
-            "display_name": "Flux 2 Pro",
-            "aliases": [],
-            "endpoints": [
-                "images/generations"
-            ],
-            "visibility": "public",
-            "tier": 2,
-            "requires_training_optin": true,
-            "premium_unlocked": false
-        },
-        {
             "id": "whisper-large-v3-turbo",
             "object": "model",
             "created": 0,
@@ -135,6 +120,55 @@
             "created": 0,
             "owned_by": "logfare",
             "display_name": "GLM 5.2",
+            "aliases": [],
+            "endpoints": [
+                "chat/completions",
+                "messages",
+                "responses"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "flux-2-pro",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Flux 2 Pro",
+            "aliases": [],
+            "endpoints": [
+                "images/generations",
+                "images/edits"
+            ],
+            "visibility": "public",
+            "tier": 2,
+            "requires_training_optin": true,
+            "premium_unlocked": false
+        },
+        {
+            "id": "sdxl-lightning",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "Stable Diffusion XL Lightning",
+            "aliases": [],
+            "endpoints": [
+                "images/generations",
+                "images/edits"
+            ],
+            "visibility": "public",
+            "tier": 1,
+            "requires_training_optin": false,
+            "premium_unlocked": true
+        },
+        {
+            "id": "gpt-5.6-luna",
+            "object": "model",
+            "created": 0,
+            "owned_by": "logfare",
+            "display_name": "GPT 5.6 Luna",
             "aliases": [],
             "endpoints": [
                 "chat/completions",
@@ -290,23 +324,6 @@
             "tier": 2,
             "requires_training_optin": true,
             "premium_unlocked": false
-        },
-        {
-            "id": "grape-2-pro",
-            "object": "model",
-            "created": 0,
-            "owned_by": "logfare",
-            "display_name": "GRaPE 2 Pro",
-            "aliases": [],
-            "endpoints": [
-                "chat/completions",
-                "messages",
-                "responses"
-            ],
-            "visibility": "public",
-            "tier": 1,
-            "requires_training_optin": false,
-            "premium_unlocked": true
         }
     ]
 }
