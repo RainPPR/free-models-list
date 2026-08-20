@@ -98,13 +98,6 @@
     "displayName": "Text Embedding 3 Small (LogFare)"
   },
   {
-    "id": "ad77b720-8b36-5c4f-ad92-00ccc885f50d",
-    "modelId": "grape-2-pro",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "GRaPE 2 Pro (LogFare)"
-  },
-  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "enableTools": true,
@@ -131,5 +124,12 @@
     "enableTools": true,
     "disabledTools": [],
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
+  },
+  {
+    "id": "ad77b720-8b36-5c4f-ad92-00ccc885f50d",
+    "modelId": "grape-2-pro",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "GRaPE 2 Pro (LogFare)"
   }
 ]

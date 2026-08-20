@@ -37,6 +37,13 @@
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
   },
   {
+    "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
+    "modelId": "liquid/lfm-2.5-2.6b:free",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "LiquidAI: LFM2.5-2.6B (Kilo)"
+  },
+  {
     "id": "b73bcb80-f456-54cb-9512-0abee644a874",
     "modelId": "nvidia/nemotron-3.5-lightning:free",
     "enableTools": true,
