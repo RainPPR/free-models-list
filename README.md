@@ -1,6 +1,6 @@
 # free-models-list
 
-自动获取各平台免费模型列表，生成 [AI Math](https://github.com/RainPPR/ai-math) 配置文件。
+自动获取各平台免费模型列表，生成 [AI Math](https://github.com/RainPPR/ai-math-chat-studio) 配置文件。
 
 每 8 小时自动更新一次（GitHub Actions）。
 
