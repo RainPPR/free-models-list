@@ -22,6 +22,17 @@
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
+    "id": "6044feba-2e11-5d27-9d6a-7d9338c9187e",
+    "modelId": "meituan/longcat-2.0-free",
+    "displayName": "Meituan: LongCat 2.0 (Kilo)"
+  },
+  {
+    "id": "d5860d12-a583-5315-a857-7936650e7082",
+    "modelId": "stealth/ox-alpha",
+    "displayName": "Ox Alpha (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
