@@ -2,103 +2,75 @@
   {
     "id": "07c6c650-b7eb-529e-833e-f64c31733caf",
     "modelId": "kilo-auto/free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Auto Free (Kilo)"
   },
   {
     "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
     "modelId": "stepfun/step-3.7-flash:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "StepFun: Step 3.7 Flash (Kilo)",
     "reasoningEffort": "high"
   },
   {
     "id": "04560a4e-43f1-5a34-ada1-8019b1d4dda6",
     "modelId": "tencent/hy3:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Tencent: Hy3 (Kilo)",
     "reasoningEffort": "high"
   },
   {
     "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
     "modelId": "poolside/laguna-s-2.1:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
   },
   {
     "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
     "modelId": "liquid/lfm-2.5-2.6b:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "LiquidAI: LFM2.5-2.6B (Kilo)"
   },
   {
     "id": "b73bcb80-f456-54cb-9512-0abee644a874",
     "modelId": "nvidia/nemotron-3.5-lightning:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
     "modelId": "poolside/laguna-xs-2.1:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Poolside: Laguna XS 2.1 (Kilo)"
   },
   {
     "id": "e2c6d1c5-44b3-5bcd-aa30-790edccdc2ed",
     "modelId": "cohere/north-mini-code:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Cohere: North Mini Code (Kilo)"
   },
   {
     "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",
     "modelId": "nvidia/nemotron-3.5-content-safety:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "NVIDIA: Nemotron 3.5 Content Safety (Kilo)"
   },
   {
     "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
     "reasoningEffort": "high"
   },
   {
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
   },
   {
     "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
     "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "NVIDIA: Nemotron 3 Super (Kilo)",
     "reasoningEffort": "medium"
   },
   {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "OpenRouter Free Models Router (Kilo)"
   }
 ]

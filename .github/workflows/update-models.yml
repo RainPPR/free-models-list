@@ -26,17 +26,17 @@ jobs:
       - name: Install dependencies
         run: uv sync --locked
       
-      - name: Run main.py
-        run: uv run python main.py
+      - name: Generate Kilo AI Math config
+        run: uv run python kilo-free-ai-math.py
 
-      - name: Generate AI Math config
-        run: python generate_kilo_ai_math_config.py
+      - name: Generate OpenCode AI Math config
+        run: uv run python opencode-free-ai-math.py
 
-      - name: Run opencode.py
-        run: uv run python opencode.py
+      - name: Generate LogFare AI Math config
+        run: uv run python logfare-ai-math.py
 
-      - name: Run logfare.py
-        run: uv run python logfare.py
+      - name: Generate Poe AI Math config
+        run: uv run python poe-free-ai-math.py
 
       - name: Commit and push changes
         run: |
