@@ -344,6 +344,12 @@
             "owned_by": "opencode"
         },
         {
+            "id": "x-preview-f-free",
+            "object": "model",
+            "created": 0,
+            "owned_by": "opencode"
+        },
+        {
             "id": "muse-spark-1.2-contributor-free",
             "object": "model",
             "created": 0,
