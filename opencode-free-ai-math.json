@@ -2,61 +2,45 @@
   {
     "id": "f2966238-6603-52b9-aa2c-3dc37c3c19a9",
     "modelId": "deepseek-v4-flash-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "DeepSeek V4 Flash Free (OpenCode)",
     "reasoningEffort": "max"
   },
   {
     "id": "b5ffb32d-7e68-5929-81c6-263fdc612a54",
     "modelId": "x-preview-f-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Ox Alpha Free (OpenCode)",
     "reasoningEffort": "max"
   },
   {
     "id": "2d2b234b-3550-5b46-8e55-fb2a1c38eafb",
     "modelId": "muse-spark-1.2-contributor-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Muse Spark 1.2 Free (OpenCode)",
-    "reasoningEffort": "high"
+    "reasoningEffort": "xhigh"
   },
   {
     "id": "1a49d398-0224-583f-973a-a0bb2af90ee2",
     "modelId": "mimo-v2.5-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "MiMo V2.5 Free (OpenCode)"
   },
   {
     "id": "ac977b66-c8d1-5da3-a80f-9d44eceaed61",
     "modelId": "hy3-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Hy3 Free (OpenCode)",
     "reasoningEffort": "high"
   },
   {
     "id": "14f57ded-622b-5af6-8331-a14e299bdd14",
     "modelId": "nemotron-3-ultra-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Nemotron 3 Ultra Free (OpenCode)"
   },
   {
     "id": "0944c784-0e4c-5e44-a48d-c9b608953465",
     "modelId": "nemotron-3.5-lightning-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
   },
   {
     "id": "32d253e2-5a78-5c6b-9663-105cb03eb4e4",
     "modelId": "laguna-s-2.1-free",
-    "enableTools": true,
-    "disabledTools": [],
     "displayName": "Laguna S 2.1 Free (OpenCode)",
     "reasoningEffort": "high"
   }
