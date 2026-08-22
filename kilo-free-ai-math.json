@@ -48,6 +48,18 @@
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
+    "id": "6d6f127e-92a5-5f2f-8930-22c9fef57e82",
+    "modelId": "thinkingmachines/inkling-small:free",
+    "displayName": "Thinking Machines: Inkling Small (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
+    "id": "ab13e3a6-9a49-5bff-b113-c938de15974e",
+    "modelId": "thinkingmachines/inkling:free",
+    "displayName": "Thinking Machines: Inkling (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
     "modelId": "poolside/laguna-xs-2.1:free",
     "displayName": "Poolside: Laguna XS 2.1 (Kilo)"
