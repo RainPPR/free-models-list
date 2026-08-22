@@ -25,9 +25,9 @@
     "displayName": "GLM 5.2 (LogFare)"
   },
   {
-    "id": "4ae19449-ab07-532a-b408-f5820f189b62",
-    "modelId": "gpt-5.6-luna",
-    "displayName": "GPT 5.6 Luna (LogFare)"
+    "id": "f522aa96-3b50-569c-b6f5-739b4d6321fb",
+    "modelId": "qwen-3.8-2.4t-a95b",
+    "displayName": "Qwen 3.8 2.4t (a95b) (LogFare)"
   },
   {
     "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
