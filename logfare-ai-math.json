@@ -53,5 +53,10 @@
     "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
     "modelId": "deepseek-v4-pro-0813",
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
+  },
+  {
+    "id": "28d54736-8e71-528a-a8d2-deb5d56a8aa8",
+    "modelId": "claude-opus-5",
+    "displayName": "Claude Opus 5 (LogFare)"
   }
 ]
