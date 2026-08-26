@@ -35,11 +35,6 @@
     "displayName": "Logfare Auto (LogFare)"
   },
   {
-    "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
-    "modelId": "kimi-k3",
-    "displayName": "Kimi K3 (LogFare)"
-  },
-  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
