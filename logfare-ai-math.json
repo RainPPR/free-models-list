@@ -30,6 +30,11 @@
     "displayName": "Kimi K2.7 Code (LogFare)"
   },
   {
+    "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
+    "modelId": "logfare/auto",
+    "displayName": "Logfare Auto (LogFare)"
+  },
+  {
     "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
     "modelId": "kimi-k3",
     "displayName": "Kimi K3 (LogFare)"
