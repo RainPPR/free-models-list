@@ -6,12 +6,6 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "b5ffb32d-7e68-5929-81c6-263fdc612a54",
-    "modelId": "x-preview-f-free",
-    "displayName": "Ox Alpha Free (Unlimited) (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "2d2b234b-3550-5b46-8e55-fb2a1c38eafb",
     "modelId": "muse-spark-1.2-contributor-free",
     "displayName": "Muse Spark 1.2 Free (OpenCode)",

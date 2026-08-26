@@ -20,11 +20,6 @@
     "displayName": "GLM 5.2 (LogFare)"
   },
   {
-    "id": "f522aa96-3b50-569c-b6f5-739b4d6321fb",
-    "modelId": "qwen-3.8-2.4t-a95b",
-    "displayName": "Qwen 3.8 2.4t (a95b) (LogFare)"
-  },
-  {
     "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
     "modelId": "kimi-k2.7-code",
     "displayName": "Kimi K2.7 Code (LogFare)"
