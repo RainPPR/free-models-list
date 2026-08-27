@@ -30,6 +30,11 @@
     "displayName": "Logfare Auto (LogFare)"
   },
   {
+    "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
+    "modelId": "glm-5.3-flash",
+    "displayName": "GLM 5.3 Flash (LogFare)"
+  },
+  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
