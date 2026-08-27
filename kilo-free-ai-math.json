@@ -27,6 +27,11 @@
     "displayName": "Meituan: LongCat 2.0 (Kilo)"
   },
   {
+    "id": "334574dc-81a4-5981-86ce-b864a93b51d5",
+    "modelId": "inclusionai/ling-3.0-flash-fin:free",
+    "displayName": "Ling 3.0 Flash Fin (Kilo)"
+  },
+  {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
@@ -75,19 +80,9 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "02cb4a12-de9a-591d-8380-59978ac07a49",
-    "modelId": "minimax/minimax-m3:free",
-    "displayName": "MiniMax: MiniMax M3 (Kilo)"
-  },
-  {
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
-  },
-  {
-    "id": "8c18dc72-db71-5c63-9a93-a598860ff1a5",
-    "modelId": "minimax/minimax-m2.7:free",
-    "displayName": "MiniMax: MiniMax M2.7 (Kilo)"
   },
   {
     "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
@@ -99,5 +94,15 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
+  },
+  {
+    "id": "02cb4a12-de9a-591d-8380-59978ac07a49",
+    "modelId": "minimax/minimax-m3:free",
+    "displayName": "MiniMax: MiniMax M3 (Kilo)"
+  },
+  {
+    "id": "8c18dc72-db71-5c63-9a93-a598860ff1a5",
+    "modelId": "minimax/minimax-m2.7:free",
+    "displayName": "MiniMax: MiniMax M2.7 (Kilo)"
   }
 ]
