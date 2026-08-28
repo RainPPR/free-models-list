@@ -23,6 +23,11 @@
     "reasoningEffort": "high"
   },
   {
+    "id": "1e6a0079-3d0c-5b51-89c5-250c0f8d7c42",
+    "modelId": "ling-3.0-flash-fin-free",
+    "displayName": "Ling 3.0 Flash Fin Free (OpenCode)"
+  },
+  {
     "id": "14f57ded-622b-5af6-8331-a14e299bdd14",
     "modelId": "nemotron-3-ultra-free",
     "displayName": "Nemotron 3 Ultra Free (OpenCode)"
