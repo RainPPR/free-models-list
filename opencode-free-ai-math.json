@@ -17,12 +17,6 @@
     "displayName": "MiMo V2.5 Free (OpenCode)"
   },
   {
-    "id": "ac977b66-c8d1-5da3-a80f-9d44eceaed61",
-    "modelId": "hy3-free",
-    "displayName": "Hy3 Free (OpenCode)",
-    "reasoningEffort": "high"
-  },
-  {
     "id": "1e6a0079-3d0c-5b51-89c5-250c0f8d7c42",
     "modelId": "ling-3.0-flash-fin-free",
     "displayName": "Ling 3.0 Flash Fin Free (OpenCode)"
