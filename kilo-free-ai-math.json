@@ -11,12 +11,6 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "04560a4e-43f1-5a34-ada1-8019b1d4dda6",
-    "modelId": "tencent/hy3:free",
-    "displayName": "Tencent: Hy3 (Kilo)",
-    "reasoningEffort": "high"
-  },
-  {
     "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
     "modelId": "poolside/laguna-s-2.1:free",
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
@@ -25,6 +19,11 @@
     "id": "6044feba-2e11-5d27-9d6a-7d9338c9187e",
     "modelId": "meituan/longcat-2.0-free",
     "displayName": "Meituan: LongCat 2.0 (Kilo)"
+  },
+  {
+    "id": "02cb4a12-de9a-591d-8380-59978ac07a49",
+    "modelId": "minimax/minimax-m3:free",
+    "displayName": "MiniMax: MiniMax M3 (Kilo)"
   },
   {
     "id": "334574dc-81a4-5981-86ce-b864a93b51d5",
@@ -94,11 +93,6 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
-  },
-  {
-    "id": "02cb4a12-de9a-591d-8380-59978ac07a49",
-    "modelId": "minimax/minimax-m3:free",
-    "displayName": "MiniMax: MiniMax M3 (Kilo)"
   },
   {
     "id": "8c18dc72-db71-5c63-9a93-a598860ff1a5",
