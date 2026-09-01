@@ -40,6 +40,16 @@
     "displayName": "GLM 5.3 (LogFare)"
   },
   {
+    "id": "8472abdb-9fcb-59c5-921a-183a6ebdfd0c",
+    "modelId": "claude-opus-4-6",
+    "displayName": "Claude Opus 4.6 (LogFare)"
+  },
+  {
+    "id": "dc2f2919-21c2-520d-bfdf-a454a8e6f003",
+    "modelId": "claude-opus-4-8",
+    "displayName": "Claude Opus 4.8 (LogFare)"
+  },
+  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
@@ -58,5 +68,10 @@
     "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
     "modelId": "deepseek-v4-pro-0813",
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
+  },
+  {
+    "id": "08ae4b17-5a28-586d-a14b-d13fbd4818ce",
+    "modelId": "gpt-5.6-sol",
+    "displayName": "GPT 5.6 Sol (LogFare)"
   }
 ]

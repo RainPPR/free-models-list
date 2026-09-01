@@ -84,6 +84,11 @@
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
   },
   {
+    "id": "8c18dc72-db71-5c63-9a93-a598860ff1a5",
+    "modelId": "minimax/minimax-m2.7:free",
+    "displayName": "MiniMax: MiniMax M2.7 (Kilo)"
+  },
+  {
     "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
     "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
     "displayName": "NVIDIA: Nemotron 3 Super (Kilo)",
@@ -93,10 +98,5 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
-  },
-  {
-    "id": "8c18dc72-db71-5c63-9a93-a598860ff1a5",
-    "modelId": "minimax/minimax-m2.7:free",
-    "displayName": "MiniMax: MiniMax M2.7 (Kilo)"
   }
 ]
