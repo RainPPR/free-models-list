@@ -6,6 +6,12 @@
     "reasoningEffort": "max"
   },
   {
+    "id": "e6677191-9635-529a-9001-df7d4587be65",
+    "modelId": "muse-spark-1.3-contributor-free",
+    "displayName": "Muse Spark 1.3 Free (OpenCode)",
+    "reasoningEffort": "xhigh"
+  },
+  {
     "id": "2d2b234b-3550-5b46-8e55-fb2a1c38eafb",
     "modelId": "muse-spark-1.2-contributor-free",
     "displayName": "Muse Spark 1.2 Free (OpenCode)",
