@@ -16,11 +16,6 @@
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
-    "id": "6044feba-2e11-5d27-9d6a-7d9338c9187e",
-    "modelId": "meituan/longcat-2.0-free",
-    "displayName": "Meituan: LongCat 2.0 (Kilo)"
-  },
-  {
     "id": "02cb4a12-de9a-591d-8380-59978ac07a49",
     "modelId": "minimax/minimax-m3:free",
     "displayName": "MiniMax: MiniMax M3 (Kilo)"
