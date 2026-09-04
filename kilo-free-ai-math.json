@@ -21,9 +21,14 @@
     "displayName": "MiniMax: MiniMax M3 (Kilo)"
   },
   {
+    "id": "8a35fcb1-e29f-5176-8752-632cefb86721",
+    "modelId": "inclusionai/ling-3.0-flash-sante:free",
+    "displayName": "inclusionAI: Ling 3.0 Flash Sante (Kilo)"
+  },
+  {
     "id": "334574dc-81a4-5981-86ce-b864a93b51d5",
     "modelId": "inclusionai/ling-3.0-flash-fin:free",
-    "displayName": "Ling 3.0 Flash Fin (Kilo)"
+    "displayName": "inclusionAI: Ling 3.0 Flash Fin (Kilo)"
   },
   {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
