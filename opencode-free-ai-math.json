@@ -36,11 +36,5 @@
     "id": "0944c784-0e4c-5e44-a48d-c9b608953465",
     "modelId": "nemotron-3.5-lightning-free",
     "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
-  },
-  {
-    "id": "32d253e2-5a78-5c6b-9663-105cb03eb4e4",
-    "modelId": "laguna-s-2.1-free",
-    "displayName": "Laguna S 2.1 Free (OpenCode)",
-    "reasoningEffort": "high"
   }
 ]
