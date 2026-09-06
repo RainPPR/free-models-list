@@ -25,11 +25,6 @@
     "displayName": "Logfare Auto (LogFare)"
   },
   {
-    "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
-    "modelId": "glm-5.3-flash",
-    "displayName": "GLM 5.3 Flash (LogFare)"
-  },
-  {
     "id": "3f357e03-54a5-51d0-992d-0f0bd0f318f9",
     "modelId": "glm-5.3",
     "displayName": "GLM 5.3 (LogFare)"
@@ -60,13 +55,18 @@
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
   },
   {
-    "id": "08ae4b17-5a28-586d-a14b-d13fbd4818ce",
-    "modelId": "gpt-5.6-sol",
-    "displayName": "GPT 5.6 Sol (LogFare)"
+    "id": "4f689ba7-6e60-59e0-84cc-0f430a22951e",
+    "modelId": "claude-opus-5:weird",
+    "displayName": "Claude Opus 5 (Weird) (LogFare)"
   },
   {
-    "id": "28d54736-8e71-528a-a8d2-deb5d56a8aa8",
-    "modelId": "claude-opus-5",
-    "displayName": "Claude Opus 5 (LogFare)"
+    "id": "28788f39-1bc4-52fd-9323-16391795066c",
+    "modelId": "gpt-5.6-sol:weird",
+    "displayName": "GPT 5.6 Sol (Weird) (LogFare)"
+  },
+  {
+    "id": "8eaf5e6a-0a2c-531b-8450-7796bfb3a79b",
+    "modelId": "kimi-k3:fast",
+    "displayName": "Kimi K3 (Fast, Low context) (LogFare)"
   }
 ]
