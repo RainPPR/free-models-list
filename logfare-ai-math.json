@@ -10,6 +10,16 @@
     "displayName": "Qwen 3.8 Flash Next (LogFare)"
   },
   {
+    "id": "ddff9808-ca42-5aa8-acdb-1dd3923ea527",
+    "modelId": "claude-opus-4.6",
+    "displayName": "Claude Opus 4.6 (LogFare)"
+  },
+  {
+    "id": "7ff846ad-e1d2-55a6-aade-2309eadeb09e",
+    "modelId": "gemini-3.8-flash",
+    "displayName": "Gemini 3.8 Flash (LogFare)"
+  },
+  {
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
@@ -23,16 +33,6 @@
     "id": "3f357e03-54a5-51d0-992d-0f0bd0f318f9",
     "modelId": "glm-5.3",
     "displayName": "GLM 5.3 (LogFare)"
-  },
-  {
-    "id": "8472abdb-9fcb-59c5-921a-183a6ebdfd0c",
-    "modelId": "claude-opus-4-6",
-    "displayName": "Claude Opus 4.6 (LogFare)"
-  },
-  {
-    "id": "dc2f2919-21c2-520d-bfdf-a454a8e6f003",
-    "modelId": "claude-opus-4-8",
-    "displayName": "Claude Opus 4.8 (LogFare)"
   },
   {
     "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
@@ -63,5 +63,10 @@
     "id": "08ae4b17-5a28-586d-a14b-d13fbd4818ce",
     "modelId": "gpt-5.6-sol",
     "displayName": "GPT 5.6 Sol (LogFare)"
+  },
+  {
+    "id": "28d54736-8e71-528a-a8d2-deb5d56a8aa8",
+    "modelId": "claude-opus-5",
+    "displayName": "Claude Opus 5 (LogFare)"
   }
 ]
