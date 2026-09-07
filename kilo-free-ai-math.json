@@ -21,6 +21,16 @@
     "displayName": "MiniMax: MiniMax M3 (Kilo)"
   },
   {
+    "id": "8c18dc72-db71-5c63-9a93-a598860ff1a5",
+    "modelId": "minimax/minimax-m2.7:free",
+    "displayName": "MiniMax: MiniMax M2.7 (Kilo)"
+  },
+  {
+    "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
+    "modelId": "dots-studio/dots-3-note-preview:free",
+    "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
+  },
+  {
     "id": "8a35fcb1-e29f-5176-8752-632cefb86721",
     "modelId": "inclusionai/ling-3.0-flash-sante:free",
     "displayName": "inclusionAI: Ling 3.0 Flash Sante (Kilo)"
@@ -29,11 +39,6 @@
     "id": "334574dc-81a4-5981-86ce-b864a93b51d5",
     "modelId": "inclusionai/ling-3.0-flash-fin:free",
     "displayName": "inclusionAI: Ling 3.0 Flash Fin (Kilo)"
-  },
-  {
-    "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
-    "modelId": "dots-studio/dots-3-note-preview:free",
-    "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
   },
   {
     "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
@@ -82,11 +87,6 @@
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
-  },
-  {
-    "id": "8c18dc72-db71-5c63-9a93-a598860ff1a5",
-    "modelId": "minimax/minimax-m2.7:free",
-    "displayName": "MiniMax: MiniMax M2.7 (Kilo)"
   },
   {
     "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
