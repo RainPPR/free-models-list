@@ -27,6 +27,18 @@
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
   },
   {
+    "id": "8dcf7923-72af-5594-856f-cc81c33896bd",
+    "modelId": "nex-agi/nex-n2.5-mini:free",
+    "displayName": "Nex AGI: Nex-N2.5-Mini (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
+    "id": "12c229f0-ff53-5395-ba4b-2e8dea5a8072",
+    "modelId": "nex-agi/nex-n2.5-pro:free",
+    "displayName": "Nex AGI: Nex-N2.5-Pro (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "8a35fcb1-e29f-5176-8752-632cefb86721",
     "modelId": "inclusionai/ling-3.0-flash-sante:free",
     "displayName": "inclusionAI: Ling 3.0 Flash Sante (Kilo)"
