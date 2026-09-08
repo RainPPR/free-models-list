@@ -16,6 +16,12 @@
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
+    "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
@@ -66,12 +72,6 @@
     "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",
     "modelId": "nvidia/nemotron-3.5-content-safety:free",
     "displayName": "NVIDIA: Nemotron 3.5 Content Safety (Kilo)"
-  },
-  {
-    "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
-    "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
-    "reasoningEffort": "high"
   },
   {
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
