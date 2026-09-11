@@ -5,12 +5,6 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
-    "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
-    "modelId": "stepfun/step-3.7-flash:free",
-    "displayName": "StepFun: Step 3.7 Flash (Kilo)",
-    "reasoningEffort": "high"
-  },
-  {
     "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
     "modelId": "poolside/laguna-s-2.1:free",
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
@@ -70,12 +64,6 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "ab13e3a6-9a49-5bff-b113-c938de15974e",
-    "modelId": "thinkingmachines/inkling:free",
-    "displayName": "Thinking Machines: Inkling (Kilo)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
     "modelId": "poolside/laguna-xs-2.1:free",
     "displayName": "Poolside: Laguna XS 2.1 (Kilo)"
@@ -105,5 +93,11 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
+  },
+  {
+    "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
+    "modelId": "stepfun/step-3.7-flash:free",
+    "displayName": "StepFun: Step 3.7 Flash (Kilo)",
+    "reasoningEffort": "high"
   }
 ]
