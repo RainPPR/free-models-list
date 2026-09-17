@@ -53,6 +53,12 @@
     "displayName": "inclusionAI: Ling 3.0 Flash Fin (Kilo)"
   },
   {
+    "id": "c440a031-c576-5cb4-abca-f75219d1a5a2",
+    "modelId": "qwen/qwen3.8-27b:free",
+    "displayName": "Qwen: Qwen3.8 27B (Kilo)",
+    "reasoningEffort": "xhigh"
+  },
+  {
     "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
     "modelId": "liquid/lfm-2.5-2.6b:free",
     "displayName": "LiquidAI: LFM2.5-2.6B (Kilo)"
