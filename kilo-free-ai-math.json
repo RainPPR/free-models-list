@@ -32,11 +32,6 @@
     "displayName": "inclusionAI: Ling 3.0 Flash VL (Kilo)"
   },
   {
-    "id": "6ac83892-3427-5d36-9764-f201bf330440",
-    "modelId": "stealth/union-alpha",
-    "displayName": "Union Alpha (Kilo)"
-  },
-  {
     "id": "8dcf7923-72af-5594-856f-cc81c33896bd",
     "modelId": "nex-agi/nex-n2.5-mini:free",
     "displayName": "Nex AGI: Nex-N2.5-Mini (Kilo)",
