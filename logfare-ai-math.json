@@ -45,6 +45,11 @@
     "displayName": "Kimi K2.6 (LogFare)"
   },
   {
+    "id": "cda1b042-7087-5159-8362-b734d8e5845e",
+    "modelId": "deepseek-v4-flash-0731",
+    "displayName": "DeepSeek v4 Flash 0731 (LogFare)"
+  },
+  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
