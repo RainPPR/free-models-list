@@ -64,6 +64,12 @@
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
+    "id": "693f66a4-6008-5c56-914a-0070e74da02b",
+    "modelId": "deepseek/deepseek-v4-flash-0731:free",
+    "displayName": "DeepSeek: DeepSeek V4 Flash 0731 (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "6d6f127e-92a5-5f2f-8930-22c9fef57e82",
     "modelId": "thinkingmachines/inkling-small:free",
     "displayName": "Thinking Machines: Inkling Small (Kilo)",
