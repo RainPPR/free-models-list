@@ -25,24 +25,19 @@
     "displayName": "Grok 4.6 (LogFare)"
   },
   {
+    "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
+    "modelId": "glm-5.3-flash",
+    "displayName": "GLM 5.3 Flash (LogFare)"
+  },
+  {
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
   },
   {
-    "id": "e1e8e975-b3ce-58d8-bc4b-812a5bd4b9c5",
-    "modelId": "mimo-v2.5",
-    "displayName": "MiMo V2.5 (LogFare)"
-  },
-  {
-    "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
-    "modelId": "kimi-k2.6",
-    "displayName": "Kimi K2.6 (LogFare)"
-  },
-  {
-    "id": "cda1b042-7087-5159-8362-b734d8e5845e",
-    "modelId": "deepseek-v4-flash-0731",
-    "displayName": "DeepSeek v4 Flash 0731 (LogFare)"
+    "id": "3f357e03-54a5-51d0-992d-0f0bd0f318f9",
+    "modelId": "glm-5.3",
+    "displayName": "GLM 5.3 (LogFare)"
   },
   {
     "id": "ca94f797-5465-53ae-a827-8052a0597516",
