@@ -45,6 +45,11 @@
     "displayName": "Qwen 3.8 Max (LogFare)"
   },
   {
+    "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
+    "modelId": "deepseek-v4-pro-0813",
+    "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
+  },
+  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
