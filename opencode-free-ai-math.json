@@ -23,6 +23,11 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "f34a1efa-9fd2-5845-8673-d0158bde8c6f",
+    "modelId": "mimo-v2.6-flash-free",
+    "displayName": "MiMo-V2.6-Flash Free (OpenCode)"
+  },
+  {
     "id": "1a49d398-0224-583f-973a-a0bb2af90ee2",
     "modelId": "mimo-v2.5-free",
     "displayName": "MiMo V2.5 Free (OpenCode)"

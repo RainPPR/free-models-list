@@ -40,6 +40,16 @@
     "displayName": "GLM 5.3 (LogFare)"
   },
   {
+    "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
+    "modelId": "kimi-k2.6",
+    "displayName": "Kimi K2.6 (LogFare)"
+  },
+  {
+    "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
+    "modelId": "kimi-k2.7-code",
+    "displayName": "Kimi K2.7 Code (LogFare)"
+  },
+  {
     "id": "ca94f797-5465-53ae-a827-8052a0597516",
     "modelId": "qwen-3.8-max",
     "displayName": "Qwen 3.8 Max (LogFare)"
@@ -48,6 +58,11 @@
     "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
     "modelId": "deepseek-v4-pro-0813",
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
+  },
+  {
+    "id": "29f217f8-556a-5d77-8a39-92c6050a8c17",
+    "modelId": "step-3.7-flash",
+    "displayName": "Step 3.7 Flash (LogFare)"
   },
   {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
