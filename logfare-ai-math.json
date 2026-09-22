@@ -1,5 +1,25 @@
 [
   {
+    "id": "05c26077-fe51-5e2d-b1ba-0e6e248b857d",
+    "modelId": "deepseek-v3.2",
+    "displayName": "DeepSeek V3.2 (LogFare)"
+  },
+  {
+    "id": "69697e2f-c604-5cfb-b16c-98a0d8a1ffa9",
+    "modelId": "glm-5",
+    "displayName": "GLM 5 (LogFare)"
+  },
+  {
+    "id": "28fd236c-ee91-555b-85e2-c37abd80e1bb",
+    "modelId": "kimi-k2.5",
+    "displayName": "Kimi K2.5 (LogFare)"
+  },
+  {
+    "id": "fac9330f-2f89-56b7-8ca7-66272edb2068",
+    "modelId": "grok-4.6",
+    "displayName": "Grok 4.6 (LogFare)"
+  },
+  {
     "id": "3be55c22-3d55-55fc-9c02-8c7825c928f6",
     "modelId": "moondream3.1",
     "displayName": "Moondream 3.1 9B (LogFare)"
@@ -30,11 +50,6 @@
     "displayName": "Kimi K2.7 Code (LogFare)"
   },
   {
-    "id": "ca94f797-5465-53ae-a827-8052a0597516",
-    "modelId": "qwen-3.8-max",
-    "displayName": "Qwen 3.8 Max (LogFare)"
-  },
-  {
     "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
     "modelId": "deepseek-v4-pro-0813",
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
@@ -43,6 +58,11 @@
     "id": "29f217f8-556a-5d77-8a39-92c6050a8c17",
     "modelId": "step-3.7-flash",
     "displayName": "Step 3.7 Flash (LogFare)"
+  },
+  {
+    "id": "d8110e6a-edb8-5f9f-84bb-957bf68379e4",
+    "modelId": "gemma-4-31b-it",
+    "displayName": "Gemma 4 31b IT (LogFare)"
   },
   {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
