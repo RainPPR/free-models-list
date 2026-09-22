@@ -1,28 +1,8 @@
 [
   {
-    "id": "05c26077-fe51-5e2d-b1ba-0e6e248b857d",
-    "modelId": "deepseek-v3.2",
-    "displayName": "DeepSeek V3.2 (LogFare)"
-  },
-  {
     "id": "3be55c22-3d55-55fc-9c02-8c7825c928f6",
     "modelId": "moondream3.1",
     "displayName": "Moondream 3.1 9B (LogFare)"
-  },
-  {
-    "id": "28fd236c-ee91-555b-85e2-c37abd80e1bb",
-    "modelId": "kimi-k2.5",
-    "displayName": "Kimi K2.5 (LogFare)"
-  },
-  {
-    "id": "69697e2f-c604-5cfb-b16c-98a0d8a1ffa9",
-    "modelId": "glm-5",
-    "displayName": "GLM 5 (LogFare)"
-  },
-  {
-    "id": "fac9330f-2f89-56b7-8ca7-66272edb2068",
-    "modelId": "grok-4.6",
-    "displayName": "Grok 4.6 (LogFare)"
   },
   {
     "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
