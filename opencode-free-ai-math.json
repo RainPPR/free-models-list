@@ -28,6 +28,12 @@
     "displayName": "MiMo-V2.6-Flash Free (OpenCode)"
   },
   {
+    "id": "b6912502-59dc-5745-ab69-ee284e65731e",
+    "modelId": "space-bunny-free",
+    "displayName": "Space Bunny Free (OpenCode)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "1a49d398-0224-583f-973a-a0bb2af90ee2",
     "modelId": "mimo-v2.5-free",
     "displayName": "MiMo V2.5 Free (OpenCode)"
