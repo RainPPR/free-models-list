@@ -20,9 +20,19 @@
     "displayName": "Grok 4.6 (LogFare)"
   },
   {
+    "id": "ddff9808-ca42-5aa8-acdb-1dd3923ea527",
+    "modelId": "claude-opus-4.6",
+    "displayName": "Claude Opus 4.6 (LogFare)"
+  },
+  {
     "id": "3be55c22-3d55-55fc-9c02-8c7825c928f6",
     "modelId": "moondream3.1",
     "displayName": "Moondream 3.1 9B (LogFare)"
+  },
+  {
+    "id": "581eadd1-f00a-55ce-bbdf-1bc0f905583b",
+    "modelId": "kimi-k3",
+    "displayName": "Kimi K3 (LogFare)"
   },
   {
     "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
@@ -58,11 +68,6 @@
     "id": "29f217f8-556a-5d77-8a39-92c6050a8c17",
     "modelId": "step-3.7-flash",
     "displayName": "Step 3.7 Flash (LogFare)"
-  },
-  {
-    "id": "d8110e6a-edb8-5f9f-84bb-957bf68379e4",
-    "modelId": "gemma-4-31b-it",
-    "displayName": "Gemma 4 31b IT (LogFare)"
   },
   {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
