@@ -50,6 +50,11 @@
     "displayName": "GLM 5.3 (LogFare)"
   },
   {
+    "id": "40bd9a35-19bc-5083-9c69-63fceac54c8c",
+    "modelId": "mimo-v2.6-pro",
+    "displayName": "Mimo v2.6 Pro (LogFare)"
+  },
+  {
     "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
     "modelId": "kimi-k2.6",
     "displayName": "Kimi K2.6 (LogFare)"
@@ -58,11 +63,6 @@
     "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
     "modelId": "kimi-k2.7-code",
     "displayName": "Kimi K2.7 Code (LogFare)"
-  },
-  {
-    "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
-    "modelId": "deepseek-v4-pro-0813",
-    "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
   },
   {
     "id": "29f217f8-556a-5d77-8a39-92c6050a8c17",
@@ -75,8 +75,18 @@
     "displayName": "Gemma 4 26B (LogFare)"
   },
   {
+    "id": "4740a6bc-1677-5955-8ae2-a9ddd28bf15a",
+    "modelId": "deepseek-v4.1-flash",
+    "displayName": "Deepseek v4.1 Flash (LogFare)"
+  },
+  {
     "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
     "modelId": "qwen-3.8-27b",
     "displayName": "Qwen 3.8 27b (LogFare)"
+  },
+  {
+    "id": "31640c75-4298-514d-a9b2-3e2ccc8a8452",
+    "modelId": "gpt-6-sol",
+    "displayName": "GPT 6 Sol (LogFare)"
   }
 ]
