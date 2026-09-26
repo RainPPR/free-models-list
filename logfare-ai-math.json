@@ -35,6 +35,11 @@
     "displayName": "Kimi K3 (LogFare)"
   },
   {
+    "id": "b13f9191-a373-501d-b034-c47d50d41fc4",
+    "modelId": "space-bunny-alpha",
+    "displayName": "Space Bunny Alpha (LogFare)"
+  },
+  {
     "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
     "modelId": "glm-5.3-flash",
     "displayName": "GLM 5.3 Flash (LogFare)"
@@ -63,6 +68,31 @@
     "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
     "modelId": "kimi-k2.7-code",
     "displayName": "Kimi K2.7 Code (LogFare)"
+  },
+  {
+    "id": "7ff846ad-e1d2-55a6-aade-2309eadeb09e",
+    "modelId": "gemini-3.8-flash",
+    "displayName": "Gemini 3.8 Flash (LogFare)"
+  },
+  {
+    "id": "b0eac1bb-55f9-54c7-958d-7f84f5f770c2",
+    "modelId": "claude-fable-5-1",
+    "displayName": "Claude Fable 5.1 (LogFare)"
+  },
+  {
+    "id": "322c5e93-bf87-5128-bf37-0b4e6e8282a4",
+    "modelId": "gpt-6-astra",
+    "displayName": "GPT 6 Astra (LogFare)"
+  },
+  {
+    "id": "28d54736-8e71-528a-a8d2-deb5d56a8aa8",
+    "modelId": "claude-opus-5",
+    "displayName": "Claude Opus 5 (LogFare)"
+  },
+  {
+    "id": "08ae4b17-5a28-586d-a14b-d13fbd4818ce",
+    "modelId": "gpt-5.6-sol",
+    "displayName": "GPT 5.6 Sol (LogFare)"
   },
   {
     "id": "29f217f8-556a-5d77-8a39-92c6050a8c17",
