@@ -34,6 +34,11 @@
     "reasoningEffort": "max"
   },
   {
+    "id": "c02e3b97-bd90-5ff2-b97e-2c7ad6f8c105",
+    "modelId": "longcat-2.5-preview-free",
+    "displayName": "LongCat 2.5 Preview Free (OpenCode)"
+  },
+  {
     "id": "1a49d398-0224-583f-973a-a0bb2af90ee2",
     "modelId": "mimo-v2.5-free",
     "displayName": "MiMo V2.5 Free (OpenCode)"
