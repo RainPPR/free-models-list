@@ -32,11 +32,6 @@
     "displayName": "inclusionAI: Ling 3.0 Flash Sante (Kilo)"
   },
   {
-    "id": "334574dc-81a4-5981-86ce-b864a93b51d5",
-    "modelId": "inclusionai/ling-3.0-flash-fin:free",
-    "displayName": "inclusionAI: Ling 3.0 Flash Fin (Kilo)"
-  },
-  {
     "id": "c440a031-c576-5cb4-abca-f75219d1a5a2",
     "modelId": "qwen/qwen3.8-27b:free",
     "displayName": "Qwen: Qwen3.8 27B (Kilo)",
