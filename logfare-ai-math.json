@@ -15,6 +15,11 @@
     "displayName": "Kimi K2.5 (LogFare)"
   },
   {
+    "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
+    "modelId": "glm-5.3-flash",
+    "displayName": "GLM 5.3 Flash (LogFare)"
+  },
+  {
     "id": "b13f9191-a373-501d-b034-c47d50d41fc4",
     "modelId": "space-bunny-alpha",
     "displayName": "Space Bunny Alpha (LogFare)"
@@ -23,6 +28,11 @@
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
+  },
+  {
+    "id": "e9261539-eb7b-55ea-8d5c-5eff4e594bec",
+    "modelId": "claude-opus-5-5",
+    "displayName": "Claude Opus 5.5 (LogFare)"
   },
   {
     "id": "fac9330f-2f89-56b7-8ca7-66272edb2068",
