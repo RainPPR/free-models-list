@@ -1,18 +1,8 @@
 [
   {
-    "id": "05c26077-fe51-5e2d-b1ba-0e6e248b857d",
-    "modelId": "deepseek-v3.2",
-    "displayName": "DeepSeek V3.2 (LogFare)"
-  },
-  {
-    "id": "69697e2f-c604-5cfb-b16c-98a0d8a1ffa9",
-    "modelId": "glm-5",
-    "displayName": "GLM 5 (LogFare)"
-  },
-  {
-    "id": "28fd236c-ee91-555b-85e2-c37abd80e1bb",
-    "modelId": "kimi-k2.5",
-    "displayName": "Kimi K2.5 (LogFare)"
+    "id": "1abe6765-b67e-5a58-bfef-23b78ae8c91b",
+    "modelId": "ling-3.0-flash-vl",
+    "displayName": "Ling 3.0 Flash VL (LogFare)"
   },
   {
     "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
@@ -33,11 +23,6 @@
     "id": "e9261539-eb7b-55ea-8d5c-5eff4e594bec",
     "modelId": "claude-opus-5-5",
     "displayName": "Claude Opus 5.5 (LogFare)"
-  },
-  {
-    "id": "fac9330f-2f89-56b7-8ca7-66272edb2068",
-    "modelId": "grok-4.6",
-    "displayName": "Grok 4.6 (LogFare)"
   },
   {
     "id": "29f217f8-556a-5d77-8a39-92c6050a8c17",
