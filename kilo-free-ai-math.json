@@ -11,9 +11,15 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
-    "modelId": "poolside/laguna-s-2.1:free",
-    "displayName": "Poolside: Laguna S 2.1 (Kilo)"
+    "id": "cc5cc99a-7d35-560e-9d69-335e2332b789",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "displayName": "inclusionAI: Ling 3.1 Flash (new) (Kilo)"
+  },
+  {
+    "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
+    "modelId": "stepfun/step-3.7-flash:free",
+    "displayName": "StepFun: Step 3.7 Flash (Kilo)",
+    "reasoningEffort": "high"
   },
   {
     "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
@@ -25,6 +31,11 @@
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
+  },
+  {
+    "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
+    "modelId": "poolside/laguna-s-2.1:free",
+    "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
     "id": "20637bd7-0eb7-5414-9134-cfea03f36731",
@@ -88,11 +99,5 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
-  },
-  {
-    "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
-    "modelId": "stepfun/step-3.7-flash:free",
-    "displayName": "StepFun: Step 3.7 Flash (Kilo)",
-    "reasoningEffort": "high"
   }
 ]
