@@ -1,8 +1,13 @@
 [
   {
-    "id": "1abe6765-b67e-5a58-bfef-23b78ae8c91b",
-    "modelId": "ling-3.0-flash-vl",
-    "displayName": "Ling 3.0 Flash VL (LogFare)"
+    "id": "fac9330f-2f89-56b7-8ca7-66272edb2068",
+    "modelId": "grok-4.6",
+    "displayName": "Grok 4.6 (LogFare)"
+  },
+  {
+    "id": "ddff9808-ca42-5aa8-acdb-1dd3923ea527",
+    "modelId": "claude-opus-4.6",
+    "displayName": "Claude Opus 4.6 (LogFare)"
   },
   {
     "id": "b13f9191-a373-501d-b034-c47d50d41fc4",
@@ -15,6 +20,26 @@
     "displayName": "Logfare Auto (LogFare)"
   },
   {
+    "id": "05c26077-fe51-5e2d-b1ba-0e6e248b857d",
+    "modelId": "deepseek-v3.2",
+    "displayName": "DeepSeek V3.2 (LogFare)"
+  },
+  {
+    "id": "69697e2f-c604-5cfb-b16c-98a0d8a1ffa9",
+    "modelId": "glm-5",
+    "displayName": "GLM 5 (LogFare)"
+  },
+  {
+    "id": "28fd236c-ee91-555b-85e2-c37abd80e1bb",
+    "modelId": "kimi-k2.5",
+    "displayName": "Kimi K2.5 (LogFare)"
+  },
+  {
+    "id": "5ae0adec-be29-583c-bc36-1806c1867425",
+    "modelId": "claude-sonnet-4.6",
+    "displayName": "Claude Sonnet 4.6 (LogFare)"
+  },
+  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
@@ -25,8 +50,18 @@
     "displayName": "Qwen 3.8 27b (LogFare)"
   },
   {
-    "id": "4740a6bc-1677-5955-8ae2-a9ddd28bf15a",
-    "modelId": "deepseek-v4.1-flash",
-    "displayName": "Deepseek v4.1 Flash (LogFare)"
+    "id": "38cae9a5-8a17-5744-a713-3161c3da71f2",
+    "modelId": "gemma-4-31b",
+    "displayName": "Gemma 4 31B (LogFare)"
+  },
+  {
+    "id": "0cb60cd5-0d7b-55b7-b316-90bd601b812b",
+    "modelId": "gpt-oss-120b",
+    "displayName": "GPT OSS 120B (LogFare)"
+  },
+  {
+    "id": "082e28c6-c86e-58c0-a9b5-05ca186218f8",
+    "modelId": "kimi-k2-thinking",
+    "displayName": "Kimi K2 Thinking (LogFare)"
   }
 ]
