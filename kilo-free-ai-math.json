@@ -5,12 +5,6 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
-    "id": "63679ae9-09eb-5ebd-ab59-dd2d218c0437",
-    "modelId": "stealth/space-bunny-alpha",
-    "displayName": "Space Bunny Alpha (retires Oct 5) (Kilo)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "cc5cc99a-7d35-560e-9d69-335e2332b789",
     "modelId": "inclusionai/ling-3.1-flash",
     "displayName": "inclusionAI: Ling 3.1 Flash (new) (Kilo)"
@@ -46,12 +40,6 @@
     "id": "8a35fcb1-e29f-5176-8752-632cefb86721",
     "modelId": "inclusionai/ling-3.0-flash-sante:free",
     "displayName": "inclusionAI: Ling 3.0 Flash Sante (Kilo)"
-  },
-  {
-    "id": "c440a031-c576-5cb4-abca-f75219d1a5a2",
-    "modelId": "qwen/qwen3.8-27b:free",
-    "displayName": "Qwen: Qwen3.8 27B (Kilo)",
-    "reasoningEffort": "xhigh"
   },
   {
     "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
