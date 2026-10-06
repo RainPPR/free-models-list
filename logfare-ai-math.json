@@ -10,11 +10,6 @@
     "displayName": "Claude Opus 4.6 (LogFare)"
   },
   {
-    "id": "b13f9191-a373-501d-b034-c47d50d41fc4",
-    "modelId": "space-bunny-alpha",
-    "displayName": "Space Bunny Alpha (LogFare)"
-  },
-  {
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
