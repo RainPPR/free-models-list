@@ -5,11 +5,6 @@
     "displayName": "Grok 4.6 (LogFare)"
   },
   {
-    "id": "ddff9808-ca42-5aa8-acdb-1dd3923ea527",
-    "modelId": "claude-opus-4.6",
-    "displayName": "Claude Opus 4.6 (LogFare)"
-  },
-  {
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
@@ -28,11 +23,6 @@
     "id": "28fd236c-ee91-555b-85e2-c37abd80e1bb",
     "modelId": "kimi-k2.5",
     "displayName": "Kimi K2.5 (LogFare)"
-  },
-  {
-    "id": "5ae0adec-be29-583c-bc36-1806c1867425",
-    "modelId": "claude-sonnet-4.6",
-    "displayName": "Claude Sonnet 4.6 (LogFare)"
   },
   {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
