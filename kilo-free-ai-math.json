@@ -32,11 +32,6 @@
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
   },
   {
-    "id": "20637bd7-0eb7-5414-9134-cfea03f36731",
-    "modelId": "apodex/apodex-1.1-mini:free",
-    "displayName": "Apodex: Apodex 1.1 Mini (Kilo)"
-  },
-  {
     "id": "8a35fcb1-e29f-5176-8752-632cefb86721",
     "modelId": "inclusionai/ling-3.0-flash-sante:free",
     "displayName": "inclusionAI: Ling 3.0 Flash Sante (Kilo)"
