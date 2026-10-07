@@ -11,12 +11,6 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "f2966238-6603-52b9-aa2c-3dc37c3c19a9",
-    "modelId": "deepseek-v4-flash-free",
-    "displayName": "DeepSeek V4 Flash Free (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "e6677191-9635-529a-9001-df7d4587be65",
     "modelId": "muse-spark-1.3-contributor-free",
     "displayName": "Muse Spark 1.3 Free (OpenCode)",
@@ -43,11 +37,6 @@
     "id": "c02e3b97-bd90-5ff2-b97e-2c7ad6f8c105",
     "modelId": "longcat-2.5-preview-free",
     "displayName": "LongCat 2.5 Preview Free (OpenCode)"
-  },
-  {
-    "id": "1a49d398-0224-583f-973a-a0bb2af90ee2",
-    "modelId": "mimo-v2.5-free",
-    "displayName": "MiMo V2.5 Free (OpenCode)"
   },
   {
     "id": "1e6a0079-3d0c-5b51-89c5-250c0f8d7c42",
