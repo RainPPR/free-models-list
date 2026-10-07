@@ -5,6 +5,12 @@
     "displayName": "Jev 1.13 (OpenCode)"
   },
   {
+    "id": "f4eb6fff-1827-5317-955a-c6f802fa3c15",
+    "modelId": "exo-free",
+    "displayName": "Exo Free (OpenCode)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "f2966238-6603-52b9-aa2c-3dc37c3c19a9",
     "modelId": "deepseek-v4-flash-free",
     "displayName": "DeepSeek V4 Flash Free (OpenCode)",
