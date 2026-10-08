@@ -60,12 +60,6 @@
     "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
   },
   {
-    "id": "c0b4d2ef-5e2f-598b-b4ce-72fcc5800190",
-    "modelId": "fledge-alpha-free",
-    "displayName": "Fledge Alpha Free (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "0ad42500-f011-5052-8120-9650502d40a2",
     "modelId": "ling-3.1-flash-free",
     "displayName": "Ling 3.1 Flash Free (OpenCode)"

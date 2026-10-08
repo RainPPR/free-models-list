@@ -1,5 +1,11 @@
 [
   {
+    "id": "9aab5cbd-4dea-5dae-8e3a-0d6eea883ee2",
+    "modelId": "stepfun/step-5-preview-free",
+    "displayName": "StepFun: Step 5 Preview (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "07c6c650-b7eb-529e-833e-f64c31733caf",
     "modelId": "kilo-auto/free",
     "displayName": "Auto Free (Kilo)"
@@ -30,11 +36,6 @@
     "modelId": "stealth/glyph-cluster",
     "displayName": "Stealth: Glyph Cluster (Kilo)",
     "reasoningEffort": "xhigh"
-  },
-  {
-    "id": "8a35fcb1-e29f-5176-8752-632cefb86721",
-    "modelId": "inclusionai/ling-3.0-flash-sante:free",
-    "displayName": "inclusionAI: Ling 3.0 Flash Sante (Kilo)"
   },
   {
     "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
@@ -82,11 +83,5 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
-  },
-  {
-    "id": "9aab5cbd-4dea-5dae-8e3a-0d6eea883ee2",
-    "modelId": "stepfun/step-5-preview-free",
-    "displayName": "StepFun: Step 5 Preview (Kilo)",
-    "reasoningEffort": "high"
   }
 ]
