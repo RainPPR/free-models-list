@@ -5,11 +5,6 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
-    "id": "cc5cc99a-7d35-560e-9d69-335e2332b789",
-    "modelId": "inclusionai/ling-3.1-flash",
-    "displayName": "inclusionAI: Ling 3.1 Flash (new) (Kilo)"
-  },
-  {
     "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
@@ -21,9 +16,20 @@
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
   },
   {
+    "id": "cc5cc99a-7d35-560e-9d69-335e2332b789",
+    "modelId": "inclusionai/ling-3.1-flash",
+    "displayName": "inclusionAI: Ling 3.1 Flash (new) (Kilo)"
+  },
+  {
     "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
     "modelId": "poolside/laguna-s-2.1:free",
     "displayName": "Poolside: Laguna S 2.1 (Kilo)"
+  },
+  {
+    "id": "972f2b98-5400-5d61-91fb-cbe4c83e6fcb",
+    "modelId": "stealth/glyph-cluster",
+    "displayName": "Stealth: Glyph Cluster (Kilo)",
+    "reasoningEffort": "xhigh"
   },
   {
     "id": "8a35fcb1-e29f-5176-8752-632cefb86721",
@@ -78,9 +84,9 @@
     "displayName": "OpenRouter Free Models Router (Kilo)"
   },
   {
-    "id": "c93e0a30-0931-543b-bb9b-d7c020d6b0b3",
-    "modelId": "stepfun/step-3.7-flash:free",
-    "displayName": "StepFun: Step 3.7 Flash (Kilo)",
+    "id": "9aab5cbd-4dea-5dae-8e3a-0d6eea883ee2",
+    "modelId": "stepfun/step-5-preview-free",
+    "displayName": "StepFun: Step 5 Preview (Kilo)",
     "reasoningEffort": "high"
   }
 ]

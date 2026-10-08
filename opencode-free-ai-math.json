@@ -39,6 +39,12 @@
     "displayName": "LongCat 2.5 Preview Free (OpenCode)"
   },
   {
+    "id": "7a93308e-acce-59b2-964e-f1429b5e01e1",
+    "modelId": "step-5-preview-free",
+    "displayName": "Step 5 Preview Free (OpenCode)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "1e6a0079-3d0c-5b51-89c5-250c0f8d7c42",
     "modelId": "ling-3.0-flash-fin-free",
     "displayName": "Ling 3.0 Flash Fin Free (OpenCode)"

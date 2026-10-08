@@ -1,28 +1,8 @@
 [
   {
-    "id": "fac9330f-2f89-56b7-8ca7-66272edb2068",
-    "modelId": "grok-4.6",
-    "displayName": "Grok 4.6 (LogFare)"
-  },
-  {
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
-  },
-  {
-    "id": "05c26077-fe51-5e2d-b1ba-0e6e248b857d",
-    "modelId": "deepseek-v3.2",
-    "displayName": "DeepSeek V3.2 (LogFare)"
-  },
-  {
-    "id": "69697e2f-c604-5cfb-b16c-98a0d8a1ffa9",
-    "modelId": "glm-5",
-    "displayName": "GLM 5 (LogFare)"
-  },
-  {
-    "id": "28fd236c-ee91-555b-85e2-c37abd80e1bb",
-    "modelId": "kimi-k2.5",
-    "displayName": "Kimi K2.5 (LogFare)"
   },
   {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
@@ -38,20 +18,5 @@
     "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
     "modelId": "qwen-3.8-27b",
     "displayName": "Qwen 3.8 27b (LogFare)"
-  },
-  {
-    "id": "38cae9a5-8a17-5744-a713-3161c3da71f2",
-    "modelId": "gemma-4-31b",
-    "displayName": "Gemma 4 31B (LogFare)"
-  },
-  {
-    "id": "0cb60cd5-0d7b-55b7-b316-90bd601b812b",
-    "modelId": "gpt-oss-120b",
-    "displayName": "GPT OSS 120B (LogFare)"
-  },
-  {
-    "id": "082e28c6-c86e-58c0-a9b5-05ca186218f8",
-    "modelId": "kimi-k2-thinking",
-    "displayName": "Kimi K2 Thinking (LogFare)"
   }
 ]
