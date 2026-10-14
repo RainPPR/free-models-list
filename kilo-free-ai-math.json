@@ -17,11 +17,6 @@
     "reasoningEffort": "xhigh"
   },
   {
-    "id": "cc5cc99a-7d35-560e-9d69-335e2332b789",
-    "modelId": "inclusionai/ling-3.1-flash",
-    "displayName": "inclusionAI: Ling 3.1 Flash (Kilo)"
-  },
-  {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
