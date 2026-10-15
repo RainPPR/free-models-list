@@ -5,21 +5,15 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
-    "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
-    "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
-    "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
-    "reasoningEffort": "high"
+    "id": "8adf72ba-c531-55ea-b6a2-3f620c22cb6a",
+    "modelId": "nvidia/nemotron-3.5-super-vl:free",
+    "displayName": "NVIDIA: Nemotron 3.5 Super VL (Kilo)"
   },
   {
     "id": "972f2b98-5400-5d61-91fb-cbe4c83e6fcb",
     "modelId": "stealth/glyph-cluster",
     "displayName": "Stealth: Glyph Cluster (Kilo)",
     "reasoningEffort": "xhigh"
-  },
-  {
-    "id": "8adf72ba-c531-55ea-b6a2-3f620c22cb6a",
-    "modelId": "nvidia/nemotron-3.5-super-vl:free",
-    "displayName": "NVIDIA: Nemotron 3.5 Super VL (Kilo)"
   },
   {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
@@ -63,6 +57,12 @@
     "displayName": "NVIDIA: Nemotron 3.5 Content Safety (Kilo)"
   },
   {
+    "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
@@ -77,11 +77,5 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
-  },
-  {
-    "id": "9aab5cbd-4dea-5dae-8e3a-0d6eea883ee2",
-    "modelId": "stepfun/step-5-preview-free",
-    "displayName": "StepFun: Step 5 Preview (Kilo)",
-    "reasoningEffort": "high"
   }
 ]
