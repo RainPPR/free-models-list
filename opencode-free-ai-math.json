@@ -44,6 +44,12 @@
     "displayName": "LongCat 2.5 Preview Free (OpenCode)"
   },
   {
+    "id": "a689e833-aa07-52be-b536-066f2280c60b",
+    "modelId": "deepseek-v4.1-flash-free",
+    "displayName": "DeepSeek V4.1 Flash Free (OpenCode)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "b6912502-59dc-5745-ab69-ee284e65731e",
     "modelId": "space-bunny-free",
     "displayName": "Space Bunny Free (OpenCode)",
