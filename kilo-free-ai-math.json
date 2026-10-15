@@ -17,6 +17,11 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "8adf72ba-c531-55ea-b6a2-3f620c22cb6a",
+    "modelId": "nvidia/nemotron-3.5-super-vl:free",
+    "displayName": "NVIDIA: Nemotron 3.5 Super VL (Kilo)"
+  },
+  {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"

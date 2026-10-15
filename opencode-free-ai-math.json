@@ -23,6 +23,12 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "f0883a96-446f-5fbd-a762-d770c849780a",
+    "modelId": "nemotron-3.5-super-vl-free",
+    "displayName": "Nemotron 3.5 Super VL Free (OpenCode)",
+    "reasoningEffort": "xhigh"
+  },
+  {
     "id": "0944c784-0e4c-5e44-a48d-c9b608953465",
     "modelId": "nemotron-3.5-lightning-free",
     "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
