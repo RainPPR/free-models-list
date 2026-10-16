@@ -39,12 +39,6 @@
     "displayName": "Jev 1.13 (OpenCode)"
   },
   {
-    "id": "7a93308e-acce-59b2-964e-f1429b5e01e1",
-    "modelId": "step-5-preview-free",
-    "displayName": "Step 5 Preview Free (OpenCode)",
-    "reasoningEffort": "high"
-  },
-  {
     "id": "c02e3b97-bd90-5ff2-b97e-2c7ad6f8c105",
     "modelId": "longcat-2.5-preview-free",
     "displayName": "LongCat 2.5 Preview Free (OpenCode)"
