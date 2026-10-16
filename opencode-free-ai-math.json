@@ -6,27 +6,9 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "bf602d37-d9e3-5380-a3d4-9983917f0961",
-    "modelId": "ll-alpha-free",
-    "displayName": "LL Alpha Free (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "f34a1efa-9fd2-5845-8673-d0158bde8c6f",
     "modelId": "mimo-v2.6-flash-free",
     "displayName": "MiMo-V2.6-Flash Free (OpenCode)"
-  },
-  {
-    "id": "2d2b234b-3550-5b46-8e55-fb2a1c38eafb",
-    "modelId": "muse-spark-1.2-contributor-free",
-    "displayName": "Muse Spark 1.2 Free (OpenCode)",
-    "reasoningEffort": "xhigh"
-  },
-  {
-    "id": "e6677191-9635-529a-9001-df7d4587be65",
-    "modelId": "muse-spark-1.3-contributor-free",
-    "displayName": "Muse Spark 1.3 Free (OpenCode)",
-    "reasoningEffort": "xhigh"
   },
   {
     "id": "f0883a96-446f-5fbd-a762-d770c849780a",

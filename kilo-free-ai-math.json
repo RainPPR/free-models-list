@@ -10,9 +10,9 @@
     "displayName": "NVIDIA: Nemotron 3.5 Super VL (Kilo)"
   },
   {
-    "id": "dc880d9d-8786-512c-9d42-5a72888e69ce",
-    "modelId": "stealth/cat-jam",
-    "displayName": "Stealth: Cat Jam (Kilo)",
+    "id": "b1d436ae-7063-5034-90eb-0d4b6d485a70",
+    "modelId": "reflection/beam-free",
+    "displayName": "Reflection: Beam 1.0 (Kilo)",
     "reasoningEffort": "max"
   },
   {
