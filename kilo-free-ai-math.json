@@ -77,5 +77,11 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
+  },
+  {
+    "id": "dc880d9d-8786-512c-9d42-5a72888e69ce",
+    "modelId": "stealth/cat-jam",
+    "displayName": "Stealth: Cat Jam (Kilo)",
+    "reasoningEffort": "max"
   }
 ]

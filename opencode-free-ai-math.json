@@ -6,6 +6,12 @@
     "reasoningEffort": "max"
   },
   {
+    "id": "bf602d37-d9e3-5380-a3d4-9983917f0961",
+    "modelId": "ll-alpha-free",
+    "displayName": "LL Alpha Free (OpenCode)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "f34a1efa-9fd2-5845-8673-d0158bde8c6f",
     "modelId": "mimo-v2.6-flash-free",
     "displayName": "MiMo-V2.6-Flash Free (OpenCode)"
@@ -47,6 +53,12 @@
     "id": "a689e833-aa07-52be-b536-066f2280c60b",
     "modelId": "deepseek-v4.1-flash-free",
     "displayName": "DeepSeek V4.1 Flash Free (OpenCode)",
+    "reasoningEffort": "max"
+  },
+  {
+    "id": "32020083-1528-5c67-8dab-ec38bdf26fe5",
+    "modelId": "glm-5.3-flash-free",
+    "displayName": "GLM-5.3-Flash Free (OpenCode)",
     "reasoningEffort": "max"
   },
   {
