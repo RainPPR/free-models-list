@@ -20,6 +20,11 @@
     "displayName": "Deepseek v4.1 Flash (LogFare)"
   },
   {
+    "id": "caabebb6-cb8e-522f-bb2b-f26acfb1630c",
+    "modelId": "stealth/relay-peel-flash",
+    "displayName": "Relay Peel Flash (stealth) (LogFare)"
+  },
+  {
     "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
     "modelId": "qwen-3.8-27b",
     "displayName": "Qwen 3.8 27b (LogFare)"
