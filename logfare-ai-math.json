@@ -5,11 +5,6 @@
     "displayName": "Logfare Auto (LogFare)"
   },
   {
-    "id": "c856d679-906f-5ca6-aea5-ccca9dd4d370",
-    "modelId": "mimo-v2.6-flash",
-    "displayName": "MiMo V2.6 Flash (LogFare)"
-  },
-  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
@@ -18,5 +13,10 @@
     "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
     "modelId": "qwen-3.8-27b",
     "displayName": "Qwen 3.8 27b (LogFare)"
+  },
+  {
+    "id": "47547654-3d32-5fa9-a5d3-d7701e417e84",
+    "modelId": "claude-haiku-5-5",
+    "displayName": "Claude Haiku 5.5 (LogFare)"
   }
 ]
