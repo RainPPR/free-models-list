@@ -22,6 +22,12 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "2332e417-2010-5fca-9d76-b085ad8b301b",
+    "modelId": "minimax/minimax-m3.1-flash:free",
+    "displayName": "MiniMax: MiniMax M3.1 Flash (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "0ed03633-8a09-523e-b544-08e5697cb256",
     "modelId": "xingchen-agi/xing4.0-29b-a4b:free",
     "displayName": "XingChen: Xing4.0 29B A4B (Kilo)"

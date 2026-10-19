@@ -44,9 +44,9 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "b6912502-59dc-5745-ab69-ee284e65731e",
-    "modelId": "space-bunny-free",
-    "displayName": "Space Bunny Free (OpenCode)",
+    "id": "23e3b74d-5d70-5ab6-8b2f-fc5b62fceb04",
+    "modelId": "minimax-m3.1-flash-free",
+    "displayName": "MiniMax M3.1 Flash Free (OpenCode)",
     "reasoningEffort": "max"
   }
 ]
