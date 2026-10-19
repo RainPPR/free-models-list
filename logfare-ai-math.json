@@ -40,6 +40,36 @@
     "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
   },
   {
+    "id": "e6157bce-b82e-57bc-8e4d-e7f331ef1239",
+    "modelId": "gpt-5-chat-2",
+    "displayName": "GPT 5 Chat 2 (LogFare)"
+  },
+  {
+    "id": "ee062e14-3ea7-5e77-84ef-51182f541fd1",
+    "modelId": "gpt-5-nano",
+    "displayName": "GPT-5 Nano (LogFare)"
+  },
+  {
+    "id": "aa35cf78-63f4-51f8-bcac-60548bf3defe",
+    "modelId": "Noctis Auto Paid",
+    "displayName": "noctis-auto-paid (LogFare)"
+  },
+  {
+    "id": "108d7ce8-ee61-57d8-8a6e-db86b5dbdc19",
+    "modelId": "gpt-5.4-mini-kb-curate",
+    "displayName": "GPT 5.4 Mini Kb Curate (LogFare)"
+  },
+  {
+    "id": "39ff649c-6534-5c88-953a-0f766f214b6f",
+    "modelId": "gpt-5.2_critique",
+    "displayName": "GPT 5.2 Critique (LogFare)"
+  },
+  {
+    "id": "8ecd0ec2-4e25-5211-b6f0-a049cf0dc630",
+    "modelId": "gpt-4o-mini",
+    "displayName": "GPT 4o Mini (LogFare)"
+  },
+  {
     "id": "47547654-3d32-5fa9-a5d3-d7701e417e84",
     "modelId": "claude-haiku-5-5",
     "displayName": "Claude Haiku 5.5 (LogFare)"
@@ -48,5 +78,55 @@
     "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
     "modelId": "kimi-k2.6",
     "displayName": "Kimi K2.6 (LogFare)"
+  },
+  {
+    "id": "3ad932fa-3895-5d2c-8322-15fa7b2c2cd5",
+    "modelId": "gpt-5-chat",
+    "displayName": "GPT-5 Chat (LogFare)"
+  },
+  {
+    "id": "0459a8da-0ad3-55c7-b51e-1aef87188b20",
+    "modelId": "gpt-5-kiara",
+    "displayName": "GPT 5 Kiara (LogFare)"
+  },
+  {
+    "id": "7b30ec34-446c-584e-87f8-402c4f37931d",
+    "modelId": "gpt-5-mini",
+    "displayName": "GPT 5 Mini (LogFare)"
+  },
+  {
+    "id": "e23302cc-477a-59f8-958d-a6a3f1ccedd3",
+    "modelId": "gpt-chat-latest",
+    "displayName": "GPT Chat Latest (LogFare)"
+  },
+  {
+    "id": "00535fd7-ff48-52b9-ba99-163cdaecce99",
+    "modelId": "noctis-auto",
+    "displayName": "Noctis Auto (LogFare)"
+  },
+  {
+    "id": "519285a5-ddee-5b99-bd4f-0850995dce21",
+    "modelId": "obi2",
+    "displayName": "Obi 2 (LogFare)"
+  },
+  {
+    "id": "2194e95a-56d4-5d6f-b613-1bd951e85813",
+    "modelId": "gpt-5.2-chat",
+    "displayName": "GPT 5.2 Chat (LogFare)"
+  },
+  {
+    "id": "c26edbfe-9872-5d72-a6c6-e4ada0ce3adb",
+    "modelId": "gpt-4.1-nano",
+    "displayName": "GPT 4.1 Nano (LogFare)"
+  },
+  {
+    "id": "a0680251-1522-5e7c-a0bf-da1db8cdc7da",
+    "modelId": "gpt-4.1",
+    "displayName": "GPT 4.1 (LogFare)"
+  },
+  {
+    "id": "88272907-4937-5175-ba94-a31a61f45fd8",
+    "modelId": "gpt-4o",
+    "displayName": "GPT 4o (LogFare)"
   }
 ]
