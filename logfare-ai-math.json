@@ -30,8 +30,18 @@
     "displayName": "Deepseek v4.1 Flash (LogFare)"
   },
   {
+    "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
+    "modelId": "deepseek-v4-pro-0813",
+    "displayName": "DeepSeek V4 Pro 0813 (LogFare)"
+  },
+  {
     "id": "47547654-3d32-5fa9-a5d3-d7701e417e84",
     "modelId": "claude-haiku-5-5",
     "displayName": "Claude Haiku 5.5 (LogFare)"
+  },
+  {
+    "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
+    "modelId": "kimi-k2.6",
+    "displayName": "Kimi K2.6 (LogFare)"
   }
 ]
