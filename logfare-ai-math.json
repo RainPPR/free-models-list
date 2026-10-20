@@ -85,11 +85,6 @@
     "displayName": "GPT-5 Chat (LogFare)"
   },
   {
-    "id": "0459a8da-0ad3-55c7-b51e-1aef87188b20",
-    "modelId": "gpt-5-kiara",
-    "displayName": "GPT 5 Kiara (LogFare)"
-  },
-  {
     "id": "7b30ec34-446c-584e-87f8-402c4f37931d",
     "modelId": "gpt-5-mini",
     "displayName": "GPT 5 Mini (LogFare)"
@@ -113,6 +108,11 @@
     "id": "2194e95a-56d4-5d6f-b613-1bd951e85813",
     "modelId": "gpt-5.2-chat",
     "displayName": "GPT 5.2 Chat (LogFare)"
+  },
+  {
+    "id": "0459a8da-0ad3-55c7-b51e-1aef87188b20",
+    "modelId": "gpt-5-kiara",
+    "displayName": "GPT 5 Kiara (LogFare)"
   },
   {
     "id": "c26edbfe-9872-5d72-a6c6-e4ada0ce3adb",
