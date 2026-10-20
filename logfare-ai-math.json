@@ -20,9 +20,19 @@
     "displayName": "GLM 5.3 Flash (LogFare)"
   },
   {
+    "id": "ee062e14-3ea7-5e77-84ef-51182f541fd1",
+    "modelId": "gpt-5-nano",
+    "displayName": "GPT 5 Nano (LogFare)"
+  },
+  {
     "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
     "modelId": "gemma-4-26b",
     "displayName": "Gemma 4 26B (LogFare)"
+  },
+  {
+    "id": "35f09f43-e045-5ce6-8c7a-d5533c5738d4",
+    "modelId": "noctis-auto-paid",
+    "displayName": "Noctis Auto Paid (LogFare)"
   },
   {
     "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
@@ -43,16 +53,6 @@
     "id": "e6157bce-b82e-57bc-8e4d-e7f331ef1239",
     "modelId": "gpt-5-chat-2",
     "displayName": "GPT 5 Chat 2 (LogFare)"
-  },
-  {
-    "id": "ee062e14-3ea7-5e77-84ef-51182f541fd1",
-    "modelId": "gpt-5-nano",
-    "displayName": "GPT-5 Nano (LogFare)"
-  },
-  {
-    "id": "aa35cf78-63f4-51f8-bcac-60548bf3defe",
-    "modelId": "Noctis Auto Paid",
-    "displayName": "noctis-auto-paid (LogFare)"
   },
   {
     "id": "108d7ce8-ee61-57d8-8a6e-db86b5dbdc19",
