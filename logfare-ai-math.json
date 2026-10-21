@@ -40,9 +40,9 @@
     "displayName": "Qwen 3.8 27b (LogFare)"
   },
   {
-    "id": "4740a6bc-1677-5955-8ae2-a9ddd28bf15a",
-    "modelId": "deepseek-v4.1-flash",
-    "displayName": "Deepseek v4.1 Flash (LogFare)"
+    "id": "28a5f0bd-5749-5a82-b33a-a08bcb32010e",
+    "modelId": "deepseek-v4.1-flash-1017",
+    "displayName": "DeepSeek v4.1 Flash (1017) (LogFare)"
   },
   {
     "id": "166f55ed-513c-5fdd-90fa-776669c59e6e",
