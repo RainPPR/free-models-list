@@ -6,6 +6,12 @@
     "reasoningEffort": "max"
   },
   {
+    "id": "afb2474c-40cd-591e-9d85-12e1bff6968a",
+    "modelId": "flint-40b-free",
+    "displayName": "Flint 40B Free (OpenCode)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "f34a1efa-9fd2-5845-8673-d0158bde8c6f",
     "modelId": "mimo-v2.6-flash-free",
     "displayName": "MiMo-V2.6-Flash Free (OpenCode)"
