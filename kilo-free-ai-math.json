@@ -28,6 +28,11 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "93351ff7-390d-5676-9caa-57158c3fea95",
+    "modelId": "recursive/flint-v1.0:free",
+    "displayName": "Recursive: Flint (Kilo)"
+  },
+  {
     "id": "0ed03633-8a09-523e-b544-08e5697cb256",
     "modelId": "xingchen-agi/xing4.0-29b-a4b:free",
     "displayName": "XingChen: Xing4.0 29B A4B (Kilo)"

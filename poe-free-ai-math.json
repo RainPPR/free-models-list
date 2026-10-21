@@ -3,10 +3,5 @@
     "id": "38cae9a5-8a17-5744-a713-3161c3da71f2",
     "modelId": "gemma-4-31b",
     "displayName": "Gemma-4-31B (Poe)"
-  },
-  {
-    "id": "a6526110-0c83-580e-a82d-aa79ceefbe1e",
-    "modelId": "minimax-h3-n",
-    "displayName": "Minimax-H3-N (Poe)"
   }
 ]
