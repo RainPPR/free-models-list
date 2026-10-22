@@ -5,12 +5,6 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
-    "id": "2332e417-2010-5fca-9d76-b085ad8b301b",
-    "modelId": "minimax/minimax-m3.1-flash:free",
-    "displayName": "MiniMax: MiniMax M3.1 Flash (Kilo)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "8adf72ba-c531-55ea-b6a2-3f620c22cb6a",
     "modelId": "nvidia/nemotron-3.5-super-vl:free",
     "displayName": "NVIDIA: Nemotron 3.5 Super VL (Kilo)"
