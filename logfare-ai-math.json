@@ -70,11 +70,6 @@
     "displayName": "GPT 4o Mini (LogFare)"
   },
   {
-    "id": "47547654-3d32-5fa9-a5d3-d7701e417e84",
-    "modelId": "claude-haiku-5-5",
-    "displayName": "Claude Haiku 5.5 (LogFare)"
-  },
-  {
     "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
     "modelId": "kimi-k2.6",
     "displayName": "Kimi K2.6 (LogFare)"
