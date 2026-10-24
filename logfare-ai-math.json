@@ -75,11 +75,6 @@
     "displayName": "GPT 4.1 (LogFare)"
   },
   {
-    "id": "c26edbfe-9872-5d72-a6c6-e4ada0ce3adb",
-    "modelId": "gpt-4.1-nano",
-    "displayName": "GPT 4.1 Nano (LogFare)"
-  },
-  {
     "id": "88272907-4937-5175-ba94-a31a61f45fd8",
     "modelId": "gpt-4o",
     "displayName": "GPT 4o (LogFare)"
