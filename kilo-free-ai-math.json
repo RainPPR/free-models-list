@@ -78,12 +78,6 @@
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
   },
   {
-    "id": "d63a257a-6bab-5b88-9418-46fad53210e1",
-    "modelId": "nvidia/nemotron-3-super-120b-a12b:free",
-    "displayName": "NVIDIA: Nemotron 3 Super (Kilo)",
-    "reasoningEffort": "medium"
-  },
-  {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
