@@ -28,11 +28,6 @@
     "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
   },
   {
-    "id": "eee83df8-7255-5436-a30b-114c1aaee15d",
-    "modelId": "jev-1.13-free",
-    "displayName": "Jev 1.13 (OpenCode)"
-  },
-  {
     "id": "a689e833-aa07-52be-b536-066f2280c60b",
     "modelId": "deepseek-v4.1-flash-free",
     "displayName": "DeepSeek V4.1 Flash Free (OpenCode)",
