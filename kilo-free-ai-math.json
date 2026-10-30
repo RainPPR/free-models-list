@@ -81,5 +81,10 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
+  },
+  {
+    "id": "c00c6393-5030-50c3-a8d7-7fa5adbb8476",
+    "modelId": "inclusionai/ling-3.1-flash-1019-free",
+    "displayName": "inclusionAI: Ling 3.1 Flash 1019 (Kilo)"
   }
 ]
