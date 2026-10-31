@@ -47,16 +47,6 @@
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
-    "id": "8ca867d4-19c8-53b3-ae7c-38a3f7c37d12",
-    "modelId": "poolside/laguna-s-2.1:free",
-    "displayName": "Poolside: Laguna S 2.1 (Kilo)"
-  },
-  {
-    "id": "a1600296-046e-5465-b8ff-9bd743cbb72c",
-    "modelId": "poolside/laguna-xs-2.1:free",
-    "displayName": "Poolside: Laguna XS 2.1 (Kilo)"
-  },
-  {
     "id": "e2c6d1c5-44b3-5bcd-aa30-790edccdc2ed",
     "modelId": "cohere/north-mini-code:free",
     "displayName": "Cohere: North Mini Code (Kilo)"
