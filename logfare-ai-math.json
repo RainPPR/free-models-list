@@ -35,6 +35,11 @@
     "displayName": "Noctis Auto Paid (LogFare)"
   },
   {
+    "id": "7b30ec34-446c-584e-87f8-402c4f37931d",
+    "modelId": "gpt-5-mini",
+    "displayName": "GPT 5 Mini (LogFare)"
+  },
+  {
     "id": "00535fd7-ff48-52b9-ba99-163cdaecce99",
     "modelId": "noctis-auto",
     "displayName": "Noctis Auto (LogFare)"
@@ -43,5 +48,10 @@
     "id": "519285a5-ddee-5b99-bd4f-0850995dce21",
     "modelId": "obi2",
     "displayName": "Obi 2 (LogFare)"
+  },
+  {
+    "id": "c26edbfe-9872-5d72-a6c6-e4ada0ce3adb",
+    "modelId": "gpt-4.1-nano",
+    "displayName": "GPT 4.1 Nano (LogFare)"
   }
 ]
