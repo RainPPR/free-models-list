@@ -22,14 +22,10 @@
     "reasoningEffort": "xhigh"
   },
   {
-    "id": "93351ff7-390d-5676-9caa-57158c3fea95",
-    "modelId": "recursive/flint-v1.0:free",
-    "displayName": "Recursive: Flint (Kilo)"
-  },
-  {
-    "id": "0ed03633-8a09-523e-b544-08e5697cb256",
-    "modelId": "xingchen-agi/xing4.0-29b-a4b:free",
-    "displayName": "XingChen: Xing4.0 29B A4B (Kilo)"
+    "id": "efc2b0ee-1564-544c-a582-a632133c90c5",
+    "modelId": "stealth/crouton-alpha",
+    "displayName": "Crouton Alpha (Kilo)",
+    "reasoningEffort": "max"
   },
   {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
@@ -37,36 +33,14 @@
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
   },
   {
-    "id": "12012cba-e7fa-55b8-afee-2434e2a2e1ab",
-    "modelId": "liquid/lfm-2.5-2.6b:free",
-    "displayName": "LiquidAI: LFM2.5-2.6B (Kilo)"
-  },
-  {
     "id": "b73bcb80-f456-54cb-9512-0abee644a874",
     "modelId": "nvidia/nemotron-3.5-lightning:free",
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
-    "id": "6d6f127e-92a5-5f2f-8930-22c9fef57e82",
-    "modelId": "thinkingmachines/inkling-small:free",
-    "displayName": "Thinking Machines: Inkling Small (Kilo)",
-    "reasoningEffort": "max"
-  },
-  {
-    "id": "ab13e3a6-9a49-5bff-b113-c938de15974e",
-    "modelId": "thinkingmachines/inkling:free",
-    "displayName": "Thinking Machines: Inkling (Kilo)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "e2c6d1c5-44b3-5bcd-aa30-790edccdc2ed",
     "modelId": "cohere/north-mini-code:free",
     "displayName": "Cohere: North Mini Code (Kilo)"
-  },
-  {
-    "id": "417ad047-ad35-5d82-a4c1-c0cb371a2da8",
-    "modelId": "nvidia/nemotron-3.5-content-safety:free",
-    "displayName": "NVIDIA: Nemotron 3.5 Content Safety (Kilo)"
   },
   {
     "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
@@ -78,11 +52,6 @@
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
-  },
-  {
-    "id": "fc3aac0d-f3a9-57c9-aeec-9edb029e53b5",
-    "modelId": "google/gemma-4-31b-it:free",
-    "displayName": "Google: Gemma 4 31B (Kilo)"
   },
   {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
