@@ -38,5 +38,11 @@
     "modelId": "glm-5.3-flash-free",
     "displayName": "GLM-5.3-Flash Free (OpenCode)",
     "reasoningEffort": "max"
+  },
+  {
+    "id": "2a33fbdf-11fa-5995-adba-3fa4f3e3a996",
+    "modelId": "pulse-alpha-free",
+    "displayName": "Pulse Alpha Free (OpenCode)",
+    "reasoningEffort": "max"
   }
 ]

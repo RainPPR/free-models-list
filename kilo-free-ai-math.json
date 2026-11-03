@@ -47,6 +47,18 @@
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
+    "id": "6d6f127e-92a5-5f2f-8930-22c9fef57e82",
+    "modelId": "thinkingmachines/inkling-small:free",
+    "displayName": "Thinking Machines: Inkling Small (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
+    "id": "ab13e3a6-9a49-5bff-b113-c938de15974e",
+    "modelId": "thinkingmachines/inkling:free",
+    "displayName": "Thinking Machines: Inkling (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "e2c6d1c5-44b3-5bcd-aa30-790edccdc2ed",
     "modelId": "cohere/north-mini-code:free",
     "displayName": "Cohere: North Mini Code (Kilo)"
@@ -66,6 +78,11 @@
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
+  },
+  {
+    "id": "fc3aac0d-f3a9-57c9-aeec-9edb029e53b5",
+    "modelId": "google/gemma-4-31b-it:free",
+    "displayName": "Google: Gemma 4 31B (Kilo)"
   },
   {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
