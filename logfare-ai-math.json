@@ -1,5 +1,15 @@
 [
   {
+    "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
+    "modelId": "kimi-k2.7-code",
+    "displayName": "Kimi K2.7 Code (LogFare)"
+  },
+  {
+    "id": "c7995cd3-216c-5394-ad7c-c6458a16de51",
+    "modelId": "glm-5.2",
+    "displayName": "GLM 5.2 (LogFare)"
+  },
+  {
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
@@ -28,5 +38,10 @@
     "id": "28a5f0bd-5749-5a82-b33a-a08bcb32010e",
     "modelId": "deepseek-v4.1-flash-1017",
     "displayName": "DeepSeek V4.1 Flash 1017 (LogFare)"
+  },
+  {
+    "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
+    "modelId": "kimi-k2.6",
+    "displayName": "Kimi K2.6 (LogFare)"
   }
 ]
