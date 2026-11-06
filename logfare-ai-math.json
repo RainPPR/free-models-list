@@ -20,13 +20,18 @@
     "displayName": "Gemma 4 26B (LogFare)"
   },
   {
-    "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
-    "modelId": "qwen-3.8-27b",
-    "displayName": "Qwen 3.8 27b (LogFare)"
-  },
-  {
     "id": "28a5f0bd-5749-5a82-b33a-a08bcb32010e",
     "modelId": "deepseek-v4.1-flash-1017",
     "displayName": "DeepSeek V4.1 Flash 1017 (LogFare)"
+  },
+  {
+    "id": "d8110e6a-edb8-5f9f-84bb-957bf68379e4",
+    "modelId": "gemma-4-31b-it",
+    "displayName": "Gemma 4 31b IT (LogFare)"
+  },
+  {
+    "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
+    "modelId": "qwen-3.8-27b",
+    "displayName": "Qwen 3.8 27b (LogFare)"
   }
 ]
