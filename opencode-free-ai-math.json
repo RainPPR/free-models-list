@@ -40,12 +40,6 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "2a33fbdf-11fa-5995-adba-3fa4f3e3a996",
-    "modelId": "pulse-alpha-free",
-    "displayName": "Pulse Alpha Free (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "14a6555e-b134-561a-988b-78d81385398e",
     "modelId": "crouton-alpha-free",
     "displayName": "Crouton Alpha Free (OpenCode)",
