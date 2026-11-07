@@ -44,5 +44,16 @@
     "modelId": "crouton-alpha-free",
     "displayName": "Crouton Alpha Free (OpenCode)",
     "reasoningEffort": "max"
+  },
+  {
+    "id": "3e5f68c4-6c2a-53a6-afb4-c9c43aad17d5",
+    "modelId": "iceman-free",
+    "displayName": "Iceman Free (OpenCode)"
+  },
+  {
+    "id": "28452356-6fa7-549b-a900-1e8e26a22eac",
+    "modelId": "inkling-2-small-free",
+    "displayName": "Inkling 2 Small Free (OpenCode)",
+    "reasoningEffort": "max"
   }
 ]

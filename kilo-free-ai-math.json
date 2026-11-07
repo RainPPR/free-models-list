@@ -22,6 +22,11 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "db0b125a-1ec1-5123-a868-74a2093621d5",
+    "modelId": "liquid/lfm-3-1.7b:free",
+    "displayName": "LiquidAI: LFM3-1.7B (Kilo)"
+  },
+  {
     "id": "efc2b0ee-1564-544c-a582-a632133c90c5",
     "modelId": "stealth/crouton-alpha",
     "displayName": "Crouton Alpha (Kilo)",
