@@ -1,5 +1,10 @@
 [
   {
+    "id": "c7995cd3-216c-5394-ad7c-c6458a16de51",
+    "modelId": "glm-5.2",
+    "displayName": "GLM 5.2 (LogFare)"
+  },
+  {
     "id": "4f8ed2e1-bf74-5b93-9568-215df207fa0d",
     "modelId": "logfare/auto",
     "displayName": "Logfare Auto (LogFare)"
@@ -18,6 +23,16 @@
     "id": "d8110e6a-edb8-5f9f-84bb-957bf68379e4",
     "modelId": "gemma-4-31b-it",
     "displayName": "Gemma 4 31b IT (LogFare)"
+  },
+  {
+    "id": "6ff1f6f8-28ba-5fe5-baed-6b3c96e9874d",
+    "modelId": "kimi-k2.6",
+    "displayName": "Kimi K2.6 (LogFare)"
+  },
+  {
+    "id": "d4cb5d70-7982-59d7-bd72-4337d101bf05",
+    "modelId": "kimi-k2.7-code",
+    "displayName": "Kimi K2.7 Code (LogFare)"
   },
   {
     "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
