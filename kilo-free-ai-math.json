@@ -10,12 +10,6 @@
     "displayName": "NVIDIA: Nemotron 3.5 Super VL (Kilo)"
   },
   {
-    "id": "b1d436ae-7063-5034-90eb-0d4b6d485a70",
-    "modelId": "reflection/beam-free",
-    "displayName": "Reflection: Beam 1.0 (Kilo)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "972f2b98-5400-5d61-91fb-cbe4c83e6fcb",
     "modelId": "stealth/glyph-cluster",
     "displayName": "Stealth: Glyph Cluster (Kilo)",
