@@ -1,31 +1,8 @@
 [
   {
-    "id": "e016c857-5a84-5798-9ed4-0b0cb30520df",
-    "modelId": "beam-free",
-    "displayName": "Beam Free (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
-    "id": "afb2474c-40cd-591e-9d85-12e1bff6968a",
-    "modelId": "flint-40b-free",
-    "displayName": "Flint 40B Free (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "f34a1efa-9fd2-5845-8673-d0158bde8c6f",
     "modelId": "mimo-v2.6-flash-free",
     "displayName": "MiMo-V2.6-Flash Free (OpenCode)"
-  },
-  {
-    "id": "f0883a96-446f-5fbd-a762-d770c849780a",
-    "modelId": "nemotron-3.5-super-vl-free",
-    "displayName": "Nemotron 3.5 Super VL Free (OpenCode)",
-    "reasoningEffort": "xhigh"
-  },
-  {
-    "id": "0944c784-0e4c-5e44-a48d-c9b608953465",
-    "modelId": "nemotron-3.5-lightning-free",
-    "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
   },
   {
     "id": "a689e833-aa07-52be-b536-066f2280c60b",
@@ -46,6 +23,11 @@
     "reasoningEffort": "max"
   },
   {
+    "id": "d8a6f808-a406-51d8-947a-0a6bf488c332",
+    "modelId": "longcat-2.5-free",
+    "displayName": "LongCat 2.5 Free (OpenCode)"
+  },
+  {
     "id": "3e5f68c4-6c2a-53a6-afb4-c9c43aad17d5",
     "modelId": "iceman-free",
     "displayName": "Iceman Free (OpenCode)"
@@ -55,5 +37,28 @@
     "modelId": "inkling-2-small-free",
     "displayName": "Inkling 2 Small Free (OpenCode)",
     "reasoningEffort": "max"
+  },
+  {
+    "id": "e016c857-5a84-5798-9ed4-0b0cb30520df",
+    "modelId": "beam-free",
+    "displayName": "Beam Free (OpenCode)",
+    "reasoningEffort": "max"
+  },
+  {
+    "id": "afb2474c-40cd-591e-9d85-12e1bff6968a",
+    "modelId": "flint-40b-free",
+    "displayName": "Flint 40B Free (OpenCode)",
+    "reasoningEffort": "max"
+  },
+  {
+    "id": "f0883a96-446f-5fbd-a762-d770c849780a",
+    "modelId": "nemotron-3.5-super-vl-free",
+    "displayName": "Nemotron 3.5 Super VL Free (OpenCode)",
+    "reasoningEffort": "xhigh"
+  },
+  {
+    "id": "0944c784-0e4c-5e44-a48d-c9b608953465",
+    "modelId": "nemotron-3.5-lightning-free",
+    "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
   }
 ]
