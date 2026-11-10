@@ -16,15 +16,15 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "a32bd958-b6c2-5c18-81f5-f0e90df97ee1",
+    "modelId": "thinkingmachines/inkling-2-small:free",
+    "displayName": "Thinking Machines: Inkling 2 Small (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
     "id": "db0b125a-1ec1-5123-a868-74a2093621d5",
     "modelId": "liquid/lfm-3-1.7b:free",
     "displayName": "LiquidAI: LFM3-1.7B (Kilo)"
-  },
-  {
-    "id": "efc2b0ee-1564-544c-a582-a632133c90c5",
-    "modelId": "stealth/crouton-alpha",
-    "displayName": "Crouton Alpha (Kilo)",
-    "reasoningEffort": "max"
   },
   {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
