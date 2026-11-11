@@ -16,6 +16,12 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "e28706ca-c65a-5751-83dd-a3749fdc93f8",
+    "modelId": "baidu/ernie-5.5-flash-preview:free",
+    "displayName": "Baidu: ERNIE-5.5-Flash-Preview (Kilo)",
+    "reasoningEffort": "high"
+  },
+  {
     "id": "a32bd958-b6c2-5c18-81f5-f0e90df97ee1",
     "modelId": "thinkingmachines/inkling-2-small:free",
     "displayName": "Thinking Machines: Inkling 2 Small (Kilo)",
