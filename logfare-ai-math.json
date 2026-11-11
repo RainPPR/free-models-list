@@ -50,13 +50,13 @@
     "displayName": "DeepSeek V4.1 Flash 1017 (LogFare)"
   },
   {
-    "id": "118ad43a-4e83-5af4-9e5f-a967abb6b704",
-    "modelId": "economy/deepseek-v4.1-flash",
-    "displayName": "DeepSeek V4.1 Flash (Economy) (LogFare)"
-  },
-  {
     "id": "a93dd116-3eb4-5000-b282-89a24bb8336b",
     "modelId": "stealth/funfly",
     "displayName": "Funfly (stealth) (LogFare)"
+  },
+  {
+    "id": "118ad43a-4e83-5af4-9e5f-a967abb6b704",
+    "modelId": "economy/deepseek-v4.1-flash",
+    "displayName": "DeepSeek V4.1 Flash (Economy) (LogFare)"
   }
 ]
