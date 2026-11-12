@@ -58,5 +58,10 @@
     "id": "118ad43a-4e83-5af4-9e5f-a967abb6b704",
     "modelId": "economy/deepseek-v4.1-flash",
     "displayName": "DeepSeek V4.1 Flash (Economy) (LogFare)"
+  },
+  {
+    "id": "04c57dd4-d327-58d6-81ad-e7320716b1f9",
+    "modelId": "stealth/autistic-parrot",
+    "displayName": "Autistic Parrot (Stealth) (LogFare)"
   }
 ]
