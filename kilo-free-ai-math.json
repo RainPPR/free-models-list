@@ -12,7 +12,7 @@
   {
     "id": "972f2b98-5400-5d61-91fb-cbe4c83e6fcb",
     "modelId": "stealth/glyph-cluster",
-    "displayName": "Stealth: Glyph Cluster (Kilo)",
+    "displayName": "Glyph Cluster (Kilo)",
     "reasoningEffort": "xhigh"
   },
   {
@@ -20,12 +20,6 @@
     "modelId": "baidu/ernie-5.5-flash-preview:free",
     "displayName": "Baidu: ERNIE-5.5-Flash-Preview (Kilo)",
     "reasoningEffort": "high"
-  },
-  {
-    "id": "a32bd958-b6c2-5c18-81f5-f0e90df97ee1",
-    "modelId": "thinkingmachines/inkling-2-small:free",
-    "displayName": "Thinking Machines: Inkling 2 Small (Kilo)",
-    "reasoningEffort": "max"
   },
   {
     "id": "db0b125a-1ec1-5123-a868-74a2093621d5",
@@ -62,5 +56,17 @@
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
     "modelId": "openrouter/free",
     "displayName": "OpenRouter Free Models Router (Kilo)"
+  },
+  {
+    "id": "b1d436ae-7063-5034-90eb-0d4b6d485a70",
+    "modelId": "reflection/beam-free",
+    "displayName": "Reflection: Beam 1.0 (Free) (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
+    "id": "6db1bd79-911f-59f8-afaf-d1d3438eb5a4",
+    "modelId": "nvidia/nemotron-3.5-lightning-free",
+    "displayName": "NVIDIA: Nemotron 3.5 Lightning Free (Kilo)",
+    "reasoningEffort": "high"
   }
 ]
