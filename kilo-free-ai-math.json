@@ -27,6 +27,17 @@
     "displayName": "LiquidAI: LFM3-1.7B (Kilo)"
   },
   {
+    "id": "41660ec0-5aea-54bf-85c8-9304935c06ab",
+    "modelId": "particle-ai/particle-1:free",
+    "displayName": "Particle AI: Particle-1 (Kilo)",
+    "reasoningEffort": "max"
+  },
+  {
+    "id": "20637bd7-0eb7-5414-9134-cfea03f36731",
+    "modelId": "apodex/apodex-1.1-mini:free",
+    "displayName": "Apodex: Apodex 1.1 Mini (Kilo)"
+  },
+  {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
@@ -62,11 +73,5 @@
     "modelId": "reflection/beam-free",
     "displayName": "Reflection: Beam 1.0 (Free) (Kilo)",
     "reasoningEffort": "max"
-  },
-  {
-    "id": "6db1bd79-911f-59f8-afaf-d1d3438eb5a4",
-    "modelId": "nvidia/nemotron-3.5-lightning-free",
-    "displayName": "NVIDIA: Nemotron 3.5 Lightning Free (Kilo)",
-    "reasoningEffort": "high"
   }
 ]
