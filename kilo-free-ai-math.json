@@ -33,11 +33,6 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "20637bd7-0eb7-5414-9134-cfea03f36731",
-    "modelId": "apodex/apodex-1.1-mini:free",
-    "displayName": "Apodex: Apodex 1.1 Mini (Kilo)"
-  },
-  {
     "id": "0637ab32-20fe-5999-8fec-1aff621f4c6d",
     "modelId": "dots-studio/dots-3-note-preview:free",
     "displayName": "Dots Studio: Dots3-Note Preview (Kilo)"
