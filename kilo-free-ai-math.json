@@ -16,6 +16,11 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "14bb2a98-3c44-57cc-8347-1473a0de8e35",
+    "modelId": "inclusionai/ling-3.2-flash:free",
+    "displayName": "inclusionAI: Ling 3.2 Flash (Kilo)"
+  },
+  {
     "id": "e28706ca-c65a-5751-83dd-a3749fdc93f8",
     "modelId": "baidu/ernie-5.5-flash-preview:free",
     "displayName": "Baidu: ERNIE-5.5-Flash-Preview (Kilo)",
