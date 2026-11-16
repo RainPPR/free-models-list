@@ -60,5 +60,11 @@
     "modelId": "minimax-m3.1-flash-free",
     "displayName": "MiniMax M3.1 Flash Free (OpenCode)",
     "reasoningEffort": "max"
+  },
+  {
+    "id": "8444c275-74b4-5ca3-bf55-6caed4d917ea",
+    "modelId": "hy4-flash-free",
+    "displayName": "Hy4 flash Free (OpenCode)",
+    "reasoningEffort": "high"
   }
 ]
