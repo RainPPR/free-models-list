@@ -58,5 +58,10 @@
     "id": "04c57dd4-d327-58d6-81ad-e7320716b1f9",
     "modelId": "stealth/autistic-parrot",
     "displayName": "Autistic Parrot (Stealth) (LogFare)"
+  },
+  {
+    "id": "cd03958d-a792-50c6-ae02-97ff1dbd5c95",
+    "modelId": "economy/kimi-k3.1-pro",
+    "displayName": "Kimi K3.1 Pro (Economy) (LogFare)"
   }
 ]
