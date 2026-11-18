@@ -11,12 +11,6 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "32020083-1528-5c67-8dab-ec38bdf26fe5",
-    "modelId": "glm-5.3-flash-free",
-    "displayName": "GLM-5.3-Flash Free (OpenCode)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "d8a6f808-a406-51d8-947a-0a6bf488c332",
     "modelId": "longcat-2.5-free",
     "displayName": "LongCat 2.5 Free (OpenCode)"
