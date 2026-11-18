@@ -5,10 +5,21 @@
     "displayName": "Auto Free (Kilo)"
   },
   {
+    "id": "14bb2a98-3c44-57cc-8347-1473a0de8e35",
+    "modelId": "inclusionai/ling-3.2-flash:free",
+    "displayName": "inclusionAI: Ling 3.2 Flash (Kilo)"
+  },
+  {
     "id": "e28706ca-c65a-5751-83dd-a3749fdc93f8",
     "modelId": "baidu/ernie-5.5-flash-preview:free",
     "displayName": "Baidu: ERNIE-5.5-Flash-Preview (Kilo)",
     "reasoningEffort": "high"
+  },
+  {
+    "id": "a32bd958-b6c2-5c18-81f5-f0e90df97ee1",
+    "modelId": "thinkingmachines/inkling-2-small:free",
+    "displayName": "Thinking Machines: Inkling 2 Small (Kilo)",
+    "reasoningEffort": "max"
   },
   {
     "id": "db0b125a-1ec1-5123-a868-74a2093621d5",
@@ -20,6 +31,11 @@
     "modelId": "particle-ai/particle-1:free",
     "displayName": "Particle AI: Particle-1 (Kilo)",
     "reasoningEffort": "max"
+  },
+  {
+    "id": "93351ff7-390d-5676-9caa-57158c3fea95",
+    "modelId": "recursive/flint-v1.0:free",
+    "displayName": "Recursive: Flint (Kilo)"
   },
   {
     "id": "8adf72ba-c531-55ea-b6a2-3f620c22cb6a",
@@ -51,6 +67,11 @@
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
+  },
+  {
+    "id": "fc3aac0d-f3a9-57c9-aeec-9edb029e53b5",
+    "modelId": "google/gemma-4-31b-it:free",
+    "displayName": "Google: Gemma 4 31B (Kilo)"
   },
   {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
