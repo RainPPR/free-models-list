@@ -16,12 +16,6 @@
     "reasoningEffort": "high"
   },
   {
-    "id": "a32bd958-b6c2-5c18-81f5-f0e90df97ee1",
-    "modelId": "thinkingmachines/inkling-2-small:free",
-    "displayName": "Thinking Machines: Inkling 2 Small (Kilo)",
-    "reasoningEffort": "max"
-  },
-  {
     "id": "db0b125a-1ec1-5123-a868-74a2093621d5",
     "modelId": "liquid/lfm-3-1.7b:free",
     "displayName": "LiquidAI: LFM3-1.7B (Kilo)"
@@ -67,11 +61,6 @@
     "id": "cfcdca0f-3efd-5c17-9003-8d05a905ce00",
     "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "displayName": "NVIDIA: Nemotron 3 Nano Omni (Kilo)"
-  },
-  {
-    "id": "fc3aac0d-f3a9-57c9-aeec-9edb029e53b5",
-    "modelId": "google/gemma-4-31b-it:free",
-    "displayName": "Google: Gemma 4 31B (Kilo)"
   },
   {
     "id": "14949368-d0cb-5c39-a1bd-8e78a0ef89fa",
