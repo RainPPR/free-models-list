@@ -45,6 +45,11 @@
     "reasoningEffort": "xhigh"
   },
   {
+    "id": "eee83df8-7255-5436-a30b-114c1aaee15d",
+    "modelId": "jev-1.13-free",
+    "displayName": "Jev 1.13 (OpenCode)"
+  },
+  {
     "id": "0944c784-0e4c-5e44-a48d-c9b608953465",
     "modelId": "nemotron-3.5-lightning-free",
     "displayName": "Nemotron 3.5 Lightning Free (OpenCode)"
