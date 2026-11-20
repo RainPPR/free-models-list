@@ -47,11 +47,6 @@
     "displayName": "NVIDIA: Nemotron 3.5 Lightning (Kilo)"
   },
   {
-    "id": "e2c6d1c5-44b3-5bcd-aa30-790edccdc2ed",
-    "modelId": "cohere/north-mini-code:free",
-    "displayName": "Cohere: North Mini Code (Kilo)"
-  },
-  {
     "id": "2ef64470-af2c-5d73-ad83-9f3947ba9003",
     "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "displayName": "NVIDIA: Nemotron 3 Ultra (Kilo)",
