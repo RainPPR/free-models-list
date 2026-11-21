@@ -15,9 +15,9 @@
     "displayName": "Gemma 4 26B (LogFare)"
   },
   {
-    "id": "b7f7868b-a82b-5fea-9b38-b38c3b4f7657",
-    "modelId": "gpt-6-luna",
-    "displayName": "GPT 6 Luna (LogFare)"
+    "id": "99f54e32-e8bf-5f80-990e-9c87dcce8c56",
+    "modelId": "stealth/psychotic-killer",
+    "displayName": "Psychotic Killer (Stealth) (LogFare)"
   },
   {
     "id": "04c57dd4-d327-58d6-81ad-e7320716b1f9",
