@@ -15,24 +15,9 @@
     "displayName": "Gemma 4 26B (LogFare)"
   },
   {
-    "id": "5b48c041-d882-5d05-a13c-36d2d3a8e8eb",
-    "modelId": "gpt-6.2-sol",
-    "displayName": "GPT 6.2 Sol (LogFare)"
-  },
-  {
     "id": "99f54e32-e8bf-5f80-990e-9c87dcce8c56",
     "modelId": "stealth/psychotic-killer",
     "displayName": "Psychotic Killer (Stealth) (LogFare)"
-  },
-  {
-    "id": "a63f2906-9398-51e8-b208-2ea4c296dcbe",
-    "modelId": "gpt-6.2-astra",
-    "displayName": "GPT 6.2 Astra (LogFare)"
-  },
-  {
-    "id": "3945dbe2-8257-5765-844c-44108fba5149",
-    "modelId": "kimi-k3.1-pro",
-    "displayName": "Kimi K3.1 Pro (LogFare)"
   },
   {
     "id": "04c57dd4-d327-58d6-81ad-e7320716b1f9",

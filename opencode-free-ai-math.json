@@ -11,11 +11,6 @@
     "reasoningEffort": "max"
   },
   {
-    "id": "d8a6f808-a406-51d8-947a-0a6bf488c332",
-    "modelId": "longcat-2.5-free",
-    "displayName": "LongCat 2.5 Free (OpenCode)"
-  },
-  {
     "id": "3e5f68c4-6c2a-53a6-afb4-c9c43aad17d5",
     "modelId": "iceman-free",
     "displayName": "Iceman Free (OpenCode)"
