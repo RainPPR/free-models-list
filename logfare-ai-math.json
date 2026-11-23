@@ -5,26 +5,6 @@
     "displayName": "Logfare Auto (LogFare)"
   },
   {
-    "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
-    "modelId": "qwen-3.8-27b",
-    "displayName": "Qwen 3.8 27b (LogFare)"
-  },
-  {
-    "id": "b8523775-a813-53e8-a05a-dc2913a445d3",
-    "modelId": "gemma-4-26b",
-    "displayName": "Gemma 4 26B (LogFare)"
-  },
-  {
-    "id": "9f97f910-b85e-5a98-a33f-1087f7bacdb5",
-    "modelId": "qwen4-max",
-    "displayName": "Qwen4 Max (LogFare)"
-  },
-  {
-    "id": "28a5f0bd-5749-5a82-b33a-a08bcb32010e",
-    "modelId": "deepseek-v4.1-flash-1017",
-    "displayName": "DeepSeek V4.1 Flash 1017 (LogFare)"
-  },
-  {
     "id": "99f54e32-e8bf-5f80-990e-9c87dcce8c56",
     "modelId": "stealth/psychotic-killer",
     "displayName": "Psychotic Killer (Stealth) (LogFare)"
@@ -35,8 +15,8 @@
     "displayName": "Autistic Parrot (Stealth) (LogFare)"
   },
   {
-    "id": "b419555b-fc89-5b55-9f7c-b89ba8755ab6",
-    "modelId": "ernie-5.5-flash-preview",
-    "displayName": "ERNIE-5.5-Flash-Preview (LogFare)"
+    "id": "9f97f910-b85e-5a98-a33f-1087f7bacdb5",
+    "modelId": "qwen4-max",
+    "displayName": "Qwen4 Max (LogFare)"
   }
 ]
