@@ -13,5 +13,15 @@
     "id": "b1fa11b5-d937-5a18-b6cf-643598a3dd83",
     "modelId": "minimax-m3.1-flash",
     "displayName": "MiniMax M3.1 Flash (LogFare)"
+  },
+  {
+    "id": "d8f5b554-2bc8-51be-bdab-ae76bc0cf0f3",
+    "modelId": "stepfun-ai/step-5-preview",
+    "displayName": "Step 5 Preview (LogFare)"
+  },
+  {
+    "id": "afe3af8e-5d68-593a-b52f-297371d467cf",
+    "modelId": "openai/gpt-6-luna",
+    "displayName": "GPT-6 Luna (LogFare)"
   }
 ]
