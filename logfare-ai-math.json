@@ -5,18 +5,13 @@
     "displayName": "Logfare Auto (LogFare)"
   },
   {
-    "id": "99f54e32-e8bf-5f80-990e-9c87dcce8c56",
-    "modelId": "stealth/psychotic-killer",
-    "displayName": "Psychotic Killer (Stealth) (LogFare)"
+    "id": "5a2d5cd6-f628-568d-97a0-afc98706e9cb",
+    "modelId": "qwen-3.8-flash-next",
+    "displayName": "Qwen 3.8 Flash Next (LogFare)"
   },
   {
-    "id": "04c57dd4-d327-58d6-81ad-e7320716b1f9",
-    "modelId": "stealth/autistic-parrot",
-    "displayName": "Autistic Parrot (Stealth) (LogFare)"
-  },
-  {
-    "id": "9f97f910-b85e-5a98-a33f-1087f7bacdb5",
-    "modelId": "qwen4-max",
-    "displayName": "Qwen4 Max (LogFare)"
+    "id": "b1fa11b5-d937-5a18-b6cf-643598a3dd83",
+    "modelId": "minimax-m3.1-flash",
+    "displayName": "MiniMax M3.1 Flash (LogFare)"
   }
 ]
