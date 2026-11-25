@@ -15,6 +15,16 @@
     "displayName": "MiniMax M3.1 Flash (LogFare)"
   },
   {
+    "id": "4740a6bc-1677-5955-8ae2-a9ddd28bf15a",
+    "modelId": "deepseek-v4.1-flash",
+    "displayName": "Deepseek v4.1 Flash (LogFare)"
+  },
+  {
+    "id": "d72faa8a-fedb-5a4f-9fbd-d04def56debd",
+    "modelId": "gpt-6.1-terra",
+    "displayName": "GPT-6.1 Terra (LogFare)"
+  },
+  {
     "id": "d8f5b554-2bc8-51be-bdab-ae76bc0cf0f3",
     "modelId": "stepfun-ai/step-5-preview",
     "displayName": "Step 5 Preview (LogFare)"
