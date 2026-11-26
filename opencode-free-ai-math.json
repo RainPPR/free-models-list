@@ -48,11 +48,5 @@
     "modelId": "hy4-flash-free",
     "displayName": "Hy4 flash Free (OpenCode)",
     "reasoningEffort": "high"
-  },
-  {
-    "id": "0c07b9ed-cce2-52ac-b02b-25273a6b79d7",
-    "modelId": "tidepool-alpha-free",
-    "displayName": "Tidepool Alpha Free (OpenCode)",
-    "reasoningEffort": "max"
   }
 ]

@@ -15,39 +15,9 @@
     "displayName": "Deepseek v4.1 Flash (LogFare)"
   },
   {
-    "id": "e193beee-0f6c-59e6-830f-ddf4d6e9aed8",
-    "modelId": "qwen-3.8-27b",
-    "displayName": "Qwen 3.8 27b (LogFare)"
-  },
-  {
-    "id": "c856d679-906f-5ca6-aea5-ccca9dd4d370",
-    "modelId": "mimo-v2.6-flash",
-    "displayName": "MiMo V2.6 Flash (LogFare)"
-  },
-  {
-    "id": "12ae4b8b-cc5a-52c8-8c77-99cc7c217464",
-    "modelId": "tencent/hy4",
-    "displayName": "Hy4 (LogFare)"
-  },
-  {
-    "id": "afe3af8e-5d68-593a-b52f-297371d467cf",
-    "modelId": "openai/gpt-6-luna",
-    "displayName": "GPT-6 Luna (LogFare)"
-  },
-  {
-    "id": "a63f2906-9398-51e8-b208-2ea4c296dcbe",
-    "modelId": "gpt-6.2-astra",
-    "displayName": "GPT 6.2 Astra (LogFare)"
-  },
-  {
     "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
     "modelId": "glm-5.3-flash",
     "displayName": "GLM 5.3 Flash (LogFare)"
-  },
-  {
-    "id": "e5a72249-c3bc-541a-b992-ec7ea5bd69e1",
-    "modelId": "grok-4.7",
-    "displayName": "Grok 4.7 (LogFare)"
   },
   {
     "id": "8e442719-cdf5-5ff3-8b73-5c38be0d1ce1",
