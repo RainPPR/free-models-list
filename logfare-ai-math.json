@@ -15,6 +15,11 @@
     "displayName": "Deepseek v4.1 Flash (LogFare)"
   },
   {
+    "id": "379aeded-98c4-5f38-92de-cb463b72ad25",
+    "modelId": "deepseek-v4.1-flash-Jailbreak",
+    "displayName": "DeepSeek V4.1 Flash Jailbreak (LogFare)"
+  },
+  {
     "id": "3b387ff4-2854-53f0-b973-b1153125e9ad",
     "modelId": "glm-5.3-flash",
     "displayName": "GLM 5.3 Flash (LogFare)"

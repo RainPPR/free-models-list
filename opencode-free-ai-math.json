@@ -48,5 +48,11 @@
     "modelId": "hy4-flash-free",
     "displayName": "Hy4 flash Free (OpenCode)",
     "reasoningEffort": "high"
+  },
+  {
+    "id": "42d54add-b4c3-5593-a225-6f89747f9342",
+    "modelId": "seaglass-alpha-free",
+    "displayName": "Seaglass Alpha Free (OpenCode)",
+    "reasoningEffort": "max"
   }
 ]
